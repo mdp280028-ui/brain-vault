@@ -22,3 +22,10 @@ raw_dropzone/
 # Anything explicitly marked private
 *.private.md
 **/private/
+
+# Log files — regenerable, noisy diffs, not history-worthy
+*.log
+**/*.log
+
+# Inbox is staging by design — items flow through, audit_log captures the events
+projects/aiteam/inbox/
