@@ -1,0 +1,24 @@
+# Personal — never commit
+operator/
+
+# Staging — unprocessed content
+raw_dropzone/
+
+# Obsidian UI state (keep config, not workspace)
+.obsidian/workspace*.json
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# macOS noise
+.DS_Store
+**/.DS_Store
+
+# Editor swap files
+*.swp
+*.tmp
+*~
+
+# Anything explicitly marked private
+*.private.md
+**/private/
