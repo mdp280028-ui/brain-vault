@@ -51,3 +51,47 @@ Engineering decisions that we've consciously kicked down the road. Each item nam
 
 **Estimate when revisited:** 1–1.5 hrs build + operator-time for the reboot test.
 
+---
+
+## D027 — Add `*.bak` to `~/brain/.gitignore`
+
+**Status:** Deferred (Phase 2, 2026-05-15)
+
+**Problem:** The `/ctx` pipeline writes a pre-narrative skeleton backup at `<save_path>.bak` before splicing the orchestrator's narrative into the final save file. These `.bak` files get picked up by the nightly brain-autocommit and committed to the brain repo, bloating the vault with content that's already represented (and superseded) by the final save.
+
+**Observed:** Commit `87d9f1a` (2026-05-15 17:26) included `AITEAM_Context_Save_2026-05-15_1614.md.bak` alongside the real save. Not harmful — it's just a stale skeleton — but pure noise in `git log` diffs.
+
+**Fix:** Add a single line to `~/brain/.gitignore`:
+```
+*.bak
+```
+
+Then `git rm --cached` the existing `.bak` files so they stop being tracked.
+
+**Estimate:** 2 min.
+
+**Trigger to revisit:**
+- (a) next time `~/brain/.gitignore` is being edited for any other reason — fold this in.
+- (b) when `.bak` files start showing up in `git log` diffs frequently enough to be in the way.
+- (c) before any consumer (a future dashboard, search index, anyone scrolling the vault) starts pulling junk results from `.bak` files.
+
+---
+
+## D028 — Diary data source incomplete — non-AITEAM agents invisible to hive_mind
+
+**Status:** Deferred (Phase 2, 2026-05-15)
+
+**Problem:** `write_diary.sh`'s `AGENT_RUNS` query reads from the `hive_mind` table, but Briefer, Market Scribe (scribe/analyst), Curator, and other CC-built agents don't write to `hive_mind` — only their token spend lands in `token_usage` and their state-transition rows land in `audit_log`. As a result, the diary's "What ran" section undercounts (or zeroes out) daily activity.
+
+**Observed:** Backfilled diary for 2026-05-15 reported *"No agent runs recorded today. All activity was direct orchestrator/operator interaction."* despite the briefer running twice (21:27, 21:40) and the Market Scribe pipeline shipping 10 steps earlier in the day. Spend was visible ($1.91) but the agents producing it were invisible to the diary.
+
+**Three candidate fixes:**
+
+- **(a) Instrument the agents.** Have briefer/scribe/analyst/curator each write a `hive_mind` row per run. Smallest change to `write_diary.sh`; new agents must remember to do this, so the gap reopens with every new agent unless the convention is codified.
+- **(b) Expand the diary's source.** Drop the `hive_mind` query; derive agent activity from `token_usage` (group by `correlation_id` or by `agent_id`/`model+ts-bucket`) and/or `audit_log` (group by `actor_id` with action `^_run$` or similar). Single source of truth; cleanly captures historical runs even for agents that pre-dated the fix.
+- **(c) Scope the diary explicitly.** Rename the section from "What ran" to "AITEAM-fleet — what ran" and accept that off-fleet agents (built ad-hoc via CC) are intentionally invisible. Smallest change; punts the visibility question.
+
+**Trigger to revisit:** When building **SSG Agent 1 (Keyword Screener)** — set the precedent for whether new agents write to `hive_mind`. The decision made there carries forward to every subsequent SSG-stack agent and locks in (a), (b), or (c) by implication.
+
+**Date observed:** 2026-05-15
+
