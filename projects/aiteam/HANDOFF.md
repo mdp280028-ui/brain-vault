@@ -1,6 +1,6 @@
 # AITEAM Project Handoff
-**Last updated:** 2026-05-15 00:42
-**Last session summary:** Phase 1 closed; built and verified context-save system (ctx.sh + harvest + slash command + handoff template).
+**Last updated:** 2026-05-15 13:18
+**Last session summary:** Git-initialized the `~/brain/` Obsidian vault. SSH key generated, GitHub remote wired (`git@github.com:mdp280028-ui/brain-vault.git`), initial push landed, nightly autocommit cron scheduled for 23:55. First offsite backup chain live.
 
 ---
 
@@ -16,6 +16,7 @@
 - [x] Step 19 — failure modes per agent + 4 Phase 2 gaps documented at `docs/phase2_gaps.md`
 - [x] Step 19 closure — `write_diary.sh` accepts date arg for backfill; `run_agent.sh` propagates `$AGENT_ID` to wrappers for cost attribution
 - [x] Context-save system — `ctx.sh`, `auto-harvest-to-library.sh`, `/ctx` slash command, `handoff-template.md`
+- [x] Brain vault git-init — `~/brain/` is now a git repo with private GitHub remote, daily auto-commit at 23:55, end-to-end push verified. First offsite backup chain online.
 
 ## In progress
 - [ ] none — Phase 1 closed, no active build thread
@@ -53,8 +54,12 @@
 ## Files to reference
 - `~/agents/scripts/ctx.sh` — context save script (run via `/ctx`)
 - `~/agents/scripts/auto-harvest-to-library.sh` — pulls Claude.ai context saves from `~/Downloads/`
+- `~/agents/scripts/brain-autocommit.sh` — nightly auto-commit + push for `~/brain/`
+- `~/agents/logs/brain-autocommit.log` — append-only log of nightly brain commits
 - `~/agents/.claude/commands/ctx.md` — slash command definition
-- `~/agents/CLAUDE.md` — orienting note for CC; describes ctx routine
+- `~/agents/CLAUDE.md` — orienting note for CC; describes ctx routine + brain-git-tracked note
+- `~/brain/.git/` — brain vault git repo (remote: `git@github.com:mdp280028-ui/brain-vault.git`)
+- `~/brain/.gitignore` — excludes `operator/`, `raw_dropzone/`, Obsidian UI state, `*.log`, `inbox/`, macOS noise
 - `~/brain/projects/aiteam/docs/handoff-template.md` — template this file follows
 - `~/brain/projects/aiteam/docs/failure_modes_index.md` — fleet failure modes + global kill switches
 - `~/brain/projects/aiteam/docs/phase2_gaps.md` — 4 deferred gaps + triggers
@@ -70,6 +75,10 @@
 - **Audit log is append-only**. Found a bug? Write a corrective row pointing back. Never UPDATE/DELETE history.
 - **`claude -p --output-format json`** is the authoritative cost source. Don't build a pricing map.
 - **Discuss mode round-2+ prompts** must explicitly require cross-agent engagement (cite a prior claim). Without that, multi-round drifts into parallel monologues.
+- **Brain git identity is `mdp280028-ui` LOCALLY** in `~/brain/`. Global `~/.gitconfig` is `AITEAM Builder`. Per-repo identity scoping is intentional — don't run `git config --global` in `~/brain/`.
+- **`ssh -T git@github.com` exits 1 on success** — GitHub doesn't provide shell access. Look for the "successfully authenticated" string, not exit 0.
+- **Do not force-push to `~/brain/` origin/main**. Append-only history; the daily cron commits chronological state. Any rewrite breaks the audit chain.
+- **If brain autocommit fails to push** (offline night), the log shows `commit ok, push failed (offline?)`. Next successful run pushes both commits together — no manual intervention needed unless multiple consecutive failures accumulate.
 
 ---
 
