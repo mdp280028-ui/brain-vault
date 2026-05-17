@@ -198,9 +198,11 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** `cross_agent_failure_modes_2026-05-16.md` F14, F15, Top-5 #3.
 
-### D052 — drafter.sh exit-2 vs exit-1 routing
+### D052 — drafter.sh exit-2 vs exit-1 routing — ✅ CLOSED 2026-05-17
 
-**Status:** Open (surfaced 2026-05-16 during F2 fix sign-off review)
+**Status:** ✅ CLOSED 2026-05-17. `maybe_fire_pipeline()` now case-routes `fire_pipeline.sh`'s rc: 0=FIRED, 2=SKIPPED_NO_CONFIG (soft skip, no double-audit, no ❌ Telegram), other=FIRE_FAILED. Caller bucket + notify_operator.sh footer added for the new state. Commit `4d45b95`. Canonical audit row id=1153 (`E3A78F6C-CD03-4EA8-99BC-7912902B484B`); supersedes intermediate rows 1151 (placeholder SHA bug) and 1152 (wrong supersedes-target).
+
+**Original status:** Open (surfaced 2026-05-16 during F2 fix sign-off review)
 
 **Problem:** `~/agents/assignment-drafter/drafter.sh` `maybe_fire_pipeline` (lines 184-193) treats any non-zero exit from `fire_pipeline.sh` as a hard fire-failure: captures stderr, logs `pipeline_fire_failed` to audit, buckets into `FIRE_FAILED_SLUGS`, Telegram says "❌ Fire FAILED." With F2 (commit `0df8cf6`) a missing-config slug now exits 2 from `fire_pipeline.sh` — which is a soft skip, not a failure. Result: two audit rows (`pipeline_skip_no_config` from `fire_pipeline.sh` + `pipeline_fire_failed` from `drafter.sh`) and a ❌ Telegram for what's really a benign skip.
 
