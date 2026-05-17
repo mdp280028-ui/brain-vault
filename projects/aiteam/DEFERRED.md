@@ -194,6 +194,21 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** `cross_agent_failure_modes_2026-05-16.md` F14, F15, Top-5 #3.
 
+### D052 — drafter.sh exit-2 vs exit-1 routing
+
+**Status:** Open (surfaced 2026-05-16 during F2 fix sign-off review)
+
+**Problem:** `~/agents/assignment-drafter/drafter.sh` `maybe_fire_pipeline` (lines 184-193) treats any non-zero exit from `fire_pipeline.sh` as a hard fire-failure: captures stderr, logs `pipeline_fire_failed` to audit, buckets into `FIRE_FAILED_SLUGS`, Telegram says "❌ Fire FAILED." With F2 (commit `0df8cf6`) a missing-config slug now exits 2 from `fire_pipeline.sh` — which is a soft skip, not a failure. Result: two audit rows (`pipeline_skip_no_config` from `fire_pipeline.sh` + `pipeline_fire_failed` from `drafter.sh`) and a ❌ Telegram for what's really a benign skip.
+
+**Fix:** `case` block around `fire_rc` in `drafter.sh:184-193`:
+- exit 0 → existing fired-OK path (unchanged)
+- exit 2 → new `SKIPPED_NO_CONFIG_SLUGS` bucket, ⚠ Telegram footer
+- exit 1 / anything else → existing `FIRE_FAILED` path (unchanged)
+
+**Trigger to revisit:** Next drafter.sh-touching session.
+
+**Reference:** F2 fix at commit `0df8cf6`; `cross_agent_failure_modes_2026-05-16.md` F2 + Top-5 #1.
+
 ---
 
 ## Content / operational
