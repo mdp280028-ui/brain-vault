@@ -398,6 +398,25 @@ Pattern caught 4th time (prior: ship-to-site, assignment-drafter, config-synthes
 
 **Reference:** Surfaced during D054 cron-script PATH audit (this session). D054 audit_log closure row: `D79474F2-B88F-4B97-9510-BF93EA37ED65`.
 
+### D063 — Asbestos run-batch.sh SITE_MAP grep latent bug (mirrors D-SSG-05)
+
+**Status:** Open (surfaced 2026-05-17 during D-SSG-05 fix)
+
+**Problem:** `~/projects/asbestos-contractors/content/run-batch.sh` at line ~269 uses the same `grep -E '^\/' "$SITE_MAP" | sed 's/ \[PLANNED\]//' | tr -d ' ' > "$VALID_LINKS"` pattern that was just fixed in SSG. Today `ASBESTOS_SITE_MAP.md` is a 2-line stub, so the grep correctly returns empty — bug doesn't manifest. The instant the asbestos SITE_MAP is filled in beyond stub state (especially if it adopts the same markdown-table format as SSG's), `VALID_LINKS` will silently come out empty and writers lose the valid-internal-links allowlist.
+
+**Fix:** Pattern-copy the D-SSG-05 fix (commit `1096584` in `ssg-content`). Replace the line with the section-bounded, table-row-filtered, backtick-stripped pipeline:
+```
+sed -n '/^## Slug catalog/,/^## Forbidden link targets/p' "$SITE_MAP" \
+  | grep -E '^\|' \
+  | grep -oE '`/[a-z0-9/-]+/`' \
+  | tr -d '`' > "$VALID_LINKS"
+```
+Adjust section-header names if asbestos's SITE_MAP picks different ones.
+
+**Trigger to revisit:** When `ASBESTOS_SITE_MAP.md` is filled in beyond stub state.
+
+**Reference:** D-SSG-05 fix at commit `1096584` (ssg-content). D-SSG-05 audit_log closure row: `41E6B47B-3199-433F-8F90-ADBE52826344`.
+
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
 (Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
