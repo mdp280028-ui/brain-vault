@@ -17,6 +17,8 @@ Items in roughly the order they should be picked up next.
 | **F17/F18** | Daily API spend hard cap enforced at `log_token_usage.sh` | After operator answers question §7.2 in cross-agent audit (what's the right number?) | Three caps currently in play: orchestrator's $10 (observability-only), drafter's $15 (pipeline-fire only, fixed $2.50 estimate), no system-wide. Fix: after every `INSERT` into `token_usage`, query today's sum; if > cap, touch a sentinel that `check_kill_switches.sh` treats as `SYSTEM_PAUSED=true`. Cross-agent audit Top-5 #2. |
 | **F14** | Pre-ship operator approval gate (first N slugs after any config change) | Before next net-new SSG slug ships OR after a bad page lands on live | Auditor false positives have a clear path to live site. Editor agent (sonnet, idle) could slot in as the pre-ship score gate. Operator policy decision needed first (cross-agent audit §7.1 and §7.4). |
 | **D051** | `~/agents/` working-tree hygiene | When operator has bandwidth for a cross-cutting cleanup commit | Substantial work uncommitted: full `assignment-drafter/` agent, `editor/failure_modes.md`, `librarian/failure_modes.md`, `orchestrator/{commands/,failure_modes.md}`, `telegram/`, `tg-monitor/`, modifications to `lib/{ai-*.sh, notify.sh, log_to_audit.sh, run_agent.sh}`, `dashboard/server.js`, `market/{analyst,briefer,curator}/`, `scripts/brain-autocommit.sh`. NOT a single-feature commit — needs grouping into multiple coherent commits. |
+| **D061** | Route `run-batch.sh` writer/auditor through `ai-do.sh` for kill-switch enforcement + per-call token attribution | After F17/F18 cost cap is built (the Q2 = $25/$50 caps need the kill-switch hooks `ai-do.sh` provides) OR sooner if per-call token attribution becomes urgent | Successor to D045 (closed obsolete — model swap already happened). Real scope: `ai-do.sh` must accept `--dangerously-skip-permissions` pass-through (pipeline runs via cron, non-interactive — would hang on permission prompt without it). Also drop the `AGENT_MAX_TURNS` hardcoded cap or make it env-overridable for writer/auditor (currently 30; pipeline calls typically 10-20 turns, but want headroom). Pass `agent_id` (`asbestos-writer` / `asbestos-auditor`) as `$2` to keep `token_usage` attribution clean. Est. 30-45 min CC. SSG fork has same 8 `claude -p` callsites and gets the same treatment (separate commit, separate scope). |
+| **D062** | Remove vestigial `--sonnet` / `--sonnet-audit` CLI flags + `WRITER_MODEL`/`AUDITOR_MODEL` indirection in `run-batch.sh` | Bundle with D061 OR next `run-batch.sh`-touching hygiene session | Both flags set what's already hardcoded as default at lines 107-108. Dead code. ~10 min cleanup. Safe to bundle with D061 since both touch the same callsites. |
 
 ---
 
@@ -110,15 +112,17 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** `cross_agent_failure_modes_2026-05-16.md` F17, F18, Top-5 #2.
 
-### D045 — `ai-do.sh` rewire (operator-named, context-incomplete)
+### D045 — `ai-do.sh` rewire (operator-named, context-incomplete) — ✅ CLOSED-OBSOLETE (2026-05-18)
 
-**Status:** Open
+**Closure note (2026-05-18):** Premise stale per pre-flight 2026-05-18 — writer/auditor already on Sonnet (`run-batch.sh` lines 107-108 hardcode `--model sonnet` as the default for both `WRITER_MODEL` and `AUDITOR_MODEL`). The "~75% cost reduction via Opus → Sonnet" framing no longer applies. Real remaining value (kill-switch enforcement + per-call token attribution) moved to **D061**. Vestigial `--sonnet` / `--sonnet-audit` CLI flag cleanup moved to **D062**.
 
-**Problem:** Operator named this as an open decision from this session, but context for the specific rewire isn't captured in any of the build reports or context-saves I read. Likely related to either: (a) the `AGENT_MAX_TURNS_OVERRIDE=1` pattern's edge cases, (b) the model-pinning verification routine (orchestrator/failure_modes.md mentions historical Opus-routing bug that invalidated step 17), or (c) something I haven't surfaced yet.
+**Status:** ~~Open~~ Closed-obsolete
 
-**Action:** Operator to clarify the specific change envisioned. Marked context-incomplete per the DEFERRED.md authoring rule.
+**Problem (historical):** Operator named this as an open decision from this session, but context for the specific rewire isn't captured in any of the build reports or context-saves I read. Likely related to either: (a) the `AGENT_MAX_TURNS_OVERRIDE=1` pattern's edge cases, (b) the model-pinning verification routine (orchestrator/failure_modes.md mentions historical Opus-routing bug that invalidated step 17), or (c) something I haven't surfaced yet.
 
-**Trigger to revisit:** Next session with operator clarification.
+**Action:** ~~Operator to clarify the specific change envisioned.~~ Superseded by D061 + D062.
+
+**Trigger to revisit:** N/A — closed.
 
 ### D046 — `notify.sh` env-override bug
 
