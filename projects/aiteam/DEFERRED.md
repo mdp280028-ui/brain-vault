@@ -308,6 +308,60 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** Ship-to-site `build_verify.sh` fix at commit `0be9d1f`; audit_log row 536.
 
+### D057 — Remove deploy throttle when quality is consistent
+
+**Status:** Open (introduced 2026-05-17 alongside the throttle itself)
+
+**Problem:** Ship-to-site was throttled from `*/15` cadence to a single 23:00 PT batch deploy with a 20:00 preview ping (commit `3ed57dc` in `~/agents/`). This is temporary scaffolding — designed to be reversible — but reversibility means nothing if nobody remembers to flip it back. Without removal, time-to-indexed permanently sits at +12h median for every guide.
+
+**Fix:** Reversal procedure documented in `~/brain/projects/aiteam/docs/deploy_throttle_build_2026-05-17.md` §"Reversal procedure". Three-line crontab edit: comment out the new 20:00 + 23:00 lines, uncomment the original `*/15` line. The two new scripts can stay in the repo (idempotent on empty queue) or be deleted. No agent code change needed.
+
+**Trigger to revisit:** After 2-3 weeks of clean preview pings with no manual skips needed (i.e. operator never deletes a slug from `approved/guides/` between 20:00 and 23:00). Signal that audit_guide.py + drafter quality is reliable enough that the human gate is overhead rather than value.
+
+**Reference:** Build report at `~/brain/projects/aiteam/docs/deploy_throttle_build_2026-05-17.md`; crontab snapshot pre-change at `/tmp/crontab-snapshot-pre-throttle-1778996892.txt`.
+
+---
+
+### D058 — Vercel preview URLs in the 20:00 preview ping
+
+**Status:** Open (surfaced 2026-05-17 during throttle build)
+
+**Problem:** The 20:00 preview ping ships without per-slug preview URLs because none exist today — Vercel auto-deploys `main` to production, and nothing in `ship-to-site/` constructs per-commit Vercel preview URLs. Operator currently triages on slug + word count + score + audit-reasoning excerpt only. For tonight's review pattern this is fine; if score-based triage proves insufficient, click-to-preview would be the natural escalation.
+
+**Fix options:**
+- (a) **Branch-based preview deploys** — push each ready slug to a `preview` branch first, let Vercel auto-deploy it, capture the per-commit `*.vercel.app` URL, include in the ping. Forwards `main` only at 23:00 after operator approval. Adds branch hygiene + race-with-main concerns.
+- (b) **Vercel CLI per-deploy** — install `vercel` CLI, use `vercel deploy --prebuilt` per slug to mint a preview URL without touching git. Captures URL in stdout. Self-contained but requires Vercel auth keys in env + a separate build per preview.
+- (c) **Local screenshot to Telegram** — preview_ping.sh stages each slug locally, runs `npm run build`, takes a screenshot (e.g. headless Chrome), attaches to Telegram. Phone-friendly, heavy, fragile, local build may not match prod exactly.
+
+**Trigger to revisit:** After 2-3 weeks of throttle in production, if score-based triage proves insufficient AND operator wants click-to-preview before the 23:00 fire. Otherwise this stays deferred indefinitely (the throttle window itself is the safety mechanism; preview URLs are a UX upgrade, not a safety mechanism).
+
+**Reference:** Build report `~/brain/projects/aiteam/docs/deploy_throttle_build_2026-05-17.md` §"Spec correction — Vercel, not Cloudflare".
+
+---
+
+### D056 — Editor verdict persistence
+
+**Status:** Open (surfaced 2026-05-17 during verdict-persistence build)
+
+**Problem:** The `auditor_verdicts` table shipped 2026-05-17 (`4e2fe0a` in `~/agents/`) is populated by `audit_guide.py` (commit `0e8089b` in asbestos-contractors) but the editor agent is NOT yet writing to it. Triage-agent coverage is therefore half: only mechanical-check verdicts are queryable, not editor-rubric scorecards. The original build prompt asked for both halves; editor half hit two HALT conditions and was deferred.
+
+**Two blockers:**
+1. **No production editor runner exists.** `~/agents/editor/` only has `run_tier_test.sh` (calibration). No script today takes one real draft, scores it, and would be the natural place to hook persistence.
+2. **No pass threshold documented.** The 1–5 composite is defined, but no `passed = 1 vs 0` cutoff exists in CLAUDE.md, rubric.md, agent.yaml, or the runner.
+
+**Fix:** Three pre-reqs before persistence can ship:
+- A production editor runner (e.g. `~/agents/editor/score_one.sh`) shaped like `audit_guide.py`'s pattern (one invocation = one row).
+- An operator-stated pass threshold (constant in the runner or a field in `agent.yaml`).
+- A decision about where editor is wired into the pipeline (ship-to-site pre-ship gate? Inside `fire_pipeline.sh`? Standalone cron?). This is the answer to Q7.
+
+Once those exist, the persistence pattern is the same shape shipped today — add ~40 LOC mirroring `audit_guide.py`'s `persist_verdict()` helper.
+
+**Trigger to revisit:** After operator answers Q7 (editor as pre-ship gate) in `cross_agent_failure_modes_2026-05-16.md` §7, AND a production editor runner exists.
+
+**Reference:** Build report `~/brain/projects/aiteam/docs/verdict_persistence_build_2026-05-17.md` §"Editor persistence — deferred"; Q7 in `cross_agent_failure_modes_2026-05-16.md` §7. Note: build prompt asked for this to be tracked as "D053" but that number was already taken; D056 chosen per the file's "next free D-number" rule.
+
+---
+
 ### D055 — Site repo node_modules disappeared
 
 **Status:** Open (deps reinstalled this session as part of build_verify fix)
@@ -340,3 +394,22 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
 - F-items (F1-F23) live in `~/brain/projects/aiteam/docs/cross_agent_failure_modes_2026-05-16.md`. Cross-reference rather than duplicate full context here.
 - When an item ships, **mark with ✅ SHIPPED + commit SHA + date** and leave in place for one DEFERRED-touch cycle (operator sees the resolution), then prune on the next.
+
+---
+
+## Late additions (synced 2026-05-18)
+
+Items discussed in sister chats during the SSG pipeline migration and asbestos deploy throttle sessions (2026-05-16 / 2026-05-17) but not written to DEFERRED.md at the time. Synced here for single-source-of-truth.
+
+| ID | Item | Trigger | Notes |
+|---|---|---|---|
+| D059 | SSG deploy throttle (pattern-copy of asbestos throttle at commit 3ed57dc) | When `ssg.yaml` flips to `enabled: true` AND SSG ships its first batch | Reference: `~/brain/projects/aiteam/docs/deploy_throttle_build_2026-05-17.md`. Est. 30-45 min CC session. Building throttle before SSG ships is solving an imaginary problem. |
+| D-SSG-01 | 11 remaining asbestos path references in `run-batch.sh` (all in COMMENT lines) | Bundle with D051 hygiene cleanup | Zero functional impact. Left untouched per "leave comments alone" rule to preserve line-number stability for future sessions. |
+| D-SSG-02 | Operator review of `SSG_TEMPLATES.md` Cosmetic Tolerance List + Verdict Rules | Before first SSG audit run | CC authored from first principles (asbestos source files were stubs). Needs operator verification before live audit logic depends on it. |
+| D-SSG-03 | Confirm `relatedLinks` slug shape in SSG content | Before first SSG batch run | CC chose category-prefixed format with no slashes: `"it-support/managed-it-services-pricing"`. 1-line edit if convention differs. |
+| D-SSG-04 | Reconcile AS1-AS5 anti-sameness checks between `SSG_TEMPLATES.md` and `audit_guide.py` | When `audit_guide.py` is migrated to SSG | Two sources of truth right now; need to consolidate before SSG audit goes live. |
+| D-SSG-05 | `SSG_SITE_MAP.md` grep regex fix in `run-batch.sh` line 269 | Before first SSG batch run | Markdown table format uses `\|` cells; current `grep -E '^\/'` won't extract URLs. `VALID_LINKS` file will be empty. Writer still gets full SITE_MAP via `${CACHED_AUDIT}` so not a crash, but Writer-instruction completeness gap. 5-min fix. |
+| D-SSG-06 | `AUDIT_SPEC.md` SPC-1..14 (~160 lines) still has UST/asbestos vocabulary | When SSG service mode activates | Currently gated as inactive code path. Migrate vocabulary when service mode is needed. |
+| D-SSG-07 | Stale "2,000-2,500 words" echo on `run-batch.sh` line ~357 | Cosmetic, no urgency | Console output only; no functional impact. |
+| D-SSG-08 | `ctx.sh` has 22 asbestos references | Cosmetic cleanup, no urgency | Session-save tool. Convenience cleanup. |
+| D-SSG-09 | `audit_guide.py` has 5 asbestos references in docstring/comments | Cosmetic cleanup, no urgency | No functional impact. |
