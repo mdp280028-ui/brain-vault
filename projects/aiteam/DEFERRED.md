@@ -449,9 +449,11 @@ Do NOT retroactively edit the 3 malformed rows from this session — substring-f
 
 **Background:** The page.tsx template carries a 24-line documentation comment block. Initially shipped with substitution; this session added the strip step so generated wrappers stay byte-identical to existing shipped pages. No further action needed unless operator wants to revisit.
 
-### D066 — Systemic untracked-production-code pattern (4th instance)
+### D066 — Systemic untracked-production-code pattern (4th instance) — ✅ CLOSED 2026-05-17
 
-**Status:** Open (Phase 1, 2026-05-17). Pattern audit.
+**Status:** ✅ CLOSED 2026-05-17. Audit row `F9D65187-374C-430C-95F3-D26886D26E8D` (audit_log id=1143).
+
+**Closure note:** Executed 2026-05-17. 16 commits across 3 repos (~/agents/=12, asbestos=4, ssg-content=2). 50 untracked production files committed in 12 logical groups (A–L). 8 gitignore patterns landed. 6 scratch files deleted. 3 operator UNCLEAR items decided + executed (drafter_queue.txt gitignored, tg-monitor tests deleted, ssg .bak files deleted). One mid-flight HALT handled cleanly via Option 1 (2 follow-up commits for surfaced sub-gitignores + telegram/.env.example template + telegram/.venv ignore). Audit row 1142 malformed (D064 bit on closure call — 4 positional args instead of 5, JSON blob landed in target slot); corrected sibling row inserted at id=1143 with supersedes_malformed_row=1142 in payload. D064 priority bumped — wrapper fix lands in next hygiene cluster.
 
 **Trigger:** Next hygiene-pass session.
 
