@@ -449,6 +449,27 @@ Do NOT retroactively edit the 3 malformed rows from this session — substring-f
 
 **Background:** The page.tsx template carries a 24-line documentation comment block. Initially shipped with substitution; this session added the strip step so generated wrappers stay byte-identical to existing shipped pages. No further action needed unless operator wants to revisit.
 
+### D065 — Add `gsc_submission_queue` INSERT hook to SSG `deploy_batch.sh`
+
+**Status:** Deferred (Phase 2, 2026-05-17)
+
+**Trigger:** When SSG ships its first batch — i.e. `~/agents/ship-to-site/config/ssg.yaml` flips to `enabled: true` AND `content/ssg/approved/guides/` becomes non-empty.
+
+**What to do:** Pattern-copy the asbestos hook (commit `c56209f` introduced it, this commit added the `site` column). After the shipped-success branch in SSG's deploy_batch.sh, insert:
+
+```bash
+if [ "${site}" = "ssg" ]; then
+  slug_esc="${slug//\'/\'\'}"
+  sqlite3 "${STORE_ROOT}/aiteam.db" \
+    "INSERT OR IGNORE INTO gsc_submission_queue (slug, url, site, published_at) VALUES ('${slug_esc}', '<ssg-live-base-url>${slug_esc}/', 'ssg', strftime('%Y-%m-%dT%H:%M:%fZ','now'));" \
+    >/dev/null 2>&1 || true
+fi
+```
+
+`site='ssg'` must be passed explicitly — the `DEFAULT 'asbestos'` on the column is a one-time safety net, not a fallback. Verify the SSG live base URL convention against `ssg.yaml` before hardcoding (asbestos got this wrong in spec literal; confirmed from yaml at build time).
+
+**Reference:** This commit (multi-site upgrade) + commit `c56209f` (original asbestos hook + dashboard panel).
+
 ---
 
 ## Authoring notes
