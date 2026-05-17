@@ -159,3 +159,12 @@ Growing log. Each ctx save appends lessons under a date heading.
 - **POLICY.md pattern: ≥3 cross-cutting operator decisions in one session → durable file, not context-save.** Context-saves are time-sliced narrative that decays as decisions get buried under newer sessions. POLICY.md is a single grep target (`grep "## Q2" POLICY.md` instantly answers "what's the daily cost cap?"). Future-CC treats POLICY.md as authoritative — do not re-derive Q1–Q7 in conversation. Reopening any of them requires explicit operator decision noted in DEFERRED.md.
 - **`ctx.sh` mechanical record only covers `~/agents/`, not `~/brain/`.** Brain-only sessions produce blank mechanical records ("no commits since last save"). For brain-only sessions, the narrative section is the entire signal — empty mechanical block is not "nothing happened", it's "wrong repo for the question".
 
+
+---
+
+## 2026-05-17
+
+### Watchdog hardening + tuning (2026-05-17 11:00-13:15 window)
+
+- **Audit_log column name is `payload_json`, not `payload`.** Second occurrence of the same lesson — see line 87 entry above. Watchdog tuning recon 2026-05-17 hit the mismatch when the operator-provided spec query said `substr(payload, 1, 120) AS payload_preview`; CC silently substituted `payload_json` and noted it in the report. The "schema-check before queries" rule keeps being re-validated because spec authors recall the field as `payload`. Treat this as the canonical lookup: queries against `audit_log` use `payload_json`. Spec authors writing watchdog/audit queries should use `payload_json` from the start so CC doesn't have to silently correct.
+- **Drafter heartbeat fires BEFORE kill switches consult flags — observed in the wild.** At 2026-05-17 13:02:02 a manual off-cycle drafter run wrote `drafter_tick_started` (audit id 1149), then `skipped_pause_flag` (id 1150) because `DRAFTER_PAUSED` was set in `~/store/flags/`. Watchdog correctly saw drafter as alive throughout. Validates the heartbeat-before-killswitch design landed in commit fb53d04 (`drafter: add per-tick heartbeat row for watchdog (D-WATCHDOG-PREP)`): the heartbeat signals "cron fired," not "work happened," and that's the right semantics for watchdog visibility. Operator pausing the work via flag does not look like a misfire to watchdog. Apply the same pattern to any future agent that needs both a kill switch and watchdog coverage — heartbeat first, kill switch second.
