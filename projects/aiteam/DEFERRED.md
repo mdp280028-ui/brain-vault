@@ -417,6 +417,28 @@ Adjust section-header names if asbestos's SITE_MAP picks different ones.
 
 **Reference:** D-SSG-05 fix at commit `1096584` (ssg-content). D-SSG-05 audit_log closure row: `41E6B47B-3199-433F-8F90-ADBE52826344`.
 
+### D064 — `log_to_audit.sh` invocation hygiene — wrapper or schema check
+
+**Status:** Open (surfaced 2026-05-17 during T2 closure-status audit)
+
+**Problem:** `log_to_audit.sh` accepts six positional args (`ACTOR_TYPE ACTOR_ID ACTION TARGET PAYLOAD CORRELATION_ID`). Easy to malform by passing `key=value` strings positionally — the whole `key=value` literal lands in the wrong column with no error. Happened 3× in the 2026-05-17 session. The affected closure rows exist but are unfindable by standard queries like `WHERE action='deferred_closed'` because the `action` column literally contains `target=D054` etc. Substring search on `target` still finds them, but no caller writes queries that way.
+
+Affected audit_log correlation IDs from 2026-05-17:
+- `42098527-9BE9-4CCA-86B7-9001CE656A98` (intended: D045 closure)
+- `D79474F2-B88F-4B97-9510-BF93EA37ED65` (intended: D054 closure)
+- `41E6B47B-3199-433F-8F90-ADBE52826344` (intended: D-SSG-05 closure)
+
+**Fix options:**
+- (a) **Add arg-shape validation inside `log_to_audit.sh`** — reject `ACTOR_TYPE` containing `=`, or any positional arg containing `=` before the PAYLOAD slot. Cheap, prevents silent corruption fleet-wide. **Recommended minimum.**
+- (b) **Provide a named-arg wrapper helper** (e.g., `log_to_audit_kv.sh actor=operator action=deferred_closed target=D054 payload='{...}'`) that parses `key=value` and forwards positionally. Most ergonomic but adds a second tool to keep in sync.
+- (c) **Accept and rely on operator discipline.** Status quo. Will keep happening.
+
+Do NOT retroactively edit the 3 malformed rows from this session — substring-findable is acceptable; retroactive edits risk worse drift.
+
+**Trigger to revisit:** Next audit-log-touching session, OR when the first `WHERE action='deferred_closed'` query returns wrong results.
+
+**Reference:** Surfaced during 2026-05-17 cleanup session. T2.5 commit. D044-redundancy audit_log row (correctly formed): `DFD1AF8B-7C6F-42CC-8DDD-4EE148C37F0F`.
+
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
 (Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
