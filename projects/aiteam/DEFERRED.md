@@ -449,6 +449,33 @@ Do NOT retroactively edit the 3 malformed rows from this session — substring-f
 
 **Background:** The page.tsx template carries a 24-line documentation comment block. Initially shipped with substitution; this session added the strip step so generated wrappers stay byte-identical to existing shipped pages. No further action needed unless operator wants to revisit.
 
+### D066 — Systemic untracked-production-code pattern (4th instance)
+
+**Status:** Open (Phase 1, 2026-05-17). Pattern audit.
+
+**Trigger:** Next hygiene-pass session.
+
+**What:** Four distinct sessions this month have encountered production code in `~/agents/` that was running on the host but never `git add`ed. Each instance was surfaced incidentally during unrelated feature work; each required a surgical extraction or "commit pre-existing work first" detour before the actual task could proceed cleanly.
+
+**Instances observed:**
+1. Ship-to-site (pre-c1aa9c0 era) — scripts running in cron without git history (resolved organically).
+2. **D060** — three untracked production scripts in `~/agents/` (still open, queued).
+3. `dashboard/server.js` slash-commands + multi-round discuss + token-spend chart (uncommitted across two sessions; surfaced in c56209f and 60b2486; finally committed in `a7c2c71` 2026-05-17).
+4. `lib/log_token_usage.sh` — the actual token_usage writer that every `ai-*.sh` wrapper depends on, untracked. Surfaced during F17/F18 cost-cap pre-flight 2026-05-17; committed as `7446717` in the same session.
+
+**Suggested action:** One-time audit pass over `~/agents/`:
+```bash
+# Files on disk but not tracked
+comm -23 \
+  <(cd ~/agents && find . -type f \! -path './.git/*' \! -path '*/node_modules/*' \! -name '*.log' | sort) \
+  <(cd ~/agents && git ls-files | sed 's|^|./|' | sort)
+```
+Triage each match: commit, gitignore, or delete. Then institute a process check (pre-cron-add lint? weekly cron of the above audit posting to Telegram?).
+
+**Process gap hypothesis:** Operator + sister-chat CC sessions write production scripts directly into `~/agents/` (often via Telegram-driven session) without ever returning to `git add`. The next session inherits the file as background state, doesn't notice it's untracked, and ships features on top of it.
+
+**Reference:** D060 (predecessor; consolidate or supersede if D066 audit takes the same scope).
+
 ### D065 — Add `gsc_submission_queue` INSERT hook to SSG `deploy_batch.sh`
 
 **Status:** Deferred (Phase 2, 2026-05-17)
