@@ -1,5 +1,12 @@
 # Cross-Agent Failure Modes — 2026-05-16
 
+> **Correction (added 2026-05-18, retrofitted from 2026-05-17 verdict-persistence findings):**
+> Throughout this doc, R1/R2/R3 tiering is referenced as if it were a live concept. **It is not.** As of 2026-05-17:
+> - R1/R2/R3 tiering exists only in planning docs — grep for `R1`/`R2`/`R3` returns zero matches anywhere in `~/agents/` or `~/projects/`.
+> - Editor (Sonnet 4.6) scores to stdout only. `audit_guide.py` prints pass/fail to stdout. Neither persists tier data.
+> - The `auditor_verdicts` table (added commit `4e2fe0a`, 2026-05-17) has a `tier` column, but it is reserved NULL pending a future Escalation Triage agent that does not yet exist.
+> - Existing R1/R2/R3 references in the body below stand as historical record of the planning intent — do not read them as descriptions of shipped behaviour.
+
 System-level audit covering what happens when AITEAM agents interact, fail in
 combination, or pass bad outputs to each other. Companion to the per-agent
 `failure_modes.md` files (which document each agent in isolation). Read-only
