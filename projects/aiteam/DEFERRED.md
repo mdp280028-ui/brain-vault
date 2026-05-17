@@ -297,20 +297,20 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** Surfaced during F2 fix sign-off (commit `0df8cf6`).
 
-### D054 — Audit all cron-invoked scripts for PATH dependencies
+### D054 — Audit all cron-invoked scripts for PATH dependencies — ✅ CLOSED (2026-05-17)
 
-**Status:** Open (surfaced 2026-05-17 via ship-to-site build_verify.sh fix)
+**Closure note (2026-05-17):** Resolved via Path (c) — crontab-level PATH header prepended: `PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`. Hybrid: crontab header covers all 8 direct cron-invoked scripts + all transitive children (`ai-do.sh`, `run-batch.sh`). `build_verify.sh` per-script guard (0be9d1f) preserved as belt-and-suspenders for non-cron callers. Crontab snapshot pre-change at `/tmp/crontab-snapshot-pre-D054-1779000335.txt`. Audit_log closure row: `D79474F2-B88F-4B97-9510-BF93EA37ED65` (positional fields landed malformed — see D064; row content is correct, queryable by substring on target).
 
-**Problem:** Ship-to-site's `build_verify.sh` failed silently under cron because `/opt/homebrew/bin` was not in cron's PATH (`npm: command not found`, audit row 536). Same risk exists for any cron-invoked script that calls a Homebrew-installed binary (`npm`, `node`, `python3`, `jq`, `sqlite3`, `gh`, etc.). Currently no project-wide convention for ensuring cron's PATH matches interactive shell.
+**Status:** ~~Open~~ Closed
 
-**Fix options:**
+**Problem (historical):** Ship-to-site's `build_verify.sh` failed silently under cron because `/opt/homebrew/bin` was not in cron's PATH (`npm: command not found`, audit row 536). Same risk existed for any cron-invoked script that calls a Homebrew-installed binary (`npm`, `node`, `python3`, `jq`, `sqlite3`, `gh`, etc.). No project-wide convention for ensuring cron's PATH matches interactive shell.
+
+**Fix options considered:**
 - (a) one-time audit of every cron-invoked script for missing PATH preludes
 - (b) standardize a "cron PATH harden" snippet in a shared lib that every cron entry point sources
-- (c) set PATH explicitly in crontab itself
+- (c) set PATH explicitly in crontab itself — **selected**
 
-**Trigger to revisit:** Next cron-job-touching session, OR when another cron script fails for the same reason.
-
-**Reference:** Ship-to-site `build_verify.sh` fix at commit `0be9d1f`; audit_log row 536.
+**Reference:** Ship-to-site `build_verify.sh` fix at commit `0be9d1f`; audit_log row 536. Closure commit: no code change required (crontab edit only).
 
 ### D057 — Remove deploy throttle when quality is consistent
 
@@ -448,7 +448,7 @@ Items discussed in sister chats during the SSG pipeline migration and asbestos d
 | D-SSG-02 | Operator review of `SSG_TEMPLATES.md` Cosmetic Tolerance List + Verdict Rules | Before first SSG audit run | CC authored from first principles (asbestos source files were stubs). Needs operator verification before live audit logic depends on it. |
 | D-SSG-03 | Confirm `relatedLinks` slug shape in SSG content | Before first SSG batch run | CC chose category-prefixed format with no slashes: `"it-support/managed-it-services-pricing"`. 1-line edit if convention differs. |
 | D-SSG-04 | Reconcile AS1-AS5 anti-sameness checks between `SSG_TEMPLATES.md` and `audit_guide.py` | When `audit_guide.py` is migrated to SSG | Two sources of truth right now; need to consolidate before SSG audit goes live. |
-| D-SSG-05 | `SSG_SITE_MAP.md` grep regex fix in `run-batch.sh` line 269 | Before first SSG batch run | Markdown table format uses `\|` cells; current `grep -E '^\/'` won't extract URLs. `VALID_LINKS` file will be empty. Writer still gets full SITE_MAP via `${CACHED_AUDIT}` so not a crash, but Writer-instruction completeness gap. 5-min fix. |
+| D-SSG-05 ✅ SHIPPED 2026-05-17 (`1096584`) | `SSG_SITE_MAP.md` grep regex fix in `run-batch.sh` line 269 | ~~Before first SSG batch run~~ Shipped | Markdown table format uses `\|` cells; original `grep -E '^\/'` returned empty. Fixed with `sed -n` range (catalog→forbidden) + `grep '^\|'` row filter + `grep -oE '`/[a-z0-9/-]+/`'` backticked-URL extract + `tr -d '`'`. Empirical test: extracts 14 URLs (matches SITE_MAP's own canonical count). Audit_log closure row: `41E6B47B-3199-433F-8F90-ADBE52826344` (positional fields landed malformed — see D064). Latent same-bug in asbestos tracked as D063. |
 | D-SSG-06 | `AUDIT_SPEC.md` SPC-1..14 (~160 lines) still has UST/asbestos vocabulary | When SSG service mode activates | Currently gated as inactive code path. Migrate vocabulary when service mode is needed. |
 | D-SSG-07 | Stale "2,000-2,500 words" echo on `run-batch.sh` line ~357 | Cosmetic, no urgency | Console output only; no functional impact. |
 | D-SSG-08 | `ctx.sh` has 22 asbestos references | Cosmetic cleanup, no urgency | Session-save tool. Convenience cleanup. |
