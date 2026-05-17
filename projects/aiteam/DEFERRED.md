@@ -281,6 +281,18 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Trigger to revisit:** Operator bandwidth for hygiene work, OR before any major refactor that would touch `~/agents/` broadly.
 
+### D053 — assignment-drafter state files not gitignored
+
+**Status:** Open (surfaced 2026-05-16 during F2 fix sign-off)
+
+**Problem:** `assignment-drafter/state/daily_pipeline_spend.txt` got tracked in commit `0df8cf6`. Other state files likely also missing from `.gitignore`: `state/completed.log`, `state/failed.log`, `state/last_run.txt`, `state/pipeline_runs.log`. Will dirty git status on every cron tick and risk sweeping runtime artifacts into future commits.
+
+**Fix:** Add `state/` blanket entry (or per-file entries) to `assignment-drafter/.gitignore`. `git rm --cached` for any already-tracked.
+
+**Trigger to revisit:** Bundle with D051 (`~/agents/` repo hygiene session).
+
+**Reference:** Surfaced during F2 fix sign-off (commit `0df8cf6`).
+
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
 (Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
