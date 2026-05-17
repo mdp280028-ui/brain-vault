@@ -490,6 +490,22 @@ Triage each match: commit, gitignore, or delete. Then institute a process check 
 
 **Reference:** Plan file at `~/brain/projects/aiteam/docs/AITEAM_SSG_DataDriven_Rewrite_Plan_2026-05-17.md`. Recovery pattern (spec-recovered-from-chat) candidate for `LESSONS.md` next pass.
 
+### D068 — Watchdog hygiene pass (3 fixes) — ✅ CLOSED 2026-05-17
+
+**Status:** ✅ CLOSED 2026-05-17. Agents commits `5c7d85c` (FIX A), `19f44aa` (FIX B), `84808e2` (FIX C). Audit row `591EE19F-E8B2-4421-9660-C5AAFDE039C5`.
+
+**Closure note:** Three hygiene nits surfaced during yesterday's watchdog tuning session (38ed525, 1053913, 26d3311) but were intentionally out of scope at the time. Closed in one session:
+
+- **FIX A — `compute_threshold()` helper**: collapsed 4 inline `NOW - window_hours*3600 - grace_minutes*60` sites (3 probes + main loop) into one helper. Same arithmetic, byte-identical dry-run output. e1/e2 grace flip (grace=0+window=0 → drafter [missing]; grace=35+window=0 → drafter [healthy]) still passes.
+- **FIX B — drop `_stale` qualifier from probe returns (option B2)**: `probe_logfile_mtime` and `probe_sqlite_row` previously echoed `mtime`/`mtime_stale` and `sqlite_row`/`sqlite_row_stale`; the main loop discarded the qualifier and re-evaluated freshness via threshold anyway. Probes now always echo `mtime` / `sqlite_row` (qualifier dropped). Per-probe `compute_threshold` call removed as vestigial — main loop owns the freshness decision. Probe signatures simplified (window_hours + grace_minutes args dropped). Output diff under healthy state: byte-identical. Stale-path test confirms action column now shows `mtime`/`sqlite_row` instead of `mtime_stale`/`sqlite_row_stale`; status decision unchanged. `probe_audit_log` untouched (always returned real action name).
+- **FIX C — single-load state.json at tick start**: 7 actors × 2 fields × per-call `jq` = 14 jq subprocesses per tick → 1 jq invocation in `load_state_cache()` that populates `STATE_<actor>_<field>` shell vars via `@sh`-quoted eval. `state_get` public interface preserved; body rewritten to read from cache. Bash 3.2-safe (no assoc arrays). 3-run avg timing: pre-C 117ms → post-C 105ms (~10% / ~12ms saved; modest because state.json is only 1KB, but structural 14-forks → 1-fork win is real and will pay off on any future state.json growth). Corrupted-state.json gate test confirms FIX C is downstream of the gate (untouched).
+
+Live tick id=1171 (2026-05-17 15:03:05) clean: healthy=6, missing=1, no transitions. All 3 commits independently revertable.
+
+**Phantom SHA note:** Yesterday's context save named `1e90165` as the LESSONS.md doc commit. That SHA was not in `~/agents` — pre-flight grep was wrong-repo. Confirmed `1e90165 docs(lessons): audit_log column name + heartbeat-before-killswitch validation` exists in `~/brain`. Real SHA, real commit, wrong repo expectation in the prompt.
+
+**Reference:** Build context yesterday's session (commits `88f8d7a`, `1053913`, `38ed525`, `26d3311` in `~/agents`).
+
 ### D065 — Add `gsc_submission_queue` INSERT hook to SSG `deploy_batch.sh`
 
 **Status:** Deferred (Phase 2, 2026-05-17)
