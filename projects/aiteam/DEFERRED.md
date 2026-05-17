@@ -482,6 +482,14 @@ Triage each match: commit, gitignore, or delete. Then institute a process check 
 
 **Reference:** D060 (predecessor; consolidate or supersede if D066 audit takes the same scope).
 
+### D067 — Recover SSG data-driven rewrite plan from chat history — ✅ CLOSED 2026-05-17
+
+**Status:** ✅ CLOSED 2026-05-17. Brain commit `b1c4214`. Audit row `0C9C5E2D-E5FD-4EF1-9353-C475C42473C5`.
+
+**Closure note:** Plan was authored in chat `5c03da96-ae1c-4431-851e-41a618741049` on 2026-05-16 (as `AITEAM_SSG_DataDriven_Rewrite_Plan_2026-05-16.md`) but never saved to disk — original lost. Reconstructed verbatim via `conversation_search` 2026-05-17 and landed as `~/brain/projects/aiteam/docs/AITEAM_SSG_DataDriven_Rewrite_Plan_2026-05-17.md` (375 lines, 16245 bytes). Spec-on-disk before SSG Lane B execution. Brain repo had pre-existing dirty state at close time (modified HANDOFF/LESSONS, 11 untracked context saves, 15 unpushed commits); D067 commit isolated to the recovered plan only by staging the exact path.
+
+**Reference:** Plan file at `~/brain/projects/aiteam/docs/AITEAM_SSG_DataDriven_Rewrite_Plan_2026-05-17.md`. Recovery pattern (spec-recovered-from-chat) candidate for `LESSONS.md` next pass.
+
 ### D065 — Add `gsc_submission_queue` INSERT hook to SSG `deploy_batch.sh`
 
 **Status:** Deferred (Phase 2, 2026-05-17)
