@@ -293,6 +293,36 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Reference:** Surfaced during F2 fix sign-off (commit `0df8cf6`).
 
+### D054 — Audit all cron-invoked scripts for PATH dependencies
+
+**Status:** Open (surfaced 2026-05-17 via ship-to-site build_verify.sh fix)
+
+**Problem:** Ship-to-site's `build_verify.sh` failed silently under cron because `/opt/homebrew/bin` was not in cron's PATH (`npm: command not found`, audit row 536). Same risk exists for any cron-invoked script that calls a Homebrew-installed binary (`npm`, `node`, `python3`, `jq`, `sqlite3`, `gh`, etc.). Currently no project-wide convention for ensuring cron's PATH matches interactive shell.
+
+**Fix options:**
+- (a) one-time audit of every cron-invoked script for missing PATH preludes
+- (b) standardize a "cron PATH harden" snippet in a shared lib that every cron entry point sources
+- (c) set PATH explicitly in crontab itself
+
+**Trigger to revisit:** Next cron-job-touching session, OR when another cron script fails for the same reason.
+
+**Reference:** Ship-to-site `build_verify.sh` fix at commit `0be9d1f`; audit_log row 536.
+
+### D055 — Site repo node_modules disappeared
+
+**Status:** Open (deps reinstalled this session as part of build_verify fix)
+
+**Problem:** `~/projects/asbestoshq-site/node_modules/` was present when the 31 guides were manually shipped earlier, but absent when ship-to-site tried autonomously (surfaced as `sh: next: command not found` after the PATH fix landed). Unknown what removed it — could have been a fresh clone, `git clean`, manual `rm`, or something else. Risk: if it disappears again, every cron ship fails until rediscovered.
+
+**Fix options:**
+- (a) accept and watch (deps reinstalled, move on)
+- (b) add a one-time `[ -d node_modules ] || npm ci` self-heal check in `ship.sh` or `stage.sh` (NOT `build_verify.sh` — keep build_verify scoped)
+- (c) treat `node_modules` as a known-precondition documented in ship-to-site README + check at agent startup
+
+**Trigger to revisit:** If it disappears again, OR next ship-to-site polish session.
+
+**Reference:** audit_log row 833 (`sh: next: command not found`); paired with D054 (same incident).
+
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
 (Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
