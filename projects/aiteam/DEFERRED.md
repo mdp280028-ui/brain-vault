@@ -377,6 +377,23 @@ Once those exist, the persistence pattern is the same shape shipped today — ad
 
 **Reference:** audit_log row 833 (`sh: next: command not found`); paired with D054 (same incident).
 
+### D060 — 3 untracked production scripts (zero git history)
+
+**Status:** Open (surfaced 2026-05-16 during D054 recon)
+
+**Problem:** Three production scripts run on cron but have never been `git add`-ed in `~/agents/`. All three return zero rows from `git log -- <path>` and `git status` shows `??`:
+- `scripts/brain-autocommit.sh` (cron 23:55 daily)
+- `tg-monitor/reader.py` (cron */5)
+- `tg-monitor/analyzer.py` (cron 07:00 daily)
+
+Pattern caught 4th time (prior: ship-to-site, assignment-drafter, config-synthesizer). Production scripts running silently with no version history is a recurring hygiene gap, making rollback and change-attribution impossible.
+
+**Fix:** Commit each script in `~/agents/` with a descriptive message, verify presence in git log. Standalone hygiene pass, not bundled with feature work. Could fold into D051 if that session happens first.
+
+**Trigger to revisit:** Next agent-hygiene session.
+
+**Reference:** Surfaced during D054 cron-script PATH audit (this session). D054 audit_log closure row: `D79474F2-B88F-4B97-9510-BF93EA37ED65`.
+
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
 (Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
