@@ -345,11 +345,15 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 ---
 
-### D056 — Editor verdict persistence
+### D056 — Editor verdict persistence — ✅ CLOSED 2026-05-17
 
-**Status:** Open (surfaced 2026-05-17 during verdict-persistence build)
+**Status:** ✅ CLOSED 2026-05-17. Agents commits `6895dcc` (score.sh production runner + CLAUDE.md wording), `dc05c51` (threshold tune 3.8 → 3.6 per burn-in distribution), `1323040` (ship.sh editor verdict gate in ship_one_slug step 2.5).
 
-**Problem:** The `auditor_verdicts` table shipped 2026-05-17 (`4e2fe0a` in `~/agents/`) is populated by `audit_guide.py` (commit `0e8089b` in asbestos-contractors) but the editor agent is NOT yet writing to it. Triage-agent coverage is therefore half: only mechanical-check verdicts are queryable, not editor-rubric scorecards. The original build prompt asked for both halves; editor half hit two HALT conditions and was deferred.
+**Closure note:** Shipped the production single-slug editor runner (`~/agents/editor/score.sh`), persisted verdicts to `auditor_verdicts` with `scorer='editor-v1'`, and wired the gate into `ship_one_slug` between validate.sh and the dry-run short-circuit per POLICY Q7 (editor runs AFTER audit_guide.py, both must pass). 4-slug burn-in distribution produced a tight composite range (3.20-3.80) with structural ceilings on 3 of 5 axes driven by audit_guide.py pre-filtering; threshold lowered from 3.8 to 3.6 to bisect the empirical format-quality ordering. Integration test: SQL-trace proof for both PASS and FAIL branches (live dry-run blocked because all 32 approved JSONs are already in the asbestoshq-site whitelist, so validate.sh always short-circuits at slug_already_shipped before reaching the editor gate). Live-gate first execution is deferred to the next genuinely-new pipeline slug — tracked as **D074**. Truncation follow-up tracked as **D072**; rubric-redundancy review as **D073**.
+
+**Commit-message correction:** `dc05c51` body contained a parenthetical asserting "only shingles + dispose-of remain queued" — actually all 3 fail-at-3.8 slugs (shingles, how-to-dispose-of, ceiling-tile) remain queued per the operator's explicit "leave verdicts as-is" instruction. Captured here for the record (per no-amend rule, the commit stands).
+
+**Original problem (preserved for history):** The `auditor_verdicts` table shipped 2026-05-17 (`4e2fe0a` in `~/agents/`) is populated by `audit_guide.py` (commit `0e8089b` in asbestos-contractors) but the editor agent is NOT yet writing to it. Triage-agent coverage is therefore half: only mechanical-check verdicts are queryable, not editor-rubric scorecards. The original build prompt asked for both halves; editor half hit two HALT conditions and was deferred.
 
 **Two blockers:**
 1. **No production editor runner exists.** `~/agents/editor/` only has `run_tier_test.sh` (calibration). No script today takes one real draft, scores it, and would be the natural place to hook persistence.
@@ -365,6 +369,64 @@ Once those exist, the persistence pattern is the same shape shipped today — ad
 **Trigger to revisit:** After operator answers Q7 (editor as pre-ship gate) in `cross_agent_failure_modes_2026-05-16.md` §7, AND a production editor runner exists.
 
 **Reference:** Build report `~/brain/projects/aiteam/docs/verdict_persistence_build_2026-05-17.md` §"Editor persistence — deferred"; Q7 in `cross_agent_failure_modes_2026-05-16.md` §7. Note: build prompt asked for this to be tracked as "D053" but that number was already taken; D056 chosen per the file's "next free D-number" rule.
+
+### D072 — Editor `score.sh` chunk-and-aggregate for full-article scoring
+
+**Status:** Open (surfaced 2026-05-17 during D056 burn-in)
+
+**Problem:** Current `score.sh` truncates articles to 8KB (head only) to match the calibration contract from `run_tier_test.sh`. Production asbestos guides run 1800-2800 words (~12-18KB raw), so the tail 30-50% of every article is invisible to the editor. **All 4 burn-in slugs hit the 8KB cap** (`truncated: true` on every scored row). The editor is structurally blind to article endings — exactly where weak guides tend to wander.
+
+**Fix:** Chunk article into 8KB segments, score each segment independently, aggregate. Two aggregation candidates:
+- Mean per axis across chunks (smooths noise; favors consistent quality)
+- Min per axis across chunks (catches the worst section; supports POLICY Q1 FP-tolerance)
+
+Recommendation lean: min-per-axis matches the "false positives are much worse" policy. Re-calibrate threshold after fix lands — current 3.6 was tuned against head-only scores.
+
+**Trigger:** After 10+ slug burn-in distribution data accumulates AND truncation pattern is confirmed to be hiding real quality signal in the tail. Cheap pre-fix experiment: re-score one slug on its tail 8KB only, compare to head 8KB score. If sub-scores diverge >0.5 on any axis, the head-only score is missing real signal.
+
+**Reference:** D056 closure note + audit_log row `<d056_closed correlation_id>`. Per-row `truncated` flag in `editor_scored` payload lets future re-calibration sessions filter on it.
+
+### D073 — Review editor rubric axes for redundancy vs `audit_guide.py` mechanical gate
+
+**Status:** Open (surfaced 2026-05-17 during D056 burn-in)
+
+**Problem:** 4-slug burn-in showed 3 of 5 editor axes have structural ceilings driven by `audit_guide.py` pre-filtering:
+- **Originality** (mean 2.75, range 2-3): SEO conformance (keyword density, required entities) caps creative framing
+- **Hook** (mean 3.0, zero variation): S5/S6 audit-guide opener rules (first sentence ≤15 words, first para ≤3 sentences) produce uniformly competent openers
+- **Evidence** (mean 3.75, range 3-4): mechanically propped by SPEC1 (≥3 specifics) + L4 (.gov authority link)
+
+Only **clarity** (mean 3.5, range 3-4) showed real discriminating variation. **Evergreen** (4.5, 4-5) floors at "high" for the asbestos topic regardless of article quality. Net: editor is measuring partially redundant signals on a pre-filtered corpus.
+
+**Fix options:**
+- (a) Refine editor rubric to test what `audit_guide.py` CAN'T enforce (voice consistency, narrative arc, depth of analysis, internal contradiction detection)
+- (b) Reduce editor to a clarity-axis-only discriminator
+- (c) Re-position editor as advisory (verdict logged but not gating)
+- (d) Some hybrid: keep all 5 axes but weight them so clarity dominates
+
+**Trigger:** After burn-in N>=10 confirms the corpus-distribution pattern, OR after first editor false-positive (a clearly-bad slug passes at composite ≥3.6).
+
+**Reference:** D056 closure note + 4-slug distribution table in `dc05c51` commit body.
+
+### D074 — Verify editor gate executes live on first new pipeline slug
+
+**Status:** Open (surfaced 2026-05-17 at D056 close-out)
+
+**Problem:** D056 closed with SQL-trace proof for both PASS and FAIL branches of the editor gate in `ship.sh:ship_one_slug step 2.5`. Live integration test could not exercise the gate because **every approved JSON at close time was already in the asbestoshq-site whitelist** (validate.sh short-circuits at `slug_already_shipped` before reaching step 2.5). The gate is implemented and statically reachable, but has never executed end-to-end against ship.sh.
+
+**Verification plan (run on next new pipeline slug):**
+The gate will first execute live when a genuinely-new approved slug enters via `drafter_queue.txt` → `run-batch.sh` and lands in `content/asbestos/approved/guides/` not-yet-whitelisted. When that happens, verify in order:
+
+1. `ship.sh` log line: `[editor] <slug>: no verdict; running score.sh...`
+2. `score.sh` fires inline, writes raw response to `~/agents/editor/workspace/responses/<slug>_<ts>.txt` BEFORE parse
+3. `auditor_verdicts` row landed with `scorer='editor-v1'`, `scorer_version='v1'`, `composite_score` populated, `rubric_json` valid 5-axis dict
+4. `ship.sh` re-queries verdict and branches correctly: PASS → falls through to dry-run/stage; FAIL → `[skip] ... failed editor gate (routed to needs_review by score.sh)`
+5. `audit_log` captures the full sequence: one `editor_scored` row from score.sh + one `ship_to_site_skipped` (with `reason="editor_failed"`) or `ship_to_site` row from ship.sh
+
+**Where to look:** `~/agents/ship-to-site/ship.log`, `~/agents/watchdog/watchdog.log` (cron tick will show it), the next 20:00 preview ping, and `audit_log` queries by date.
+
+**Trigger:** First new approved slug from the asbestos pipeline post-D056 close (or the next manual operator-initiated test).
+
+**Reference:** D056 closure note. SQL-trace proof was the close-out test surrogate; this item upgrades it to a live observation requirement.
 
 ---
 
