@@ -381,9 +381,11 @@ Once those exist, the persistence pattern is the same shape shipped today — ad
 
 **Reference:** audit_log row 833 (`sh: next: command not found`); paired with D054 (same incident).
 
-### D060 — 3 untracked production scripts (zero git history)
+### D060 — 3 untracked production scripts (zero git history) — ✅ CLOSED 2026-05-17
 
-**Status:** Open (surfaced 2026-05-16 during D054 recon)
+**Status:** ✅ CLOSED 2026-05-17. Auto-closed by D066 hygiene audit. brain-autocommit.sh committed in `b76832d`; reader.py + analyzer.py committed in `6a547ce`. Audit row id=1145 (`9A3A7ABD-D427-40C1-9C94-074769567CA2`).
+
+**Original status:** Open (surfaced 2026-05-16 during D054 recon)
 
 **Problem:** Three production scripts run on cron but have never been `git add`-ed in `~/agents/`. All three return zero rows from `git log -- <path>` and `git status` shows `??`:
 - `scripts/brain-autocommit.sh` (cron 23:55 daily)
