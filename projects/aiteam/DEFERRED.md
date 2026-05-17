@@ -527,6 +527,88 @@ fi
 
 **Reference:** This commit (multi-site upgrade) + commit `c56209f` (original asbestos hook + dashboard panel).
 
+### D069 — friend-bot untracked production code (D066 pattern, 5th instance)
+
+**Status:** Open
+
+**Trigger:** Next `~/projects/` hygiene session, OR when friend-bot needs modification.
+
+**Problem:** `~/projects/friend-bot/` is not a git repo. Contains live production code + runtime data with no version control — same pattern D066 closed for asbestos-contractors / asbestoshq-site / ssg-content. Surfaced by 2026-05-17 D066-projects-half recon (audit row `02E772CB-FE71-4C3D-A129-A460A4493D80`).
+
+**Inventory at discovery (2026-05-17):**
+- `bot.py` — 15K source
+- `bot.db` — 57K runtime (modified 2026-05-17 00:27)
+- `bot.log` — 22K runtime (modified 2026-05-17 00:27)
+- `.env` — secrets
+- `memory_prompt.txt`, `system_prompt.txt` — agent config
+- `requirements.txt`
+
+**Fix:** Two-step
+- (a) `git init` + commit source/configs (`bot.py`, `*.txt`, `requirements.txt`)
+- (b) `.gitignore` for `bot.db`, `bot.log`, `.env` BEFORE first commit
+
+**Risk:** Bot is actively running (db + log modified within hours of discovery). Initialize git carefully — don't commit secrets or runtime data.
+
+**Reference:** D066 (untracked-code hygiene audit, 2026-05-17, brain commit `61647e5`). 5th confirmed instance of the same systemic pattern.
+
+### D070 — `~/agents/` git remote upstream not configured — ✅ CLOSED 2026-05-17
+
+**Status:** ✅ CLOSED 2026-05-17. Audit row `FC8F68E8-7082-4648-8ACF-2501F88611FC`.
+
+**Closure note:** Private GitHub backup landed for `~/agents/`. Mirror of brain-vault pattern.
+
+**What landed:**
+- Private repo: `github.com/mdp280028-ui/agents-vault` (created manually via web UI — `gh` CLI not installed)
+- SSH auth via existing `id_ed25519` (brain-vault key)
+- Full history pushed; HEAD SHA `2ee93487e2ecdaa72b1f10104e7749ef4944a305`
+- Upstream: `branch.main.remote=origin`, `branch.main.merge=refs/heads/main`
+- Local↔remote SHA match verified post-push
+- `.gitignore` hardened pre-push (commit `7b8c0d5`): added `.env`, `.env.*`, `**/.env`, `**/*.lock`, `**/state.json`, `**/state/`, `/tmp/`; exceptions for `**/.env.example` + `**/.gitkeep`
+- Daily 23:50 cron installed: `agents-autocommit.sh` — staggered 5 min before `brain-autocommit` at 23:55
+
+**Secrets audit (full history, 64 commits):**
+- 205 token/key/password/bearer matches → all false positives (`token_usage` table refs, `BOT_TOKEN` env-var reads, never values)
+- 133 high-entropy strings → all false positives (paths, comment dividers)
+- 0 cloud-provider key patterns
+- Only `telegram/.env.example` committed (intentional template, "NEVER commit" comment)
+
+**Verification gap:** Repo visibility verified by operator browser eyeball, not via API. See D071.
+
+**Sister-chat coexistence:** During D070 execution, sister landed `6895dcc feat(editor): score.sh production runner` at 15:25. Autocommit test fire at 15:26 pushed both separately, no bundling.
+
+**Reference:** D066 `~/agents/` half recon, 2026-05-17 (audit row `58839FBF-6ADB-436B-95B8-B0CEEAB8A4B7`).
+
+### D071 — Install `gh` CLI for GitHub API operations
+
+**Status:** Open
+
+**Trigger:** Next time repo creation or visibility verification is needed, OR opportunistically during a low-priority hygiene session.
+
+**Problem:** `gh` CLI is not installed on the Mac Mini. D070 hit this — repo had to be created via web UI and visibility verified by browser eyeball instead of API call. Workable for one repo, but adds operator-touch and verification gap to any future repo work.
+
+**Concrete consequences seen 2026-05-17 during D070:**
+- `gh repo create` not available → operator manually created `agents-vault` via web UI
+- `gh repo view --json visibility,isPrivate` not available → no API confirmation that visibility was actually private
+- Verification fell back to operator browser eyeball
+
+**Fix:**
+```bash
+brew install gh
+gh auth login
+```
+(Interactive flow — operator drives.)
+
+**Cost:** ~30 sec install + ~2 min auth flow. One time.
+
+**Use cases unlocked:**
+- Programmatic private-status verification (close D070's verification gap retroactively)
+- D069 friend-bot fix can create its own private repo via `gh repo create`
+- Any future repo (third project, archive snapshots, agent fleet split, etc.) skips web UI
+
+**Risk:** Adds one more tool to the system. Mitigation: `gh` is widely used, well-maintained, and brew-installable. Same risk profile as having git itself.
+
+**Reference:** D070 closure note (verification gap).
+
 ---
 
 ## Authoring notes
