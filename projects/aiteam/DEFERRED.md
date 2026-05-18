@@ -772,6 +772,48 @@ Operator decision needed; either is defensible. Recommend (b) for ergonomics (em
 
 ---
 
+### D078 — Sonnet cost in research-opportunity digest archive header
+
+**Status:** Deferred from research-opportunity v1 markdown-log build (2026-05-17).
+
+**Problem:** The brain-tracked digest archive header (`~/brain/projects/aiteam/research-opportunity/digests/<date>.md`) renders all v1 fields cleanly except `Sonnet cost`, which displays `—` as a placeholder. The token + cost data exists in `~/store/aiteam.db.token_usage` but requires a per-week join filtered by `agent_id LIKE 'research-opportunity%'`. Build deferred to avoid scope creep on v1.
+
+**Fix:** In `digest.sh`, after computing `posts_scanned`, add a parallel query against `aiteam.db.token_usage` to sum `sonnet_tokens` + `estimated_cost_usd` for the last 7 days filtered to the agent. Populate the `digest_log.sonnet_tokens` and `digest_log.estimated_cost_usd` columns (currently NULL). Header reads from `digest_log`, not from re-query at archive-write time.
+
+**Trigger:** Bundle with the next task that touches `digest.sh` or that needs token_usage join logic elsewhere (likely a dashboard week-summary view). Cheap to add — ~30 min of CC work.
+
+**Reference:** Pre-flight §5 Gap-2 in the markdown-log build session.
+
+---
+
+### D079 — Haiku CLI overhead ($0.025/call) propagation to fleet cost projections
+
+**Status:** Deferred from research-opportunity Session 2 build (2026-05-17).
+
+**Problem:** Session 2 cost $3.83 across ~149 Haiku triage calls = $0.026/call. Raw-token arithmetic (~700-token prompt × $0.80/M input + ~50-token output × $4.00/M = ~$0.001/call) predicts 30x lower. The gap is the `claude -p --model haiku` agent-loop wrapper: system prompt, CLAUDE.md context, tools loaded per invocation. Every Haiku-using agent in the fleet (research-opportunity, tg-monitor analyzer, librarian if/when) is mis-budgeted if planning from raw token rates alone.
+
+**Fix:** Either (a) re-budget projections for all Haiku-using agents using $0.025/call as the floor, or (b) bypass `claude -p` for triage workloads and call the anthropic SDK directly (~30x cost reduction at the price of losing CLAUDE.md context + tool access per call — fine for stateless triage). Option (b) is the bigger ROI but is also a fleet-wide refactor.
+
+**Trigger:** Next budget-planning session or first agent that scales triage past ~300 rows/day (where the cost differential becomes the dominant operational expense).
+
+**Reference:** Session 2 ctx save 2026-05-17_1921, LESSONS.md "Haiku CLI overhead" entry.
+
+---
+
+### D080 — YouTube triage threshold tune-up (raise to 0.85 if false-positive volume becomes annoying)
+
+**Status:** Deferred from research-opportunity Session 2 build (2026-05-17).
+
+**Problem:** Haiku-4.5 has a persistent topic-context-leakage bias for YouTube comments. Praise comments ("Great video!", "Brilliant work") consistently score 0.70-0.80 when the parent video happens to be asbestos-related. Tightening the triage prompt (CRITICAL RULE + worked examples + stricter scoring guide) reduced but did NOT eliminate the bias — appears to be a deep-model preference Haiku-4.5 will not override via prompt-only fixes. Mitigation in v1: Sonnet extract acts as a reliable second gate and correctly downscores praise to `asbestos_relevance_score=0.10`. Digest ranking by `score × coverage_weight` buries the false positives at the bottom.
+
+**Fix (one-line):** In `~/agents/research-opportunity/extract.sh`, add a per-source threshold lookup. For `source='youtube'`, use `youtube_relevance_threshold` from `config.yaml` (default 0.85). For other sources, keep the existing 0.5. The 0.85 band cuts virtually all praise hallucinations while preserving the 6-8 genuine pain comments per 50 that scored 0.85+ during smoke. Add the config key with a default in `config.yaml` and have extract.sh fall back to `triage.haiku_relevance_threshold` if the new key is absent (backwards-compatible).
+
+**Trigger:** After 2-3 weekly digests (2026-05-25, 2026-06-01, 2026-06-08), if operator notices >2 obviously-praise items in any single digest. Until then, the system self-corrects via Sonnet extract; no urgent fix needed.
+
+**Reference:** Session 2 ctx save 2026-05-17_1921, LESSONS.md "Haiku-4.5 topic-context-leakage" entry. Smoke-test data showing the 0.70-0.80 false-positive cluster: `sqlite3 ~/agents/research-opportunity/pain_points.db "SELECT printf('%.2f', haiku_relevance_score), substr(body_truncated,1,80) FROM source_posts WHERE source='youtube' AND haiku_relevance_score >= 0.65 ORDER BY haiku_relevance_score DESC LIMIT 15;"`
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
