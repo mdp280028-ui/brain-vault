@@ -675,6 +675,52 @@ gh auth login
 
 ---
 
+### D075 — Opportunity Scout Agent (business-idea discovery, separate from Agent A)
+
+**Status:** Deferred. Trigger: Agent A (Research/Opportunity = pain-point miner) ships and burns ~1 week clean.
+
+**Distinct from Agent A:**
+- Agent A makes asbestoshq.com better → output is *slugs* fed weekly into drafter_queue.txt.
+- D075 finds the *next business* → output is *opportunity briefs* fed monthly into operator portfolio decisions.
+- Different reviewers in operator's head, different files, different mission-bar relationship. Cramming both into one agent produces a worse version of each.
+
+**Scope:**
+- Discovers business opportunities, low-competition niches, and market gaps the AITEAM fleet could profitably run.
+- Sources (v1):
+  - Reddit business subs: r/Entrepreneur, r/SideProject, r/smallbusiness, r/SaaS, r/passive_income
+  - Hacker News (clean Firebase API)
+  - Rotating Google searches against operator-curated seed prompts ("low competition affiliate niches 2026", "boring SaaS ideas making money", "AI agent business opportunities", etc.)
+- Sources (v1.1, deferred): IndieHackers, ProductHunt — scrapable but fragile, defer until v1 stabilises.
+
+**Output:**
+- Written opportunity briefs to ~/brain/projects/aiteam/opportunities/ (NOT drafter_queue.txt — these are business ideas, not slugs).
+- Weekly or bi-weekly Telegram digest with top 3-5 opportunities scored against AITEAM's mission bar: $200/mo passive · agent-runnable · low operator-touch.
+
+**Approval pattern:**
+- Different cadence than Agent A's per-slug approval.
+- Operator reviews briefs and decides "build a site/agent around this?" Monthly-ish, portfolio-level.
+- No drafter_queue.txt integration. Approval = operator manually spawns a new agent-build session.
+
+**Architectural notes for the future build:**
+- Google search rotation: seed-prompt YAML the operator edits without touching code (mirror tg-monitor/config.yaml pattern).
+- Opportunity scoring rubric:
+  ```
+  revenue_potential × agent_runnability × low_competition × low_launch_time
+  ```
+  Sonnet emits the four factors + a weighted total per opportunity. `agent_runnability` is the hard constraint — heavily penalize opportunities requiring human sales, onboarding, or ongoing service delivery. AITEAM is fleet-runnable or it's not on the list.
+- Coverage check: integrate with `internal_link_inventory` (and any future site inventories) to avoid proposing niches the fleet already covers.
+- Hacker News API: Firebase, no key required, simple — start here.
+- IndieHackers + ProductHunt: HTML scraping, fragile selectors — defer.
+- `softwareengineering.stackexchange.com` and `workplace.stackexchange.com` have business-pain language — flag as v1.1 source candidates alongside IndieHackers/ProductHunt.
+- Random-Google-search piece: fire seed prompts against Google search results (via scrape or paid API), Sonnet-extract opportunity signals from titles + snippets. Cheap and interesting.
+- Storage: own SQLite DB (`~/agents/opportunity-scout/opportunities.db`), not `aiteam.db` (matches Agent A's "chatty raw data stays local" pattern).
+
+**Estimated build:** 6-8h CC.
+
+**Dependencies:** Agent A pattern (poll.sh fan-out, polymorphic `source_posts` table, Haiku triage → Sonnet extract → weekly Telegram digest, `/approve` Telegram handler) — D075 reuses that template, just swapping the sources and the output format (briefs vs slugs).
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
