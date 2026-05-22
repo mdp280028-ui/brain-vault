@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-05-22T03:30:00Z",
+  "actor_id": "brain-autocommit",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1779173702,
+  "last_seen_action": "mtime",
+  "signal_type": "logfile_mtime",
+  "description": "Daily brain repo commit",
+  "watchdog_state": "missing"
+}
