@@ -895,6 +895,60 @@ Filter rule: include any keyword where CPC ≥ $30 OR (CPC ≥ $10 AND keyword m
 
 ---
 
+### D085 — Cross-link backfill after first vendor-review batch ships
+
+**Status:** Deferred from SSG Lane C Pass 2 file authoring (2026-05-23).
+
+**Problem:** The 4 vendor-review pages drafted in `assignment-batch-001.md` + `assignment-batch-002.md` (moneypenny-review, answerconnect-review, smith-ai-review, voicenation-vs-patlive) will link OUTBOUND to the 5 existing answering-services framework pages, but the 5 existing pages do NOT yet link INBOUND to the new vendor reviews. Vendor-review pages benefit most from inbound internal links from category framework pages — that's how the framework's authority gets distributed to the vendor pages, and how a reader on the framework page discovers the vendor-specific deep dives.
+
+**Fix:** After batch 001+002 ship and the 4 vendor pages are live, edit the 5 existing answering-services JSONs at `~/projects/smartsourceguide/data/guides/answering-services/` to add inbound links:
+
+| Existing slug | Add inbound link to |
+|---|---|
+| `best-answering-services` | All 4 new vendor pages (this is the framework page; should link to every vendor review under it) |
+| `best-ai-answering-service` | `smith-ai-review` (Smith.ai is the leading AI hybrid vendor) |
+| `best-answering-service-law-firm` | `moneypenny-review` (premium dedicated-team for high-touch firms) + `answerconnect-review` if legal coverage is strong |
+| `answering-service-pricing` | `moneypenny-review` + `answerconnect-review` + `smith-ai-review` (each as concrete pricing-tier example) |
+| `best-bilingual-answering-service` | `answerconnect-review` (AnswerConnect's bilingual-as-standard differentiation) |
+
+Mechanics: each addition is a 1-line `body` block edit in the JSON (markdown link inserted into an existing paragraph). Total: ~12–15 link insertions across 5 JSONs. Estimate ~30 min sed-driven backfill + visual diff per article + per-article commit per the Phase 2 zero-visual-diff convention.
+
+**Trigger:** After batch 001+002 articles ship to production (i.e., after `~/agents/ship-to-site/config/ssg.yaml` flips to `enabled: true`, Pass 2 vendor JSONs land in `content/ssg/approved/guides/`, and `ship.sh` propagates them to the site repo).
+
+**Reference:** SSG Lane C Pass 2 session 2026-05-23, flagged in `content/ssg/assignment-batch-002.md` drafter checklist (last bullet).
+
+---
+
+### D086 — ssg-content git remote needs manual creation (gh CLI unavailable)
+
+**Status:** Open. Surfaced during SSG Lane C Pass 2 close-out (2026-05-23).
+
+**Problem:** `~/projects/ssg-content/` has 768 lines of new Pass 2 content (5 commits: `ef32bc3`, `3b0ac75`, `1a89e11`, `2d3c2da`, `8742be1`) committed locally with no git remote configured. Attempted `gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --push` failed because `gh` CLI is not installed (see open D071 — install gh CLI). The 768 lines are single-disk-loss-away from being unrecoverable.
+
+This was partially in scope for closed D066 (untracked-production-code pattern) but the D066 closure session only committed files locally — remote configuration for ssg-content was not in scope at that time. Operator suggested in 2026-05-23 Pass 2 close-out instructions that D066's status be mutated, but D066 is closed; new D-item created to keep concerns separate and avoid reopening a closed-and-documented item.
+
+**Fix (operator path, since gh unavailable):**
+1. Operator creates `mdp280028-ui/ssg-content` (private) on github.com manually via web UI.
+2. Then locally:
+   ```bash
+   cd ~/projects/ssg-content
+   git remote add origin git@github.com:mdp280028-ui/ssg-content.git
+   git push -u origin main
+   ```
+3. Verify with `git remote -v` + `git log origin/main..HEAD` (should be 0).
+
+**Fix (gh-CLI path, once D071 closes):**
+```bash
+cd ~/projects/ssg-content
+gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --push
+```
+
+**Trigger:** Before any Pass 3 drafter activation. Currently the Pass 2 content (keyword_research, approved-index, authority-links, 2 batch files) is the drafter's only source of operating instructions; losing it would invalidate the entire pipeline.
+
+**Reference:** Predecessor D066 (closed 2026-05-17, ssg-content local commits only; remote not in scope). Related open D071 (install gh CLI). SSG Lane C Pass 2 close-out session 2026-05-23.
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
