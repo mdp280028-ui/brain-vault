@@ -871,6 +871,30 @@ The SSG branch added in commit `d3025ae` (Pass 1) deliberately omits both. The g
 
 ---
 
+### D084 — `keyword_research.md` top-30-by-SV cutoff misses high-CPC vendor-review opportunities
+
+**Status:** Deferred from SSG Lane C Pass 2 file authoring (2026-05-23).
+
+**Problem:** `~/projects/ssg-content/content/ssg/keyword_research.md` (commit `ef32bc3` in ssg-content) ranks keywords per cluster by search volume and cuts at the top 30 per cluster. The SV-only cutoff systematically excludes high-CPC/low-SV vendor-review keywords like `moneypenny reviews` (SV=150, **CPC=$95** — the highest-CPC SSG-direct keyword surfaced across 6 Ahrefs rounds per `SMART_Master_Research_Report_2026-05-17_consolidated.md`). The drafter for `assignment-batch-001.md` (moneypenny-review page) had to source the primary keyword from the SMART report directly because `keyword_research.md` didn't carry it.
+
+The same gap applies to other promising vendor-review keywords below the SV=200 cutoff: `answerconnect pricing` ($25 CPC, SV=200 — just at the threshold), `voicenation reviews` ($30 CPC, SV=150), `patlive reviews` ($12 CPC, SV=100), `abby connect reviews` ($10 CPC, SV=100), and likely 10–15 more across the 3 SSG clusters.
+
+**Fix:** Add a second per-cluster section to `keyword_research.md`:
+
+```markdown
+## Cluster N — [name] sub-threshold high-CPC keywords
+
+| Keyword | SV | KD | CPC | Intent | Status | Live slug |
+```
+
+Filter rule: include any keyword where CPC ≥ $30 OR (CPC ≥ $10 AND keyword maps to a known affiliate-enrolled vendor). Cap at 15 per cluster to avoid noise. Pull from `keyword_registry_ssg.md` (full file, not just top-30). Sub-threshold table goes after the main top-30 table per cluster, with a header note explaining the filter rationale.
+
+**Trigger:** After first batch of vendor-review articles ships (assignment-batch-001 + 002) and operator wants visibility into what other high-CPC/low-SV opportunities exist for batch 003+. Or sooner if a research-opportunity scan surfaces a sub-threshold keyword that should have been on the drafter's radar.
+
+**Reference:** SSG Lane C Pass 2 session 2026-05-23. File 4 (`assignment-batch-001.md`) flagged the gap when the moneypenny primary keyword had to be sourced from outside `keyword_research.md`. `SMART_Master_Research_Report` §7 (SSG-Direct Fit table) lists 24 sub-threshold keywords that map to existing or proposed SSG pages — that's the upstream source for the next rebuild.
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
