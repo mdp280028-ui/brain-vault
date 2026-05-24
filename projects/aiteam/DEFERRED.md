@@ -1131,3 +1131,20 @@ Items discussed in sister chats during the SSG pipeline migration and asbestos d
 | D-SSG-07 | Stale "2,000-2,500 words" echo on `run-batch.sh` line ~357 | Cosmetic, no urgency | Console output only; no functional impact. |
 | D-SSG-08 | `ctx.sh` has 22 asbestos references | Cosmetic cleanup, no urgency | Session-save tool. Convenience cleanup. |
 | D-SSG-09 | `audit_guide.py` has 5 asbestos references in docstring/comments | Cosmetic cleanup, no urgency | No functional impact. |
+
+### D091 — internal-link agent v1 audit_links.sh is blind to body-paragraph links + render-path mismatch — 🟡 OPEN
+
+**Status:** Logged 2026-05-24, after the 99-link false-positive incident. (Renumbered from D087 in the source prompt — D087 was already taken by idea-agent follow-ups; D090 was the prior highest.)
+
+**Problem:** v1 audit_links.sh only checks the `relatedLinks[]` structured field in guide JSON. The bulk of internal links live in body `paragraphs[]` markdown.
+Worse, the asbestos site's `parseInlineLinks` in `src/components/GuideArticle.tsx` does runtime path rewriting (bare `/<slug>/` → `/guides/<slug>/` if slug is
+in `APPROVED_GUIDE_SLUGS`). A naive audit that checks "does the URL inside the markdown resolve" returns 404 for every working internal link.
+
+**Fix scope:**
+- Audit must parse markdown links from `paragraphs[]` (asbestos) and `body[].text` (SSG)
+- Audit must mirror the site's render-time path logic per-site (or be aware that the JSON form is intentionally bare)
+- Audit "broken" definition: link's resolved slug not in APPROVED_GUIDE_SLUGS, OR slug exists but is a self-link, OR markdown is malformed
+
+**Trigger:** During the SSG-fy v1 pass (D083) — extend audit_links.sh to handle both site renderers correctly while we're already in the file.
+
+**Reference:** 2026-05-24 internal-link incident. See LESSONS.md "Verify render path, not raw URLs" (brain commit 80469d4). Asbestos fix commits: revert 711748b + 81ab725, corrected repoint c0b6471.
