@@ -814,6 +814,41 @@ Operator decision needed; either is defensible. Recommend (b) for ergonomics (em
 
 ---
 
+### D081 — `deploy_batch.log` 0-byte canary check after first SSG ship
+
+**Status:** Deferred from SSG Lane C Pass 1 recon (2026-05-23).
+
+**Problem:** `~/agents/ship-to-site/deploy_batch.log` is 0 bytes and last-modified `2026-05-16 23:00` — the moment the cron's `>>` redirect first created it. No `audit_log` rows for `actor_id='deploy_batch'` exist either. Either the `0 23 * * *` cron is not actually invoking the script, or the script exits silently on empty queues without writing any output (stdout, stderr, or audit row). Asbestos hasn't had a non-empty queue since the throttle landed, so the question hasn't surfaced.
+
+**Fix:** After SSG Pass 2 ships its first slug via `deploy_batch.sh`, verify `~/agents/ship-to-site/deploy_batch.log` receives output. If the log is still empty post-deploy, investigate cron invocation:
+- `crontab -l | grep deploy_batch` — confirm the line is present and uncommented
+- Wrap the cron in `(set -x; bash deploy_batch.sh; echo exit=$?) >> deploy_batch.log 2>&1` temporarily to capture invocation evidence
+- Audit `deploy_batch.sh` early-exit paths — should at minimum write an `audit_log` row for "deploy_batch_started" before any conditional exit
+
+**Trigger:** After SSG Pass 2 ships its first slug.
+
+**Reference:** SSG Lane C Pass 1 session 2026-05-23. Hook itself verified structurally correct (deploy_batch.sh:73-97); concern is whether the wrapping cron + log redirect chain works at all.
+
+---
+
+### D082 — `ship.sh` pushes commit to remote before detecting build failure
+
+**Status:** Deferred from SSG Lane C Pass 1 recon (2026-05-23). Out of scope for Lane C.
+
+**Problem:** 2026-05-17 incident: ship of asbestos slug `white-asbestos-vs-blue-asbestos`. Commit `3e608a5` was pushed to `mdp280028-ui/asbestoshq-site` `main`, then the local build failed (`[ship] white-asbestos-vs-blue-asbestos: build failed; rolling back`), then local rollback fired and removed the staged files. The local working tree was clean. **But the remote commit stayed.** The slug landed in `needs_review_queue.txt` and ship.sh kept skipping it on subsequent ticks (10× `[skip] ... in needs_review_queue` in ship.log), but the bad commit on `main` was never reverted.
+
+**Fix:** Either of:
+- (a) Reorder `ship.sh` to validate the local build BEFORE pushing — fail fast without touching the remote.
+- (b) Extend the rollback path: if the local rollback fires after a push has happened, also push a revert commit to undo the bad commit on the remote.
+
+(a) is simpler and matches what a careful operator would do manually. (b) is more robust against build-passes-then-CI-fails scenarios.
+
+**Trigger:** Future `ship.sh` hardening session. Not blocking Lane C (the SSG gsc-INSERT hook fires only on successful ship; failed/rolled-back ships don't reach the INSERT).
+
+**Reference:** SSG Lane C Pass 1 session 2026-05-23. Incident evidence in `~/agents/ship-to-site/state/shipped.log` line 1 (CI status `timeout`) and `~/agents/ship-to-site/ship.log` (build failure + rollback messages, then 10× needs_review_queue skips).
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
