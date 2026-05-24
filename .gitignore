@@ -29,3 +29,7 @@ raw_dropzone/
 
 # Inbox is staging by design — items flow through, audit_log captures the events
 projects/aiteam/inbox/
+
+# Notes images — large binary pollution; markdown entries reference paths
+projects/aiteam/notes/images/*/
+!projects/aiteam/notes/images/.gitkeep

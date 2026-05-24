@@ -949,6 +949,92 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 
 ---
 
+### D087 — idea-agent v1 build follow-ups (umbrella)
+
+**Status:** Open (initial build 2026-05-23). Umbrella tracking item for `~/agents/idea-agent/` post-v1 work.
+
+**Why not D084:** Pre-flight on 2026-05-23 read DEFERRED.md and reserved D084. Between pre-flight and commit time, a sister-chat SSG Lane C session added D084, D085, D086 to DEFERRED.md. D087 is the next free number; no functional collision.
+
+**What landed in v1 (idea-agent build, 2026-05-23, audit row TBD on commit):**
+- 7-phase weekly chain: `diagnose → zombie_check → scan → google_search → synthesize → publish → calibrate`
+- 3 new tables in `~/store/aiteam.db`: `idea_proposals`, `idea_calibration`, `zombie_resurface_log`
+- Cron: `0 9 * * 0` Sunday 09:00 local
+- Smoke: 5 ideas inserted (first-run cap), Track B dominant, all forbidden-phrase / 5-test gates passing per re-smoke `E172FE3D-9F61-49A9-838F-38982D5AEA4D`
+
+**v1.1 — burn-in follow-ups (revisit after 4+ weekly runs):**
+
+- **Monthly Opus self-critique pass.** Opus reviews 4 weeks of `idea_proposals` (built vs deferred vs rejected vs ignored), spots gate calibration drift (too strict / too loose), surfaces patterns in operator_notes if populated. Output: a one-page calibration report to `~/brain/projects/aiteam/ideas/calibration_<YYYY-MM>.md`. Defer until 4+ weekly runs exist so there's signal to critique.
+- **Operator-action feedback mechanism.** Today operator marks `idea_proposals.operator_action` by direct SQLite update. Minimum-viable v1.1: `/idea_mark <id> <built|deferred|rejected|ignored> [notes]` Telegram handler that wraps the UPDATE. Bigger build: a dashboard panel showing pending ideas with one-click action buttons.
+- **Expand scan.sh to more sources.** Current 4 sources (HN, r/LocalLLaMA, Ahrefs blog, Anthropic news). After 4-week burn-in, evaluate hit rate per source — drop dead sources, add IndieHackers / Stack Overflow blog / others operator suggests.
+- **5th scan source choice (placeholder).** Phase 4 prompt said "one feed of operator's choice — placeholder." Operator picks the 5th source when v1.1 begins.
+
+**v1.2 — features deferred from Addendum 2 (revisit when revenue ≥ $0 or 4+ weeks of data):**
+
+- **Prediction + 30-day check-in.** Synthesize records a predicted outcome per idea; calibrate or a new agent re-checks 30 days later: did the operator build it? did the predicted impact land? Calibrates the agent's lift estimates against reality.
+- **Competitor failure mining.** Periodic scan of competitor sites (asbestos, smartsourceguide vertical, etc.) for things their pipelines miss — proposed as ideas to fill the gap. Defer until v1 has run; otherwise risks padding output.
+- **AITEAM-chat-only Telegram mining.** Scan operator-CC Telegram conversations for recurring frustrations or "I wish the agent did X" statements, surface as ideas. Privacy-sensitive — operator opt-in.
+- **Revenue plumbing.** Diagnose query (k) currently hardcodes `revenue_usd: 0`. When revenue exists, add a `revenue` table or query an external source (Stripe, Adsense API) and have diagnose.sh read real numbers. Mission-bar leverage scoring becomes much sharper.
+- **Case study research.** Read indie-hacker / Anthropic case studies, distill applicable patterns into idea form. Different from `research-opportunity` (which is pain-point → slugs) — this is "what did someone else build that we could copy."
+- **$100/mo gap analysis monthly pass.** Once revenue ≠ 0, monthly Opus pass: "we are at $X/mo, what's the cheapest path to $100 more." Distinct from weekly system-improvement ideas.
+- **Commitment audit.** Quarterly pass over `idea_proposals` where `operator_action='built'` — was it actually built? Did the audit_log show the work landing? Catches "I marked it built but never started" drift.
+
+**v1 known issues to track (or close when fixed):**
+
+- First end-to-end smoke (correlation `CF319E5E-…`, audit rows 2564-2583) recorded `idea_scan_complete` with `proposed_count=0` due to two bugs caught + fixed mid-build: (1) `synthesize.sh` Python parser printed to stdout instead of `sys.argv[2]` file path; (2) `google_search.sh` jq filter had `\"\"` escape that broke parsing, defaulting all relevance scores to 3. Re-smoke (correlation `E172FE3D-…`, audit rows 2590-2598) confirmed both fixes work end-to-end. Historical artifact; no rollback needed.
+- Telegram message_id not captured in `weekly_published` payload (notify.sh doesn't return it). Minor v1.1 nicety if operator wants to thread digests.
+- Anthropic news source uses HTML scraping (no public RSS). Selector may break if Anthropic restructures the news page; mitigation is the per-source error handling that wraps `__fetch_error__` items as non-fatal.
+
+**Trigger to revisit:** After 4 weekly runs (~2026-06-21) produce real `idea_calibration` history, OR when the agent's output stops being useful, whichever comes first.
+
+**Reference:** Initial build 2026-05-23 in this session. Commits: `~/agents/idea-agent/` (one atomic) + `~/agents/lib/migrations/2026-05-23_idea_*.sql` (separate). Smoke audit rows 2559-2598.
+
+---
+
+### D088 — `/model` slash-command grid follow-ups
+
+**Status:** Open (initial build 2026-05-23). Tracking item for the Telegram `/model` per-agent override.
+
+**What landed in v1:**
+- `model_overrides` table + `~/agents/lib/resolve_model.sh`
+- `AI_DO_MODEL_OVERRIDE` env hook in `~/agents/lib/ai-do.sh` (matches existing `AI_DO_SKIP_PERMISSIONS` / `AGENT_MAX_TURNS_OVERRIDE` pattern; backward-compatible default sonnet)
+- `/model` slash-command grid + 15 setter commands (5 agents × 3 actions) in `~/agents/telegram/bot.js`
+- 5 picker-eligible agents wired: `orchestrator_morning_brief`, `orchestrator_weekly_review`, `editor`, `briefer`, `idea-agent-synth`
+- Cost warning on `_opus` selections (references POLICY Q2 daily cap)
+- Audit row `model_override_set` per state change
+
+**Deferred to v1.1+:**
+
+- **Wire remaining ai-do.sh callers.** Today only 5 agents respect the override. Other Sonnet-by-default callers that would benefit (one per row):
+  - `assignment-drafter/drafter.sh` + `lib/generate_draft.sh`
+  - `geo-optimizer/score.sh`
+  - `config-synthesizer/lib/synthesize.sh`
+  - `market/analyst/analyze.sh`
+  - `market/curator/curate_cowen.sh`
+  - `internal-link/propose_backlinks.sh`
+  - `backlink-prospector/rank.sh`
+  - `editor/run_tier_test.sh` (calibration runner, distinct from production `score.sh`)
+  - `research-opportunity/extract.sh` + `digest.sh`
+  - `orchestrator/write_diary.sh` (currently passes no agent_id; should be `orchestrator_write_diary` and added to the picker)
+  - `tg-monitor/analyzer.py` (if it actually calls ai-do.sh — pre-flight noted but should confirm before wiring)
+
+  Each wire-up is the same 1-line edit (prefix `AI_DO_MODEL_OVERRIDE=$(...)` before `bash ai-do.sh ...`). Per-agent picker grows by 4 lines in bot.js plus a slug entry in `MODEL_AGENTS`. Bundle when operator decides the v1 5-agent set isn't enough.
+
+- **Per-task one-shot override.** Today the override persists until `_off`. A `/model_<slug>_opus_once` variant would set enabled=1, fire one downstream call, then auto-reset. Useful for one-off "run this slug on Opus, then back to Sonnet" without a manual off step. Requires a small `_once_pending` flag column or a TTL field. Defer until operator hits the friction.
+
+- **Haiku in the picker.** Currently CHECK constraint is `('sonnet','opus')`. If operator wants to downshift any of the 5 picker agents to Haiku (e.g. for cost experiments), extend the CHECK + add `_haiku` setter commands. Migration is one-line.
+
+- **Inline keyboard upgrade.** Once bot.js has callback infrastructure (currently none — escalation flagged pre-flight), upgrade `/model` from the 15-slash-command grid to an inline keyboard with tap-to-set. Reduces visual clutter from 25 lines to 5 buttons. Lower priority than wiring more agents.
+
+- **`/model` discoverability.** Currently `/help` doesn't list `/model` or `/model_help`. Add one line to `/help` (and `/start` welcome) on next bot.js hygiene pass. Skipped from this build to keep scope tight.
+
+- **Bot restart on settings change.** Bot must be restarted to pick up the new commands. Today this is a manual op. D026 (launchd auto-restart) is open and would let any bot crash + restart automatically pick up new commands without operator action.
+
+**Trigger to revisit:** When operator wants Opus for an agent not in the current 5, OR when `/model` clutter becomes painful (suggesting the inline keyboard upgrade), OR when D026 closes (enables auto-restart on settings changes).
+
+**Reference:** Initial build 2026-05-23 in this session. Commit + audit row TBD on close-out.
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
