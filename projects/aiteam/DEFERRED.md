@@ -371,11 +371,13 @@ Once those exist, the persistence pattern is the same shape shipped today — ad
 
 **Reference:** Build report `~/brain/projects/aiteam/docs/verdict_persistence_build_2026-05-17.md` §"Editor persistence — deferred"; Q7 in `cross_agent_failure_modes_2026-05-16.md` §7. Note: build prompt asked for this to be tracked as "D053" but that number was already taken; D056 chosen per the file's "next free D-number" rule.
 
-### D072 — Editor `score.sh` chunk-and-aggregate for full-article scoring
+### D072 — Editor `score.sh` chunk-and-aggregate for full-article scoring — ✅ CLOSED 2026-05-24
 
-**Status:** Open (surfaced 2026-05-17 during D056 burn-in)
+**Status:** ✅ CLOSED 2026-05-24. Agents commit `deea54d`.
 
-**Problem:** Current `score.sh` truncates articles to 8KB (head only) to match the calibration contract from `run_tier_test.sh`. Production asbestos guides run 1800-2800 words (~12-18KB raw), so the tail 30-50% of every article is invisible to the editor. **All 4 burn-in slugs hit the 8KB cap** (`truncated: true` on every scored row). The editor is structurally blind to article endings — exactly where weak guides tend to wander.
+**Closure note:** Closed via the simpler path: raised the `head -c` cap from 8000 → 60000 bytes (~2k → ~15k words) rather than building chunk-and-aggregate. Rationale: Sonnet's 200K context window handles full guide bodies in a single call, so the original chunking premise (working around context limits) no longer applies. The `TRUNCATED` audit flag stays in place as a canary for any future guide that exceeds 60KB. Cap is env-overridable via `EDITOR_MAX_BODY_BYTES`. Threshold (3.6) left unchanged — re-calibration deferred until a fresh burn-in shows the new distribution. Smoke test on `asbestos-popcorn-ceiling-vs-non-asbestos` (11688B body): old cap → `truncated=true`, scored on first 8KB only; new cap → `truncated=false`, scored on full body. Same guide, same rubric: composite 3.40 → 3.60 (hook 2→3), consistent with the hypothesis that the model was missing tail signal. Sample-of-one; not a re-calibration. Aggregation-strategy choice (min vs mean) is now moot. If a future guide >60KB lands and `truncated=true` re-appears in audit_log, revisit chunking then. Related: D073 (rubric redundancy) and D074 (live-gate verification) remain open.
+
+**Problem (original):** Current `score.sh` truncates articles to 8KB (head only) to match the calibration contract from `run_tier_test.sh`. Production asbestos guides run 1800-2800 words (~12-18KB raw), so the tail 30-50% of every article is invisible to the editor. **All 4 burn-in slugs hit the 8KB cap** (`truncated: true` on every scored row). The editor is structurally blind to article endings — exactly where weak guides tend to wander.
 
 **Fix:** Chunk article into 8KB segments, score each segment independently, aggregate. Two aggregation candidates:
 - Mean per axis across chunks (smooths noise; favors consistent quality)
