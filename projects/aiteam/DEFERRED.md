@@ -1086,6 +1086,27 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 
 ---
 
+### D090 — Investigate approved-index-asbestos.md drift on escalated slugs
+
+**Status:** Open
+
+**Symptom:** On 2026-05-24, working tree showed `approved-index-asbestos.md` modified to add a row for `asbestos-encapsulation-vs-removal` claiming guide shipped 2026-05-24. Actual state: slug failed `audit_guide.py` rounds 2+3 and was escalated to `needs-review/`. Index claimed approved status for a slug that never shipped.
+
+**Possible causes:**
+- (a) Manual hand-edit slipped in during operator session
+- (b) `run-batch.sh` updates `approved-index.md` before final gate result, then escalation moves JSON to `needs-review/` but index entry stays — pipeline bug
+
+**Investigation steps when triggered:**
+- `grep -n "approved-index" ~/projects/asbestos-contractors/content/run-batch.sh`
+- Trace whether index write happens before or after the round-loop's MAX_ROUNDS escalation branch
+- Cross-reference with GEO Phase 3 commit `624d334` — did the escalation path get the index-revert it needed?
+
+**Trigger:** Before next batch of slugs ships, OR if another index/needs-review mismatch surfaces.
+
+**Reverted:** Bad line removed from working tree on 2026-05-24 (commit not needed; was working-tree only).
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
