@@ -19,6 +19,7 @@ Items in roughly the order they should be picked up next.
 | **D051** | `~/agents/` working-tree hygiene | When operator has bandwidth for a cross-cutting cleanup commit | Substantial work uncommitted: full `assignment-drafter/` agent, `editor/failure_modes.md`, `librarian/failure_modes.md`, `orchestrator/{commands/,failure_modes.md}`, `telegram/`, `tg-monitor/`, modifications to `lib/{ai-*.sh, notify.sh, log_to_audit.sh, run_agent.sh}`, `dashboard/server.js`, `market/{analyst,briefer,curator}/`, `scripts/brain-autocommit.sh`. NOT a single-feature commit — needs grouping into multiple coherent commits. |
 | **D061** ✅ CLOSED 2026-05-17 | Route `run-batch.sh` writer/auditor through `ai-do.sh` for kill-switch enforcement + per-call token attribution | ✅ — ai-do.sh `5d68876` (AI_DO_SKIP_PERMISSIONS env hook), asbestos `4ea5242`, ssg `1864971`. Audit row id=1154 (`0381734F-2D7F-4267-A72F-4ADBD146C4B1`). | Sub-decision A: option (a) — added `AI_DO_SKIP_PERMISSIONS=1` env-hook in ai-do.sh (opt-in --dangerously-skip-permissions pass-through). Sub-decision B: no override needed — default `AGENT_MAX_TURNS=30` covers expected 10-20-turn writer/auditor calls; escape hatch via `AGENT_MAX_TURNS_OVERRIDE` already present in ai-do.sh. 16 callsites replaced (8 per repo). Smoke-tested: SYSTEM_PAUSED env-flip causes ai-do.sh to exit 1 before claude invocation, no token_usage row landed. |
 | **D062** ✅ CLOSED 2026-05-17 | Remove vestigial `--sonnet` / `--sonnet-audit` CLI flags + `WRITER_MODEL`/`AUDITOR_MODEL` indirection in `run-batch.sh` | ✅ — asbestos `7166c7b`, ssg `c71a54c`. Audit row id=1155 (`0F97332C-5E93-4821-B61E-006C3160CEF1`). Note: CLI flag parsing already removed by cluster #9 (`082e957` asbestos, `56a86e0` ssg); this commit removed only the leftover variable indirection. | Lines 105-106 (var assignments) replaced with doc comment. Lines 383 + 1330 (asbestos) / 386 + 1347 (ssg) banner echoes hardcoded to `"Writer: Sonnet (via ai-do.sh) \| Auditor: Sonnet (via ai-do.sh)"`. |
+| **D033** ✅ CLOSED 2026-05-23 | Cron activation for Market Scribe poll.sh + analyst/curator/briefer chain | ✅ — agents `23ccd52` (cron + watchdog), `3631871` (process_queue.sh wrapper via auto-commit). Audit row `AB6F026B-5C0C-4E20-B848-918969BCAF31` (`cron_activated target=market-pipeline`). Unblocking dep: OAuth-from-cron fix `da88d09` (CLAUDE_CODE_OAUTH_TOKEN). | 4 cron entries installed (07:00 / 07:15 / 08:15 / 08:45 PT). Missing analyst batch wrapper written as `market/scribe/process_queue.sh` (~120 lines, .job retry/abandon semantics). 4 watchdog entries added (audit_log signal, 26h window). End-to-end smoke test in cron-equiv env: all 4 stages rc=0, telegram_message_sent=true on briefer. Curator's first run cost $4.62 (one-time backlog: 15 cowen + 13 casper videos); steady-state will be 0-3 new videos/day. |
 
 ---
 
@@ -231,11 +232,11 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 ### D033 — Cron activation for Market Scribe poll.sh + briefer
 
-**Status:** Day 1 of 1-3 gate began 2026-05-16
+**Status:** ✅ CLOSED 2026-05-23 (agents `23ccd52`)
 
-**Problem:** Manual-only Market Scribe runs require operator memory. Cron activation is gated on 1-3 days of clean manual runs to validate the full chain on fresh data.
+**Problem (historical):** Manual-only Market Scribe runs require operator memory. Cron activation was gated on 1-3 days of clean manual runs to validate the full chain on fresh data, then drifted unactivated for 8 days. Reactivation also surfaced a missing batch wrapper for the scribe → analyst link (analyze.sh takes per-video args; no queue-drainer existed) and required the OAuth-from-cron fix (`da88d09`) to land first.
 
-**Trigger to revisit:** End of day 3 if all 3 days clean.
+**Resolution:** 4-stage chain wired (poll → process_queue → curator → briefer) at 07:00 / 07:15 / 08:15 / 08:45 PT. New `~/agents/market/scribe/process_queue.sh` wrapper drains the .job queue with 3-attempt retry + workspace/failed/ abandon. 4 audit_log watchdog entries (26h window). Verified end-to-end in cron-equivalent env (`env -i HOME PATH ...`) — all stages rc=0, brief delivered to Telegram. First production fire: 2026-05-24 07:00 PT, brief expected on phone ~08:46 PT.
 
 ### D039 — outlook-history TL;DR repetition on rows 2+ from same video
 
@@ -1032,6 +1033,52 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 **Trigger to revisit:** When operator wants Opus for an agent not in the current 5, OR when `/model` clutter becomes painful (suggesting the inline keyboard upgrade), OR when D026 closes (enables auto-restart on settings changes).
 
 **Reference:** Initial build 2026-05-23 in this session. Commit + audit row TBD on close-out.
+
+---
+
+### D089 — notes-agent v1 build follow-ups (umbrella)
+
+**Status:** Open (initial build 2026-05-23). Umbrella tracking item for `~/agents/notes-agent/` post-v1 work.
+
+**Phase 2.6 landed 2026-05-24 (forward capture):**
+- `~/agents/lib/migrations/2026-05-24_pending_forwards.sql` — table + unresolved-by-user index
+- `capture.sh forward` mode — Haiku auto-categorize or manual override via `FW_MANUAL_CATEGORY` env, writes `[forward]` entry with sender/source/original-time metadata
+- bot.js: `handleForwardedMessage`, `extractForwardMetadata` (Bot API 7 `forward_origin` + legacy `forward_from`/`forward_from_chat`), `resolveLatestPendingForward`, `/yes`, `/no`, `/forward_help`, dynamic `/yes_<category>` dispatch in message:text PRIORITY 0, forward detection at top of message:text + message:photo handlers (precedes note-trigger check)
+- 5-min auto-expiry via `setInterval` in bot.js; resolution column tracks `yes` / `no` / `expired` / `yes_<category>`
+- Unsupported media (video/document/audio/voice/animation/sticker) logged via `forward_media_unsupported` audit and capture text/caption only — image-attached forwards still capture the image
+- Smoke (this session): `capture.sh forward` manual-category and Haiku paths both clean (audit rows 2738-2739, categories `crypto` + `reminders`). Live Telegram smoke (operator sends actual forwards) pending bot restart already done — PID 7796.
+
+**What landed in v1 (text + image, 2026-05-23):**
+- `~/agents/notes-agent/` with `capture.sh` (text + image dispatch) and `sort.sh` (weekly Sunday Sonnet sort)
+- `~/brain/projects/aiteam/notes/` with README, `archive/`, `images/`
+- Telegram triggers in `bot.js`: `/note <text>`, prefix-matched `note <text>` / `note: <text>` / `n: <text>`, `bot.on("message:photo")` with caption-rule dispatch (empty / note-trigger → capture; non-trigger → vision-chat via orchestrator with `@<image-path>` prefix)
+- Haiku categorization at capture time (~$0.025/call per D079) into 7 seed categories + improvisation when none fit
+- Image vision via `claude -p` `@path` attachment, `AGENT_MAX_TURNS_OVERRIDE=2` as the safe ceiling
+- Cron: `0 10 * * 0` (staggered 1h after idea-agent)
+- Audit rows: `text_note_captured`, `image_note_captured`, `note_text_received`, `note_photo_received`, `vision_chat_received`, `notes_weekly_sort_complete`, `notes_weekly_sort_failed`, `voice_superseded_by_note`, `photo_download_failed`
+
+**v1.1 — operational follow-ups (revisit after 2 weeks of real captures):**
+
+- **`max-turns=1` test for image captures.** Built with `max-turns=2` as conservative ceiling per pre-flight uncertainty about whether `claude -p` `@path` attachments require a Read tool turn. If smoke shows the @path inlines as native multimodal (no tool call), drop to `max-turns=1` to save ~50% of vision-call latency. Cheap experiment: capture 5 images, query `token_usage` for the `notes-capture` rows, check `input_tokens` shape and elapsed seconds.
+- **Album media_group_id grouping refinement.** Today each photo in an album becomes a separate inbox entry; the `media_group_id` is logged in audit but not surfaced in the inbox markdown. v1.1 could add a `**Album:** <id>` line to each entry so the operator can visually group them. Defer until operator hits the friction.
+- **File size cap enforcement.** Currently relies on Telegram's 20MB photo limit. If grammy fails on a borderline file, fall back to file_id storage + deferred download per the escalation rule. Not seen yet in smoke.
+- **Image archive policy.** Images retained indefinitely in `notes/images/<date>/`. At ~1-5 MB/image × 5/day × 365 = 2-9 GB/year. Mac Mini has 4TB SSD — plenty of headroom. Revisit only if disk pressure surfaces.
+- **Caption-only text notes.** Operator could send a photo with caption "n: nothing important about the image, but this caption is the actual note." Today the caption flows in as caption metadata on the image entry. v1.1 could detect a caption that explicitly says "ignore image" and store as a text-only entry. Niche; defer until used.
+- **Reply-to-note for follow-up additions.** Telegram supports replying to a prior message. v1.1: if operator replies to a previous note message, append to the same inbox entry rather than create a new one. Requires reply-id tracking. Defer.
+- **`/help` discoverability.** Currently `/help` doesn't list `/note`. Add one line on next bot.js hygiene pass.
+- **Vision-chat prompt engineering.** Today the vision-chat path sends `@<image-path> <caption>` raw to the orchestrator. Operator may want a richer system-prompt context for vision questions (e.g., "you are answering a question about an image the operator just sent"). Defer until first usage reveals the gap.
+- **Sort.sh re-categorization audit trail.** Sonnet may re-categorize entries during sort (Haiku's capture-time guess overridden). Currently the re-categorization is silent — only the final category file shows the result. v1.1: log per-entry category changes so operator can spot Haiku miscalibration patterns.
+- **Pure-text screenshot OCR quality.** Haiku 4.5 vision is decent on screenshot text but may miss small fonts or low-contrast text. Worth re-evaluating after 2 weeks if Telegram-message screenshots accumulate poorly-transcribed `key_data`.
+- **Notes-sort cost reconciliation.** Sonnet sort.sh budget is ~$0.20/week. If real inbox volume drives the prompt past 50k tokens (~250 entries/week), reconcile against the actual rate and tune if needed.
+
+**v1.2 — features deferred from the addendum:**
+
+- **Question-detection on caption** is currently a simple "no note-trigger prefix → vision-chat" heuristic. If operator finds it routes ambiguous captions wrong, add a Haiku pre-classifier (cheap) that decides note-vs-chat with more nuance.
+- **Photo-only chat without download.** Today every vision-chat saves the image to `notes/images/` regardless. If the operator wants to ask transient one-shot questions without storing the image, add a "scratch" mode (e.g., caption starts with `?:`).
+
+**Trigger to revisit:** After 2 weeks of real captures produce category-distribution data, OR when the operator hits a specific friction point above.
+
+**Reference:** Initial build 2026-05-23 in this session. Crontab snapshot pre-change at `/tmp/crontab-snapshot-pre-notes-agent-*.txt`. Commit + audit row TBD on close-out.
 
 ---
 
