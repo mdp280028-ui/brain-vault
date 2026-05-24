@@ -849,6 +849,28 @@ Operator decision needed; either is defensible. Recommend (b) for ergonomics (em
 
 ---
 
+### D083 — SSG-fy `propose_backlinks.sh` + `keyword-registry update_registry.py`
+
+**Status:** Deferred from SSG Lane C Pass 1 wire-up (2026-05-23).
+
+**Problem:** The asbestos-new branch in `~/agents/ship-to-site/deploy_batch.sh` (lines 89–97) fires two follow-ons after the gsc INSERT:
+- `~/agents/internal-link/propose_backlinks.sh ${slug}` — Sonnet proposes 3-5 backlinks pointing AT the newly-shipped slug. Asbestos-only; no SSG slug-aware version exists.
+- `~/agents/keyword-registry/lib/update_registry.py shipped ${slug}` — hybrid source-of-truth write-through. May not handle SSG's `category/slug` slug shape correctly (was built when only asbestos's flat slugs existed).
+
+The SSG branch added in commit `d3025ae` (Pass 1) deliberately omits both. The gsc INSERT alone is sufficient to make the first SSG slug visible to GSC; the internal-link and keyword-registry write-throughs are nice-to-haves that build coverage over time.
+
+**Fix:** Either of:
+- (a) Make `propose_backlinks.sh` and `update_registry.py` site-aware so they accept `--site ssg` (or detect site from the slug shape) and behave correctly. Then add the same two calls to the SSG branch in `deploy_batch.sh`.
+- (b) Build SSG-flavored equivalents (`propose_backlinks_ssg.sh`, `update_registry_ssg.py`) if the asbestos versions are too entangled with asbestos-specific data/conventions to retrofit.
+
+(a) is preferable — single source of truth, less drift.
+
+**Trigger:** When SSG has shipped 5+ slugs via `deploy_batch.sh` and the internal-link / keyword-registry coverage debt starts mattering. Symptoms: SSG articles lack inbound internal links (hurts SEO crawl depth), keyword_registry_ssg.md's "live" matches don't reflect new shipped slugs.
+
+**Reference:** SSG Lane C Pass 1 session 2026-05-23, commit `d3025ae`. Until then, SSG ships without internal-link suggestions and without registry write-through. Acceptable for the first batch — they can be backfilled by running the agents manually against shipped slugs once both are SSG-aware.
+
+---
+
 ## Authoring notes
 
 - New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
