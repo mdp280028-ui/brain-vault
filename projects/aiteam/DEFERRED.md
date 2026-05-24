@@ -532,6 +532,8 @@ Do NOT retroactively edit the 3 malformed rows from this session — substring-f
 
 **Follow-up recon — ~/agents/ half (2026-05-19):** Read-only recon confirmed working tree clean (0 uncommitted files); HEAD at `1323040` (sister's D056 editor verdict gate); 2 unpushed commits both sister-chat editor work, handled by 23:50 `agents-autocommit` cron. 2026-05-17 audit headline ("15+ uncommitted files") swept by intervening commit discipline (D068 watchdog, D056 editor, D070 agents-vault backup). No dedicated audit session needed. Closure audit row: `E5C322E4-2D48-40EB-AC92-5FC6622EEED4`. Prior projects-half audit: `02E772CB-7FE7-4C39-A129-A460A4493D80`.
 
+**Follow-up recon — ~/agents/ half (2026-05-24):** Re-audit confirms clean tree. `git ls-files --others --exclude-standard` → 0 files; `git diff --name-only` → 0; `git diff --cached --name-only` → 0. All 45,864 untracked files are properly covered by `.gitignore` (notably the D070 hardening block: `**/.env`, `**/state/`, `**/*.lock`, `**/state.json`, `**/workspace/`, `**/node_modules/`). HEAD at `23ccd52` (D033 market cron activation). Prior drift absorbed by `3631871 agents: auto-commit 2026-05-23`. No leakage of secrets/state through gitignore. ~/projects/ half left as-is (other chat owns that lane this session).
+
 **Trigger:** Next hygiene-pass session.
 
 **What:** Four distinct sessions this month have encountered production code in `~/agents/` that was running on the host but never `git add`ed. Each instance was surfaced incidentally during unrelated feature work; each required a surgical extraction or "commit pre-existing work first" detour before the actual task could proceed cleanly.
