@@ -85,15 +85,17 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Original status (preserved for history):** Deferred (Phase 2, 2026-05-15). Problem: bot ran foreground; dies on Mac sleep/reboot/crash. Planned `com.aiteam.telegram.plist` with `RunAtLoad`/`KeepAlive`.
 
-### D094 — Hybrid agent lockfile + timeout hardening — 🟡 OPEN
+### D094 — Hybrid agent lockfile + timeout hardening — ✅ CLOSED 2026-05-24
 
-**Status:** OPEN (logged 2026-05-24, D026 spin-off)
+**Status:** ✅ CLOSED 2026-05-24 (agents commit `633f6dc`; audit row id=3122, `72C8D0EC-6E04-45D5-9411-DCAE83B877B1`). Shipped with **zero new dependencies** — recon found `gtimeout`/`flock`/coreutils all absent on this Mac, so used `shlock` (macOS built-in, PID-aware) for locks + `perl alarm+exec` for the wall-clock timeout (`claude -p` has no timeout flag; `--max-turns`/`--max-budget-usd` don't bound a stalled call).
 
-**Problem:** No batch agent self-serializes (confirmed during D026 recon: the only lock-like file in `~/agents` is `lib/dashboard.sh`'s start/stop pidfile). Cron-driven HYBRID agents have long internal `claude -p` / `ai-do.sh` phases lasting many minutes; if a run hangs past the next cron tick, cron spawns a **second concurrent copy**, and a crash between ticks leaves a silent gap. Highest-risk: `assignment-drafter/drafter.sh` (`*/30`, fires `run-batch.sh` via nohup) and `ship-to-site/ship.sh` (`*/15`, currently disabled). launchd does **not** fix this — these jobs are meant to exit, so `KeepAlive` is the wrong tool.
+- **Timeout** centralized in the 3 AI wrappers (`lib/ai-do.sh`, `ai-think.sh`, `ai-cheap.sh`) — one change covers every agent + future ones and fixes the infinite-hang mode globally. `AI_TIMEOUT_SEC` default **1200s** (raised from the brief's 600s after recon showed `idea-agent-synth` legitimately hits ~680s on a 34K-token call — 600 would have killed it; `curator_cowen` ~450s; pipeline writer/auditor route through `ai-do.sh` and are unmeasured-but-long). Override per-call. On timeout → SIGALRM kill, exit 142, `timeout_kill` audit row carrying an `"error"` field so issues-capture surfaces it on `/issues`, attributed to `AI_CALLER`.
+- **Lock** per entry-point via `shlock` on `~/agents/<agent>/state/<agent>.lock`: `lock_contention` audit (audit-only — expected, not a failure) + `exit 0` on contention (cron-friendly), trap-release on EXIT/INT/TERM. Applied to **assignment-drafter** (the only tight-interval agent, `*/30`) + **market chain** (`process_queue`, `curate`, `brief`) + **idea-agent** for defense-in-depth.
+- **Verified real (not stub):** drafter lock held by a live PID → `drafter.sh` exits 0 + `lock_contention` row + zero run-batch/pipeline_fired; `ai-cheap.sh` claude line swapped for `sleep 99999` @ `AI_TIMEOUT_SEC=10` → SIGALRM kill at exactly 10s + rc 142 + `timeout_kill` row; `capture.sh` surfaced it to `/issues`; happy-path smoke on all 3 wrappers rc 0; test artifacts deleted.
 
-**Fix:** Add an `flock` (or `mkdir`) concurrency guard at the top of each HYBRID agent's entry script so a second cron tick exits immediately while the first holds the lock; wrap the long claude phase in `timeout` so a hung call dies instead of holding the lock forever.
+**Recon corrections to the original scope:** `ship-to-site` is **pure batch** (zero AI calls) → dropped, not hybrid. Light daily/weekly hybrids (`domain-hunter`, `backlink-prospector`, `research-opportunity`) left unlocked — their cadence makes overrun-overlap effectively impossible.
 
-**Trigger to revisit:** First observed double-spawn (two concurrent runs in `audit_log` / two live PIDs) on `assignment-drafter` or `ship-to-site`, OR before either goes higher-frequency.
+**Original status (preserved for history):** OPEN (logged 2026-05-24, D026 spin-off). No batch agent self-serialized; cron HYBRIDs could double-spawn on a hung run. Planned `flock`+`timeout` — superseded by `shlock`+`perl` since `flock`/`gtimeout` are absent on macOS.
 
 **Note:** intended as D093 in the original D026 brief, but D093 was already taken by "Domain hunter v0.2" in a parallel session — assigned **D094** per the next-free-number rule.
 
