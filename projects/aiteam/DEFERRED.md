@@ -14,12 +14,13 @@ Items in roughly the order they should be picked up next.
 |---|---|---|---|
 | **F2** | Drafter pre-flight: refuse to fire `run-batch.sh` for slugs with no `keyword-configs/<slug>.json` | Before the next time operator enqueues a slug without first running config-synthesizer | One-line bash test in `~/agents/assignment-drafter/lib/fire_pipeline.sh`. Highest-dollar cross-agent failure (~$1-5 wasted per missing-config slug). Cross-agent audit Top-5 #1. |
 | **D044** | `log_to_audit.sh` SQL-escape on apostrophes | Next infra-touching session | **UPGRADED to live bug per cross-agent audit (Top-5 #4 = F23).** Already hit in config-synth, defensively patched at caller with `tr "'" '_'`. Underlying lib still vulnerable; every agent's audit_log writes silently drop when payload contains `'`. Fix: parameterize via `python3 -c` or use sqlite3 `.parameter set`. |
-| **F17/F18** | Daily API spend hard cap enforced at `log_token_usage.sh` | After operator answers question §7.2 in cross-agent audit (what's the right number?) | Three caps currently in play: orchestrator's $10 (observability-only), drafter's $15 (pipeline-fire only, fixed $2.50 estimate), no system-wide. Fix: after every `INSERT` into `token_usage`, query today's sum; if > cap, touch a sentinel that `check_kill_switches.sh` treats as `SYSTEM_PAUSED=true`. Cross-agent audit Top-5 #2. |
+| **F17/F18** ✅ CLOSED 2026-05-17 | Daily API spend hard cap enforced at `log_token_usage.sh` | ✅ — daily cost-cap enforcement shipped (commit `54a69bd`). | Three caps currently in play: orchestrator's $10 (observability-only), drafter's $15 (pipeline-fire only, fixed $2.50 estimate), no system-wide. Fix: after every `INSERT` into `token_usage`, query today's sum; if > cap, touch a sentinel that `check_kill_switches.sh` treats as `SYSTEM_PAUSED=true`. Cross-agent audit Top-5 #2. **CLOSED 2026-05-17 — daily cost-cap enforcement shipped (commit 54a69bd: lib/check_cost_caps.sh + log_token_usage.sh:89 sentinel + ~/store/flags/SYSTEM_PAUSED). POLICY Q2 answered $25/$50. Audit-verified by cost_cap_soft_tripped + cost_cap_hard_tripped rows.** |
 | **F14** | Pre-ship operator approval gate (first N slugs after any config change) | Before next net-new SSG slug ships OR after a bad page lands on live | Auditor false positives have a clear path to live site. Editor agent (sonnet, idle) could slot in as the pre-ship score gate. Operator policy decision needed first (cross-agent audit §7.1 and §7.4). |
 | **D051** | `~/agents/` working-tree hygiene | When operator has bandwidth for a cross-cutting cleanup commit | Substantial work uncommitted: full `assignment-drafter/` agent, `editor/failure_modes.md`, `librarian/failure_modes.md`, `orchestrator/{commands/,failure_modes.md}`, `telegram/`, `tg-monitor/`, modifications to `lib/{ai-*.sh, notify.sh, log_to_audit.sh, run_agent.sh}`, `dashboard/server.js`, `market/{analyst,briefer,curator}/`, `scripts/brain-autocommit.sh`. NOT a single-feature commit — needs grouping into multiple coherent commits. |
 | **D061** ✅ CLOSED 2026-05-17 | Route `run-batch.sh` writer/auditor through `ai-do.sh` for kill-switch enforcement + per-call token attribution | ✅ — ai-do.sh `5d68876` (AI_DO_SKIP_PERMISSIONS env hook), asbestos `4ea5242`, ssg `1864971`. Audit row id=1154 (`0381734F-2D7F-4267-A72F-4ADBD146C4B1`). | Sub-decision A: option (a) — added `AI_DO_SKIP_PERMISSIONS=1` env-hook in ai-do.sh (opt-in --dangerously-skip-permissions pass-through). Sub-decision B: no override needed — default `AGENT_MAX_TURNS=30` covers expected 10-20-turn writer/auditor calls; escape hatch via `AGENT_MAX_TURNS_OVERRIDE` already present in ai-do.sh. 16 callsites replaced (8 per repo). Smoke-tested: SYSTEM_PAUSED env-flip causes ai-do.sh to exit 1 before claude invocation, no token_usage row landed. |
 | **D062** ✅ CLOSED 2026-05-17 | Remove vestigial `--sonnet` / `--sonnet-audit` CLI flags + `WRITER_MODEL`/`AUDITOR_MODEL` indirection in `run-batch.sh` | ✅ — asbestos `7166c7b`, ssg `c71a54c`. Audit row id=1155 (`0F97332C-5E93-4821-B61E-006C3160CEF1`). Note: CLI flag parsing already removed by cluster #9 (`082e957` asbestos, `56a86e0` ssg); this commit removed only the leftover variable indirection. | Lines 105-106 (var assignments) replaced with doc comment. Lines 383 + 1330 (asbestos) / 386 + 1347 (ssg) banner echoes hardcoded to `"Writer: Sonnet (via ai-do.sh) \| Auditor: Sonnet (via ai-do.sh)"`. |
 | **D033** ✅ CLOSED 2026-05-23 | Cron activation for Market Scribe poll.sh + analyst/curator/briefer chain | ✅ — agents `23ccd52` (cron + watchdog), `3631871` (process_queue.sh wrapper via auto-commit). Audit row `AB6F026B-5C0C-4E20-B848-918969BCAF31` (`cron_activated target=market-pipeline`). Unblocking dep: OAuth-from-cron fix `da88d09` (CLAUDE_CODE_OAUTH_TOKEN). | 4 cron entries installed (07:00 / 07:15 / 08:15 / 08:45 PT). Missing analyst batch wrapper written as `market/scribe/process_queue.sh` (~120 lines, .job retry/abandon semantics). 4 watchdog entries added (audit_log signal, 26h window). End-to-end smoke test in cron-equiv env: all 4 stages rc=0, telegram_message_sent=true on briefer. Curator's first run cost $4.62 (one-time backlog: 15 cowen + 13 casper videos); steady-state will be 0-3 new videos/day. |
+| **D092** ✅ CLOSED 2026-05-24 | Issues Queue v1.1: nested-agent log-path resolution in `capture.sh` + Telegram pager for `new_issues.log` | ✅ — agents `20611fd` (capture.sh nested resolution), `24b7cd7` (notify_telegram.sh + cron line staged), `eaa4fe9` (dashboard `cd` fix). Audit row id=3049 (`B4FA1B54-C6C2-4616-9EDD-BBDAB40047C8`). | **Recon flipped the brief's assumption:** nested agents log under `audit_log` with their **bare child name** (`scribe`, not `market/scribe`) and write `*.log` **directly in their dir**, not a `log/` subdir. Fix = `resolve_agent_dir` (top-level → glob one level deep `~/agents/*/<id>` → explicit `a/b`) + `find_log_in_dir` (prefer `log/*.log`, then `*.log`); unknown → NULL so the prompt reads "no log found" not a wrong path. Same root cause also fixed in dashboard generate-prompt `cd` (now derives dir from the resolved log path). **Telegram pager** (`notify_telegram.sh`): high-water mark on `audit_log_id` in `state/notify_last_audit_id`, one TG msg per issue via `lib/notify.sh` (agent_id + action + ~200-char excerpt), **no dashboard link** (operator's call — avoids token-in-Telegram; opens `/issues` manually), rate-limited 10/tick, best-effort delivery. `*/5` cron staged in `lib/cron.txt` (NOT installed — operator pastes). E2E verified: synthetic `scribe` failure → agent_issues log path `~/agents/market/scribe/poll.log` → real TG msg landed (notify_sent HTTP 200) → re-run idempotent (0 sent) → `/issues` + prompt show correct path/`cd`; test row deleted. Supersedes the "issues-capture v1.1" note + the `/issues` known-limitation row in HANDOFF. |
 
 ---
 
@@ -98,9 +99,11 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Trigger to revisit:** Next time `.gitignore` is edited for any reason; fold this in.
 
-### F17/F18 — Daily API spend hard cap
+### F17/F18 — Daily API spend hard cap — ✅ CLOSED 2026-05-17
 
-**Status:** Open (cross-agent audit 2026-05-16)
+**Status:** ✅ CLOSED 2026-05-17 — daily cost-cap enforcement shipped (commit `54a69bd`: `lib/check_cost_caps.sh` + `log_token_usage.sh:89` sentinel + `~/store/flags/SYSTEM_PAUSED`). POLICY Q2 answered $25/$50. Audit-verified by `cost_cap_soft_tripped` + `cost_cap_hard_tripped` rows.
+
+**Original status (preserved for history):** Open (cross-agent audit 2026-05-16)
 
 **Problem:** Three caps disagree:
 - `orchestrator/failure_modes.md`: `DAILY_API_BUDGET_USD=10` observability-only, no enforcement.
@@ -165,7 +168,7 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Trigger to revisit:** Next curator touch.
 
-### D045 (Cowen, prior session, distinct from operator's D045 above)
+### D050 (Cowen, prior session — formerly the second D045) — (Renumbered from D045 to resolve collision flagged in authoring note line 1112)
 
 **Status:** Tracked in archived context save `MarketAgents_S2_Closeout`, not currently active.
 
@@ -173,7 +176,7 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Trigger to revisit:** When `/important` invocation frequency exceeds ~2-3/week.
 
-*(Operator: the D045 above in §Infrastructure refers to a separate "ai-do.sh rewire" item you named this session. There are now two D045s in flight — recommend renumbering the older one to D050 next time DEFERRED is touched.)*
+*(Collision resolved 2026-05-24: this Cowen prompt-template item was renumbered from D045 to D050. The D045 in §Infrastructure refers to the separate "ai-do.sh rewire" item, which keeps the D045 number.)*
 
 ### F4 / F19 — Per-slug `flock` around long-running operations
 
@@ -963,7 +966,7 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 **What landed in v1 (idea-agent build, 2026-05-23, audit row TBD on commit):**
 - 7-phase weekly chain: `diagnose → zombie_check → scan → google_search → synthesize → publish → calibrate`
 - 3 new tables in `~/store/aiteam.db`: `idea_proposals`, `idea_calibration`, `zombie_resurface_log`
-- Cron: `0 9 * * 0` Sunday 09:00 local
+- Cron: `10 7 * * *` Daily 07:10 PT (switched from weekly 2026-05-24, commit 6192499)
 - Smoke: 5 ideas inserted (first-run cap), Track B dominant, all forbidden-phrase / 5-test gates passing per re-smoke `E172FE3D-9F61-49A9-838F-38982D5AEA4D`
 
 **v1.1 — burn-in follow-ups (revisit after 4+ weekly runs):**
@@ -989,9 +992,11 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 - Telegram message_id not captured in `weekly_published` payload (notify.sh doesn't return it). Minor v1.1 nicety if operator wants to thread digests.
 - Anthropic news source uses HTML scraping (no public RSS). Selector may break if Anthropic restructures the news page; mitigation is the per-source error handling that wraps `__fetch_error__` items as non-fatal.
 
-**Trigger to revisit:** After 4 weekly runs (~2026-06-21) produce real `idea_calibration` history, OR when the agent's output stops being useful, whichever comes first.
+**Trigger to revisit:** After 2 weeks of daily runs (~2026-06-07), gated on operator marking `operator_action` so build_rate stops being 0, OR when the agent's output stops being useful, whichever comes first.
 
-**Reference:** Initial build 2026-05-23 in this session. Commits: `~/agents/idea-agent/` (one atomic) + `~/agents/lib/migrations/2026-05-23_idea_*.sql` (separate). Smoke audit rows 2559-2598.
+**Calibration semantics under daily cadence (added 2026-05-24):** `week_of` accumulates 7x faster; `calibrate.sh` now runs daily against same-week data. Duplicate per-week rows observed in `idea_calibration` (2x `2026-W21`). Revisit row-uniqueness if it confuses analysis.
+
+**Reference:** Initial build 2026-05-23 in this session. Commits: `~/agents/idea-agent/` (one atomic) + `~/agents/lib/migrations/2026-05-23_idea_*.sql` (separate). Smoke audit rows 2559-2598. Cadence switch: commit `6192499`.
 
 ---
 
@@ -1109,7 +1114,7 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 
 ## Authoring notes
 
-- New D-items should pick the next free D-number. D050 is unused; D049 is unused. D045 collides between two items (operator's "ai-do.sh rewire" and the archived Cowen-template item). The older one should be renumbered next time DEFERRED is touched.
+- New D-items should pick the next free D-number. D049 is unused; D094+ are free (D050, D092, D093 now assigned). The D045 collision was resolved 2026-05-24: the archived Cowen prompt-template item was renumbered to D050; the operator's "ai-do.sh rewire" keeps D045.
 - F-items (F1-F23) live in `~/brain/projects/aiteam/docs/cross_agent_failure_modes_2026-05-16.md`. Cross-reference rather than duplicate full context here.
 - When an item ships, **mark with ✅ SHIPPED + commit SHA + date** and leave in place for one DEFERRED-touch cycle (operator sees the resolution), then prune on the next.
 
