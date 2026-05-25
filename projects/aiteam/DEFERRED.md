@@ -865,9 +865,14 @@ Operator decision needed; either is defensible. Recommend (b) for ergonomics (em
 
 ---
 
-### D083 — SSG-fy `propose_backlinks.sh` + `keyword-registry update_registry.py`
+### D083 — SSG-fy `propose_backlinks.sh` + `keyword-registry update_registry.py` — 🟡 PARTIAL
 
-**Status:** Deferred from SSG Lane C Pass 1 wire-up (2026-05-23).
+**Status:** 🟡 PARTIAL (2026-05-24). Internal-link SSG-fy v2 landed the `propose_backlinks.sh` half; the other two sub-parts remain open.
+- ✅ `propose_backlinks.sh` SSG-fy DONE (commit `934dc76` — `--site` arg, site-filtered candidate set; build_inventory.sh + audit_links.sh + new site_lib.sh also made site-aware in the same pass).
+- 🟡 `keyword-registry/lib/update_registry.py` SSG `category/slug` handling — OPEN, out of scope this session.
+- 🟡 `deploy_batch.sh` SSG-branch wiring of both follow-ons — OPEN, gated on SSG first batch (= deferred "item 7 / SSG re-ship path", see 2026-05-24 context save). Wiring it before SSG ships is solving an imaginary problem.
+
+**Original status:** Deferred from SSG Lane C Pass 1 wire-up (2026-05-23).
 
 **Problem:** The asbestos-new branch in `~/agents/ship-to-site/deploy_batch.sh` (lines 89–97) fires two follow-ons after the gsc INSERT:
 - `~/agents/internal-link/propose_backlinks.sh ${slug}` — Sonnet proposes 3-5 backlinks pointing AT the newly-shipped slug. Asbestos-only; no SSG slug-aware version exists.
@@ -1145,9 +1150,11 @@ Items discussed in sister chats during the SSG pipeline migration and asbestos d
 | D-SSG-08 | `ctx.sh` has 22 asbestos references | Cosmetic cleanup, no urgency | Session-save tool. Convenience cleanup. |
 | D-SSG-09 | `audit_guide.py` has 5 asbestos references in docstring/comments | Cosmetic cleanup, no urgency | No functional impact. |
 
-### D091 — internal-link agent v1 audit_links.sh is blind to body-paragraph links + render-path mismatch — 🟡 OPEN
+### D091 — internal-link agent v1 audit_links.sh is blind to body-paragraph links + render-path mismatch — ✅ CLOSED 2026-05-24
 
-**Status:** Logged 2026-05-24, after the 99-link false-positive incident. (Renumbered from D087 in the source prompt — D087 was already taken by idea-agent follow-ups; D090 was the prior highest.)
+**Status:** ✅ CLOSED 2026-05-24 — agents commit `ff63975` (D091 audit upgrade) on top of `934dc76` (multi-site schema + site_lib.sh). `audit_links.sh` now parses body-paragraph markdown links (asbestos `paragraphs[]`, ssg `body[].text`) and resolves each through the SITE's render-time logic, mirrored from `APPROVED_GUIDE_SLUGS` parsed out of the render component (GuideArticle.tsx / lib/site-config.ts) — NOT raw-URL existence. Per-site verdicts: asbestos non-approved → `stripped` (advisory), ssg non-approved → `broken` (404, gates). New audit_log events `link_audit_broken|stripped|self`. **Regression verified:** `how-to-test-popcorn-ceiling-for-asbestos` → `asbestos-testing` classified `stripped` not `broken`, guide PASSes (exit 0) — the exact 2026-05-24 false-positive incident. SSG broken path proven via a synthetic guide (ok=1/self=1/broken=1, exit 1) then cleaned up. DB migration `2026-05-24_multisite.sql` (+ revert) tested on a `.backup` before live apply.
+
+**Original status:** Logged 2026-05-24, after the 99-link false-positive incident. (Renumbered from D087 in the source prompt — D087 was already taken by idea-agent follow-ups; D090 was the prior highest.)
 
 **Problem:** v1 audit_links.sh only checks the `relatedLinks[]` structured field in guide JSON. The bulk of internal links live in body `paragraphs[]` markdown.
 Worse, the asbestos site's `parseInlineLinks` in `src/components/GuideArticle.tsx` does runtime path rewriting (bare `/<slug>/` → `/guides/<slug>/` if slug is
