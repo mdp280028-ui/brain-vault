@@ -1153,3 +1153,17 @@ in `APPROVED_GUIDE_SLUGS`). A naive audit that checks "does the URL inside the m
 **Trigger:** During the SSG-fy v1 pass (D083) — extend audit_links.sh to handle both site renderers correctly while we're already in the file.
 
 **Reference:** 2026-05-24 internal-link incident. See LESSONS.md "Verify render path, not raw URLs" (brain commit 80469d4). Asbestos fix commits: revert 711748b + 81ab725, corrected repoint c0b6471.
+
+---
+
+### D093 — Domain hunter v0.2: ExpiredDomains.net Pro membership — 🟡 OPEN
+
+**Status:** Open (logged 2026-05-24, reframed from the CLAUDE.md "Future v0.2" note).
+
+**Real v0.2 scope (single item):** $10/mo ExpiredDomains.net Pro membership — unlocks TF/CF/RDs, auction prices, direct auction URLs, and backlink-weighted scoring.
+
+**Gated on:** (a) 2-4 weeks of v0.1.5 digest signal AND (b) operator acquires ≥1 domain via the current flow.
+
+**Note:** `~/agents/domain-hunter/CLAUDE.md` currently mislabels three v0.1.5 items (Wayback gate, UST topical-fit threshold, calibration backfill) as "v0.2" — all three are already shipped in v0.1.5 (commits `5a31df0`, `8c4ec29`, `4f554d9`, `c2d5a49`). CLAUDE.md cleanup to happen at the next domain-hunter-touching session (out of scope for this DEFERRED-only pass).
+
+**Trigger:** 2-4 weeks of digest data + first domain acquisition.
