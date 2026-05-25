@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-05-15
-entry_count: 1
+last_updated: 2026-05-21
+entry_count: 5
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -10,3 +10,11 @@ entry_count: 1
 Append-only. Newest entries at bottom.
 
 - 2026-05-15 (FgxAe_NAh5c): Powell's departure hands Kevin Warsh a structurally constrained position — he holds one FOMC vote and faces CPI re-accelerating year-over-year alongside a PPI month-over-month print described as approximately 6%, while oil's structural bid risks another surge later in 2026 that would further foreclose any pivot. Cowen lays out two scenarios and finds both bearish: either inflation stays hot and hikes arrive in 2027, or something breaks and cuts only come as markets collapse. As he puts it at [22:43]: "it looks like rates are probably going to hold steady through the summer and there's a risk of them starting to go up in 2027."
+
+- 2026-05-12 (Rf-gAQJk5-0): Headline CPI reached 3.78% YoY — slightly above the 3.6–3.7% consensus — with housing (up to 3.63%, the largest CPI weight) and transportation (6.89%) as the key drivers, while core CPI at 2.74% reversed its February trough and raised concern that inflation is moving away from, not toward, the 2% target. As a result, markets have abandoned any cut path entirely: no cuts are priced for 2026 or 2027, and a 2027 hike is now more probable than a cut — a complete reversal from multi-cut expectations at year-start. Cowen frames the structural risk as a Fed "checkmate": [11:14] "if you have two weaknesses, if you have the inflation rate going up and the unemployment rate going up, that is not as easy to defend and then the def the defense breaks down and then you end up checkmating your opponent."
+
+- 2026-05-13 (9a-LA7tm8Mo): This brief did not directly address Fed policy rates; its primary subject was historical S&P 500 returns by presidential/congressional configuration. The sole tangential connection is Cowen's observation that the Republican president + full Democratic Congress configuration — the historically worst equity regime — is where most business-cycle recessions have occurred, and that a post-midterm shift toward that configuration represents a plausible recession trigger: "The most bullish the S&P has been on average is when you have a Democratic president and a split Congress" [05:53]. If that recession scenario materializes, it maps to the "something breaks" forced-cut tail already embedded in the prior synthesis — cuts arriving only as markets are in freefall, not as a relief valve.
+
+- 2026-05-14 (zFIXrjvMGik): This 19-second clip contains no direct Fed policy content — no mention of rates, CPI, FOMC, or the Powell/Warsh transition. Cowen's sole argument is that the Democratic president + split Congress configuration has produced zero negative market years across roughly seven decades, making it the most consistently positive political regime on record. This is tangential context for the broader political-cycle recession framework but adds nothing new to the fed-policy-rates thesis.
+
+- 2026-05-21 (8PQee-onXrU): The panel argues that strategic petroleum reserves are being depleted to buffer the Hormuz oil shock, meaning real shortages of oil, naphtha, and fertilizer are imminent and have not yet appeared in official data — once they do, an inflation spike will force Warsh's hand toward rate hikes. Guy highlights Warsh's reputational incentive to avoid a Powell-style "transitory" misjudgement, and raises Trueflation-style real-time data as a tool that could surface far worse rent inflation and prompt a more aggressive response than markets currently expect. Cowen adds a secular rate-regime signal: "The 30-year might have actually gone above where it was in 2023. Which again, there is an argument, like what if we're just going into a period where rates just are going higher, you know? I mean we were in a period for 30 or 40 years where they went lower. Maybe that the tide has turned on that" [25:11].

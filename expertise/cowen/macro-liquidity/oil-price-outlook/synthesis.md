@@ -1,8 +1,8 @@
 ---
 topic_slug: oil-price-outlook
 group: macro-liquidity
-last_updated: 2026-05-15
-brief_count: 1
+last_updated: 2026-05-21
+brief_count: 2
 ---
 
 # Oil Price Outlook
@@ -11,16 +11,18 @@ Crude oil price trajectory and its role as a financial-conditions input. Cowen t
 
 ## Current Thesis
 
-Oil is structurally higher for the rest of 2026, with a material risk of another price surge later in the year as longer-term moving averages catch up to price. Cowen frames elevated oil directly as a Fed-constraint: it makes rate cuts politically pressured but practically impossible given resurging CPI and spiking PPI. Sustained oil strength therefore reinforces his broader bearish macro view — tightening financial conditions, no Fed pivot, and a delayed business cycle bottom.
+Oil is structurally higher for the rest of 2026, with the mechanism now sharpened: Strait of Hormuz disruptions have been masked by strategic petroleum reserve drawdowns, but those reserves are running out — real shortages of oil, naphtha, and fertilizer are imminent and will spike inflation when they fully bite. Cowen frames this incoming inflation shock as making rate hikes, not cuts, the likely Fed response under Warsh, who will be acutely sensitive to repeating Powell's "transitory" reputational blunder. Elevated oil thus remains a hard constraint against any Fed pivot and continues to reinforce the bearish macro view: tightening financial conditions, delayed business cycle bottom, and cash and energy stocks preferred over risk assets through Q4 2026.
 
 ## Key Evidence
 
-- The 21-week EMA already provided support to oil once in 2026; as longer-term MAs converge upward, Cowen sees elevated odds of a secondary price surge later in the year (FgxAe_NAh5c)
-- Cowen explicitly cited energy-market conditions as the primary obstacle Warsh faces: "He's looking at the energy market and he's like, 'How the hell do I cut?'" (FgxAe_NAh5c)
-- PPI spiking sharply (approximately 6% MoM print cited) and CPI re-accelerating YoY — oil is a direct input to both (FgxAe_NAh5c)
-- Cowen's own portfolio is long energy, which he reports is outperforming Bitcoin materially in the current environment (FgxAe_NAh5c)
-- Oil strength is treated as one leg of a tightening triad alongside DXY and inflation, collectively closing the door on a Fed pivot through at least summer 2026 (FgxAe_NAh5c)
+- Strait of Hormuz closure is the primary inflation driver; SPR drawdowns have buffered the shock so far, but Guy (panel) argues reserves are nearly exhausted — imminent shortages of oil, naphtha, and fertilizer have not yet hit consumers or official data (8PQee-onXrU)
+- Rate hike risk rises as oil-shortage inflation spikes: "my guess is that inflation is going to spike because of these shortages really starting to bite because of reserves running out and the only option then is to raise rates" [20:21] (8PQee-onXrU)
+- Warsh structural paradox: Trump wants cuts, but Warsh will not risk a "transitory" repeat — real-time inflation tools (Trueflation) could surface far worse rent inflation and force a more aggressive response (8PQee-onXrU)
+- The 21-week EMA already provided support to oil once in 2026; as longer-term MAs converge upward, secondary price surge risk remains elevated later in the year (FgxAe_NAh5c)
+- PPI spiking sharply (~6% MoM print cited) and CPI re-accelerating YoY — oil is a direct input to both (FgxAe_NAh5c)
+- Energy stocks not yet at cycle top; historical pattern (2000, 2007) shows energy peaks 6–12 months after the equity market peak, implying energy outperformance continues until the broader market tops (8PQee-onXrU)
 
 ## Recent Updates
 
+- 2026-05-21 (8PQee-onXrU): SPR depletion is about to let oil-shortage inflation fully bite, shifting the risk from "no cuts" to active rate hikes under Warsh; energy stocks flagged as continuing to outperform until the equity cycle top.
 - 2026-05-15 (FgxAe_NAh5c): Oil viewed as structurally higher through end of 2026 with 21-week EMA support intact and risk of a secondary surge as longer MAs catch up; framed as the key constraint preventing Warsh from cutting rates.
