@@ -79,15 +79,23 @@ Drafter already buckets fire failures into `FIRE_FAILED_SLUGS` and surfaces them
 
 **Trigger to revisit:** After Phase 2 closes all 4 sub-phases, OR sooner if the next routed Telegram operational query dead-ends.
 
-### D026 — Phase C launchd auto-restart for Telegram bot
+### D026 — launchd auto-restart for always-on processes — ✅ CLOSED 2026-05-24
 
-**Status:** Deferred (Phase 2, 2026-05-15)
+**Status:** ✅ CLOSED 2026-05-24 — both always-on AITEAM processes now run as launchd user agents (`KeepAlive{SuccessfulExit=false}` + `RunAtLoad` + `ThrottleInterval=30`), so they survive crash / sleep / reboot. The Telegram bot (the original scope) was already covered by **`com.aiteam.grammy-bot`** (label differs from the planned `com.aiteam.telegram`). The **dashboard** — the only other always-on process, previously nohup + `/tmp` pidfile only — was migrated this session as **`com.aiteam.dashboard`** (agents commit `fb33435`; audit row id=3058, `3228AC90-0C6C-4377-B654-5B3A5F88FB17`). `lib/dashboard.sh` rewritten to wrap `launchctl bootstrap/bootout/print`; logs moved to `dashboard/log/dashboard.{out,err}.log`. Verified on macOS 26.3: bootstrap → `:3141` 200; `kill -9` → respawn ~1s with new pid + 200; bootout → process gone + port unbound; re-bootstrapped to leave running. Scope was dashboard-only — no crontab changes (it was never in cron), no other agent touched. **Periodic/batch agents stay on cron** (launchd adds nothing for run-once jobs); their hang/double-spawn risk is a separate concern tracked in **D094**.
 
-**Problem:** Bot runs foreground; dies on Mac sleep/reboot/crash. Operator's stated reason for deferring: "computer hardly ever shuts off." Real risk: silent failure when bot dies and operator doesn't notice for hours.
+**Original status (preserved for history):** Deferred (Phase 2, 2026-05-15). Problem: bot ran foreground; dies on Mac sleep/reboot/crash. Planned `com.aiteam.telegram.plist` with `RunAtLoad`/`KeepAlive`.
 
-**Planned scope:** `~/Library/LaunchAgents/com.aiteam.telegram.plist` with `RunAtLoad: true`, `KeepAlive: true`. ~1-1.5 hrs build + reboot verification.
+### D094 — Hybrid agent lockfile + timeout hardening — 🟡 OPEN
 
-**Trigger to revisit:** (a) first time the bot dies silently, (b) before any externally-publishing agent goes live, (c) Phase 2 close-out.
+**Status:** OPEN (logged 2026-05-24, D026 spin-off)
+
+**Problem:** No batch agent self-serializes (confirmed during D026 recon: the only lock-like file in `~/agents` is `lib/dashboard.sh`'s start/stop pidfile). Cron-driven HYBRID agents have long internal `claude -p` / `ai-do.sh` phases lasting many minutes; if a run hangs past the next cron tick, cron spawns a **second concurrent copy**, and a crash between ticks leaves a silent gap. Highest-risk: `assignment-drafter/drafter.sh` (`*/30`, fires `run-batch.sh` via nohup) and `ship-to-site/ship.sh` (`*/15`, currently disabled). launchd does **not** fix this — these jobs are meant to exit, so `KeepAlive` is the wrong tool.
+
+**Fix:** Add an `flock` (or `mkdir`) concurrency guard at the top of each HYBRID agent's entry script so a second cron tick exits immediately while the first holds the lock; wrap the long claude phase in `timeout` so a hung call dies instead of holding the lock forever.
+
+**Trigger to revisit:** First observed double-spawn (two concurrent runs in `audit_log` / two live PIDs) on `assignment-drafter` or `ship-to-site`, OR before either goes higher-frequency.
+
+**Note:** intended as D093 in the original D026 brief, but D093 was already taken by "Domain hunter v0.2" in a parallel session — assigned **D094** per the next-free-number rule.
 
 ### D027 — Add `*.bak` to `~/brain/.gitignore`
 
@@ -1114,7 +1122,7 @@ gh repo create mdp280028-ui/ssg-content --private --source=. --remote=origin --p
 
 ## Authoring notes
 
-- New D-items should pick the next free D-number. D049 is unused; D094+ are free (D050, D092, D093 now assigned). The D045 collision was resolved 2026-05-24: the archived Cowen prompt-template item was renumbered to D050; the operator's "ai-do.sh rewire" keeps D045.
+- New D-items should pick the next free D-number. D049 is unused; D095+ are free (D050, D092, D093, D094 now assigned). The D045 collision was resolved 2026-05-24: the archived Cowen prompt-template item was renumbered to D050; the operator's "ai-do.sh rewire" keeps D045.
 - F-items (F1-F23) live in `~/brain/projects/aiteam/docs/cross_agent_failure_modes_2026-05-16.md`. Cross-reference rather than duplicate full context here.
 - When an item ships, **mark with ✅ SHIPPED + commit SHA + date** and leave in place for one DEFERRED-touch cycle (operator sees the resolution), then prune on the next.
 
