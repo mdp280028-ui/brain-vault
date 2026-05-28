@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-05-12
-entry_count: 3
+last_updated: 2026-05-25
+entry_count: 5
 ---
 
 # Predictions log: Business Cycle Phase
@@ -13,3 +13,6 @@ Append-only. Newest entries at bottom.
 - 2026-05-07 (PnveYgxtd1w): BTC recovery expected in the next market cycle; no catch-up trade anticipated within the current cycle.
 
 - 2026-05-12 (Rf-gAQJk5-0): Energy stocks (XLE) expected to outperform or hold late into the cycle even with SPX at all-time highs, based on historical pattern of XLE peaking months after the broad market top.
+
+- 2026-05-25 (dy3E7Jzte88): Energy prices may rise again in Q3, driving additional rate-hike pricing and extending BTC's bear macro headwinds through year-end.
+- 2026-05-25 (dy3E7Jzte88): BTC to underperform SPX for at least a few more months; BTC/SPX outperformance resumes likely in 2027, marking the start of the next cycle's accumulation window.

@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-05-26T20:15:00Z",
+  "actor_id": "ship-to-site-deploy",
+  "expected_actions": ["deploy_batch_empty","deploy_batch_complete"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "23:00 batch deploy",
+  "watchdog_state": "missing"
+}

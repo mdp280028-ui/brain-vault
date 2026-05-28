@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-05-26T20:15:00Z",
+  "actor_id": "grammy-bot",
+  "expected_actions": [],
+  "check_window_hours": 1,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "launchctl_label",
+  "description": "Telegram bot (launchd KeepAlive). Probe asks launchctl for the service PID; non-zero → healthy. mtime probes don't work for idle long-poll bots.",
+  "watchdog_state": "missing"
+}

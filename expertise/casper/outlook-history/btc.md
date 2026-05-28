@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-05-24
-row_count: 32
+last_updated: 2026-05-25
+row_count: 34
 ---
 
 # BTC outlook history (Casper)
@@ -42,3 +42,5 @@ Append-only. Newest entries at bottom.
 | 2026-05-20 | days | ↓ | 2 | Casper holds an active $500K short and wants one more dip below $76K to trigger bullish divergences before targeting $83K–$86K on the bounce. | ZFoibkR2_HM | /Users/mmm2/brain/channels/casper/briefs/2026-05-20_ZFoibkR2_HM.md |
 | 2026-05-21 | weeks | ↓ | 2 | Casper holds a live $518K BTC short, citing a forming weekly MarketCipher B red dot and multi-timeframe hidden bearish divergence, while watching $76K as the key "dip, grip, and rip" level for any ... | EmUTqAaOm8s | /Users/mmm2/brain/channels/casper/briefs/2026-05-21_EmUTqAaOm8s.md |
 | 2026-05-21 | days | ↓ | 2 | Casper holds a live $518K BTC short, citing a forming weekly MarketCipher B red dot and multi-timeframe hidden bearish divergence, while watching $76K as the key "dip, grip, and rip" level for any ... | EmUTqAaOm8s | /Users/mmm2/brain/channels/casper/briefs/2026-05-21_EmUTqAaOm8s.md |
+| 2026-05-24 | months | ↑ | 3 | Casper has flipped to a conditional swing long ($636K position, stop $74K), citing daily hidden bullish divergence and a 4-year cycle bottom due June–November 2026, while flagging a potentially for... | 2SFHT9xCsoU | /Users/mmm2/brain/channels/casper/briefs/2026-05-24_2SFHT9xCsoU.md |
+| 2026-05-24 | days | ↑ | 2 | Casper has flipped to a conditional swing long ($636K position, stop $74K), citing daily hidden bullish divergence and a 4-year cycle bottom due June–November 2026, while flagging a potentially for... | 2SFHT9xCsoU | /Users/mmm2/brain/channels/casper/briefs/2026-05-24_2SFHT9xCsoU.md |

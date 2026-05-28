@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-05-21
-entry_count: 26
+last_updated: 2026-05-25
+entry_count: 31
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -43,3 +43,9 @@ Append-only. Newest entries at bottom.
 - 2026-05-21 (8PQee-onXrU): Gold to outperform Bitcoin for the remainder of 2026, continuing the current trend (Cowen)
 - 2026-05-21 (8PQee-onXrU): Gold to bottom around summer 2026 and rise in H2, following midterm-year pattern, while Bitcoin sells off (Cowen)
 - 2026-05-21 (8PQee-onXrU): Bitcoin likely to see a near-term correction if the Clarity Act fails to advance (Guy, panel broadly in agreement)
+
+- 2026-05-25 (dy3E7Jzte88): BTC to sweep the April 2026 low (~$60K) within the next couple of months — called "highly probable"
+- 2026-05-25 (dy3E7Jzte88): June 2026 likely to be a cyclical low for BTC, based on two consecutive red weeks and midterm-year seasonality
+- 2026-05-25 (dy3E7Jzte88): BTC to underperform SPX for at least a few more months; outperformance resumes likely in 2027
+- 2026-05-25 (dy3E7Jzte88): If BoJ raises rates in June, BTC likely sells off to a low and then bounces (analog to August 2024)
+- 2026-05-25 (dy3E7Jzte88): Energy prices may rise again in Q3, driving additional rate-hike pricing and extending BTC's bear headwinds through year-end

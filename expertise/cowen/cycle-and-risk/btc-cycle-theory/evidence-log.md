@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-05-21
-entry_count: 14
+last_updated: 2026-05-25
+entry_count: 15
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -36,3 +36,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-21 (mwrgOz852wI): Though the video's primary focus is ETH, Cowen explicitly reaffirms his Q4 2026 BTC cycle-low base case and draws on the 2019 analog to note a sequencing nuance — ETH may bottom in June while BTC follows later, replicating the 2019 pattern in which ETH bottomed in June and BTC in November. The monetary policy pillar of the bear thesis receives direct confirmation: [08:50] "The rate cuts that we had priced in to enter the year have now been priced out. And now the market is starting to worry about rate hikes rather than rate cuts." — framing tighter macro conditions as the structural force keeping capital out of risk assets through the cycle low.
 
 - 2026-05-21 (8PQee-onXrU): In a three-host panel, Cowen reaffirms his Q4 2026 cycle-low thesis and layers in midterm-year seasonality as a behavioral macro constraint: "cash cash has often been a pretty good play over crypto at least until the fourth quarter of of the midterm year" [26:11]. He extends this into a gold/BTC relative trade, arguing gold typically bottoms around summer in midterm years and rallies in H2 while BTC sells off — noting BTC would need to drop ~40% vs. gold just to return to its 2022 relative level. An ironic timing observation ties the cycle to the Clarity Act: Cowen speculates the bill might finally pass in Q4 2026 precisely when Bitcoin is expected to find its low, making it a real but ultimately too-late catalyst.
+
+- 2026-05-25 (dy3E7Jzte88): Cowen argues BTC has been rejected at the bear market resistance band (20-week SMA / 21-week EMA) — confirmed across all prior midterm bear years (2014, 2018, 2019, 2022) — and that the BTC/SPX ratio has been rejected at the same level, structurally placing crypto in continued underperformance. Two consecutive red weeks materially raise the odds that June 2026 is a cyclical low rather than a high, supported by the 20-week cycle between successive bear-market lows (observed in 2014 and 2018) landing in late June and coinciding with the Fed and BoJ meetings; the August 2024 BoJ hike (BTC sold off, then found a low within a week) is the explicit capitulation template. Cowen states directly: [09:12] "I would still expect at least a sweep of the low like kind of how it did in 2018 and and it and it very well could go below that, right? But I mean that's sort of the next step would be at least a sweep of the low at at 60k I think would be highly probable to happen within the next couple of months or so."

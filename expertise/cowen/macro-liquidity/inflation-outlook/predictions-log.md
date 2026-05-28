@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-05-21
-entry_count: 4
+last_updated: 2026-05-25
+entry_count: 6
 ---
 
 # Predictions log: Inflation Outlook
@@ -15,3 +15,6 @@ Append-only. Newest entries at bottom.
 - 2026-05-12 (Rf-gAQJk5-0): No Fed rate cuts in 2026 or 2027; a 2027 rate hike is more probable than a cut given the current inflation trajectory.
 
 - 2026-05-21 (mwrgOz852wI): Bank of Japan rate hike in June 2026 likely to trigger a large risk-asset liquidation event, compounding the existing tightening pressure from Fed rate-hike repricing.
+
+- 2026-05-25 (dy3E7Jzte88): Energy prices may rise again in Q3, driving additional rate-hike pricing and extending BTC's bear headwinds through year-end.
+- 2026-05-25 (dy3E7Jzte88): If BoJ raises rates in June, BTC likely sells off to a low and then bounces within roughly a week (analog to August 2024).
