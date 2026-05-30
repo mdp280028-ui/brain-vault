@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-05-25
-row_count: 34
+last_updated: 2026-05-28
+row_count: 41
 ---
 
 # BTC outlook history (Casper)
@@ -44,3 +44,10 @@ Append-only. Newest entries at bottom.
 | 2026-05-21 | days | ↓ | 2 | Casper holds a live $518K BTC short, citing a forming weekly MarketCipher B red dot and multi-timeframe hidden bearish divergence, while watching $76K as the key "dip, grip, and rip" level for any ... | EmUTqAaOm8s | /Users/mmm2/brain/channels/casper/briefs/2026-05-21_EmUTqAaOm8s.md |
 | 2026-05-24 | months | ↑ | 3 | Casper has flipped to a conditional swing long ($636K position, stop $74K), citing daily hidden bullish divergence and a 4-year cycle bottom due June–November 2026, while flagging a potentially for... | 2SFHT9xCsoU | /Users/mmm2/brain/channels/casper/briefs/2026-05-24_2SFHT9xCsoU.md |
 | 2026-05-24 | days | ↑ | 2 | Casper has flipped to a conditional swing long ($636K position, stop $74K), citing daily hidden bullish divergence and a 4-year cycle bottom due June–November 2026, while flagging a potentially for... | 2SFHT9xCsoU | /Users/mmm2/brain/channels/casper/briefs/2026-05-24_2SFHT9xCsoU.md |
+| 2026-05-25 | months | ↑ | 2 | Casper holds a ~$500K swing long (invalidation $74K) while simultaneously running a residual short from ~$78.4K, calling the setup fully ambiguous but citing the weekly money-flow purple-to-blue cr... | Y2pSsUSPlYY | /Users/mmm2/brain/channels/casper/briefs/2026-05-25_Y2pSsUSPlYY.md |
+| 2026-05-25 | days | ↑ | 1 | Casper holds a ~$500K swing long (invalidation $74K) while simultaneously running a residual short from ~$78.4K, calling the setup fully ambiguous but citing the weekly money-flow purple-to-blue cr... | Y2pSsUSPlYY | /Users/mmm2/brain/channels/casper/briefs/2026-05-25_Y2pSsUSPlYY.md |
+| 2026-05-26 | weeks | ↑ | 2 | Casper holds his $500K BTC long at 11x leverage through a low-volatility NY open, citing a 21-day confirmed green dot and daily hidden bullish divergence as key bullish signals while acknowledging ... | oDUAmh9j6j8 | /Users/mmm2/brain/channels/casper/briefs/2026-05-26_oDUAmh9j6j8.md |
+| 2026-05-26 | days | ↑ | 1 | Casper holds his $500K BTC long at 11x leverage through a low-volatility NY open, citing a 21-day confirmed green dot and daily hidden bullish divergence as key bullish signals while acknowledging ... | oDUAmh9j6j8 | /Users/mmm2/brain/channels/casper/briefs/2026-05-26_oDUAmh9j6j8.md |
+| 2026-05-26 | days | ↑ | 2 | Casper manages a live $500K BTC long (entry $74,820, 11x leverage) as price tests the CME gap at ~$75,987 and the Fibonacci golden pocket, locks ~$21K profit by closing half his short, and holds th... | _l00Di7HCX4 | /Users/mmm2/brain/channels/casper/briefs/2026-05-26__l00Di7HCX4.md |
+| 2026-05-27 | weeks | ↓ | 2 | Casper holds his $500K BTC long at 11x leverage through a deteriorating tape, explicitly placing only ~10% confidence in a bounce while identifying a narrow "box of hope and wonder" at $73,768–$74,... | xRoJWy_Lpdw | /Users/mmm2/brain/channels/casper/briefs/2026-05-27_xRoJWy_Lpdw.md |
+| 2026-05-27 | days | ↓ | 1 | Casper holds his $500K BTC long at 11x leverage through a deteriorating tape, explicitly placing only ~10% confidence in a bounce while identifying a narrow "box of hope and wonder" at $73,768–$74,... | xRoJWy_Lpdw | /Users/mmm2/brain/channels/casper/briefs/2026-05-27_xRoJWy_Lpdw.md |
