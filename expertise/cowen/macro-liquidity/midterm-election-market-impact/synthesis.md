@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-05-13
-brief_count: 1
+last_updated: 2026-05-30
+brief_count: 2
 ---
 
 # Midterm Election Market Impact
@@ -11,16 +11,18 @@ Auto-created topic. Seed description pending operator review. Slug-as-words: mid
 
 ## Current Thesis
 
-Midterm years (Year 2 of the presidential cycle) are historically the worst year for equities and devastating for Bitcoin, with SPX averaging weak returns and BTC averaging −65% in midterm years. The 2026 midterms are particularly significant because the current Republican sweep — while not the worst equity regime — is the setup most likely to transition into the historically most bearish configuration (Republican president + Democratic Congress) post-election. Cowen frames the midterm outcome as a forward-looking regime-risk signal, especially for Bitcoin holders who benefit most from gridlock rather than any single-party control.
+Midterm years (Year 2 of the presidential cycle) are historically the worst year for equities and the typical "reset window" for Bitcoin, with BTC averaging −65% in midterm years and the post-midterm shift to Republican president + Democratic Congress representing the most bearish equity regime historically. The new asymmetric quantile model reinforces this: Bitcoin has broken below its 1st-percentile structural support (Q1) in every cycle, and the 2022 instance occurred precisely in a midterm year — a pattern Cowen treats as the modal timing for the current cycle's dislocation, with a late-2026 sub-Q1 event now explicitly flagged as plausible. Cowen maintains the bearish months outlook for BTC but at lower conviction (↓ 2), framing the midterm weakness thesis not as a direct forecast but as a scenario anchor: if BTC is below Q1 in late 2026, treat it as historically normal, not exceptional. The post-2026 regime shift risk (to Republican president + Democratic Congress) and Bitcoin's preference for gridlock remain the structural political backdrop.
 
 ## Key Evidence
 
-- Midterm year (Year 2 of presidential cycle) is historically the worst year for SPX on average across all regimes; 2026 SPX is up ~8% YTD, described as "fine" but tracking a weak historical precedent (9a-LA7tm8Mo)
-- BTC midterm year average return is −65%; BTC is currently down ~7% in 2026, implying substantial further downside risk — a 65% drop from the year's open would take BTC below $40K (9a-LA7tm8Mo)
-- The worst equity regime is Republican president + full Democratic Congress (avg 4.9%, median 4%) — the configuration a post-2026 midterm shift could produce (9a-LA7tm8Mo)
-- Most historical recessions attributed to Republican presidents occurred under divided government (Republican president + Democratic Congress), not during full Republican sweeps, concentrating recession risk in the post-midterm window (9a-LA7tm8Mo)
-- Bitcoin performs best under split Congress scenarios (gridlock); sweeps of either party have produced negative median BTC returns, making a midterm shift to split Congress a potential tailwind for BTC (9a-LA7tm8Mo)
+- Midterm year (Year 2 of presidential cycle) is historically the worst year for SPX on average; BTC midterm year average return is −65%, with BTC down ~7% in 2026 implying substantial further downside risk (9a-LA7tm8Mo)
+- The worst equity regime historically is Republican president + full Democratic Congress (avg 4.9%, median 4%) — the configuration a post-2026 midterm shift could produce; most recessions under Republican presidents occurred under this divided-government setup (9a-LA7tm8Mo)
+- Bitcoin performs best under split Congress / gridlock scenarios; sweeps of either party have produced negative median BTC returns (9a-LA7tm8Mo)
+- Every Bitcoin cycle has seen at least one sub-Q1 dislocation; the 2022 instance occurred in the midterm year, and at ~185 weeks since that event we are within the historical inter-dislocation range (139–238 weeks), making a late-2026 Q1 break plausible (uFn3KUE-VTI)
+- Conditional downside floors if sub-Q1 breaks occur: ~$57–58K (2022 analog), ~$51–52K (March 2020 analog), ~$48–49K (2015 analog) (uFn3KUE-VTI)
+- [29:01] "if later this year you're looking at Bitcoin and it's below say Q1 and it's late midterm year, just consider that maybe this time's not different." (uFn3KUE-VTI)
 
 ## Recent Updates
 
+- 2026-05-30 (uFn3KUE-VTI): Cowen's asymmetric quantile model identifies midterm years as the typical timing for Bitcoin's sub-Q1 structural dislocations, places the current cycle within the historical inter-dislocation window (~185 weeks since 2022), and explicitly flags a late-2026 sub-Q1 break as plausible, with conditional downside floors of $57–58K, $51–52K, and $48–49K depending on the depth of the analog.
 - 2026-05-13 (9a-LA7tm8Mo): Cowen presents historical SPX and BTC regime data showing midterm years are the weakest in the presidential cycle, with BTC averaging −65% in midterm years and the post-midterm shift to Republican president + Democratic Congress representing the most bearish equity regime historically.

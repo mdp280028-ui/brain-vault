@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-05-21
-entry_count: 5
+last_updated: 2026-05-28
+entry_count: 6
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-14 (zFIXrjvMGik): This 19-second clip contains no direct Fed policy content — no mention of rates, CPI, FOMC, or the Powell/Warsh transition. Cowen's sole argument is that the Democratic president + split Congress configuration has produced zero negative market years across roughly seven decades, making it the most consistently positive political regime on record. This is tangential context for the broader political-cycle recession framework but adds nothing new to the fed-policy-rates thesis.
 
 - 2026-05-21 (8PQee-onXrU): The panel argues that strategic petroleum reserves are being depleted to buffer the Hormuz oil shock, meaning real shortages of oil, naphtha, and fertilizer are imminent and have not yet appeared in official data — once they do, an inflation spike will force Warsh's hand toward rate hikes. Guy highlights Warsh's reputational incentive to avoid a Powell-style "transitory" misjudgement, and raises Trueflation-style real-time data as a tool that could surface far worse rent inflation and prompt a more aggressive response than markets currently expect. Cowen adds a secular rate-regime signal: "The 30-year might have actually gone above where it was in 2023. Which again, there is an argument, like what if we're just going into a period where rates just are going higher, you know? I mean we were in a period for 30 or 40 years where they went lower. Maybe that the tide has turned on that" [25:11].
+
+- 2026-05-28 (Tj7mvTHDe1U): The panel uses the current rate environment as the macro narrative underpinning Bitcoin's midterm-year bleed — Ben states explicitly that "energy prices have gone up, inflation's heading higher, and now all these rate cuts have gotten priced out of the curve" (28:39), explaining why crypto, being more dependent on loose monetary policy than equities, keeps underperforming. Concrete yield levels are cited: 30-year US Treasuries above 5%, 10-year around 4.5%, and UK gilts at levels not seen since 1998 — reinforcing the structural end-of-falling-rates thesis and making bonds an actively discussed alternative allocation. A recession tail scenario is noted: were a recession to materialize, it would paradoxically force the Fed back toward looseness, making that scenario net positive for BTC — but the panel's base case is no recession, which is precisely why rate hikes remain in play.

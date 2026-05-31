@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-05-25
-entry_count: 31
+last_updated: 2026-05-29
+entry_count: 48
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -49,3 +49,26 @@ Append-only. Newest entries at bottom.
 - 2026-05-25 (dy3E7Jzte88): BTC to underperform SPX for at least a few more months; outperformance resumes likely in 2027
 - 2026-05-25 (dy3E7Jzte88): If BoJ raises rates in June, BTC likely sells off to a low and then bounces (analog to August 2024)
 - 2026-05-25 (dy3E7Jzte88): Energy prices may rise again in Q3, driving additional rate-hike pricing and extending BTC's bear headwinds through year-end
+
+- 2026-05-26 (7byCfkDQxq8): Bitcoin to see a local low in June 2026, followed by the primary cycle low in Q4 2026 — specific best guess is October.
+- 2026-05-26 (7byCfkDQxq8): Bitcoin to at minimum return to $60K sometime in 2026 to confirm it as support — described as "very likely" even under a bull scenario.
+- 2026-05-26 (7byCfkDQxq8): Another sell-off expected through the summer months before the Q4 final low.
+- 2026-05-26 (7byCfkDQxq8): S&P 500 may see a second-half 2026 correction that catalyzes Bitcoin's final cycle low (speculative, low conviction).
+
+- 2026-05-26 (CNiGShpj3M0): Local low around June 2026, followed by the primary cycle low around October 2026.
+
+- 2026-05-27 (hCJIH37qfN8): BTC cycle low near end of 2026 (timing call; no price target given)
+
+- 2026-05-28 (slTIiS-Y65k): BTC low in June or possibly July 2026, counter-trend bounce in July–August 2026, final cycle low in September–October 2026 (midterm-year pattern, historical precedents 2018 and 2022).
+- 2026-05-28 (slTIiS-Y65k): The 200-week MA will come into play before the bear market ends — notably it is now above February's wick low, meaning even a higher low could tag it.
+- 2026-05-28 (slTIiS-Y65k): BTC bull market resumes late 2026 or early 2027, with a plausible scenario where Bitcoin bottoms just before rate hikes actually begin, pricing them in ahead of time.
+- 2026-05-28 (slTIiS-Y65k): If BTC holds 60K through the entire summer and into Q4, that level may prove to be the cycle bottom — but too early to call at this stage.
+
+- 2026-05-28 (Tj7mvTHDe1U): BTC declines through June 2026, counter-trend bounce in July–August 2026, final cycle low in Q4 2026 — explicit midterm-year pattern with historical precedents in 2014, 2018, and 2022.
+- 2026-05-28 (Tj7mvTHDe1U): In a recession scenario, Bitcoin would bottom before the recession is officially declared, earlier than the S&P's historical ~15-day lead — conditional on a recession occurring.
+
+- 2026-05-29 (dIa8HUYDNEY): BTC to find the next meaningful low in mid-to-late June 2026
+- 2026-05-29 (dIa8HUYDNEY): BTC potentially trades down to ~$58K before bouncing
+- 2026-05-29 (dIa8HUYDNEY): Counter-trend rally expected in July–August 2026 (early Q3), explicitly not the final low
+- 2026-05-29 (dIa8HUYDNEY): Final bear market low expected in Q4 2026, approximately September–October timeframe
+- 2026-05-29 (dIa8HUYDNEY): BoJ likely raises rates in June 2026 (hedged: "good chance, not a sure thing"), flagged as the primary near-term catalyst for the June BTC low

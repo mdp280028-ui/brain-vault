@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-05-25
-entry_count: 4
+last_updated: 2026-05-29
+entry_count: 6
 ---
 
 # Evidence log: Inflation Outlook
@@ -16,3 +16,7 @@ Append-only. Newest entries at bottom.
 - 2026-05-21 (mwrgOz852wI): Cowen confirms the full repricing of monetary policy expectations as a live market driver, noting that "the rate cuts that we had priced in to enter the year have now been priced out" and that hike risk is now being actively priced — attributed to Middle East geopolitical conflict elevating oil and energy prices. He extends the inflation-tightening thesis into crypto market structure, arguing that higher-rate expectations directly cause capital to rotate from high-beta assets (ETH) to lower-risk assets (BTC), making the ETH/BTC bleed a direct expression of the inflation-driven monetary regime. An additional tightening catalyst is flagged in the Bank of Japan, which Cowen notes is "potentially about to raise rates again in June" [16:22], historically coincident with major ETH capitulation events.
 
 - 2026-05-25 (dy3E7Jzte88): Cowen confirms the market is now pricing rate hikes rather than cuts and frames this as the primary macro headwind for crypto, distinct from equities which have an AI-earnings catalyst. Elevated energy prices are identified as the structural driver of this repricing, with Q3 flagged as a risk window for another leg higher. He notes the June Fed and BoJ meetings as dual catalysts: "the market's starting to price in rate hikes. Now, I don't know if we're going to get it, but the fact that the market's pricing it in is bearish for crypto in general." [07:01]
+
+- 2026-05-29 (dIa8HUYDNEY): This brief treats the no-cut/hike-risk monetary backdrop as settled context rather than new information, focusing instead on the BoJ as the operative near-term tightening catalyst. Cowen assigns a "good chance" of a BoJ rate hike in June 2026 and cites the July 2024 precedent — BTC bottomed roughly one week after that hike — as the basis for expecting a mid-to-late June BTC capitulation low. The Fed meeting runs concurrently but is not the key variable; the BoJ adds a second tightening vector on top of the existing no-cut inflation regime.
+
+- 2026-05-29 (JAQfs3rxFz4): In a 16-second clip, Cowen's sole claim is that the BoJ supersedes the Fed as the critical mid-June monetary event: "The main thing to watch in mid-June is not the Fed, but it's the Bank of Japan." He assigns a hedged but meaningful probability to a June BoJ rate hike — "there's a good chance, not it's not a sure thing" — adding a second data point (alongside dIa8HUYDNEY from the same date) that reinforces the BoJ-over-Fed framing as a recurring, deliberate emphasis rather than a one-off mention. No new inflation data or Fed policy commentary is offered.

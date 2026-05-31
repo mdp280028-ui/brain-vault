@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-05-28
-row_count: 41
+last_updated: 2026-05-30
+row_count: 47
 ---
 
 # BTC outlook history (Casper)
@@ -51,3 +51,9 @@ Append-only. Newest entries at bottom.
 | 2026-05-26 | days | ↑ | 2 | Casper manages a live $500K BTC long (entry $74,820, 11x leverage) as price tests the CME gap at ~$75,987 and the Fibonacci golden pocket, locks ~$21K profit by closing half his short, and holds th... | _l00Di7HCX4 | /Users/mmm2/brain/channels/casper/briefs/2026-05-26__l00Di7HCX4.md |
 | 2026-05-27 | weeks | ↓ | 2 | Casper holds his $500K BTC long at 11x leverage through a deteriorating tape, explicitly placing only ~10% confidence in a bounce while identifying a narrow "box of hope and wonder" at $73,768–$74,... | xRoJWy_Lpdw | /Users/mmm2/brain/channels/casper/briefs/2026-05-27_xRoJWy_Lpdw.md |
 | 2026-05-27 | days | ↓ | 1 | Casper holds his $500K BTC long at 11x leverage through a deteriorating tape, explicitly placing only ~10% confidence in a bounce while identifying a narrow "box of hope and wonder" at $73,768–$74,... | xRoJWy_Lpdw | /Users/mmm2/brain/channels/casper/briefs/2026-05-27_xRoJWy_Lpdw.md |
+| 2026-05-28 | months | ↓ | 2 | After a $5K swing-trade loss, Casper pivots to scalping both sides while maintaining a broader bearish bias targeting $68K near-term and $57K–$40K if the market extends lower. | AScKQyalCjU | /Users/mmm2/brain/channels/casper/briefs/2026-05-28_AScKQyalCjU.md |
+| 2026-05-28 | weeks | ↓ | 2 | After a $5K swing-trade loss, Casper pivots to scalping both sides while maintaining a broader bearish bias targeting $68K near-term and $57K–$40K if the market extends lower. | AScKQyalCjU | /Users/mmm2/brain/channels/casper/briefs/2026-05-28_AScKQyalCjU.md |
+| 2026-05-28 | days | ↓ | 1 | After a $5K swing-trade loss, Casper pivots to scalping both sides while maintaining a broader bearish bias targeting $68K near-term and $57K–$40K if the market extends lower. | AScKQyalCjU | /Users/mmm2/brain/channels/casper/briefs/2026-05-28_AScKQyalCjU.md |
+| 2026-05-29 | months | ↓ | 2 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |
+| 2026-05-29 | weeks | ↓ | 2 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |
+| 2026-05-29 | days | → | 1 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |

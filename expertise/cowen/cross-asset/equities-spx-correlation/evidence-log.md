@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-05-19
-entry_count: 4
+last_updated: 2026-05-27
+entry_count: 5
 ---
 
 # Evidence log: Equities & SPX Correlation
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-17 (WHK1S6MrlCA): Cowen addresses SPX as a secondary topic, framing the expected second-half equity correction as the macro catalyst for Bitcoin's second bear-market leg — "And then if there's another drop later in the year, which I think there will be, that would correspond to the second drop by Bitcoin in the bear market" [13:09]. He contrasts the 2018 path (SPX crash drove BTC below $4K) with the 2019/2020 path (pandemic recession), treating the SPX-correction scenario as the more structurally analogous outcome for 2026. SPX conviction is held at ↓ 3 on both yearly and multi-month horizons, unchanged from prior briefs.
 
 - 2026-05-19 (M5d5fbiSfhc): Cowen addresses SPX as a secondary but structurally decisive factor, stating directly: "my guess is that we will have another drop in the stock market later on this year" [21:33], while continuing to list the S&P 500 M2 fractal among his active tools. The brief's most notable SPX-related addition is a pessimistic overlay: if the broader business cycle ends in late 2026, an SPX bear market could extinguish Bitcoin's bull cycle entirely rather than merely triggering a corrective leg — the same mechanism Cowen argues cut altcoin season short in Q4 2025, when BTC's own bear market arrived before euphoria could build. Yearly SPX conviction is logged at ↓ 2, slightly softer than prior briefs, but the directional call is consistent with the established 2018 midterm template.
+
+- 2026-05-27 (Ibh7wDgNGCE): Cowen lays out a two-drop SPX structure for 2026: a smaller correction in June-July followed by a larger decline beginning in September (possibly August) into early Q4, with the S&P/M2 fractal — overlaid from 1996 and confirmed by correctly mapping the recent ~10% drop — pinning September as the larger-drop window. Midterm-year seasonality (2014, 2018, 2022) corroborates the double-dip template. He explicitly hedges that the fractal could break to the upside first, noting "there's a really, really good chance it'll just break to the upside until all the bears are decimated and then you get a drop" [03:09], but the base-case directional call remains bearish for H2. Bitcoin's failure to reach new ATHs despite repeated SPX ATHs is cited as evidence that BTC is now further down the risk curve — getting hit harder on SPX drops — making October a plausible BTC cycle-low window if SPX tops in September.
