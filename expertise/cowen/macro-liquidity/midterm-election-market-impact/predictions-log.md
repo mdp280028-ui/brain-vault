@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-05-30
-entry_count: 5
+last_updated: 2026-06-01
+entry_count: 6
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -15,3 +15,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-30 (uFn3KUE-VTI): Conditional — if BTC matches the 2022 Q1 dislocation depth in late 2026 (midterm year), current equivalent downside is ~$57–58K
 - 2026-05-30 (uFn3KUE-VTI): Conditional — if BTC matches the March 2020 Q1 dislocation depth, current equivalent downside is ~$51–52K
 - 2026-05-30 (uFn3KUE-VTI): Conditional — if BTC matches the 2015 Q1 dislocation depth, current equivalent downside is ~$48–49K
+
+- 2026-06-01 (1pAlH-EAm04): BTC tags $70K in the near term, bounces for a few days, then declines back to the February lows — consistent with the midterm-year bear market resistance band rejection pattern seen in 2018 and 2022.
