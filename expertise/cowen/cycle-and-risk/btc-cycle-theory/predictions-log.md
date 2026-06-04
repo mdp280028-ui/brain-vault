@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-05-29
-entry_count: 48
+last_updated: 2026-06-02
+entry_count: 51
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -72,3 +72,7 @@ Append-only. Newest entries at bottom.
 - 2026-05-29 (dIa8HUYDNEY): Counter-trend rally expected in July–August 2026 (early Q3), explicitly not the final low
 - 2026-05-29 (dIa8HUYDNEY): Final bear market low expected in Q4 2026, approximately September–October timeframe
 - 2026-05-29 (dIa8HUYDNEY): BoJ likely raises rates in June 2026 (hedged: "good chance, not a sure thing"), flagged as the primary near-term catalyst for the June BTC low
+
+- 2026-06-02 (icDF_qFXATM): BTC finds a local low sometime in June 2026 (base case: mid-June), potentially wicking below the February 2026 low near the 200-week MA.
+- 2026-06-02 (icDF_qFXATM): Brief BTC strength expected in July 2026, consistent with July 2018 and July 2022 behavior.
+- 2026-06-02 (icDF_qFXATM): Final BTC drop anticipated in Q4 2026 after the July rally fades, following the same sequence as both prior cycles.

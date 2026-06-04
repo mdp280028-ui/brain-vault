@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-01
-entry_count: 8
+last_updated: 2026-06-02
+entry_count: 11
 ---
 
 # Predictions log: Btc 200d Rejection
@@ -21,3 +21,7 @@ Append-only. Newest entries at bottom.
 - 2026-05-29 (dIa8HUYDNEY): Following the 200D rejection, BTC could trade down to ~$58K before bouncing back toward $70–80K in July, with the ultimate cycle low in Q4 2026 (September–October timeframe).
 
 - 2026-06-01 (1pAlH-EAm04): BTC tags $70K in the near term, bounces for a few days, then declines to the February lows.
+
+- 2026-06-02 (icDF_qFXATM): BTC finds a local low sometime in mid-June 2026, potentially wicking below the February 2026 low near the 200-week MA.
+- 2026-06-02 (icDF_qFXATM): Brief BTC strength expected in July 2026 following the June low.
+- 2026-06-02 (icDF_qFXATM): Final BTC drop anticipated in Q4 2026 after the July rally fades.

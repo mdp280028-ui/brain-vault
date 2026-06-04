@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-01
-entry_count: 5
+last_updated: 2026-06-02
+entry_count: 6
 ---
 
 # Evidence log: Btc 200d Rejection
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-29 (dIa8HUYDNEY): Cowen opens by anchoring the current market position directly to the 200D rejection, stating "the rejection occurred at the 200 day moving average. precisely at the 200 day moving average, which is where Bitcoin precisely found resistance in 2022 and 2018" [00:44]. He frames the 200D as the structural ceiling of the H1 midterm-year counter-trend rally across all three prior midterm cycles, and uses BTC's current level of ~$73K (down from ~$83K) post-rejection as confirmation that the June low and Q4 capitulation sequence remains on track. The 200D rejection is treated not as a standalone technical signal but as the logical culmination of the midterm-year seasonality pattern, which Cowen says has been correct roughly 70% of the time.
 
 - 2026-06-01 (1pAlH-EAm04): Cowen confirms the post-200D-rejection sequence is now complete: BTC broke briefly above the bear market resistance band, tagged the 200D, got rejected, and has now closed back below the band — exactly as he had forecast. He states "now the bare market resistance band is resistance once again" [03:19] and maps the 2018 analog forward, noting the 2018 version saw BTC bounce briefly before further June weakness, leading into a range-bound Q3 and Q4 bottom. The 200D rejection is framed not as a new development but as the confirmed structural ceiling that now sets up the near-term path to the February lows.
+
+- 2026-06-02 (icDF_qFXATM): With the 200D rejection now behind him, Cowen pivots to the 200-week MA as the next structural event, arguing BTC has "a date with destiny" with it in mid-June 2026 — consistent with June 2018 and June 2022 both producing cycle lows at or below this level. He supports the call with a rally-duration metric: the current bounce (~17 weeks) is shorter than the ~20–21 weeks it took prior cycles to put in new lows, suggesting the low is not in yet. "Bitcoin has a date with destiny every few years. And in this case, destiny is the 200-week moving average." [00:43]

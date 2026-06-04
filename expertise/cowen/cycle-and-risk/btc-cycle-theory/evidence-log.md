@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-05-29
-entry_count: 21
+last_updated: 2026-06-02
+entry_count: 22
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -50,3 +50,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (Tj7mvTHDe1U): In a three-way live panel, Cowen, Guy (Coin Bureau), and Ben (Into the Cryptoverse) independently converge on the identical midterm-year playbook for BTC: bleed through June, counter-trend bounce in July–August, final capitulation low in Q4 2026, with 2014, 2018, and 2022 as the historical anchors. Ben adds a cycle-structure nuance — the absence of a blowoff top removed the usual euphoria hangover, producing a dull grind rather than a sharp crash-and-bounce — and reiterates the single actionable rule: "the only indicator that anyone really ever needed was just buy at the end of the midterm year and sell at the end of the post having year" [10:46]. The macro narrative offered as support is that crypto is more dependent on loose monetary policy than equities, so with rate cuts fully priced out and rate hikes now being priced in, BTC's continued bleed against stocks, gold, and energy is the mechanically expected midterm-year behavior.
 
 - 2026-05-29 (dIa8HUYDNEY): Cowen's 23-minute standalone treatment formalizes the midterm-year taxonomy — four year-types in the BTC cycle, with midterm years (2014, 2018, 2022, 2026) as the structural window of weakness — and documents that BTC dropped in H1 of all three prior midterm years, making every H1 rally a fake low to fade. The 200-day MA rejection at ~$73K matches the identical resistance level from 2018 and 2022, and the February/April lows already printed in the exact 2018 sequence. The roadmap — mid-to-late June low, July counter-trend rally, Q4 final capitulation — is stated with high confidence, with the BoJ June meeting (not the Fed) identified as the most probable near-term catalyst: "the window of weakness will likely persist for a few more weeks, probably into June, mid to late June seems about right." [14:57]
+
+- 2026-06-02 (icDF_qFXATM): Cowen argues BTC has a recurring "date with destiny" with the 200-week MA every few years, expecting the next test in mid-June 2026 — mirroring 2018 (June low swept the February low) and 2022 (BTC fell below the 200-week MA in June). A rally-duration metric reinforces the bear case: the current bounce at ~17 weeks is shorter than the ~20–21 weeks that preceded new lows in both prior cycles. The full roadmap — local low in June (potentially wicking below the February 2026 low), brief July strength, volatility fade, then final Q4 drop — maps precisely onto 2018 and 2022 behavior, and Cowen dismisses the recent "this time is different" narrative: "Everyone who's been so bold up on Bitcoin the last few months saying that this time was different, it just simply hasn't been." [03:05]
