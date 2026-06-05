@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-05-30
-row_count: 47
+last_updated: 2026-06-04
+row_count: 50
 ---
 
 # BTC outlook history (Casper)
@@ -57,3 +57,6 @@ Append-only. Newest entries at bottom.
 | 2026-05-29 | months | ↓ | 2 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |
 | 2026-05-29 | weeks | ↓ | 2 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |
 | 2026-05-29 | days | → | 1 | With $35K in profit on existing BTC shorts and the weekly MarketCipher red dot two days from confirming, Casper scalps both sides of a $72,600–$73,920 range while targeting $68K as the primary down... | _JtntSqYn2A | /Users/mmm2/brain/channels/casper/briefs/2026-05-29__JtntSqYn2A.md |
+| 2026-06-03 | months | ↓ | 2 | Casper is holding a losing long at BTC's value area low (~$65,400), targeting $70K–$74K for a bounce, while his macro thesis calls for a final leg down to the $38K–$57K spot-buying zone by late sum... | OCWNKvlNLUE | /Users/mmm2/brain/channels/casper/briefs/2026-06-03_OCWNKvlNLUE.md |
+| 2026-06-03 | weeks | ↓ | 2 | Casper is holding a losing long at BTC's value area low (~$65,400), targeting $70K–$74K for a bounce, while his macro thesis calls for a final leg down to the $38K–$57K spot-buying zone by late sum... | OCWNKvlNLUE | /Users/mmm2/brain/channels/casper/briefs/2026-06-03_OCWNKvlNLUE.md |
+| 2026-06-03 | days | ↑ | 1 | Casper is holding a losing long at BTC's value area low (~$65,400), targeting $70K–$74K for a bounce, while his macro thesis calls for a final leg down to the $38K–$57K spot-buying zone by late sum... | OCWNKvlNLUE | /Users/mmm2/brain/channels/casper/briefs/2026-06-03_OCWNKvlNLUE.md |

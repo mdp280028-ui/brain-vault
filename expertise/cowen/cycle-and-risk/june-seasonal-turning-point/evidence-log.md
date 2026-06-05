@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-02
-entry_count: 4
+last_updated: 2026-06-04
+entry_count: 5
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-02 (LcAgFngQUMo): This 27-second clip contains no new seasonality analysis — Cowen simply restates his near-term BTC path verbatim from the prior video. The call ("Bitcoin tags 70K soon, bounces back up for a few days, and then goes back to the February lows" [00:02]) is directionally consistent with the June-low thesis but does not reference June seasonality, midterm cycles, or any timing framework. The clip adds confirmation that Cowen's short-term bearish stance is unchanged, not new evidence for the seasonal turning-point thesis.
 
 - 2026-06-02 (icDF_qFXATM): Cowen's most detailed June-low argument to date, centering on the 200-week moving average as the specific structural target: "My guess is that history will once again repeat itself, and Bitcoin will find itself having a date with destiny relatively soon. My guess, in the middle of June." [01:07] He walks through the 2018 and 2022 analogs in detail — both produced a June low that swept the February low before a brief July rally and Q4 final drop — and adds a rally-duration metric (current bounce ~17 weeks vs. ~20–21 weeks before new lows in prior cycles) as a quantitative reason the low is not yet in.
+
+- 2026-06-04 (QMn7cm4nfYU): With BTC live at the 200-week exponential MA (~$61.8K) during the stream and briefly dipping to $61.3K, Cowen declares the June "date with destiny" is happening in real time and narrows the capitulation low to the week of June 13–18 — matching the exact calendar weeks of the 2018 (June 18) and 2022 (June 13) cycle troughs. He expects BTC to wick below the February 2026 low (~$60K), consistent with 2018 when the June low swept the February low, and draws a hard line at ~$40K as the threshold that would force him to abandon his bearish stance: "I can remain a bear if we just kind of hold at 60. I don't think I can remain a bear if we go to 40." [27:03]

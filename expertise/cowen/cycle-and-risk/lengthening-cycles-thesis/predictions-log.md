@@ -1,8 +1,8 @@
 ---
 topic_slug: lengthening-cycles-thesis
 group: cycle-and-risk
-last_updated: 2026-05-28
-entry_count: 2
+last_updated: 2026-06-04
+entry_count: 5
 ---
 
 # Predictions log: Lengthening Cycles Thesis
@@ -11,3 +11,7 @@ Append-only. Newest entries at bottom.
 
 - 2026-05-28 (slTIiS-Y65k): BTC bull market resumes late 2026 or early 2027, conditional on rate hikes being the macro catalyst Bitcoin prices in ahead of time — placing the current cycle's recovery roughly 2.5 years post-halving.
 - 2026-05-28 (slTIiS-Y65k): Final cycle low forms in September–October 2026, with the full bottoming sequence spanning at least June 2026 through Q4 2026.
+
+- 2026-06-04 (QMn7cm4nfYU): BTC market cycle bottom most likely in October 2026, with two independent four-year-cycle metrics pointing to October 5–19 as the specific window.
+- 2026-06-04 (QMn7cm4nfYU): June 2026 local low (likely week of June 13–18) followed by counter-trend rally in July–August, then final Q4 cycle bottom — the full three-phase bottoming process spanning quarters, not weeks.
+- 2026-06-04 (QMn7cm4nfYU): The June low will not mark the final cycle bottom unless Bitcoin crashes to ~$40K; a simple retest of $60K is insufficient to end the bear market.
