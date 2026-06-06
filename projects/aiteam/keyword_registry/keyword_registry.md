@@ -6,427 +6,427 @@ _Aliases (e.g. "white asbestos" ↔ "chrysotile") are collapsed to their canonic
 
 _Source-of-truth: hybrid. Writes happen at ship-time (deploy_batch.sh) and at backlink-approval time (apply_approval.sh). The nightly rebuild verifies + repairs drift; any non-cosmetic delta lands in `audit_log` as `keyword_registry_drift`._
 
-_Last rebuild: 2026-06-04 03:00 · 418 keywords tracked · 32 live slugs · 0 in pipeline · 307 researched/killed imported · 14 alias rules._
+_Last rebuild: 2026-06-05 03:00 · 418 keywords tracked · 32 live slugs · 0 in pipeline · 307 researched/killed imported · 14 alias rules._
 
 ---
 
 | Keyword | Primary slug | Also in (slug:count) | Total mentions | Status | First shipped | Last updated | Notes |
 |---|---|---|---|---|---|---|---|
-| 1000 cfm air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$2.00 cluster=Part 10 src=ASB_Keyword_Data |
-| 12x12 asbestos floor tile | — | — | 0 | researched | — | 2026-06-04 | SV=(not pulled) KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| 1976 home asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| 3m 6300 respirator | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=0 CPC=$0.40 cluster=Part 10 src=ASB_Keyword_Data |
-| 3m 6800 respirator | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=1 CPC=$0.70 cluster=Part 10 src=ASB_Keyword_Data |
-| 3m 7502 respirator | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$0.80 cluster=Part 10 src=ASB_Keyword_Data |
-| 3m asbestos respirator | — | — | 0 | unowned | — | 2026-06-04 |  |
-| 3m dust mask | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=4 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m face mask | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=2 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m mask | — | — | 0 | researched | — | 2026-06-04 | SV=1,000 KD=2 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m p100 | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m p100 respirator | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=1 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m respirator | — | — | 0 | researched | — | 2026-06-04 | SV=3,000 KD=1 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m respirator for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=0 CPC=$0.40 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| 3m respirator mask | — | — | 0 | researched | — | 2026-06-04 | SV=600 KD=2 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m respirator selection guide | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=2 CPC=$1.20 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m respirator size chart | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=4 CPC=$0.06 cluster=Part 2 src=ASB_Keyword_Data |
-| 3m respirators | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=3 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| 500 cfm air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$1.20 cluster=Part 10 src=ASB_Keyword_Data |
-| 6 mil asbestos bags | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$0.60 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| 6-mil polyethylene | — | asbestos-duct-wrap:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-roof-removal:2, asbestos-shingles-guide:1, does-plaster-have-asbestos:1, how-to-dispose-of-asbestos:6 | 13 | live | — | 2026-06-04 |  |
-| 9x9 asbestos floor tile | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| 9x9 tile | — | asbestos-floor-tile-removal:3 | 3 | live | — | 2026-06-04 |  |
-| abatement air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$1.00 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| abatement cost | — | asbestos-abatement-near-me:3, asbestos-popcorn-ceiling-removal-cost:4, asbestos-remediation-cost:3, asbestos-siding-removal-cost:4 | 14 | live | — | 2026-06-04 |  |
-| ac pipe | — | transite-pipe-guide:9 | 9 | live | — | 2026-06-04 |  |
-| ahera accredited | — | asbestos-abatement-near-me:3, asbestos-inspection-cost:1 | 4 | live | — | 2026-06-04 |  |
-| ahera inspector | — | asbestos-inspection-cost:5 | 5 | live | — | 2026-06-04 |  |
-| air filtration device | — | — | 0 | unowned | — | 2026-06-04 |  |
-| air filtration unit | — | — | 0 | unowned | — | 2026-06-04 |  |
-| air monitoring | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-duct-wrap:5, asbestos-glue:2, asbestos-pipe-guide:3, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:4, asbestos-roof-removal:2, asbestos-siding-guide:1, asbestos-siding-removal-cost:3, asbestos-under-carpet:2, asbestos-vs-fiberglass:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:2, transite-pipe-guide:3 | 32 | live | — | 2026-06-04 |  |
-| air sampling | — | asbestos-abatement-near-me:4, asbestos-air-quality-test:3, asbestos-ceiling-tile-guide:2, asbestos-drywall-guide:1, asbestos-duct-wrap:1, asbestos-pipe-guide:1, chrysotile:1, white-asbestos-vs-blue-asbestos:1 | 14 | live | — | 2026-06-04 |  |
-| air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=12,000 KD=2 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
-| air scrubber for abatement | — | — | 0 | unowned | — | 2026-06-04 |  |
-| air scrubber rental | — | — | 0 | unowned | — | 2026-06-04 |  |
-| air scrubbers | — | — | 0 | researched | — | 2026-06-04 | SV=2,300 KD=3 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
-| airscrubber | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=2 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
-| amiante | — | — | 0 | killed | — | 2026-06-04 | SV=250 cluster=Part 2 src=ASB_Keyword_Data |
-| amosite | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:1, asbestos-glue:1, asbestos-inspection-cost:1, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-tile-guide:1, asbestos-vs-fiberglass:1, black-mastic-guide:1, chrysotile:10, how-to-test-popcorn-ceiling-for-asbestos:2, is-popcorn-ceiling-asbestos:1, what-does-asbestos-siding-look-like:1, white-asbestos-vs-blue-asbestos:2 | 26 | live | — | 2026-06-04 |  |
-| approved landfill | — | asbestos-ceiling-tile-guide:1, asbestos-tile-guide:1, how-to-dispose-of-asbestos:1 | 3 | live | — | 2026-06-04 |  |
-| are popcorn ceilings asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=3 CPC=$1.80 cluster=Popcorn src=ASB_Keyword_Data |
-| artex | — | — | 0 | killed | — | 2026-06-04 | SV=40+ cluster=Part 2 src=ASB_Keyword_Data |
-| asbestos abatement contractor | — | asbestos-abatement-near-me:2, does-plaster-have-asbestos:1 | 3 | live | — | 2026-06-04 |  |
-| asbestos abatement cost | — | asbestos-popcorn-ceiling-removal-cost:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos abatement near me | asbestos-abatement-near-me | — | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos abatement options | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos abatement process | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=9 CPC=$0.20 cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Resea |
-| asbestos adhesive | — | asbestos-glue:3 | 3 | live | — | 2026-06-04 |  |
-| asbestos air quality test | asbestos-air-quality-test | asbestos-inspection-cost:1 | 6 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos air scrubber | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos air test kit | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos black mastic | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=0 CPC=$1.30 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos blown in insulation | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=4 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos boiler insulation | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos boots | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos bulk sample kit | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos ceiling | — | asbestos-ceiling-tile-guide:2 | 2 | live | — | 2026-06-04 |  |
-| asbestos ceiling removal | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$2.00 cluster=Ceiling service src=ASB_Keyword_Data |
-| asbestos ceiling tile | asbestos-ceiling-tile-guide | — | 1 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos ceiling tiles | — | asbestos-ceiling-tile-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos cement board | — | asbestos-siding-guide:5, asbestos-siding-removal-cost:1, what-does-asbestos-siding-look-like:3 | 9 | live | — | 2026-06-04 |  |
-| asbestos cement pipe | — | asbestos-pipe-guide:4, transite-pipe-guide:3 | 7 | live | — | 2026-06-04 |  |
-| asbestos cement roof | — | asbestos-shingles-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos chimney flue | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos disclosure california | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$6.00 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos disclosure florida | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=0 CPC=$2.50 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos disclosure form | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$0.40 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos disclosure illinois | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos disease symptoms | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos disposal | — | asbestos-vs-fiberglass:1, how-to-dispose-of-asbestos:8 | 9 | live | — | 2026-06-04 |  |
-| asbestos disposal bag | — | how-to-dispose-of-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos disposal bags | — | how-to-dispose-of-asbestos:3 | 3 | live | — | 2026-06-04 |  |
-| asbestos disposal manifest | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos drop off near me | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos drywall | asbestos-drywall-guide | how-to-dispose-of-asbestos:1 | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos duct wrap | asbestos-duct-wrap | — | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos encapsulant | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos encapsulation | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos encapsulation cost | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=4 CPC=$0.50 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos encapsulation paint | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=0 CPC=$0.30 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos exposure symptoms | — | — | 0 | killed | — | 2026-06-04 | SV=TBD KD=high CPC=$high cluster=Part 2 src=ASB_Keyword_Data dead:Legal territory |
-| asbestos exposure test | — | — | 0 | killed | — | 2026-06-04 | SV=600 KD=12 CPC=$1.30 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
-| asbestos floor tile | — | asbestos-floor-tile-removal:5, asbestos-glue:2, asbestos-remediation-cost:1, black-mastic-guide:1, house-built-1976-asbestos:1, how-to-dispose-of-asbestos:2 | 12 | live | — | 2026-06-04 |  |
-| asbestos floor tile colors | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos floor tile removal | asbestos-floor-tile-removal | asbestos-glue:1, how-to-dispose-of-asbestos:1 | 6 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos flooring | — | — | 0 | researched | — | 2026-06-04 | SV=1,500 KD=4 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
-| asbestos found during home inspection | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos garage demolition | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos garage roof | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=0 CPC=$0.35 cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos gloves | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
-| asbestos glue | asbestos-glue | — | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos goggles | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| asbestos in 1970s homes | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos in attic | — | — | 0 | killed | — | 2026-06-04 | SV=250 cluster=Part 2 src=ASB_Keyword_Data |
-| asbestos in attic insulation | — | — | 0 | killed | — | 2026-06-04 | SV=150 KD=15 CPC=$3.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in basement | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$2.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in basement floor | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$2.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in cinder block | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in crawl space | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$4.50 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in drywall | — | asbestos-drywall-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos in fireplace | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in flooring | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=2 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
-| asbestos in grout | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in homes | — | when-was-asbestos-used-in-homes:4 | 4 | live | — | 2026-06-04 |  |
-| asbestos in horsehair plaster | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in lath and plaster | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in linoleum | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$0.60 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in linoleum backing | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in mortar | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=0 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in old barn | — | — | 0 | researched | — | 2026-06-04 | SV=(not pulled) KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in plaster | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos in plaster ceiling | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=2 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in plaster walls | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in popcorn ceiling | — | chrysotile:1, how-to-test-popcorn-ceiling-for-asbestos:1 | 2 | live | — | 2026-06-04 |  |
-| asbestos in shed | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in sheet vinyl flooring | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in vinyl flooring | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=1 CPC=$0.20 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in window glazing | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos in window putty | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos inspection | asbestos-inspection-cost | asbestos-ceiling-tile-guide:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, asbestos-under-carpet:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 18 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos inspection cost | — | asbestos-inspection-cost:3 | 3 | live | — | 2026-06-04 |  |
-| asbestos inspection near me | — | — | 0 | researched | — | 2026-06-04 | SV=500 KD=0 CPC=$2.50 cluster=Directory src=ASB_Keyword_Data |
-| asbestos inspector | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos insulation | — | house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:2 | 3 | live | — | 2026-06-04 |  |
-| asbestos insulation pictures | — | — | 0 | researched | — | 2026-06-04 | SV=600 KD=3 CPC=$0.15 cluster=Insulation ID src=ASB_Keyword_Data |
-| asbestos landfill near me | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=1 CPC=$1.80 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos latency period | — | — | 0 | killed | — | 2026-06-04 | SV=70 KD=12 CPC=$7.00 cluster=Part 2 src=ASB_Keyword_Data dead:Lawyer territory |
-| asbestos law | — | friable-vs-nonfriable-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos loose fill insulation | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$1.40 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos lung disease | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos manifest form | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos mask | — | — | 0 | researched | — | 2026-06-04 | SV=800 KD=0 CPC=$0.35 cluster=PPE src=ASB_Keyword_Data |
-| asbestos mastic | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=1 CPC=$3.50 cluster=Flooring src=ASB_Keyword_Data |
-| asbestos on pipes | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$7.00 cluster=Pipe src=ASB_Keyword_Data |
-| asbestos pipe | — | asbestos-duct-wrap:1, asbestos-pipe-guide:9, asbestos-vs-fiberglass:3, when-was-asbestos-used-in-homes:1 | 14 | live | — | 2026-06-04 |  |
-| asbestos pipe insulation | asbestos-pipe-guide | asbestos-vs-fiberglass:1 | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos pipe lagging | — | asbestos-pipe-guide:2, asbestos-vs-fiberglass:1, when-was-asbestos-used-in-homes:1 | 4 | live | — | 2026-06-04 |  |
-| asbestos pipe wrap | — | asbestos-pipe-guide:3, asbestos-vs-fiberglass:1 | 4 | live | — | 2026-06-04 |  |
-| asbestos plaster | — | does-plaster-have-asbestos:2 | 2 | live | — | 2026-06-04 |  |
-| asbestos popcorn ceiling removal cost | asbestos-popcorn-ceiling-removal-cost | asbestos-remediation-cost:1 | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos popcorn ceiling test kit | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos popcorn ceiling vs non asbestos | asbestos-popcorn-ceiling-vs-non-asbestos | — | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos ppe | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=1 CPC=$0.50 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
-| asbestos protective gear | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos remediation | — | asbestos-remediation-cost:5 | 5 | live | — | 2026-06-04 |  |
-| asbestos remediation companies | — | — | 0 | killed | — | 2026-06-04 | SV=40 KD=16 cluster=Part 10 src=ASB_Keyword_Data |
-| asbestos remediation cost | asbestos-remediation-cost | — | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos removal cost | — | — | 0 | researched | — | 2026-06-04 | SV=1,100 KD=1 CPC=$1.90 cluster=Cost src=ASB_Keyword_Data |
-| asbestos removal near me | — | — | 0 | researched | — | 2026-06-04 | SV=1,200 KD=1 CPC=$2.50 cluster=Directory src=ASB_Keyword_Data |
-| asbestos removal service | — | — | 0 | researched | — | 2026-06-04 | SV=600 KD=0 CPC=$1.00 cluster=Directory src=ASB_Keyword_Data |
-| asbestos removal services | — | — | 0 | researched | — | 2026-06-04 | SV=900 KD=0 CPC=$0.10 cluster=Directory src=ASB_Keyword_Data |
-| asbestos removal vs encapsulation cost | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos respirator | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=1 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
-| asbestos roof | — | asbestos-roof-removal:6, asbestos-shingles-guide:2, how-to-dispose-of-asbestos:1 | 9 | live | — | 2026-06-04 |  |
-| asbestos roof removal | asbestos-roof-removal | how-to-dispose-of-asbestos:1 | 6 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos roof repair | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$3.50 cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos roof shingles | — | asbestos-shingles-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos roof tiles | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$1.30 cluster=Roofing src=ASB_Keyword_Data |
-| asbestos sealant | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.40 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos sealer | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos shed removal | — | — | 0 | researched | — | 2026-06-04 | SV=40 KD=0 CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos shed roof | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos sheetrock | — | — | 0 | unowned | — | 2026-06-04 |  |
-| asbestos shingle siding | — | asbestos-siding-guide:2, what-does-asbestos-siding-look-like:4 | 6 | live | — | 2026-06-04 |  |
-| asbestos shingles | asbestos-shingles-guide | asbestos-roof-removal:4, asbestos-siding-guide:1, how-to-dispose-of-asbestos:1 | 13 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos siding | asbestos-siding-guide | asbestos-remediation-cost:2, asbestos-shingles-guide:1, asbestos-siding-removal-cost:7, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, what-does-asbestos-siding-look-like:6, when-was-asbestos-used-in-homes:3 | 26 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos siding paint | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos siding removal | — | asbestos-remediation-cost:1, asbestos-siding-guide:1, asbestos-siding-removal-cost:4 | 6 | live | — | 2026-06-04 |  |
-| asbestos siding removal cost | asbestos-siding-removal-cost | asbestos-remediation-cost:1 | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos siding replacement | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos suit | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=2 CPC=$0.60 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
-| asbestos surfactant | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$1.70 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos test | — | how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:2 | 7 | live | — | 2026-06-04 |  |
-| asbestos test kit | — | — | 0 | researched | — | 2026-06-04 | SV=6,200 KD=3 CPC=$0.70 cluster=Test kit src=ASB_Keyword_Data |
-| asbestos testing | — | asbestos-ceiling-tile-guide:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 11 | live | — | 2026-06-04 |  |
-| asbestos testing kit | — | — | 0 | researched | — | 2026-06-04 | SV=1,900 KD=3 CPC=$0.70 cluster=Test kit src=ASB_Keyword_Data |
-| asbestos testing near me | — | — | 0 | researched | — | 2026-06-04 | SV=2,200 KD=4 CPC=$1.70 cluster=Test kit src=ASB_Keyword_Data |
-| asbestos textured ceiling | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=2 CPC=$3.50 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos tile | asbestos-tile-guide | asbestos-floor-tile-removal:3, asbestos-glue:2, asbestos-under-carpet:6, black-mastic-guide:2, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1 | 21 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos tile removal | — | asbestos-tile-guide:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos tiles | — | friable-vs-nonfriable-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos timeline | — | house-built-1976-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| asbestos under carpet | asbestos-under-carpet | — | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
-| asbestos vs fiberglass | asbestos-vs-fiberglass | — | 4 | live | 2026-05-24 | 2026-06-04 |  |
-| asbestos warning labels | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$0.80 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos waste bags | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$0.50 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos waste disposal bags | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos waste shipment record | — | how-to-dispose-of-asbestos:3, transite-pipe-guide:1 | 4 | live | — | 2026-06-04 |  |
-| asbestos work permit | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestos work plan | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| asbestosis symptoms | — | — | 0 | unowned | — | 2026-06-04 |  |
-| bean e doo mastic remover | — | — | 0 | researched | — | 2026-06-04 | SV=40 KD=0 CPC=$0.40 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| best hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=1,000 KD=3 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
-| best hepa vacuum for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| best hepa vacuum for asbestos removal | — | — | 0 | unowned | — | 2026-06-04 |  |
-| best respirator for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=80 KD=1 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| best respirator for mold | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=1 CPC=$0.45 cluster=Part 10 src=ASB_Keyword_Data |
-| black mastic | black-mastic-guide | asbestos-floor-tile-removal:4, asbestos-glue:2, asbestos-remediation-cost:1, asbestos-tile-guide:3, asbestos-under-carpet:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:2, how-to-dispose-of-asbestos:1, when-was-asbestos-used-in-homes:1 | 22 | live | 2026-05-24 | 2026-06-04 |  |
-| black mastic asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=450 KD=0 CPC=$0.50 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| breathing mask | — | — | 0 | researched | — | 2026-06-04 | SV=1,200 KD=12 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| build year | — | asbestos-drywall-guide:1, asbestos-popcorn-ceiling-vs-non-asbestos:5, chrysotile:1, does-plaster-have-asbestos:2, house-built-1976-asbestos:3, when-was-asbestos-used-in-homes:5 | 17 | live | — | 2026-06-04 |  |
-| bulk sample | — | asbestos-glue:1, asbestos-inspection-cost:4, asbestos-under-carpet:1, black-mastic-guide:2, chrysotile:2, does-plaster-have-asbestos:1, white-asbestos-vs-blue-asbestos:2 | 13 | live | — | 2026-06-04 |  |
-| buying a house with asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=0 CPC=$0.15 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| can you paint asbestos siding | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
-| carpet padding | — | asbestos-under-carpet:1 | 1 | live | — | 2026-06-04 |  |
-| category i asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| category ii asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| cement roof | — | asbestos-roof-removal:2, asbestos-shingles-guide:2 | 4 | live | — | 2026-06-04 |  |
-| cement shingles | — | asbestos-roof-removal:6, asbestos-shingles-guide:5, asbestos-siding-guide:1, asbestos-siding-removal-cost:1, friable-vs-nonfriable-asbestos:3, what-does-asbestos-siding-look-like:1 | 17 | live | — | 2026-06-04 |  |
-| cement siding | — | asbestos-abatement-near-me:1, asbestos-drywall-guide:3, asbestos-remediation-cost:3, asbestos-siding-guide:4, asbestos-siding-removal-cost:1, chrysotile:3, friable-vs-nonfriable-asbestos:4, house-built-1976-asbestos:4, vermiculite-insulation-guide:2, what-does-asbestos-siding-look-like:4, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 31 | live | — | 2026-06-04 |  |
-| chemical mask | — | — | 0 | researched | — | 2026-06-04 | SV=600 KD=2 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| chrysotile | chrysotile | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:3, asbestos-drywall-guide:15, asbestos-duct-wrap:3, asbestos-floor-tile-removal:5, asbestos-glue:8, asbestos-inspection-cost:2, asbestos-pipe-guide:4, asbestos-popcorn-ceiling-removal-cost:1, asbestos-popcorn-ceiling-vs-non-asbestos:6, asbestos-roof-removal:2, asbestos-shingles-guide:6, asbestos-siding-guide:2, asbestos-tile-guide:5, asbestos-under-carpet:3, asbestos-vs-fiberglass:2, black-mastic-guide:6, does-plaster-have-asbestos:9, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:7, transite-pipe-guide:5, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:6, white-asbestos-vs-blue-asbestos:37 | 160 | live | 2026-05-24 | 2026-06-04 |  |
-| clearance test | — | asbestos-abatement-near-me:1, asbestos-air-quality-test:3 | 4 | live | — | 2026-06-04 |  |
-| commercial air purifier | — | — | 0 | researched | — | 2026-06-04 | SV=3,300 KD=0 CPC=$1.70 cluster=Part 2 src=ASB_Keyword_Data |
-| construction adhesive | — | asbestos-glue:5 | 5 | live | — | 2026-06-04 |  |
-| construction vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=600 KD=11 CPC=$0.45 cluster=Part 2 src=ASB_Keyword_Data |
-| corrugated paper | — | asbestos-duct-wrap:3, asbestos-pipe-guide:8 | 11 | live | — | 2026-06-04 |  |
-| cost per square foot | — | — | 0 | unowned | — | 2026-06-04 |  |
-| cover asbestos tile | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$0.50 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| covering asbestos floor tile | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| crocidolite | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-glue:1, asbestos-inspection-cost:1, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-tile-guide:1, asbestos-vs-fiberglass:1, chrysotile:9, how-to-test-popcorn-ceiling-for-asbestos:2, is-popcorn-ceiling-asbestos:1, what-does-asbestos-siding-look-like:1, white-asbestos-vs-blue-asbestos:34 | 55 | live | — | 2026-06-04 |  |
-| cutback | — | asbestos-floor-tile-removal:1, asbestos-glue:4, asbestos-tile-guide:1, black-mastic-guide:8 | 14 | live | — | 2026-06-04 |  |
-| cutback adhesive | — | asbestos-glue:3, asbestos-tile-guide:1, black-mastic-guide:8 | 12 | live | — | 2026-06-04 |  |
-| diy asbestos test | — | — | 0 | unowned | — | 2026-06-04 |  |
-| do popcorn ceilings have asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=800 KD=2 CPC=$1.10 cluster=Popcorn src=ASB_Keyword_Data |
-| does drywall have asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$2.00 cluster=Drywall src=ASB_Keyword_Data |
-| does my house have asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=1 CPC=$1.40 cluster=Bridge src=ASB_Keyword_Data |
-| does plaster have asbestos | does-plaster-have-asbestos | when-was-asbestos-used-in-homes:1 | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| does popcorn ceiling have asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=800 KD=2 CPC=$1.10 cluster=Popcorn src=ASB_Keyword_Data |
-| double bag | — | asbestos-siding-guide:1, how-to-dispose-of-asbestos:1, vermiculite-insulation-guide:1 | 3 | live | — | 2026-06-04 |  |
-| drywall mud | — | asbestos-drywall-guide:3, when-was-asbestos-used-in-homes:2 | 5 | live | — | 2026-06-04 |  |
-| duct insulation | — | asbestos-duct-wrap:5 | 5 | live | — | 2026-06-04 |  |
-| duct removal | — | asbestos-duct-wrap:2 | 2 | live | — | 2026-06-04 |  |
-| dustless hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=40 KD=1 CPC=$0.30 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| dustless technologies | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=0 CPC=$0.90 cluster=Part 2 src=ASB_Keyword_Data |
-| encapsulate asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=80 KD=2 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| encapsulation | — | asbestos-ceiling-tile-guide:4, asbestos-drywall-guide:1, asbestos-duct-wrap:4, asbestos-floor-tile-removal:5, asbestos-glue:3, asbestos-inspection-cost:1, asbestos-pipe-guide:3, asbestos-popcorn-ceiling-removal-cost:7, asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-shingles-guide:4, asbestos-siding-guide:4, asbestos-siding-removal-cost:4, asbestos-tile-guide:3, asbestos-under-carpet:4, asbestos-vs-fiberglass:2, black-mastic-guide:6, does-plaster-have-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:3 | 63 | live | — | 2026-06-04 |  |
-| fha loan asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| fiberglass insulation | — | asbestos-vs-fiberglass:4 | 4 | live | — | 2026-06-04 |  |
-| fiberlock abc | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$0.45 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| fiberlock asbestos encapsulant | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=— CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| fire suit | — | — | 0 | killed | — | 2026-06-04 | SV=1,200 cluster=Part 2 src=ASB_Keyword_Data |
-| fire sut | — | — | 0 | killed | — | 2026-06-04 | SV=300 cluster=Part 2 src=ASB_Keyword_Data |
-| floating floor over asbestos tile | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| free asbestos disposal | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=8 CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| friable | — | asbestos-abatement-near-me:5, asbestos-air-quality-test:2, asbestos-ceiling-tile-guide:8, asbestos-drywall-guide:8, asbestos-duct-wrap:9, asbestos-floor-tile-removal:9, asbestos-glue:5, asbestos-inspection-cost:4, asbestos-pipe-guide:12, asbestos-popcorn-ceiling-removal-cost:2, asbestos-popcorn-ceiling-vs-non-asbestos:4, asbestos-remediation-cost:12, asbestos-roof-removal:10, asbestos-shingles-guide:11, asbestos-siding-guide:7, asbestos-siding-removal-cost:11, asbestos-tile-guide:6, asbestos-under-carpet:4, asbestos-vs-fiberglass:3, black-mastic-guide:6, chrysotile:2, does-plaster-have-asbestos:12, friable-vs-nonfriable-asbestos:27, house-built-1976-asbestos:6, how-to-dispose-of-asbestos:6, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:6, transite-pipe-guide:4, vermiculite-insulation-guide:8, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:4, white-asbestos-vs-blue-asbestos:5 | 223 | live | — | 2026-06-04 |  |
-| friable asbestos | friable-vs-nonfriable-asbestos | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:2, asbestos-glue:1, asbestos-remediation-cost:1, asbestos-siding-guide:2, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, how-to-dispose-of-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:3 | 19 | live | 2026-05-24 | 2026-06-04 |  |
-| friable vs non friable | — | — | 0 | researched | — | 2026-06-04 | SV=(paired) KD=— CPC=$— cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Res |
-| friable vs non-friable asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| full face respirator asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| full face respirator mask 3m | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=4 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| furnace plenum | — | asbestos-duct-wrap:3 | 3 | live | — | 2026-06-04 |  |
-| gaf weatherside | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=0 CPC=$0.70 cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
-| glove bag asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$0.25 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
-| half face respirator asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| half face respirator p100 | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa air purifier | — | — | 0 | unowned | — | 2026-06-04 |  |
-| hepa air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=2,300 KD=2 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa filter | — | asbestos-popcorn-ceiling-removal-cost:2 | 2 | live | — | 2026-06-04 |  |
-| hepa filter vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=2,300 KD=7 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa filter vacuum cleaner | — | — | 0 | researched | — | 2026-06-04 | SV=1,600 KD=9 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa pre filter | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$0.35 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| hepa shop vac | — | — | 0 | researched | — | 2026-06-04 | SV=700 KD=0 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa vac | — | — | 0 | researched | — | 2026-06-04 | SV=2,100 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa vacuum | — | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:1 | 2 | live | — | 2026-06-04 |  |
-| hepa vacuum asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$0.60 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
-| hepa vacuum asbestos abatement | — | — | 0 | unowned | — | 2026-06-04 |  |
-| hepa vacuum cleaner | — | — | 0 | researched | — | 2026-06-04 | SV=5,400 KD=7 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| hepa vacuum for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
-| hepa vacuum rental | — | — | 0 | researched | — | 2026-06-04 | SV=900 KD=1 CPC=$0.60 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
-| home asbestos test | — | — | 0 | unowned | — | 2026-06-04 |  |
-| home depot hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$0.40 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| house built in 1976 asbestos | — | — | 0 | unowned | — | 2026-06-04 |  |
-| how much does asbestos removal cost | — | — | 0 | researched | — | 2026-06-04 | SV=500 KD=8 CPC=$1.30 cluster=Cost src=ASB_Keyword_Data |
-| how to check for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=450 KD=5 CPC=$0.80 cluster=Bridge src=ASB_Keyword_Data |
-| how to cover asbestos siding | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
-| how to dispose of asbestos | how-to-dispose-of-asbestos | — | 5 | live | 2026-05-24 | 2026-06-04 |  |
-| how to dispose of asbestos siding | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| how to dispose of asbestos tile | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| how to encapsulate asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=2 CPC=$0.35 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| how to identify asbestos | — | asbestos-pipe-guide:1 | 1 | live | — | 2026-06-04 |  |
-| how to identify asbestos floor tile | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| how to remove black mastic | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| how to tell if floor tile has asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=1 CPC=$0.60 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| how to tell if popcorn ceiling has asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=400 KD=0 CPC=$0.60 cluster=Popcorn src=ASB_Keyword_Data |
-| how to test for asbestos | — | how-to-test-popcorn-ceiling-for-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| how to test for asbestos in popcorn ceiling | how-to-test-popcorn-ceiling-for-asbestos | — | 1 | live | 2026-05-24 | 2026-06-04 |  |
-| how to test popcorn ceiling for asbestos | — | asbestos-air-quality-test:1, asbestos-drywall-guide:1, asbestos-inspection-cost:1, does-plaster-have-asbestos:1, is-popcorn-ceiling-asbestos:1, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 7 | live | — | 2026-06-04 |  |
-| hvac duct | — | asbestos-duct-wrap:1, when-was-asbestos-used-in-homes:2 | 3 | live | — | 2026-06-04 |  |
-| industrial air purifiers | — | — | 0 | researched | — | 2026-06-04 | SV=1,100 KD=2 CPC=$1.60 cluster=Part 2 src=ASB_Keyword_Data |
-| inspection report | — | asbestos-inspection-cost:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:3, transite-pipe-guide:1 | 8 | live | — | 2026-06-04 |  |
-| is popcorn ceiling asbestos | is-popcorn-ceiling-asbestos | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, asbestos-tile-guide:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, vermiculite-insulation-guide:1, when-was-asbestos-used-in-homes:1 | 14 | live | 2026-05-24 | 2026-06-04 |  |
-| is there asbestos in popcorn ceilings | — | — | 0 | researched | — | 2026-06-04 | SV=350 KD=2 CPC=$0.70 cluster=Popcorn src=ASB_Keyword_Data |
-| is vermiculite asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=8 CPC=$1.20 cluster=Vermiculite src=ASB_Keyword_Data |
-| joint compound | — | asbestos-drywall-guide:6, asbestos-popcorn-ceiling-removal-cost:1, asbestos-popcorn-ceiling-vs-non-asbestos:1, chrysotile:3, house-built-1976-asbestos:2, is-popcorn-ceiling-asbestos:2, when-was-asbestos-used-in-homes:8, white-asbestos-vs-blue-asbestos:1 | 24 | live | — | 2026-06-04 |  |
-| joint compound asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=100 KD=0 CPC=$— cluster=Part 10 src=ASB_Keyword_Data |
-| laminate over asbestos tile | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| lath and plaster | — | does-plaster-have-asbestos:4 | 4 | live | — | 2026-06-04 |  |
-| lath and plaster asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$0.70 cluster=Part 10 src=ASB_Keyword_Data |
-| lava suit | — | — | 0 | killed | — | 2026-06-04 | SV=200 cluster=Part 2 src=ASB_Keyword_Data |
-| lead and asbestos abatement | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$3.50 cluster=Lead vs Asbestos / Cross src=ASBESTOS_Batch4_Keyword_Resear |
-| licensed abatement contractor | — | asbestos-abatement-near-me:3, asbestos-drywall-guide:2, asbestos-roof-removal:1, asbestos-siding-guide:1, how-to-dispose-of-asbestos:3, is-popcorn-ceiling-asbestos:1, white-asbestos-vs-blue-asbestos:1 | 12 | live | — | 2026-06-04 |  |
-| licensed contractor | — | asbestos-ceiling-tile-guide:3, asbestos-floor-tile-removal:1, asbestos-glue:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:1, asbestos-roof-removal:2, asbestos-shingles-guide:1, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, asbestos-under-carpet:1, black-mastic-guide:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:1, white-asbestos-vs-blue-asbestos:1 | 20 | live | — | 2026-06-04 |  |
-| linoleum asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=200 KD=0 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
-| loose-fill | — | asbestos-vs-fiberglass:8 | 8 | live | — | 2026-06-04 |  |
-| mask for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| mastic remover | — | black-mastic-guide:1 | 1 | live | — | 2026-06-04 |  |
-| mesothelioma symptoms | — | — | 0 | unowned | — | 2026-06-04 |  |
-| moldex 7000 | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$4.00 cluster=Part 10 src=ASB_Keyword_Data |
-| moldex 8000 | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$1.70 cluster=Part 10 src=ASB_Keyword_Data |
-| nail holes | — | asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-siding-guide:3, what-does-asbestos-siding-look-like:4 | 9 | live | — | 2026-06-04 |  |
-| negative air machine | — | asbestos-floor-tile-removal:1 | 1 | live | — | 2026-06-04 |  |
-| negative air machine for sale | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=0 CPC=$0.80 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| nikro hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=0 CPC=$1.00 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
-| non friable asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=450 KD=1 CPC=$0.40 cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Resea |
-| non-friable asbestos | — | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:1, asbestos-remediation-cost:1, asbestos-siding-guide:2, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, is-popcorn-ceiling-asbestos:1 | 8 | live | — | 2026-06-04 |  |
-| north 7700 respirator | — | — | 0 | researched | — | 2026-06-04 | SV=150 KD=0 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
-| old asbestos ceiling tiles | — | — | 0 | unowned | — | 2026-06-04 |  |
-| one time asbestos exposure | — | — | 0 | killed | — | 2026-06-04 | SV=150 KD=12 CPC=$3.50 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
-| p100 respirator asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=80 KD=0 CPC=$0.30 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| p100 vs n100 | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$0.45 cluster=Part 10 src=ASB_Keyword_Data |
-| pacm | — | what-does-asbestos-siding-look-like:1 | 1 | live | — | 2026-06-04 |  |
-| paint layer | — | asbestos-popcorn-ceiling-vs-non-asbestos:3 | 3 | live | — | 2026-06-04 |  |
-| painting asbestos siding | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-04 |  |
-| pcm | — | asbestos-air-quality-test:18, asbestos-inspection-cost:1 | 19 | live | — | 2026-06-04 |  |
-| per square foot | — | asbestos-ceiling-tile-guide:2, asbestos-floor-tile-removal:4, asbestos-inspection-cost:1, asbestos-popcorn-ceiling-removal-cost:4, asbestos-remediation-cost:2, asbestos-roof-removal:2, asbestos-shingles-guide:2, asbestos-siding-removal-cost:5, asbestos-tile-guide:3, asbestos-under-carpet:2, asbestos-vs-fiberglass:2, black-mastic-guide:4, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:2 | 38 | live | — | 2026-06-04 |  |
-| perfect primer | — | — | 0 | researched | — | 2026-06-04 | SV=500 KD=0 CPC=$0.45 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
-| permit fee | — | asbestos-remediation-cost:1 | 1 | live | — | 2026-06-04 |  |
-| pink yellow | — | — | 0 | unowned | — | 2026-06-04 |  |
-| pipe insulation removal | — | asbestos-pipe-guide:2, friable-vs-nonfriable-asbestos:1 | 3 | live | — | 2026-06-04 |  |
-| pipe lagging | — | asbestos-air-quality-test:1, asbestos-duct-wrap:5, asbestos-pipe-guide:7, asbestos-vs-fiberglass:2, house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:6, white-asbestos-vs-blue-asbestos:2 | 24 | live | — | 2026-06-04 |  |
-| pipe wrap | — | asbestos-inspection-cost:2, asbestos-pipe-guide:6, asbestos-remediation-cost:1, asbestos-vs-fiberglass:5, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, white-asbestos-vs-blue-asbestos:4 | 20 | live | — | 2026-06-04 |  |
-| plaster ceiling | — | — | 0 | unowned | — | 2026-06-04 |  |
-| plaster wall | — | does-plaster-have-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| plastic sheeting for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| plm analysis | — | asbestos-inspection-cost:4, chrysotile:1 | 5 | live | — | 2026-06-04 |  |
-| polarized light | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:1, asbestos-floor-tile-removal:1, asbestos-glue:3, asbestos-popcorn-ceiling-vs-non-asbestos:3, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, asbestos-under-carpet:1, asbestos-vs-fiberglass:4, black-mastic-guide:2, chrysotile:2, does-plaster-have-asbestos:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:4, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:2, white-asbestos-vs-blue-asbestos:2 | 41 | live | — | 2026-06-04 |  |
-| popcorn ceiling | — | asbestos-air-quality-test:6, asbestos-ceiling-tile-guide:2, asbestos-drywall-guide:4, asbestos-inspection-cost:4, asbestos-popcorn-ceiling-removal-cost:11, asbestos-popcorn-ceiling-vs-non-asbestos:9, asbestos-remediation-cost:7, asbestos-siding-guide:2, asbestos-tile-guide:2, chrysotile:4, does-plaster-have-asbestos:3, friable-vs-nonfriable-asbestos:2, house-built-1976-asbestos:6, how-to-dispose-of-asbestos:2, how-to-test-popcorn-ceiling-for-asbestos:15, is-popcorn-ceiling-asbestos:19, vermiculite-insulation-guide:2, when-was-asbestos-used-in-homes:8, white-asbestos-vs-blue-asbestos:4 | 112 | live | — | 2026-06-04 |  |
-| popcorn ceiling asbestos test | — | how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:2 | 7 | live | — | 2026-06-04 |  |
-| popcorn ceiling asbestos test kit | — | — | 0 | researched | — | 2026-06-04 | SV=400 KD=0 CPC=$0.60 cluster=Popcorn test src=ASB_Keyword_Data |
-| popcorn ceiling removal | — | asbestos-drywall-guide:1, asbestos-popcorn-ceiling-removal-cost:3, asbestos-remediation-cost:1 | 5 | live | — | 2026-06-04 |  |
-| portable air scrubber | — | — | 0 | researched | — | 2026-06-04 | SV=800 KD=0 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
-| pre-1980 | — | asbestos-abatement-near-me:1, asbestos-air-quality-test:2, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:3, asbestos-duct-wrap:2, asbestos-floor-tile-removal:1, asbestos-inspection-cost:2, asbestos-pipe-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:2, asbestos-under-carpet:2, asbestos-vs-fiberglass:1, chrysotile:5, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, vermiculite-insulation-guide:1, what-does-asbestos-siding-look-like:5, when-was-asbestos-used-in-homes:2, white-asbestos-vs-blue-asbestos:2 | 36 | live | — | 2026-06-04 |  |
-| raw asbestos | — | — | 0 | killed | — | 2026-06-04 | SV=300 KD=27 CPC=$20.00 cluster=Part 2 src=ASB_Keyword_Data dead:Industrial/legal |
-| removal cost | — | asbestos-popcorn-ceiling-removal-cost:3, asbestos-remediation-cost:2, asbestos-roof-removal:3, asbestos-siding-removal-cost:5, house-built-1976-asbestos:1 | 14 | live | — | 2026-06-04 |  |
-| replacement cost | — | asbestos-siding-guide:1, asbestos-siding-removal-cost:2 | 3 | live | — | 2026-06-04 |  |
-| resperator | — | — | 0 | researched | — | 2026-06-04 | SV=800 KD=12 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| respirator | — | asbestos-ceiling-tile-guide:2, asbestos-floor-tile-removal:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:3, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, asbestos-under-carpet:3, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:1 | 18 | live | — | 2026-06-04 |  |
-| respirator for asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=0 CPC=$0.35 cluster=PPE src=ASB_Keyword_Data |
-| respirator for asbestos removal | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$0.30 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
-| respirator for lead paint | — | — | 0 | researched | — | 2026-06-04 | SV=60 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| respirator for mold | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
-| respirators | — | asbestos-drywall-guide:1, asbestos-duct-wrap:1, asbestos-floor-tile-removal:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, asbestos-vs-fiberglass:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 11 | live | — | 2026-06-04 |  |
-| respiratory protection | — | asbestos-drywall-guide:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1 | 3 | live | — | 2026-06-04 |  |
-| scope of work | — | asbestos-abatement-near-me:4, asbestos-remediation-cost:5, white-asbestos-vs-blue-asbestos:1 | 10 | live | — | 2026-06-04 |  |
-| scrape and reskim | — | asbestos-popcorn-ceiling-removal-cost:3 | 3 | live | — | 2026-06-04 |  |
-| seller disclosure asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| selling house with asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$0.10 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| serpentine | — | chrysotile:20, white-asbestos-vs-blue-asbestos:4 | 24 | live | — | 2026-06-04 |  |
-| short term asbestos exposure | — | — | 0 | killed | — | 2026-06-04 | SV=150 KD=12 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
-| should i buy a house with asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=50 KD=0 CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| siding over asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=0 CPC=$2.00 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| signs of asbestos exposure | — | — | 0 | unowned | — | 2026-06-04 |  |
-| sparkle | — | asbestos-popcorn-ceiling-vs-non-asbestos:5 | 5 | live | — | 2026-06-04 |  |
-| state license lookup | — | asbestos-abatement-near-me:5 | 5 | live | — | 2026-06-04 |  |
-| subfloor | — | asbestos-floor-tile-removal:6, asbestos-glue:1, asbestos-tile-guide:2, asbestos-under-carpet:2 | 11 | live | — | 2026-06-04 |  |
-| symptoms of asbestos exposure | — | — | 0 | unowned | — | 2026-06-04 |  |
-| tem | — | asbestos-air-quality-test:22, asbestos-inspection-cost:2, asbestos-popcorn-ceiling-vs-non-asbestos:1, chrysotile:4, how-to-test-popcorn-ceiling-for-asbestos:3 | 32 | live | — | 2026-06-04 |  |
-| test popcorn ceiling for asbestos | — | asbestos-air-quality-test:1, asbestos-drywall-guide:1, asbestos-inspection-cost:1, does-plaster-have-asbestos:1, is-popcorn-ceiling-asbestos:1, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 7 | live | — | 2026-06-04 |  |
-| texture coarseness | — | asbestos-popcorn-ceiling-vs-non-asbestos:1 | 1 | live | — | 2026-06-04 |  |
-| tile glue | — | asbestos-glue:4 | 4 | live | — | 2026-06-04 |  |
-| transite pipe | transite-pipe-guide | asbestos-abatement-near-me:1, asbestos-pipe-guide:1, asbestos-roof-removal:1, friable-vs-nonfriable-asbestos:3 | 12 | live | 2026-05-24 | 2026-06-04 |  |
-| transite roof | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
-| transite roof restoration | — | — | 0 | researched | — | 2026-06-04 | SV=20 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
-| transite siding | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$0.02 cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
-| true hepa vacuum | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=5 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| tychem | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=0 CPC=$1.50 cluster=Part 2 src=ASB_Keyword_Data |
-| tyvek suit | — | asbestos-ceiling-tile-guide:1 | 1 | live | — | 2026-06-04 |  |
-| tyvek suits | — | asbestos-floor-tile-removal:2, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 7 | live | — | 2026-06-04 |  |
-| tyvex suit | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=2 CPC=$0.50 cluster=Part 2 src=ASB_Keyword_Data |
-| va loan asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
-| vacuum filtration | — | — | 0 | researched | — | 2026-06-04 | SV=1,800 KD=1 CPC=$0.20 cluster=Part 2 src=ASB_Keyword_Data |
-| vacuum with hepa filter | — | — | 0 | researched | — | 2026-06-04 | SV=2,000 KD=8 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
-| vermiculite | — | asbestos-inspection-cost:4, asbestos-pipe-guide:2, asbestos-popcorn-ceiling-vs-non-asbestos:12, asbestos-remediation-cost:1, asbestos-shingles-guide:1, asbestos-vs-fiberglass:8, chrysotile:8, friable-vs-nonfriable-asbestos:3, house-built-1976-asbestos:5, vermiculite-insulation-guide:25, when-was-asbestos-used-in-homes:7, white-asbestos-vs-blue-asbestos:1 | 77 | live | — | 2026-06-04 |  |
-| vermiculite asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=700 KD=9 CPC=$1.50 cluster=Vermiculite src=ASB_Keyword_Data |
-| vermiculite insulation | vermiculite-insulation-guide | asbestos-inspection-cost:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-vs-fiberglass:1, chrysotile:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:1 | 14 | live | 2026-05-24 | 2026-06-04 |  |
-| vermiculite insulation asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=250 KD=6 CPC=$1.50 cluster=Vermiculite src=ASB_Keyword_Data |
-| vermiculite insulation removal | — | — | 0 | unowned | — | 2026-06-04 |  |
-| vermiculite removal | — | vermiculite-insulation-guide:1 | 1 | live | — | 2026-06-04 |  |
-| vinyl asbestos tile | — | asbestos-floor-tile-removal:7, asbestos-remediation-cost:1, asbestos-tile-guide:15, asbestos-under-carpet:5, house-built-1976-asbestos:2 | 30 | live | — | 2026-06-04 |  |
-| wallpaper paste | — | asbestos-glue:5 | 5 | live | — | 2026-06-04 |  |
-| wavy edges | — | what-does-asbestos-siding-look-like:1 | 1 | live | — | 2026-06-04 |  |
-| what color is asbestos | — | — | 0 | killed | — | 2026-06-04 | SV=450 KD=15 cluster=Part 10 src=ASB_Keyword_Data |
-| what does asbestos insulation look like | — | — | 0 | killed | — | 2026-06-04 | SV=6,300 KD=15 CPC=$0.02 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap |
-| what does asbestos look like | — | — | 0 | killed | — | 2026-06-04 | SV=12,000 KD=3 CPC=$0.02 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap — huge traffic, no c |
-| what does asbestos siding look like | what-does-asbestos-siding-look-like | asbestos-siding-removal-cost:1 | 2 | live | 2026-05-24 | 2026-06-04 |  |
-| what does asbestos tile look like | — | — | 0 | researched | — | 2026-06-04 | SV=700 KD=1 CPC=$0.04 cluster=Bridge src=ASB_Keyword_Data |
-| what is vermiculite | — | — | 0 | killed | — | 2026-06-04 | SV=4,600 KD=14 CPC=$0.01 cluster=Part 2 src=ASB_Keyword_Data dead:Dictionary trap |
-| when did they stop using asbestos in floor tiles | — | — | 0 | researched | — | 2026-06-04 | SV=70 KD=1 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
-| when was asbestos banned | — | — | 0 | killed | — | 2026-06-04 | SV=4,300 KD=15 CPC=$0.07 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap |
-| when was asbestos used in homes | when-was-asbestos-used-in-homes | asbestos-siding-guide:1, chrysotile:1, vermiculite-insulation-guide:1 | 6 | live | 2026-05-24 | 2026-06-04 |  |
-| where to buy asbestos disposal bags | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| where to dispose of asbestos | — | — | 0 | researched | — | 2026-06-04 | SV=90 KD=1 CPC=$0.90 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
-| white asbestos vs blue asbestos | white-asbestos-vs-blue-asbestos | — | 4 | live | 2026-05-24 | 2026-06-04 | primary_kw derived from h1 — operator confirm or create keyword-config |
-| whole house | — | asbestos-remediation-cost:4, how-to-test-popcorn-ceiling-for-asbestos:3 | 7 | live | — | 2026-06-04 |  |
-| would a house built in 1976 have asbestos | house-built-1976-asbestos | — | 3 | live | 2026-05-24 | 2026-06-04 |  |
-| wr grace asbestos trust | — | — | 0 | researched | — | 2026-06-04 | SV=30 KD=2 CPC=$12.00 cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
-| zonolite | — | asbestos-popcorn-ceiling-vs-non-asbestos:4, asbestos-vs-fiberglass:4, chrysotile:1, vermiculite-insulation-guide:22, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 33 | live | — | 2026-06-04 |  |
-| zonolite attic insulation trust | — | vermiculite-insulation-guide:3 | 3 | live | — | 2026-06-04 |  |
-| zonolite class action | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
-| zonolite insulation | — | — | 0 | researched | — | 2026-06-04 | SV=300 KD=2 CPC=$1.70 cluster=Vermiculite brand src=ASB_Keyword_Data |
-| zonolite removal cost | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
-| zonolite trust | — | vermiculite-insulation-guide:2 | 2 | live | — | 2026-06-04 |  |
-| zonolite trust claim form | — | — | 0 | researched | — | 2026-06-04 | SV=0-10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
-| zonolite vermiculite | — | asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-vs-fiberglass:1, vermiculite-insulation-guide:1 | 3 | live | — | 2026-06-04 |  |
-| zonolite vs vermiculite | — | — | 0 | researched | — | 2026-06-04 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
+| 1000 cfm air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$2.00 cluster=Part 10 src=ASB_Keyword_Data |
+| 12x12 asbestos floor tile | — | — | 0 | researched | — | 2026-06-05 | SV=(not pulled) KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| 1976 home asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| 3m 6300 respirator | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=0 CPC=$0.40 cluster=Part 10 src=ASB_Keyword_Data |
+| 3m 6800 respirator | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=1 CPC=$0.70 cluster=Part 10 src=ASB_Keyword_Data |
+| 3m 7502 respirator | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$0.80 cluster=Part 10 src=ASB_Keyword_Data |
+| 3m asbestos respirator | — | — | 0 | unowned | — | 2026-06-05 |  |
+| 3m dust mask | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=4 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m face mask | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=2 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m mask | — | — | 0 | researched | — | 2026-06-05 | SV=1,000 KD=2 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m p100 | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m p100 respirator | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=1 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m respirator | — | — | 0 | researched | — | 2026-06-05 | SV=3,000 KD=1 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m respirator for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=0 CPC=$0.40 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| 3m respirator mask | — | — | 0 | researched | — | 2026-06-05 | SV=600 KD=2 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m respirator selection guide | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=2 CPC=$1.20 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m respirator size chart | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=4 CPC=$0.06 cluster=Part 2 src=ASB_Keyword_Data |
+| 3m respirators | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=3 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| 500 cfm air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$1.20 cluster=Part 10 src=ASB_Keyword_Data |
+| 6 mil asbestos bags | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$0.60 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| 6-mil polyethylene | — | asbestos-duct-wrap:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-roof-removal:2, asbestos-shingles-guide:1, does-plaster-have-asbestos:1, how-to-dispose-of-asbestos:6 | 13 | live | — | 2026-06-05 |  |
+| 9x9 asbestos floor tile | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| 9x9 tile | — | asbestos-floor-tile-removal:3 | 3 | live | — | 2026-06-05 |  |
+| abatement air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$1.00 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| abatement cost | — | asbestos-abatement-near-me:3, asbestos-popcorn-ceiling-removal-cost:4, asbestos-remediation-cost:3, asbestos-siding-removal-cost:4 | 14 | live | — | 2026-06-05 |  |
+| ac pipe | — | transite-pipe-guide:9 | 9 | live | — | 2026-06-05 |  |
+| ahera accredited | — | asbestos-abatement-near-me:3, asbestos-inspection-cost:1 | 4 | live | — | 2026-06-05 |  |
+| ahera inspector | — | asbestos-inspection-cost:5 | 5 | live | — | 2026-06-05 |  |
+| air filtration device | — | — | 0 | unowned | — | 2026-06-05 |  |
+| air filtration unit | — | — | 0 | unowned | — | 2026-06-05 |  |
+| air monitoring | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-duct-wrap:5, asbestos-glue:2, asbestos-pipe-guide:3, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:4, asbestos-roof-removal:2, asbestos-siding-guide:1, asbestos-siding-removal-cost:3, asbestos-under-carpet:2, asbestos-vs-fiberglass:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:2, transite-pipe-guide:3 | 32 | live | — | 2026-06-05 |  |
+| air sampling | — | asbestos-abatement-near-me:4, asbestos-air-quality-test:3, asbestos-ceiling-tile-guide:2, asbestos-drywall-guide:1, asbestos-duct-wrap:1, asbestos-pipe-guide:1, chrysotile:1, white-asbestos-vs-blue-asbestos:1 | 14 | live | — | 2026-06-05 |  |
+| air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=12,000 KD=2 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
+| air scrubber for abatement | — | — | 0 | unowned | — | 2026-06-05 |  |
+| air scrubber rental | — | — | 0 | unowned | — | 2026-06-05 |  |
+| air scrubbers | — | — | 0 | researched | — | 2026-06-05 | SV=2,300 KD=3 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
+| airscrubber | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=2 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
+| amiante | — | — | 0 | killed | — | 2026-06-05 | SV=250 cluster=Part 2 src=ASB_Keyword_Data |
+| amosite | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:1, asbestos-glue:1, asbestos-inspection-cost:1, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-tile-guide:1, asbestos-vs-fiberglass:1, black-mastic-guide:1, chrysotile:10, how-to-test-popcorn-ceiling-for-asbestos:2, is-popcorn-ceiling-asbestos:1, what-does-asbestos-siding-look-like:1, white-asbestos-vs-blue-asbestos:2 | 26 | live | — | 2026-06-05 |  |
+| approved landfill | — | asbestos-ceiling-tile-guide:1, asbestos-tile-guide:1, how-to-dispose-of-asbestos:1 | 3 | live | — | 2026-06-05 |  |
+| are popcorn ceilings asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=3 CPC=$1.80 cluster=Popcorn src=ASB_Keyword_Data |
+| artex | — | — | 0 | killed | — | 2026-06-05 | SV=40+ cluster=Part 2 src=ASB_Keyword_Data |
+| asbestos abatement contractor | — | asbestos-abatement-near-me:2, does-plaster-have-asbestos:1 | 3 | live | — | 2026-06-05 |  |
+| asbestos abatement cost | — | asbestos-popcorn-ceiling-removal-cost:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos abatement near me | asbestos-abatement-near-me | — | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos abatement options | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos abatement process | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=9 CPC=$0.20 cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Resea |
+| asbestos adhesive | — | asbestos-glue:3 | 3 | live | — | 2026-06-05 |  |
+| asbestos air quality test | asbestos-air-quality-test | asbestos-inspection-cost:1 | 6 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos air scrubber | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos air test kit | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos black mastic | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=0 CPC=$1.30 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos blown in insulation | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=4 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos boiler insulation | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos boots | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos bulk sample kit | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos ceiling | — | asbestos-ceiling-tile-guide:2 | 2 | live | — | 2026-06-05 |  |
+| asbestos ceiling removal | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$2.00 cluster=Ceiling service src=ASB_Keyword_Data |
+| asbestos ceiling tile | asbestos-ceiling-tile-guide | — | 1 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos ceiling tiles | — | asbestos-ceiling-tile-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos cement board | — | asbestos-siding-guide:5, asbestos-siding-removal-cost:1, what-does-asbestos-siding-look-like:3 | 9 | live | — | 2026-06-05 |  |
+| asbestos cement pipe | — | asbestos-pipe-guide:4, transite-pipe-guide:3 | 7 | live | — | 2026-06-05 |  |
+| asbestos cement roof | — | asbestos-shingles-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos chimney flue | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos disclosure california | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$6.00 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos disclosure florida | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=0 CPC=$2.50 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos disclosure form | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$0.40 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos disclosure illinois | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos disease symptoms | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos disposal | — | asbestos-vs-fiberglass:1, how-to-dispose-of-asbestos:8 | 9 | live | — | 2026-06-05 |  |
+| asbestos disposal bag | — | how-to-dispose-of-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos disposal bags | — | how-to-dispose-of-asbestos:3 | 3 | live | — | 2026-06-05 |  |
+| asbestos disposal manifest | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos drop off near me | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos drywall | asbestos-drywall-guide | how-to-dispose-of-asbestos:1 | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos duct wrap | asbestos-duct-wrap | — | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos encapsulant | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos encapsulation | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos encapsulation cost | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=4 CPC=$0.50 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos encapsulation paint | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=0 CPC=$0.30 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos exposure symptoms | — | — | 0 | killed | — | 2026-06-05 | SV=TBD KD=high CPC=$high cluster=Part 2 src=ASB_Keyword_Data dead:Legal territory |
+| asbestos exposure test | — | — | 0 | killed | — | 2026-06-05 | SV=600 KD=12 CPC=$1.30 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
+| asbestos floor tile | — | asbestos-floor-tile-removal:5, asbestos-glue:2, asbestos-remediation-cost:1, black-mastic-guide:1, house-built-1976-asbestos:1, how-to-dispose-of-asbestos:2 | 12 | live | — | 2026-06-05 |  |
+| asbestos floor tile colors | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos floor tile removal | asbestos-floor-tile-removal | asbestos-glue:1, how-to-dispose-of-asbestos:1 | 6 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos flooring | — | — | 0 | researched | — | 2026-06-05 | SV=1,500 KD=4 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
+| asbestos found during home inspection | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos garage demolition | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos garage roof | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=0 CPC=$0.35 cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos gloves | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
+| asbestos glue | asbestos-glue | — | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos goggles | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| asbestos in 1970s homes | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos in attic | — | — | 0 | killed | — | 2026-06-05 | SV=250 cluster=Part 2 src=ASB_Keyword_Data |
+| asbestos in attic insulation | — | — | 0 | killed | — | 2026-06-05 | SV=150 KD=15 CPC=$3.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in basement | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$2.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in basement floor | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$2.00 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in cinder block | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in crawl space | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$4.50 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in drywall | — | asbestos-drywall-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos in fireplace | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in flooring | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=2 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
+| asbestos in grout | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in homes | — | when-was-asbestos-used-in-homes:4 | 4 | live | — | 2026-06-05 |  |
+| asbestos in horsehair plaster | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in lath and plaster | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in linoleum | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$0.60 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in linoleum backing | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in mortar | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=0 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in old barn | — | — | 0 | researched | — | 2026-06-05 | SV=(not pulled) KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in plaster | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos in plaster ceiling | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=2 CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in plaster walls | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.70 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in popcorn ceiling | — | chrysotile:1, how-to-test-popcorn-ceiling-for-asbestos:1 | 2 | live | — | 2026-06-05 |  |
+| asbestos in shed | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in sheet vinyl flooring | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in vinyl flooring | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=1 CPC=$0.20 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in window glazing | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos in window putty | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=— CPC=$— cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos inspection | asbestos-inspection-cost | asbestos-ceiling-tile-guide:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, asbestos-under-carpet:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 18 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos inspection cost | — | asbestos-inspection-cost:3 | 3 | live | — | 2026-06-05 |  |
+| asbestos inspection near me | — | — | 0 | researched | — | 2026-06-05 | SV=500 KD=0 CPC=$2.50 cluster=Directory src=ASB_Keyword_Data |
+| asbestos inspector | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos insulation | — | house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:2 | 3 | live | — | 2026-06-05 |  |
+| asbestos insulation pictures | — | — | 0 | researched | — | 2026-06-05 | SV=600 KD=3 CPC=$0.15 cluster=Insulation ID src=ASB_Keyword_Data |
+| asbestos landfill near me | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=1 CPC=$1.80 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos latency period | — | — | 0 | killed | — | 2026-06-05 | SV=70 KD=12 CPC=$7.00 cluster=Part 2 src=ASB_Keyword_Data dead:Lawyer territory |
+| asbestos law | — | friable-vs-nonfriable-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos loose fill insulation | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$1.40 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos lung disease | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos manifest form | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos mask | — | — | 0 | researched | — | 2026-06-05 | SV=800 KD=0 CPC=$0.35 cluster=PPE src=ASB_Keyword_Data |
+| asbestos mastic | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=1 CPC=$3.50 cluster=Flooring src=ASB_Keyword_Data |
+| asbestos on pipes | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$7.00 cluster=Pipe src=ASB_Keyword_Data |
+| asbestos pipe | — | asbestos-duct-wrap:1, asbestos-pipe-guide:9, asbestos-vs-fiberglass:3, when-was-asbestos-used-in-homes:1 | 14 | live | — | 2026-06-05 |  |
+| asbestos pipe insulation | asbestos-pipe-guide | asbestos-vs-fiberglass:1 | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos pipe lagging | — | asbestos-pipe-guide:2, asbestos-vs-fiberglass:1, when-was-asbestos-used-in-homes:1 | 4 | live | — | 2026-06-05 |  |
+| asbestos pipe wrap | — | asbestos-pipe-guide:3, asbestos-vs-fiberglass:1 | 4 | live | — | 2026-06-05 |  |
+| asbestos plaster | — | does-plaster-have-asbestos:2 | 2 | live | — | 2026-06-05 |  |
+| asbestos popcorn ceiling removal cost | asbestos-popcorn-ceiling-removal-cost | asbestos-remediation-cost:1 | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos popcorn ceiling test kit | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos popcorn ceiling vs non asbestos | asbestos-popcorn-ceiling-vs-non-asbestos | — | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos ppe | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=1 CPC=$0.50 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
+| asbestos protective gear | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos remediation | — | asbestos-remediation-cost:5 | 5 | live | — | 2026-06-05 |  |
+| asbestos remediation companies | — | — | 0 | killed | — | 2026-06-05 | SV=40 KD=16 cluster=Part 10 src=ASB_Keyword_Data |
+| asbestos remediation cost | asbestos-remediation-cost | — | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos removal cost | — | — | 0 | researched | — | 2026-06-05 | SV=1,100 KD=1 CPC=$1.90 cluster=Cost src=ASB_Keyword_Data |
+| asbestos removal near me | — | — | 0 | researched | — | 2026-06-05 | SV=1,200 KD=1 CPC=$2.50 cluster=Directory src=ASB_Keyword_Data |
+| asbestos removal service | — | — | 0 | researched | — | 2026-06-05 | SV=600 KD=0 CPC=$1.00 cluster=Directory src=ASB_Keyword_Data |
+| asbestos removal services | — | — | 0 | researched | — | 2026-06-05 | SV=900 KD=0 CPC=$0.10 cluster=Directory src=ASB_Keyword_Data |
+| asbestos removal vs encapsulation cost | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos respirator | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=1 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
+| asbestos roof | — | asbestos-roof-removal:6, asbestos-shingles-guide:2, how-to-dispose-of-asbestos:1 | 9 | live | — | 2026-06-05 |  |
+| asbestos roof removal | asbestos-roof-removal | how-to-dispose-of-asbestos:1 | 6 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos roof repair | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$3.50 cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos roof shingles | — | asbestos-shingles-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos roof tiles | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$1.30 cluster=Roofing src=ASB_Keyword_Data |
+| asbestos sealant | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.40 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos sealer | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos shed removal | — | — | 0 | researched | — | 2026-06-05 | SV=40 KD=0 CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos shed roof | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Outbuildings src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos sheetrock | — | — | 0 | unowned | — | 2026-06-05 |  |
+| asbestos shingle siding | — | asbestos-siding-guide:2, what-does-asbestos-siding-look-like:4 | 6 | live | — | 2026-06-05 |  |
+| asbestos shingles | asbestos-shingles-guide | asbestos-roof-removal:4, asbestos-siding-guide:1, how-to-dispose-of-asbestos:1 | 13 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos siding | asbestos-siding-guide | asbestos-remediation-cost:2, asbestos-shingles-guide:1, asbestos-siding-removal-cost:7, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, what-does-asbestos-siding-look-like:6, when-was-asbestos-used-in-homes:3 | 26 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos siding paint | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos siding removal | — | asbestos-remediation-cost:1, asbestos-siding-guide:1, asbestos-siding-removal-cost:4 | 6 | live | — | 2026-06-05 |  |
+| asbestos siding removal cost | asbestos-siding-removal-cost | asbestos-remediation-cost:1 | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos siding replacement | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos suit | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=2 CPC=$0.60 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resea |
+| asbestos surfactant | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$1.70 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos test | — | how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:2 | 7 | live | — | 2026-06-05 |  |
+| asbestos test kit | — | — | 0 | researched | — | 2026-06-05 | SV=6,200 KD=3 CPC=$0.70 cluster=Test kit src=ASB_Keyword_Data |
+| asbestos testing | — | asbestos-ceiling-tile-guide:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 11 | live | — | 2026-06-05 |  |
+| asbestos testing kit | — | — | 0 | researched | — | 2026-06-05 | SV=1,900 KD=3 CPC=$0.70 cluster=Test kit src=ASB_Keyword_Data |
+| asbestos testing near me | — | — | 0 | researched | — | 2026-06-05 | SV=2,200 KD=4 CPC=$1.70 cluster=Test kit src=ASB_Keyword_Data |
+| asbestos textured ceiling | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=2 CPC=$3.50 cluster=Scenario / Room src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos tile | asbestos-tile-guide | asbestos-floor-tile-removal:3, asbestos-glue:2, asbestos-under-carpet:6, black-mastic-guide:2, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1 | 21 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos tile removal | — | asbestos-tile-guide:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos tiles | — | friable-vs-nonfriable-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos timeline | — | house-built-1976-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| asbestos under carpet | asbestos-under-carpet | — | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
+| asbestos vs fiberglass | asbestos-vs-fiberglass | — | 4 | live | 2026-05-24 | 2026-06-05 |  |
+| asbestos warning labels | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$0.80 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos waste bags | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$0.50 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos waste disposal bags | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos waste shipment record | — | how-to-dispose-of-asbestos:3, transite-pipe-guide:1 | 4 | live | — | 2026-06-05 |  |
+| asbestos work permit | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestos work plan | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| asbestosis symptoms | — | — | 0 | unowned | — | 2026-06-05 |  |
+| bean e doo mastic remover | — | — | 0 | researched | — | 2026-06-05 | SV=40 KD=0 CPC=$0.40 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| best hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=1,000 KD=3 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
+| best hepa vacuum for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| best hepa vacuum for asbestos removal | — | — | 0 | unowned | — | 2026-06-05 |  |
+| best respirator for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=80 KD=1 CPC=$0.35 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| best respirator for mold | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=1 CPC=$0.45 cluster=Part 10 src=ASB_Keyword_Data |
+| black mastic | black-mastic-guide | asbestos-floor-tile-removal:4, asbestos-glue:2, asbestos-remediation-cost:1, asbestos-tile-guide:3, asbestos-under-carpet:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:2, how-to-dispose-of-asbestos:1, when-was-asbestos-used-in-homes:1 | 22 | live | 2026-05-24 | 2026-06-05 |  |
+| black mastic asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=450 KD=0 CPC=$0.50 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| breathing mask | — | — | 0 | researched | — | 2026-06-05 | SV=1,200 KD=12 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| build year | — | asbestos-drywall-guide:1, asbestos-popcorn-ceiling-vs-non-asbestos:5, chrysotile:1, does-plaster-have-asbestos:2, house-built-1976-asbestos:3, when-was-asbestos-used-in-homes:5 | 17 | live | — | 2026-06-05 |  |
+| bulk sample | — | asbestos-glue:1, asbestos-inspection-cost:4, asbestos-under-carpet:1, black-mastic-guide:2, chrysotile:2, does-plaster-have-asbestos:1, white-asbestos-vs-blue-asbestos:2 | 13 | live | — | 2026-06-05 |  |
+| buying a house with asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=0 CPC=$0.15 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| can you paint asbestos siding | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
+| carpet padding | — | asbestos-under-carpet:1 | 1 | live | — | 2026-06-05 |  |
+| category i asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| category ii asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| cement roof | — | asbestos-roof-removal:2, asbestos-shingles-guide:2 | 4 | live | — | 2026-06-05 |  |
+| cement shingles | — | asbestos-roof-removal:6, asbestos-shingles-guide:5, asbestos-siding-guide:1, asbestos-siding-removal-cost:1, friable-vs-nonfriable-asbestos:3, what-does-asbestos-siding-look-like:1 | 17 | live | — | 2026-06-05 |  |
+| cement siding | — | asbestos-abatement-near-me:1, asbestos-drywall-guide:3, asbestos-remediation-cost:3, asbestos-siding-guide:4, asbestos-siding-removal-cost:1, chrysotile:3, friable-vs-nonfriable-asbestos:4, house-built-1976-asbestos:4, vermiculite-insulation-guide:2, what-does-asbestos-siding-look-like:4, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 31 | live | — | 2026-06-05 |  |
+| chemical mask | — | — | 0 | researched | — | 2026-06-05 | SV=600 KD=2 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| chrysotile | chrysotile | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:3, asbestos-drywall-guide:15, asbestos-duct-wrap:3, asbestos-floor-tile-removal:5, asbestos-glue:8, asbestos-inspection-cost:2, asbestos-pipe-guide:4, asbestos-popcorn-ceiling-removal-cost:1, asbestos-popcorn-ceiling-vs-non-asbestos:6, asbestos-roof-removal:2, asbestos-shingles-guide:6, asbestos-siding-guide:2, asbestos-tile-guide:5, asbestos-under-carpet:3, asbestos-vs-fiberglass:2, black-mastic-guide:6, does-plaster-have-asbestos:9, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:7, transite-pipe-guide:5, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:6, white-asbestos-vs-blue-asbestos:37 | 160 | live | 2026-05-24 | 2026-06-05 |  |
+| clearance test | — | asbestos-abatement-near-me:1, asbestos-air-quality-test:3 | 4 | live | — | 2026-06-05 |  |
+| commercial air purifier | — | — | 0 | researched | — | 2026-06-05 | SV=3,300 KD=0 CPC=$1.70 cluster=Part 2 src=ASB_Keyword_Data |
+| construction adhesive | — | asbestos-glue:5 | 5 | live | — | 2026-06-05 |  |
+| construction vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=600 KD=11 CPC=$0.45 cluster=Part 2 src=ASB_Keyword_Data |
+| corrugated paper | — | asbestos-duct-wrap:3, asbestos-pipe-guide:8 | 11 | live | — | 2026-06-05 |  |
+| cost per square foot | — | — | 0 | unowned | — | 2026-06-05 |  |
+| cover asbestos tile | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$0.50 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| covering asbestos floor tile | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| crocidolite | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-glue:1, asbestos-inspection-cost:1, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-tile-guide:1, asbestos-vs-fiberglass:1, chrysotile:9, how-to-test-popcorn-ceiling-for-asbestos:2, is-popcorn-ceiling-asbestos:1, what-does-asbestos-siding-look-like:1, white-asbestos-vs-blue-asbestos:34 | 55 | live | — | 2026-06-05 |  |
+| cutback | — | asbestos-floor-tile-removal:1, asbestos-glue:4, asbestos-tile-guide:1, black-mastic-guide:8 | 14 | live | — | 2026-06-05 |  |
+| cutback adhesive | — | asbestos-glue:3, asbestos-tile-guide:1, black-mastic-guide:8 | 12 | live | — | 2026-06-05 |  |
+| diy asbestos test | — | — | 0 | unowned | — | 2026-06-05 |  |
+| do popcorn ceilings have asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=800 KD=2 CPC=$1.10 cluster=Popcorn src=ASB_Keyword_Data |
+| does drywall have asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$2.00 cluster=Drywall src=ASB_Keyword_Data |
+| does my house have asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=1 CPC=$1.40 cluster=Bridge src=ASB_Keyword_Data |
+| does plaster have asbestos | does-plaster-have-asbestos | when-was-asbestos-used-in-homes:1 | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| does popcorn ceiling have asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=800 KD=2 CPC=$1.10 cluster=Popcorn src=ASB_Keyword_Data |
+| double bag | — | asbestos-siding-guide:1, how-to-dispose-of-asbestos:1, vermiculite-insulation-guide:1 | 3 | live | — | 2026-06-05 |  |
+| drywall mud | — | asbestos-drywall-guide:3, when-was-asbestos-used-in-homes:2 | 5 | live | — | 2026-06-05 |  |
+| duct insulation | — | asbestos-duct-wrap:5 | 5 | live | — | 2026-06-05 |  |
+| duct removal | — | asbestos-duct-wrap:2 | 2 | live | — | 2026-06-05 |  |
+| dustless hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=40 KD=1 CPC=$0.30 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| dustless technologies | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=0 CPC=$0.90 cluster=Part 2 src=ASB_Keyword_Data |
+| encapsulate asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=80 KD=2 CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| encapsulation | — | asbestos-ceiling-tile-guide:4, asbestos-drywall-guide:1, asbestos-duct-wrap:4, asbestos-floor-tile-removal:5, asbestos-glue:3, asbestos-inspection-cost:1, asbestos-pipe-guide:3, asbestos-popcorn-ceiling-removal-cost:7, asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-shingles-guide:4, asbestos-siding-guide:4, asbestos-siding-removal-cost:4, asbestos-tile-guide:3, asbestos-under-carpet:4, asbestos-vs-fiberglass:2, black-mastic-guide:6, does-plaster-have-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:3 | 63 | live | — | 2026-06-05 |  |
+| fha loan asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| fiberglass insulation | — | asbestos-vs-fiberglass:4 | 4 | live | — | 2026-06-05 |  |
+| fiberlock abc | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$0.45 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| fiberlock asbestos encapsulant | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=— CPC=$— cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| fire suit | — | — | 0 | killed | — | 2026-06-05 | SV=1,200 cluster=Part 2 src=ASB_Keyword_Data |
+| fire sut | — | — | 0 | killed | — | 2026-06-05 | SV=300 cluster=Part 2 src=ASB_Keyword_Data |
+| floating floor over asbestos tile | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| free asbestos disposal | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=8 CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| friable | — | asbestos-abatement-near-me:5, asbestos-air-quality-test:2, asbestos-ceiling-tile-guide:8, asbestos-drywall-guide:8, asbestos-duct-wrap:9, asbestos-floor-tile-removal:9, asbestos-glue:5, asbestos-inspection-cost:4, asbestos-pipe-guide:12, asbestos-popcorn-ceiling-removal-cost:2, asbestos-popcorn-ceiling-vs-non-asbestos:4, asbestos-remediation-cost:12, asbestos-roof-removal:10, asbestos-shingles-guide:11, asbestos-siding-guide:7, asbestos-siding-removal-cost:11, asbestos-tile-guide:6, asbestos-under-carpet:4, asbestos-vs-fiberglass:3, black-mastic-guide:6, chrysotile:2, does-plaster-have-asbestos:12, friable-vs-nonfriable-asbestos:27, house-built-1976-asbestos:6, how-to-dispose-of-asbestos:6, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:6, transite-pipe-guide:4, vermiculite-insulation-guide:8, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:4, white-asbestos-vs-blue-asbestos:5 | 223 | live | — | 2026-06-05 |  |
+| friable asbestos | friable-vs-nonfriable-asbestos | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:2, asbestos-glue:1, asbestos-remediation-cost:1, asbestos-siding-guide:2, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, how-to-dispose-of-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:3 | 19 | live | 2026-05-24 | 2026-06-05 |  |
+| friable vs non friable | — | — | 0 | researched | — | 2026-06-05 | SV=(paired) KD=— CPC=$— cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Res |
+| friable vs non-friable asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| full face respirator asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| full face respirator mask 3m | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=4 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| furnace plenum | — | asbestos-duct-wrap:3 | 3 | live | — | 2026-06-05 |  |
+| gaf weatherside | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=0 CPC=$0.70 cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
+| glove bag asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$0.25 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
+| half face respirator asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| half face respirator p100 | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa air purifier | — | — | 0 | unowned | — | 2026-06-05 |  |
+| hepa air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=2,300 KD=2 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa filter | — | asbestos-popcorn-ceiling-removal-cost:2 | 2 | live | — | 2026-06-05 |  |
+| hepa filter vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=2,300 KD=7 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa filter vacuum cleaner | — | — | 0 | researched | — | 2026-06-05 | SV=1,600 KD=9 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa pre filter | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$0.35 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| hepa shop vac | — | — | 0 | researched | — | 2026-06-05 | SV=700 KD=0 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa vac | — | — | 0 | researched | — | 2026-06-05 | SV=2,100 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa vacuum | — | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:1 | 2 | live | — | 2026-06-05 |  |
+| hepa vacuum asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$0.60 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
+| hepa vacuum asbestos abatement | — | — | 0 | unowned | — | 2026-06-05 |  |
+| hepa vacuum cleaner | — | — | 0 | researched | — | 2026-06-05 | SV=5,400 KD=7 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| hepa vacuum for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.50 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
+| hepa vacuum rental | — | — | 0 | researched | — | 2026-06-05 | SV=900 KD=1 CPC=$0.60 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keyw |
+| home asbestos test | — | — | 0 | unowned | — | 2026-06-05 |  |
+| home depot hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$0.40 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| house built in 1976 asbestos | — | — | 0 | unowned | — | 2026-06-05 |  |
+| how much does asbestos removal cost | — | — | 0 | researched | — | 2026-06-05 | SV=500 KD=8 CPC=$1.30 cluster=Cost src=ASB_Keyword_Data |
+| how to check for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=450 KD=5 CPC=$0.80 cluster=Bridge src=ASB_Keyword_Data |
+| how to cover asbestos siding | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$— cluster=Siding / Roof / Painting Asbestos src=ASBESTOS_Batch4_Keyword_Resear |
+| how to dispose of asbestos | how-to-dispose-of-asbestos | — | 5 | live | 2026-05-24 | 2026-06-05 |  |
+| how to dispose of asbestos siding | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| how to dispose of asbestos tile | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=0 CPC=$1.20 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| how to encapsulate asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=2 CPC=$0.35 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| how to identify asbestos | — | asbestos-pipe-guide:1 | 1 | live | — | 2026-06-05 |  |
+| how to identify asbestos floor tile | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| how to remove black mastic | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=0 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| how to tell if floor tile has asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=1 CPC=$0.60 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| how to tell if popcorn ceiling has asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=400 KD=0 CPC=$0.60 cluster=Popcorn src=ASB_Keyword_Data |
+| how to test for asbestos | — | how-to-test-popcorn-ceiling-for-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| how to test for asbestos in popcorn ceiling | how-to-test-popcorn-ceiling-for-asbestos | — | 1 | live | 2026-05-24 | 2026-06-05 |  |
+| how to test popcorn ceiling for asbestos | — | asbestos-air-quality-test:1, asbestos-drywall-guide:1, asbestos-inspection-cost:1, does-plaster-have-asbestos:1, is-popcorn-ceiling-asbestos:1, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 7 | live | — | 2026-06-05 |  |
+| hvac duct | — | asbestos-duct-wrap:1, when-was-asbestos-used-in-homes:2 | 3 | live | — | 2026-06-05 |  |
+| industrial air purifiers | — | — | 0 | researched | — | 2026-06-05 | SV=1,100 KD=2 CPC=$1.60 cluster=Part 2 src=ASB_Keyword_Data |
+| inspection report | — | asbestos-inspection-cost:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:3, transite-pipe-guide:1 | 8 | live | — | 2026-06-05 |  |
+| is popcorn ceiling asbestos | is-popcorn-ceiling-asbestos | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, asbestos-tile-guide:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, vermiculite-insulation-guide:1, when-was-asbestos-used-in-homes:1 | 14 | live | 2026-05-24 | 2026-06-05 |  |
+| is there asbestos in popcorn ceilings | — | — | 0 | researched | — | 2026-06-05 | SV=350 KD=2 CPC=$0.70 cluster=Popcorn src=ASB_Keyword_Data |
+| is vermiculite asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=8 CPC=$1.20 cluster=Vermiculite src=ASB_Keyword_Data |
+| joint compound | — | asbestos-drywall-guide:6, asbestos-popcorn-ceiling-removal-cost:1, asbestos-popcorn-ceiling-vs-non-asbestos:1, chrysotile:3, house-built-1976-asbestos:2, is-popcorn-ceiling-asbestos:2, when-was-asbestos-used-in-homes:8, white-asbestos-vs-blue-asbestos:1 | 24 | live | — | 2026-06-05 |  |
+| joint compound asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=100 KD=0 CPC=$— cluster=Part 10 src=ASB_Keyword_Data |
+| laminate over asbestos tile | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| lath and plaster | — | does-plaster-have-asbestos:4 | 4 | live | — | 2026-06-05 |  |
+| lath and plaster asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$0.70 cluster=Part 10 src=ASB_Keyword_Data |
+| lava suit | — | — | 0 | killed | — | 2026-06-05 | SV=200 cluster=Part 2 src=ASB_Keyword_Data |
+| lead and asbestos abatement | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$3.50 cluster=Lead vs Asbestos / Cross src=ASBESTOS_Batch4_Keyword_Resear |
+| licensed abatement contractor | — | asbestos-abatement-near-me:3, asbestos-drywall-guide:2, asbestos-roof-removal:1, asbestos-siding-guide:1, how-to-dispose-of-asbestos:3, is-popcorn-ceiling-asbestos:1, white-asbestos-vs-blue-asbestos:1 | 12 | live | — | 2026-06-05 |  |
+| licensed contractor | — | asbestos-ceiling-tile-guide:3, asbestos-floor-tile-removal:1, asbestos-glue:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:1, asbestos-roof-removal:2, asbestos-shingles-guide:1, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, asbestos-under-carpet:1, black-mastic-guide:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:1, white-asbestos-vs-blue-asbestos:1 | 20 | live | — | 2026-06-05 |  |
+| linoleum asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=200 KD=0 CPC=$0.60 cluster=Flooring src=ASB_Keyword_Data |
+| loose-fill | — | asbestos-vs-fiberglass:8 | 8 | live | — | 2026-06-05 |  |
+| mask for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| mastic remover | — | black-mastic-guide:1 | 1 | live | — | 2026-06-05 |  |
+| mesothelioma symptoms | — | — | 0 | unowned | — | 2026-06-05 |  |
+| moldex 7000 | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$4.00 cluster=Part 10 src=ASB_Keyword_Data |
+| moldex 8000 | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$1.70 cluster=Part 10 src=ASB_Keyword_Data |
+| nail holes | — | asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-siding-guide:3, what-does-asbestos-siding-look-like:4 | 9 | live | — | 2026-06-05 |  |
+| negative air machine | — | asbestos-floor-tile-removal:1 | 1 | live | — | 2026-06-05 |  |
+| negative air machine for sale | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=0 CPC=$0.80 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| nikro hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=0 CPC=$1.00 cluster=Equipment / HEPA / Negative Air / Containment src=ASBESTOS_Batch4_Keywo |
+| non friable asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=450 KD=1 CPC=$0.40 cluster=Topical Authority / Educational Hubs src=ASBESTOS_Batch4_Keyword_Resea |
+| non-friable asbestos | — | asbestos-ceiling-tile-guide:1, asbestos-floor-tile-removal:1, asbestos-remediation-cost:1, asbestos-siding-guide:2, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, is-popcorn-ceiling-asbestos:1 | 8 | live | — | 2026-06-05 |  |
+| north 7700 respirator | — | — | 0 | researched | — | 2026-06-05 | SV=150 KD=0 CPC=$0.60 cluster=Part 2 src=ASB_Keyword_Data |
+| old asbestos ceiling tiles | — | — | 0 | unowned | — | 2026-06-05 |  |
+| one time asbestos exposure | — | — | 0 | killed | — | 2026-06-05 | SV=150 KD=12 CPC=$3.50 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
+| p100 respirator asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=80 KD=0 CPC=$0.30 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| p100 vs n100 | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$0.45 cluster=Part 10 src=ASB_Keyword_Data |
+| pacm | — | what-does-asbestos-siding-look-like:1 | 1 | live | — | 2026-06-05 |  |
+| paint layer | — | asbestos-popcorn-ceiling-vs-non-asbestos:3 | 3 | live | — | 2026-06-05 |  |
+| painting asbestos siding | — | asbestos-siding-guide:1 | 1 | live | — | 2026-06-05 |  |
+| pcm | — | asbestos-air-quality-test:18, asbestos-inspection-cost:1 | 19 | live | — | 2026-06-05 |  |
+| per square foot | — | asbestos-ceiling-tile-guide:2, asbestos-floor-tile-removal:4, asbestos-inspection-cost:1, asbestos-popcorn-ceiling-removal-cost:4, asbestos-remediation-cost:2, asbestos-roof-removal:2, asbestos-shingles-guide:2, asbestos-siding-removal-cost:5, asbestos-tile-guide:3, asbestos-under-carpet:2, asbestos-vs-fiberglass:2, black-mastic-guide:4, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, is-popcorn-ceiling-asbestos:1, vermiculite-insulation-guide:2 | 38 | live | — | 2026-06-05 |  |
+| perfect primer | — | — | 0 | researched | — | 2026-06-05 | SV=500 KD=0 CPC=$0.45 cluster=Encapsulation / Sealants / Paint src=ASBESTOS_Batch4_Keyword_Resear |
+| permit fee | — | asbestos-remediation-cost:1 | 1 | live | — | 2026-06-05 |  |
+| pink yellow | — | — | 0 | unowned | — | 2026-06-05 |  |
+| pipe insulation removal | — | asbestos-pipe-guide:2, friable-vs-nonfriable-asbestos:1 | 3 | live | — | 2026-06-05 |  |
+| pipe lagging | — | asbestos-air-quality-test:1, asbestos-duct-wrap:5, asbestos-pipe-guide:7, asbestos-vs-fiberglass:2, house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:6, white-asbestos-vs-blue-asbestos:2 | 24 | live | — | 2026-06-05 |  |
+| pipe wrap | — | asbestos-inspection-cost:2, asbestos-pipe-guide:6, asbestos-remediation-cost:1, asbestos-vs-fiberglass:5, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, white-asbestos-vs-blue-asbestos:4 | 20 | live | — | 2026-06-05 |  |
+| plaster ceiling | — | — | 0 | unowned | — | 2026-06-05 |  |
+| plaster wall | — | does-plaster-have-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| plastic sheeting for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| plm analysis | — | asbestos-inspection-cost:4, chrysotile:1 | 5 | live | — | 2026-06-05 |  |
+| polarized light | — | asbestos-air-quality-test:1, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:1, asbestos-floor-tile-removal:1, asbestos-glue:3, asbestos-popcorn-ceiling-vs-non-asbestos:3, asbestos-roof-removal:1, asbestos-shingles-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:1, asbestos-under-carpet:1, asbestos-vs-fiberglass:4, black-mastic-guide:2, chrysotile:2, does-plaster-have-asbestos:3, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:4, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1, what-does-asbestos-siding-look-like:2, when-was-asbestos-used-in-homes:2, white-asbestos-vs-blue-asbestos:2 | 41 | live | — | 2026-06-05 |  |
+| popcorn ceiling | — | asbestos-air-quality-test:6, asbestos-ceiling-tile-guide:2, asbestos-drywall-guide:4, asbestos-inspection-cost:4, asbestos-popcorn-ceiling-removal-cost:11, asbestos-popcorn-ceiling-vs-non-asbestos:9, asbestos-remediation-cost:7, asbestos-siding-guide:2, asbestos-tile-guide:2, chrysotile:4, does-plaster-have-asbestos:3, friable-vs-nonfriable-asbestos:2, house-built-1976-asbestos:6, how-to-dispose-of-asbestos:2, how-to-test-popcorn-ceiling-for-asbestos:15, is-popcorn-ceiling-asbestos:19, vermiculite-insulation-guide:2, when-was-asbestos-used-in-homes:8, white-asbestos-vs-blue-asbestos:4 | 112 | live | — | 2026-06-05 |  |
+| popcorn ceiling asbestos test | — | how-to-test-popcorn-ceiling-for-asbestos:5, is-popcorn-ceiling-asbestos:2 | 7 | live | — | 2026-06-05 |  |
+| popcorn ceiling asbestos test kit | — | — | 0 | researched | — | 2026-06-05 | SV=400 KD=0 CPC=$0.60 cluster=Popcorn test src=ASB_Keyword_Data |
+| popcorn ceiling removal | — | asbestos-drywall-guide:1, asbestos-popcorn-ceiling-removal-cost:3, asbestos-remediation-cost:1 | 5 | live | — | 2026-06-05 |  |
+| portable air scrubber | — | — | 0 | researched | — | 2026-06-05 | SV=800 KD=0 CPC=$0.70 cluster=Part 2 src=ASB_Keyword_Data |
+| pre-1980 | — | asbestos-abatement-near-me:1, asbestos-air-quality-test:2, asbestos-ceiling-tile-guide:1, asbestos-drywall-guide:3, asbestos-duct-wrap:2, asbestos-floor-tile-removal:1, asbestos-inspection-cost:2, asbestos-pipe-guide:1, asbestos-siding-guide:1, asbestos-tile-guide:2, asbestos-under-carpet:2, asbestos-vs-fiberglass:1, chrysotile:5, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:1, vermiculite-insulation-guide:1, what-does-asbestos-siding-look-like:5, when-was-asbestos-used-in-homes:2, white-asbestos-vs-blue-asbestos:2 | 36 | live | — | 2026-06-05 |  |
+| raw asbestos | — | — | 0 | killed | — | 2026-06-05 | SV=300 KD=27 CPC=$20.00 cluster=Part 2 src=ASB_Keyword_Data dead:Industrial/legal |
+| removal cost | — | asbestos-popcorn-ceiling-removal-cost:3, asbestos-remediation-cost:2, asbestos-roof-removal:3, asbestos-siding-removal-cost:5, house-built-1976-asbestos:1 | 14 | live | — | 2026-06-05 |  |
+| replacement cost | — | asbestos-siding-guide:1, asbestos-siding-removal-cost:2 | 3 | live | — | 2026-06-05 |  |
+| resperator | — | — | 0 | researched | — | 2026-06-05 | SV=800 KD=12 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| respirator | — | asbestos-ceiling-tile-guide:2, asbestos-floor-tile-removal:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-remediation-cost:3, asbestos-siding-removal-cost:1, asbestos-tile-guide:1, asbestos-under-carpet:3, black-mastic-guide:1, friable-vs-nonfriable-asbestos:1, how-to-test-popcorn-ceiling-for-asbestos:3, is-popcorn-ceiling-asbestos:1 | 18 | live | — | 2026-06-05 |  |
+| respirator for asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=0 CPC=$0.35 cluster=PPE src=ASB_Keyword_Data |
+| respirator for asbestos removal | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$0.30 cluster=PPE / Respirators / Disposable Suits src=ASBESTOS_Batch4_Keyword_Resear |
+| respirator for lead paint | — | — | 0 | researched | — | 2026-06-05 | SV=60 KD=0 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| respirator for mold | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$0.30 cluster=Part 2 src=ASB_Keyword_Data |
+| respirators | — | asbestos-drywall-guide:1, asbestos-duct-wrap:1, asbestos-floor-tile-removal:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, asbestos-vs-fiberglass:1, does-plaster-have-asbestos:1, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 11 | live | — | 2026-06-05 |  |
+| respiratory protection | — | asbestos-drywall-guide:1, is-popcorn-ceiling-asbestos:1, transite-pipe-guide:1 | 3 | live | — | 2026-06-05 |  |
+| scope of work | — | asbestos-abatement-near-me:4, asbestos-remediation-cost:5, white-asbestos-vs-blue-asbestos:1 | 10 | live | — | 2026-06-05 |  |
+| scrape and reskim | — | asbestos-popcorn-ceiling-removal-cost:3 | 3 | live | — | 2026-06-05 |  |
+| seller disclosure asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| selling house with asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$0.10 cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| serpentine | — | chrysotile:20, white-asbestos-vs-blue-asbestos:4 | 24 | live | — | 2026-06-05 |  |
+| short term asbestos exposure | — | — | 0 | killed | — | 2026-06-05 | SV=150 KD=12 CPC=$0.40 cluster=Part 2 src=ASB_Keyword_Data dead:Legal adjacent |
+| should i buy a house with asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=50 KD=0 CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| siding over asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=0 CPC=$2.00 cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| signs of asbestos exposure | — | — | 0 | unowned | — | 2026-06-05 |  |
+| sparkle | — | asbestos-popcorn-ceiling-vs-non-asbestos:5 | 5 | live | — | 2026-06-05 |  |
+| state license lookup | — | asbestos-abatement-near-me:5 | 5 | live | — | 2026-06-05 |  |
+| subfloor | — | asbestos-floor-tile-removal:6, asbestos-glue:1, asbestos-tile-guide:2, asbestos-under-carpet:2 | 11 | live | — | 2026-06-05 |  |
+| symptoms of asbestos exposure | — | — | 0 | unowned | — | 2026-06-05 |  |
+| tem | — | asbestos-air-quality-test:22, asbestos-inspection-cost:2, asbestos-popcorn-ceiling-vs-non-asbestos:1, chrysotile:4, how-to-test-popcorn-ceiling-for-asbestos:3 | 32 | live | — | 2026-06-05 |  |
+| test popcorn ceiling for asbestos | — | asbestos-air-quality-test:1, asbestos-drywall-guide:1, asbestos-inspection-cost:1, does-plaster-have-asbestos:1, is-popcorn-ceiling-asbestos:1, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 7 | live | — | 2026-06-05 |  |
+| texture coarseness | — | asbestos-popcorn-ceiling-vs-non-asbestos:1 | 1 | live | — | 2026-06-05 |  |
+| tile glue | — | asbestos-glue:4 | 4 | live | — | 2026-06-05 |  |
+| transite pipe | transite-pipe-guide | asbestos-abatement-near-me:1, asbestos-pipe-guide:1, asbestos-roof-removal:1, friable-vs-nonfriable-asbestos:3 | 12 | live | 2026-05-24 | 2026-06-05 |  |
+| transite roof | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
+| transite roof restoration | — | — | 0 | researched | — | 2026-06-05 | SV=20 KD=— CPC=$— cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
+| transite siding | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$0.02 cluster=Transite / Asbestos Cement src=ASBESTOS_Batch4_Keyword_Resear |
+| true hepa vacuum | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=5 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| tychem | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=0 CPC=$1.50 cluster=Part 2 src=ASB_Keyword_Data |
+| tyvek suit | — | asbestos-ceiling-tile-guide:1 | 1 | live | — | 2026-06-05 |  |
+| tyvek suits | — | asbestos-floor-tile-removal:2, asbestos-popcorn-ceiling-removal-cost:1, asbestos-siding-guide:1, friable-vs-nonfriable-asbestos:1, transite-pipe-guide:1, vermiculite-insulation-guide:1 | 7 | live | — | 2026-06-05 |  |
+| tyvex suit | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=2 CPC=$0.50 cluster=Part 2 src=ASB_Keyword_Data |
+| va loan asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Real Estate / Disclosure / Selling src=ASBESTOS_Batch4_Keyword_Resear |
+| vacuum filtration | — | — | 0 | researched | — | 2026-06-05 | SV=1,800 KD=1 CPC=$0.20 cluster=Part 2 src=ASB_Keyword_Data |
+| vacuum with hepa filter | — | — | 0 | researched | — | 2026-06-05 | SV=2,000 KD=8 CPC=$0.35 cluster=Part 2 src=ASB_Keyword_Data |
+| vermiculite | — | asbestos-inspection-cost:4, asbestos-pipe-guide:2, asbestos-popcorn-ceiling-vs-non-asbestos:12, asbestos-remediation-cost:1, asbestos-shingles-guide:1, asbestos-vs-fiberglass:8, chrysotile:8, friable-vs-nonfriable-asbestos:3, house-built-1976-asbestos:5, vermiculite-insulation-guide:25, when-was-asbestos-used-in-homes:7, white-asbestos-vs-blue-asbestos:1 | 77 | live | — | 2026-06-05 |  |
+| vermiculite asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=700 KD=9 CPC=$1.50 cluster=Vermiculite src=ASB_Keyword_Data |
+| vermiculite insulation | vermiculite-insulation-guide | asbestos-inspection-cost:1, asbestos-pipe-guide:1, asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-vs-fiberglass:1, chrysotile:1, friable-vs-nonfriable-asbestos:1, house-built-1976-asbestos:1, when-was-asbestos-used-in-homes:1 | 14 | live | 2026-05-24 | 2026-06-05 |  |
+| vermiculite insulation asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=250 KD=6 CPC=$1.50 cluster=Vermiculite src=ASB_Keyword_Data |
+| vermiculite insulation removal | — | — | 0 | unowned | — | 2026-06-05 |  |
+| vermiculite removal | — | vermiculite-insulation-guide:1 | 1 | live | — | 2026-06-05 |  |
+| vinyl asbestos tile | — | asbestos-floor-tile-removal:7, asbestos-remediation-cost:1, asbestos-tile-guide:15, asbestos-under-carpet:5, house-built-1976-asbestos:2 | 30 | live | — | 2026-06-05 |  |
+| wallpaper paste | — | asbestos-glue:5 | 5 | live | — | 2026-06-05 |  |
+| wavy edges | — | what-does-asbestos-siding-look-like:1 | 1 | live | — | 2026-06-05 |  |
+| what color is asbestos | — | — | 0 | killed | — | 2026-06-05 | SV=450 KD=15 cluster=Part 10 src=ASB_Keyword_Data |
+| what does asbestos insulation look like | — | — | 0 | killed | — | 2026-06-05 | SV=6,300 KD=15 CPC=$0.02 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap |
+| what does asbestos look like | — | — | 0 | killed | — | 2026-06-05 | SV=12,000 KD=3 CPC=$0.02 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap — huge traffic, no c |
+| what does asbestos siding look like | what-does-asbestos-siding-look-like | asbestos-siding-removal-cost:1 | 2 | live | 2026-05-24 | 2026-06-05 |  |
+| what does asbestos tile look like | — | — | 0 | researched | — | 2026-06-05 | SV=700 KD=1 CPC=$0.04 cluster=Bridge src=ASB_Keyword_Data |
+| what is vermiculite | — | — | 0 | killed | — | 2026-06-05 | SV=4,600 KD=14 CPC=$0.01 cluster=Part 2 src=ASB_Keyword_Data dead:Dictionary trap |
+| when did they stop using asbestos in floor tiles | — | — | 0 | researched | — | 2026-06-05 | SV=70 KD=1 CPC=$— cluster=Floor / Mastic / Tile Cover src=ASBESTOS_Batch4_Keyword_Resear |
+| when was asbestos banned | — | — | 0 | killed | — | 2026-06-05 | SV=4,300 KD=15 CPC=$0.07 cluster=Part 2 src=ASB_Keyword_Data dead:Info trap |
+| when was asbestos used in homes | when-was-asbestos-used-in-homes | asbestos-siding-guide:1, chrysotile:1, vermiculite-insulation-guide:1 | 6 | live | 2026-05-24 | 2026-06-05 |  |
+| where to buy asbestos disposal bags | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| where to dispose of asbestos | — | — | 0 | researched | — | 2026-06-05 | SV=90 KD=1 CPC=$0.90 cluster=Disposal / Logistics src=ASBESTOS_Batch4_Keyword_Resear |
+| white asbestos vs blue asbestos | white-asbestos-vs-blue-asbestos | — | 4 | live | 2026-05-24 | 2026-06-05 | primary_kw derived from h1 — operator confirm or create keyword-config |
+| whole house | — | asbestos-remediation-cost:4, how-to-test-popcorn-ceiling-for-asbestos:3 | 7 | live | — | 2026-06-05 |  |
+| would a house built in 1976 have asbestos | house-built-1976-asbestos | — | 3 | live | 2026-05-24 | 2026-06-05 |  |
+| wr grace asbestos trust | — | — | 0 | researched | — | 2026-06-05 | SV=30 KD=2 CPC=$12.00 cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
+| zonolite | — | asbestos-popcorn-ceiling-vs-non-asbestos:4, asbestos-vs-fiberglass:4, chrysotile:1, vermiculite-insulation-guide:22, when-was-asbestos-used-in-homes:1, white-asbestos-vs-blue-asbestos:1 | 33 | live | — | 2026-06-05 |  |
+| zonolite attic insulation trust | — | vermiculite-insulation-guide:3 | 3 | live | — | 2026-06-05 |  |
+| zonolite class action | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
+| zonolite insulation | — | — | 0 | researched | — | 2026-06-05 | SV=300 KD=2 CPC=$1.70 cluster=Vermiculite brand src=ASB_Keyword_Data |
+| zonolite removal cost | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
+| zonolite trust | — | vermiculite-insulation-guide:2 | 2 | live | — | 2026-06-05 |  |
+| zonolite trust claim form | — | — | 0 | researched | — | 2026-06-05 | SV=0-10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |
+| zonolite vermiculite | — | asbestos-popcorn-ceiling-vs-non-asbestos:1, asbestos-vs-fiberglass:1, vermiculite-insulation-guide:1 | 3 | live | — | 2026-06-05 |  |
+| zonolite vs vermiculite | — | — | 0 | researched | — | 2026-06-05 | SV=10 KD=— CPC=$— cluster=Trust Funds / Reimbursement src=ASBESTOS_Batch4_Keyword_Resear |

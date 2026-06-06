@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-02
-entry_count: 6
+last_updated: 2026-06-05
+entry_count: 8
 ---
 
 # Evidence log: Btc 200d Rejection
@@ -20,3 +20,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-01 (1pAlH-EAm04): Cowen confirms the post-200D-rejection sequence is now complete: BTC broke briefly above the bear market resistance band, tagged the 200D, got rejected, and has now closed back below the band — exactly as he had forecast. He states "now the bare market resistance band is resistance once again" [03:19] and maps the 2018 analog forward, noting the 2018 version saw BTC bounce briefly before further June weakness, leading into a range-bound Q3 and Q4 bottom. The 200D rejection is framed not as a new development but as the confirmed structural ceiling that now sets up the near-term path to the February lows.
 
 - 2026-06-02 (icDF_qFXATM): With the 200D rejection now behind him, Cowen pivots to the 200-week MA as the next structural event, arguing BTC has "a date with destiny" with it in mid-June 2026 — consistent with June 2018 and June 2022 both producing cycle lows at or below this level. He supports the call with a rally-duration metric: the current bounce (~17 weeks) is shorter than the ~20–21 weeks it took prior cycles to put in new lows, suggesting the low is not in yet. "Bitcoin has a date with destiny every few years. And in this case, destiny is the 200-week moving average." [00:43]
+
+- 2026-06-04 (qC1AWNt_DVI): In a 27-second clip, Cowen presents a chart-based confirmation that the 200D rejection at the May 2026 lower high is tracking the 2018 analog exactly at 10x the price — the February 2026 low at ~$60K mirrors February 2018's ~$6K low, and both cycles set a lower high in May at the 200D. The implicit message is that the same template then delivered a June low in 2018, so June 2026 should follow: "And the next low occurred in June." [00:22] No new indicators or targets are introduced; this is a brief visual reinforcement that the sequence locked in by the 200D rejection remains on track.
+
+- 2026-06-05 (ulDJeCNJo3Y): The new video confirms that the sequence initiated by the 200D rejection has now reached its next structural milestone: BTC tagged the 200-week MA (~$61.8K), arriving "four years to the week" after BTC broke through that same level in June 2022 — the precise outcome Cowen had been forecasting since the 200D rejection was confirmed. Cowen frames this as the culmination of the rejection sequence: "Bitcoin has tagged the 200week moving average. This is in fact our date with destiny." The 200D rejection's downstream logic — February low, May lower high at the 200D, June low at the 200WMA — is now tracking on schedule, with the February wick (~$60K) expected to be swept in mid-June before a July counter-trend rally.
