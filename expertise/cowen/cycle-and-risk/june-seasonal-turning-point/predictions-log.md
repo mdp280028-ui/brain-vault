@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-04
-entry_count: 8
+last_updated: 2026-06-06
+entry_count: 10
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -20,3 +20,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-04 (QMn7cm4nfYU): BTC forms a local capitulation low in June 2026, most likely the week of June 13–18, matching the calendar timing of the 2018 and 2022 cycle troughs.
 - 2026-06-04 (QMn7cm4nfYU): BTC wicks below the February 2026 low (~$60K) on the June capitulation, consistent with the 2018 analog where the June low swept the February low.
 - 2026-06-04 (QMn7cm4nfYU): Counter-trend BTC rally follows the June low, running through July 2026 and potentially extending into August.
+
+- 2026-06-06 (LuiJ6uK_qh0): BTC sets a local low in June 2026, followed by a counter-trend rally in July–August and a final market cycle low in October 2026 that is most likely lower than the June low.
+- 2026-06-06 (LuiJ6uK_qh0): The midterm-year average implies ~$50K (~45% below the $87.5K yearly open) as a potential mid-June level.

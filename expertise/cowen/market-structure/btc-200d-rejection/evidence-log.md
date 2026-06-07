@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-05
-entry_count: 8
+last_updated: 2026-06-06
+entry_count: 9
 ---
 
 # Evidence log: Btc 200d Rejection
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-04 (qC1AWNt_DVI): In a 27-second clip, Cowen presents a chart-based confirmation that the 200D rejection at the May 2026 lower high is tracking the 2018 analog exactly at 10x the price — the February 2026 low at ~$60K mirrors February 2018's ~$6K low, and both cycles set a lower high in May at the 200D. The implicit message is that the same template then delivered a June low in 2018, so June 2026 should follow: "And the next low occurred in June." [00:22] No new indicators or targets are introduced; this is a brief visual reinforcement that the sequence locked in by the 200D rejection remains on track.
 
 - 2026-06-05 (ulDJeCNJo3Y): The new video confirms that the sequence initiated by the 200D rejection has now reached its next structural milestone: BTC tagged the 200-week MA (~$61.8K), arriving "four years to the week" after BTC broke through that same level in June 2022 — the precise outcome Cowen had been forecasting since the 200D rejection was confirmed. Cowen frames this as the culmination of the rejection sequence: "Bitcoin has tagged the 200week moving average. This is in fact our date with destiny." The 200D rejection's downstream logic — February low, May lower high at the 200D, June low at the 200WMA — is now tracking on schedule, with the February wick (~$60K) expected to be swept in mid-June before a July counter-trend rally.
+
+- 2026-06-06 (LuiJ6uK_qh0): Cowen confirms the February 2026 low sweep as the direct, on-schedule consequence of the 200D rejection — the full 2018 price sequence (February low → higher low → 200D rally → rejection → June lower low) has now played out at 10x the price, with the sweep arriving ~17 weeks after the February low versus 2018's ~19 weeks. The 200D rejection is referenced explicitly as the initiating structural event: "Bitcoin has swept the low. This was always the base case that we would sweep the low. The only question now is how much lower does it go?" [20:20]. Cowen adds that he cannot yet confirm whether the June low is in, maintaining the same bearish framework while deferring to time-based capitulation (October base case) unless a price-based capitulation forces a pivot.

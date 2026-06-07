@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-05
-entry_count: 15
+last_updated: 2026-06-06
+entry_count: 16
 ---
 
 # Predictions log: Btc 200d Rejection
@@ -31,3 +31,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-05 (ulDJeCNJo3Y): BTC will likely at least sweep the February 2026 low (~$60K wick) around mid-June, mirroring the 2018 pattern where the February wick low was not broken until mid-June 2018.
 - 2026-06-05 (ulDJeCNJo3Y): A counter-trend rally in July–August follows the mid-June local low, consistent with post-June-low behavior in both 2018 and 2022.
 - 2026-06-05 (ulDJeCNJo3Y): Final market cycle bottom in October 2026, with BTC tracking toward the ~$50K range if it follows the midterm-year historical average.
+
+- 2026-06-06 (LuiJ6uK_qh0): The 200D rejection-initiated sequence continues: June local low to form over remaining weeks of June, followed by a counter-trend rally in July–August and a final market cycle low in October 2026, expected to be a lower low than June at current prices.

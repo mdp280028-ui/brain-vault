@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-04
-entry_count: 5
+last_updated: 2026-06-06
+entry_count: 6
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-02 (icDF_qFXATM): Cowen's most detailed June-low argument to date, centering on the 200-week moving average as the specific structural target: "My guess is that history will once again repeat itself, and Bitcoin will find itself having a date with destiny relatively soon. My guess, in the middle of June." [01:07] He walks through the 2018 and 2022 analogs in detail — both produced a June low that swept the February low before a brief July rally and Q4 final drop — and adds a rally-duration metric (current bounce ~17 weeks vs. ~20–21 weeks before new lows in prior cycles) as a quantitative reason the low is not yet in.
 
 - 2026-06-04 (QMn7cm4nfYU): With BTC live at the 200-week exponential MA (~$61.8K) during the stream and briefly dipping to $61.3K, Cowen declares the June "date with destiny" is happening in real time and narrows the capitulation low to the week of June 13–18 — matching the exact calendar weeks of the 2018 (June 18) and 2022 (June 13) cycle troughs. He expects BTC to wick below the February 2026 low (~$60K), consistent with 2018 when the June low swept the February low, and draws a hard line at ~$40K as the threshold that would force him to abandon his bearish stance: "I can remain a bear if we just kind of hold at 60. I don't think I can remain a bear if we go to 40." [27:03]
+
+- 2026-06-06 (LuiJ6uK_qh0): BTC has now swept the February 2026 low (~$60K) approximately 17 weeks after that low, closely mirroring the 2018 analog (19 weeks to the next lower low), confirming Cowen's stated base case. The three-act June structure is reinforced — local low in June, counter-trend rally July–August, final cycle bottom in October — though Cowen adds a key caveat: "Bitcoin has swept the low. This was always the base case that we would sweep the low. The only question now is how much lower does it go?" [20:20]. He explicitly says he cannot yet confirm whether the June low is in and recommends waiting for confirmation before repositioning.
