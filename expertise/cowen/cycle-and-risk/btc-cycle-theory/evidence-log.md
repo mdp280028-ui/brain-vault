@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-04
-entry_count: 23
+last_updated: 2026-06-07
+entry_count: 24
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -54,3 +54,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-02 (icDF_qFXATM): Cowen argues BTC has a recurring "date with destiny" with the 200-week MA every few years, expecting the next test in mid-June 2026 — mirroring 2018 (June low swept the February low) and 2022 (BTC fell below the 200-week MA in June). A rally-duration metric reinforces the bear case: the current bounce at ~17 weeks is shorter than the ~20–21 weeks that preceded new lows in both prior cycles. The full roadmap — local low in June (potentially wicking below the February 2026 low), brief July strength, volatility fade, then final Q4 drop — maps precisely onto 2018 and 2022 behavior, and Cowen dismisses the recent "this time is different" narrative: "Everyone who's been so bold up on Bitcoin the last few months saying that this time was different, it just simply hasn't been." [03:05]
 
 - 2026-06-04 (QMn7cm4nfYU): With BTC live at the 200-week exponential MA (~$61.8K) and briefly dipping to $61.3K during the stream, Cowen declares the June capitulation is actively underway and pins the local-low window at June 13–18, matching exact prior-cycle dates (2018: June 18; 2022: June 13). He introduces two independent metrics converging on October as the cycle bottom — cycle-day count from prior lows (1,428 days from Nov 21, 2022 = Oct 19, 2026) and MicroStrategy's 98-week bottoming pattern (Oct 5, 2026) — and sets a hard exit condition: "I don't think I can remain a bear if we go to 40." [27:03] On-chain metrics (MVRV Z-score above zero, composite risk at 0.216, 1-year ROI at 0.589) confirm the final cycle low has not yet been registered.
+
+- 2026-06-07 (gkDqbvMnMHI): Cowen introduces a three-stage bear market framework defined by crowd consensus — Stage 1 (few believe), Stage 2 (roughly half believe), Stage 3 (majority believe) — each lasting approximately four months, and declares Stage 3 begun as BTC broke below the February 2026 low on June 6. He conditions the October outcome on June's severity: "If we bottom out now and start to trend back up, then I would think, you know, June or an October low could be could be lower. But if we drop a lot now, then maybe October doesn't have to be uh quite as bad." [11:38] The 2018 analog supports a shallow June sweep (marginally below $57,000–58,000), while the 2014 analog warns of deeper sequential drops; the bear ends when Stage 3 consensus reaches maximum — "once everyone believes in the bare market, that's usually when the bare market ends." [13:03]

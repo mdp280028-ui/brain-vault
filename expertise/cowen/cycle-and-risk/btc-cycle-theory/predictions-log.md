@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-04
-entry_count: 56
+last_updated: 2026-06-07
+entry_count: 59
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -82,3 +82,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-04 (QMn7cm4nfYU): Counter-trend BTC rally in July 2026, potentially extending into August.
 - 2026-06-04 (QMn7cm4nfYU): BTC market cycle bottom most likely in October 2026, with two independent metrics pointing to October 5–19 as the specific window.
 - 2026-06-04 (QMn7cm4nfYU): The June low is not the final cycle low unless Bitcoin crashes to ~$40K; a simple retest of $60K would not be sufficient to declare the bear market over.
+
+- 2026-06-07 (gkDqbvMnMHI): Bitcoin sets its final bear market cycle low in October 2026 (or sometime in Q4).
+- 2026-06-07 (gkDqbvMnMHI): Bitcoin's June 2026 low is either already in or forming in the very near term.
+- 2026-06-07 (gkDqbvMnMHI): If the June low is shallow (~$60K area), the October low is expected to be lower; if June sees a larger capitulative drop, October may form a higher low relative to June.
