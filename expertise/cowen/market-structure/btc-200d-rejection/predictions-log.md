@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-06
-entry_count: 16
+last_updated: 2026-06-08
+entry_count: 18
 ---
 
 # Predictions log: Btc 200d Rejection
@@ -33,3 +33,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-05 (ulDJeCNJo3Y): Final market cycle bottom in October 2026, with BTC tracking toward the ~$50K range if it follows the midterm-year historical average.
 
 - 2026-06-06 (LuiJ6uK_qh0): The 200D rejection-initiated sequence continues: June local low to form over remaining weeks of June, followed by a counter-trend rally in July–August and a final market cycle low in October 2026, expected to be a lower low than June at current prices.
+
+- 2026-06-08 (SG3tuA8zqs8): The June low is approximately $59K and may already be in, but a slightly lower low later in June remains possible — "the only real question in the air is exactly where is the June low? Is it in at 59K or do you go slightly lower later in June" [14:49].
+- 2026-06-08 (SG3tuA8zqs8): If Bitcoin holds the 200-week EMA for a second consecutive weekly close, odds of a counter-trend rally back toward the bear market resistance band in late July / early August increase meaningfully.

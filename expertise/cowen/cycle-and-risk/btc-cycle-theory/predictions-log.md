@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-07
-entry_count: 59
+last_updated: 2026-06-08
+entry_count: 60
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -86,3 +86,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-07 (gkDqbvMnMHI): Bitcoin sets its final bear market cycle low in October 2026 (or sometime in Q4).
 - 2026-06-07 (gkDqbvMnMHI): Bitcoin's June 2026 low is either already in or forming in the very near term.
 - 2026-06-07 (gkDqbvMnMHI): If the June low is shallow (~$60K area), the October low is expected to be lower; if June sees a larger capitulative drop, October may form a higher low relative to June.
+
+- 2026-06-08 (CtOaNSQSZkY): Bitcoin's bear market stage three runs from June 2026 to October 2026.

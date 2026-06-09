@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-06
-entry_count: 9
+last_updated: 2026-06-08
+entry_count: 10
 ---
 
 # Evidence log: Btc 200d Rejection
@@ -26,3 +26,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-05 (ulDJeCNJo3Y): The new video confirms that the sequence initiated by the 200D rejection has now reached its next structural milestone: BTC tagged the 200-week MA (~$61.8K), arriving "four years to the week" after BTC broke through that same level in June 2022 — the precise outcome Cowen had been forecasting since the 200D rejection was confirmed. Cowen frames this as the culmination of the rejection sequence: "Bitcoin has tagged the 200week moving average. This is in fact our date with destiny." The 200D rejection's downstream logic — February low, May lower high at the 200D, June low at the 200WMA — is now tracking on schedule, with the February wick (~$60K) expected to be swept in mid-June before a July counter-trend rally.
 
 - 2026-06-06 (LuiJ6uK_qh0): Cowen confirms the February 2026 low sweep as the direct, on-schedule consequence of the 200D rejection — the full 2018 price sequence (February low → higher low → 200D rally → rejection → June lower low) has now played out at 10x the price, with the sweep arriving ~17 weeks after the February low versus 2018's ~19 weeks. The 200D rejection is referenced explicitly as the initiating structural event: "Bitcoin has swept the low. This was always the base case that we would sweep the low. The only question now is how much lower does it go?" [20:20]. Cowen adds that he cannot yet confirm whether the June low is in, maintaining the same bearish framework while deferring to time-based capitulation (October base case) unless a price-based capitulation forces a pivot.
+
+- 2026-06-08 (SG3tuA8zqs8): With the February low swept and BTC closing back above the 200-week EMA, Cowen tentatively reads the 200D rejection sequence as now complete at the June low stage — but stresses low conviction, saying "the reason why this is dubious speculation is because it's still fairly early on in June to know for sure" [00:54]. He frames the 200-week EMA hold as the critical near-term confirmation signal: a second consecutive weekly close above it would meaningfully increase odds of the counter-trend rally into July that the 200D rejection framework predicted all along, with the final bear market low still expected in Q4.

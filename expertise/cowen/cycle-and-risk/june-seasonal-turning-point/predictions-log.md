@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-06
-entry_count: 10
+last_updated: 2026-06-08
+entry_count: 15
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -23,3 +23,9 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-06 (LuiJ6uK_qh0): BTC sets a local low in June 2026, followed by a counter-trend rally in July–August and a final market cycle low in October 2026 that is most likely lower than the June low.
 - 2026-06-06 (LuiJ6uK_qh0): The midterm-year average implies ~$50K (~45% below the $87.5K yearly open) as a potential mid-June level.
+
+- 2026-06-08 (SG3tuA8zqs8): Bitcoin likely forms its June 2026 low at approximately $59K, though a slightly lower retest later in June remains possible before confirmation.
+- 2026-06-08 (SG3tuA8zqs8): July 2026 is likely a green month for Bitcoin, based on the 2018/2022 pattern of down May–June followed by an up July.
+- 2026-06-08 (SG3tuA8zqs8): If Bitcoin holds the 200-week EMA for a second consecutive weekly close, a counter-trend rally back toward the bear market resistance band into late July/early August becomes significantly more likely.
+- 2026-06-08 (SG3tuA8zqs8): Summer volatility expected to dry up significantly even if a counter-trend rally occurs — no major move expected before later in the summer.
+- 2026-06-08 (SG3tuA8zqs8): The final bear market low remains expected in Q4 2026, with the June low a local low only.
