@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-06
-entry_count: 5
+last_updated: 2026-06-09
+entry_count: 7
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -18,3 +18,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-05 (ulDJeCNJo3Y): Cowen frames Bitcoin's tag of the 200-week MA at ~$61.8K in June 2026 as the midterm-year cycle playing out on schedule — "our date with destiny" — noting that every Bitcoin cycle follows the same mandatory sequence of breaking below the 50W, 100W, and then 200W MA, with the 2022 midterm year providing the most direct precedent (same level, same month, four years prior). He quantifies the midterm-year alignment: BTC's current YTD drawdown of ~29–30% closely tracks the historical midterm-year average of ~32% at this calendar point, implying a gradual path to a Q4 bottom near ~$50K. [04:53] "historically at this point, Bitcoin is down on average at this point, it's down about uh 32% from the from the yearly open. And right now, Bitcoin is currently down about 29 to 30% from the yearly open."
 
 - 2026-06-06 (LuiJ6uK_qh0): Bitcoin swept the February 2026 low (~$60K) approximately 17 weeks after that low, closely mirroring the 2018 midterm analog (where the next lower low arrived 19 weeks later), and BTC's current YTD drawdown of ~31–32% from the $87.5K yearly open is tracking the historical midterm-year average almost exactly. Cowen also calculates that the midterm-year average plus one standard deviation implies ~45% below the yearly open by mid-June, pointing to ~$50K as a potential level. [03:10] "On average, at this point in midterm years, Bitcoin is down about 31%. Right now, Bitcoin is down about 31 32% about 32%. So, this is a pretty normal midterm year for Bitcoin."
+
+- 2026-06-09 (IOFwbuyDC78): Cowen reiterates that Bitcoin will likely spend the rest of 2026 below the fair-value logarithmic regression trend line, attributing this prolonged below-fair-value period directly to midterm-year macro headwinds — monetary tightening and inflation concerns that began in 2021. He flags June as a candidate local low and frames 2026 as analogous to the 2019–2020 business cycle trough, consistent with the midterm-year reset pattern. He also notes he plans to refit the regression model after year-end to incorporate full midterm-year data: "I do think that we'll likely still spend the rest of this year below that sort of that fair value logarithmic regression trend line, which as always is a monotonically increasing function." [04:36]
+
+- 2026-06-09 (AvKtrd_JZdU): In a 59-second speculative summary, Cowen invokes the midterm-year framework as context for his full-year bearish lean, stating "midterm years aren't necessarily the best for crypto" and that BTC will "probably spend the rest of the year below sort of the quote-unquote fair value price." He identifies June as "certainly a candidate month for at least a local low" and attributes the prolonged below-fair-value period to macro conditions — "monetary policy got a lot tighter, you know, inflation was a concern" — placing recovery above fair value in 2027 or possibly later. The framing is explicitly speculative and heavily hedged, pulling conviction below prior videos on this topic.

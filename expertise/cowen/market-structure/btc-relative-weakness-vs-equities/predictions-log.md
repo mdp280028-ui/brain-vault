@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-relative-weakness-vs-equities
 group: market-structure
-last_updated: 2026-05-28
-entry_count: 7
+last_updated: 2026-06-09
+entry_count: 8
 ---
 
 # Predictions log: Btc Relative Weakness Vs Equities
@@ -20,3 +20,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (OuHBTQ6fkfQ): When the near-term SPX correction arrives (implied imminent given seven to eight consecutive up weeks), Bitcoin will be hit harder than the S&P 500 due to its already-lagging position and lower placement on the risk curve.
 
 - 2026-05-28 (Tj7mvTHDe1U): BTC continues bleeding against the stock market, gold, energy, and manufacturing through June 2026, with a counter-trend bounce in July–August and a final cycle low in Q4 2026, after which outperformance versus equities could resume — Ben, explicit midterm-year pattern with 2018 and 2022 as historical precedents.
+
+- 2026-06-09 (IOFwbuyDC78): BTC will likely spend the rest of 2026 below the fair value logarithmic regression trend line, with recovery above fair value expected in 2027 or possibly the year after.

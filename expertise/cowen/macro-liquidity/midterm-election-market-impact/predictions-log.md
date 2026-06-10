@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-06
-entry_count: 11
+last_updated: 2026-06-09
+entry_count: 15
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -24,3 +24,9 @@ Append-only. Newest entries at bottom.
 - 2026-06-06 (LuiJ6uK_qh0): Bitcoin sets a local low in June 2026, followed by a counter-trend rally in July–August, with the final market cycle low most likely in October 2026 and expected to be a lower low than June under current prices.
 - 2026-06-06 (LuiJ6uK_qh0): The midterm-year average plus one standard deviation implies BTC could reach ~45% below the $87.5K yearly open (~$48–50K) by mid-June 2026.
 - 2026-06-06 (LuiJ6uK_qh0): Bitcoin will likely hit the realized price (~$53–54K) at some point this cycle, consistent with every prior bear market (2011, 2014, 2018, 2020, 2022).
+
+- 2026-06-09 (IOFwbuyDC78): Bitcoin will likely spend the rest of 2026 below the fair-value logarithmic regression trend line, consistent with midterm-year macro headwinds.
+- 2026-06-09 (IOFwbuyDC78): June is a candidate month for at least a local low.
+- 2026-06-09 (IOFwbuyDC78): Recovery above fair value expected in 2027 or possibly the year after, once full midterm-year data is incorporated into the refitted model.
+
+- 2026-06-09 (AvKtrd_JZdU): BTC will likely spend the rest of 2026 below the fair-value logarithmic regression trend line, with recovery above fair value not expected until 2027 or possibly the year after.

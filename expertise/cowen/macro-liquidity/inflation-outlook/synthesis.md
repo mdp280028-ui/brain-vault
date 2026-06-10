@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-05
-brief_count: 7
+last_updated: 2026-06-09
+brief_count: 8
 ---
 
 # Inflation Outlook
@@ -11,7 +11,7 @@ CPI, PPI, and forward inflation expectations. Cowen uses inflation trajectory as
 
 ## Current Thesis
 
-Inflation has reaccelerated to 3.78% headline CPI — driven by a supply-side energy shock — with core CPI at 2.74% reversing its prior convergence toward 2%, making Fed cuts impossible through summer 2026 and a 2027 hike more likely than a cut. The tightening regime is the settled structural backdrop; Cowen's active attention remains fixed on the BoJ as the more actionable near-term vector, with a June 2026 BoJ hike now treated as the most plausible macro trigger for the current BTC weakness — explicitly citing the carry-trade unwind mechanism and drawing a direct parallel to the August 2024 capitulation. Oil/energy prices remain the key variable for whether rate-hike pricing extends through year-end, while the June 17th BoJ/Fed meeting window is the immediate catalyst to watch.
+Inflation has reaccelerated to 3.78% headline CPI — driven by a supply-side energy shock — with core CPI at 2.74% reversing its prior convergence toward 2%, making Fed cuts impossible through summer 2026 and a 2027 hike more likely than a cut. The tightening regime is now treated as the fully settled structural backdrop: in his June 9th summary video, Cowen references it only in passing as the explanation for BTC's multi-year underperformance, signaling no new inflation developments to report. The BoJ June meeting remains the most actionable near-term catalyst via carry-trade unwind, while oil/energy prices remain the key variable for whether rate-hike pricing extends through year-end.
 
 ## Key Evidence
 
@@ -20,10 +20,11 @@ Inflation has reaccelerated to 3.78% headline CPI — driven by a supply-side en
 - PPI month-over-month spiked sharply (~6%), a level that independently forecloses near-term easing (FgxAe_NAh5c)
 - Markets have fully priced out cuts through 2026 and 2027 and now assign higher probability to a 2027 hike than a cut — a 180° reversal from the multi-cut path priced at the start of 2026 (Rf-gAQJk5-0, mwrgOz852wI, dy3E7Jzte88)
 - Oil/energy prices are structurally elevated; Cowen sees Q3 risk of another leg higher, which would drive additional rate-hike pricing and extend crypto bear headwinds through year-end (FgxAe_NAh5c, Rf-gAQJk5-0, dy3E7Jzte88)
-- Bank of Japan June 2026 meeting (alongside the June 17th Fed meeting) is the key mid-June catalyst — Cowen names it as the most plausible trigger for current BTC weakness via carry-trade unwind, reinforced by the August 2024 precedent and cited explicitly across six briefs (mwrgOz852wI, dy3E7Jzte88, dIa8HUYDNEY, JAQfs3rxFz4, ulDJeCNJo3Y)
+- Cowen explicitly cites tighter monetary policy and inflation as the causal explanation for BTC spending the rest of 2026 below fair value — framing the macro constraint as settled context rather than a live debate (AvKtrd_JZdU)
 
 ## Recent Updates
 
+- 2026-06-09 (AvKtrd_JZdU): Cowen references inflation and tightened monetary policy only as retrospective explanation for BTC's prolonged below-fair-value period, with no new inflation data cited — the macro constraint is treated as fully settled background.
 - 2026-06-05 (ulDJeCNJo3Y): Cowen names the BoJ rate hike expected around mid-June as the most plausible macro trigger for current BTC weakness, explicitly invoking the carry-trade unwind mechanism and the August 2024 precedent; the broader no-cut/hike-risk inflation backdrop is treated as the settled constraint, not a new development.
 - 2026-05-29 (JAQfs3rxFz4): Cowen reiterates that the BoJ — not the Fed — is the critical mid-June event to watch, stating there is a "good chance" the BoJ raises rates in June, framing it as a hedged but meaningful probability call with no new inflation data cited.
 - 2026-05-29 (dIa8HUYDNEY): Cowen identifies the BoJ — not the Fed — as the key mid-June catalyst, assigning a "good chance" of a rate hike that would trigger a BTC capitulation low based on the July 2024 precedent; the broader no-cut/hike-risk monetary backdrop is treated as the settled structural constraint, not a new development.

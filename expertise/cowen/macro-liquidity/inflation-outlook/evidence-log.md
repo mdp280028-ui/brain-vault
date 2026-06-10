@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-05
-entry_count: 7
+last_updated: 2026-06-09
+entry_count: 8
 ---
 
 # Evidence log: Inflation Outlook
@@ -22,3 +22,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-29 (JAQfs3rxFz4): In a 16-second clip, Cowen's sole claim is that the BoJ supersedes the Fed as the critical mid-June monetary event: "The main thing to watch in mid-June is not the Fed, but it's the Bank of Japan." He assigns a hedged but meaningful probability to a June BoJ rate hike — "there's a good chance, not it's not a sure thing" — adding a second data point (alongside dIa8HUYDNEY from the same date) that reinforces the BoJ-over-Fed framing as a recurring, deliberate emphasis rather than a one-off mention. No new inflation data or Fed policy commentary is offered.
 
 - 2026-06-05 (ulDJeCNJo3Y): Cowen does not introduce new inflation data in this brief but names the BoJ rate hike expected around mid-June as the most plausible macro trigger for current BTC weakness, citing the carry-trade unwind mechanism directly: "the Bank of Japan's likely to raise rates. Historically, crypto doesn't like it because it leads to the unwind of the carry trade." [12:09] The BoJ/Fed meeting window (~June 17th) is treated as the near-term crystallization point for the tightening regime that has been the settled structural backdrop since May.
+
+- 2026-06-09 (AvKtrd_JZdU): Cowen does not introduce new inflation data but invokes the macro environment as the settled causal explanation for BTC's extended underperformance, stating "monetary policy got a lot tighter, you know, inflation was a concern" [00:52] — framing both tightening and inflation not as live debates but as background facts that explain why BTC will likely spend the rest of 2026 below fair value and not recover until 2027 or later.

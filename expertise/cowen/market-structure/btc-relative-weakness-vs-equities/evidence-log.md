@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-relative-weakness-vs-equities
 group: market-structure
-last_updated: 2026-05-28
-entry_count: 5
+last_updated: 2026-06-09
+entry_count: 6
 ---
 
 # Evidence log: Btc Relative Weakness Vs Equities
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (OuHBTQ6fkfQ): Cowen points out that BTC has had ample time to reach new all-time highs if the supercycle thesis were valid, but has continued to lag even as the S&P 500 put in seven to eight consecutive weekly gains — making the supercycle case increasingly untenable. He argues that when the overdue SPX correction arrives, BTC will be hit disproportionately harder precisely because it has already been the weaker asset on the way up, illustrating this with the altcoin dynamic: "When Bitcoin would go up, it would lift the altcoin market with it, but the minute Bitcoin started dropping, altcoins would get annihilated." [00:37] BTC now occupies that same subordinate position relative to equities.
 
 - 2026-05-28 (Tj7mvTHDe1U): Ben explicitly frames BTC's underperformance versus equities as a mechanical midterm-year pattern compounded by monetary policy: crypto is more rate-sensitive than stocks, and with rate cuts fully priced out and hikes now being priced in, there is no tailwind. At [08:18] Ben states verbatim: "I think Bitcoin's going to keep bleeding against both the stock market and gold and energy and manufacturing. This is what it does in midterm years." The panel consensus is that BTC continues underperforming through June, with a possible counter-trend bounce in July–August before a final Q4 capitulation low — a view consistent with Cowen's prior structural-weakness framing.
+
+- 2026-06-09 (IOFwbuyDC78): Cowen's fair-value logarithmic regression model independently corroborates the BTC-vs-equities weakness thesis: he states "my guess is that Bitcoin will probably spend the rest of the year below sort of the {quote} {unquote} fair value price" [04:07], framing the prolonged below-trend period as driven by monetary tightening and inflation concerns starting in 2021 — the same macro headwinds cited in the panel discussions. He compares current conditions to the 2019–2020 business-cycle trough, implying BTC's structural lag versus equities reflects where it sits in the broader cycle rather than an idiosyncratic factor, with recovery above fair value not expected until 2027 or possibly later.

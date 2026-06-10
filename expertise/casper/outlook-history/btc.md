@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-05
-row_count: 53
+last_updated: 2026-06-09
+row_count: 56
 ---
 
 # BTC outlook history (Casper)
@@ -63,3 +63,6 @@ Append-only. Newest entries at bottom.
 | 2026-06-04 | months | ↓ | 2 | Casper's prior longs were stopped out; he now holds a profitable short targeting the golden pocket (~$58K), while his macro thesis puts the bear market bottom near the 786 fib (sub-$40K) around Oct... | UiayDxWrMHw | /Users/mmm2/brain/channels/casper/briefs/2026-06-04_UiayDxWrMHw.md |
 | 2026-06-04 | weeks | ↓ | 2 | Casper's prior longs were stopped out; he now holds a profitable short targeting the golden pocket (~$58K), while his macro thesis puts the bear market bottom near the 786 fib (sub-$40K) around Oct... | UiayDxWrMHw | /Users/mmm2/brain/channels/casper/briefs/2026-06-04_UiayDxWrMHw.md |
 | 2026-06-04 | days | ↓ | 2 | Casper's prior longs were stopped out; he now holds a profitable short targeting the golden pocket (~$58K), while his macro thesis puts the bear market bottom near the 786 fib (sub-$40K) around Oct... | UiayDxWrMHw | /Users/mmm2/brain/channels/casper/briefs/2026-06-04_UiayDxWrMHw.md |
+| 2026-06-08 | months | ↓ | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
+| 2026-06-08 | weeks | → | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
+| 2026-06-08 | days | ↑ | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
