@@ -1256,3 +1256,14 @@ generation from the CATEGORIES registry + APPROVED_GUIDE_SLUGS whitelist
 
 **Trigger:** next ship-to-site touching session, or before the next GSC
 indexing push.
+
+**D097 addendum — Expansion 2 (2026-06-11, same day):** the registry-driven
+category path was reused for 4 more categories: soc2-compliance,
+spend-management, voip-phone, sales-engagement (site a461bd7, enums
+d2bcbd0, drafter 2abe15c, configs f51703b, master list db63331, queue
+50e2f83). Nav uses shortened labels (Compliance/Spend/VoIP/Sales) — 9 full
+labels overflow the no-wrap header. All 8 landing URLs live-verified 200.
+Queue: 82 pending, seed-then-merit order. **This is the LAST category
+expansion until revenue or GSC data justifies more** (recorded in the
+master list). Kustomer-alternatives at 70 SV is the hard floor edge —
+nothing below without operator sign-off.
