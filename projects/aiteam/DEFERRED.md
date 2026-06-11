@@ -1184,3 +1184,18 @@ in `APPROVED_GUIDE_SLUGS`). A naive audit that checks "does the URL inside the m
 **Note:** `~/agents/domain-hunter/CLAUDE.md` currently mislabels three v0.1.5 items (Wayback gate, UST topical-fit threshold, calibration backfill) as "v0.2" — all three are already shipped in v0.1.5 (commits `5a31df0`, `8c4ec29`, `4f554d9`, `c2d5a49`). CLAUDE.md cleanup to happen at the next domain-hunter-touching session (out of scope for this DEFERRED-only pass).
 
 **Trigger:** 2-4 weeks of digest data + first domain acquisition.
+
+### D095 — audit_guide.py SAT1/SEO possessive normalization divergence — 🟡 OPEN
+
+**Logged:** 2026-06-11 (G1 fix follow-on).
+
+audit_guide.py SAT1 strips possessives at tokenization (G1 fix, ssg-content
+commit `04ce9dc`) but SEO1-5 kw_norm does not — the two normalizations,
+which v4.2 deliberately kept identical, have diverged. No verdict flips
+today (primaries don't appear possessive in any current guide), but a
+possessive-form primary keyword would re-create the F1 split-check fight
+(SAT1 counting occurrences SEO1-5 can't see). Re-unify normalizations if
+that occurs.
+
+**Trigger:** any primary/secondary keyword config lands whose surface form
+appears possessive in drafts, or any SEO-vs-SAT count mismatch in a gate run.
