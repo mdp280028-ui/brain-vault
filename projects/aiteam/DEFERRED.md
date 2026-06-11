@@ -1199,3 +1199,19 @@ that occurs.
 
 **Trigger:** any primary/secondary keyword config lands whose surface form
 appears possessive in drafts, or any SEO-vs-SAT count mismatch in a gate run.
+
+### D096 — Zero-flip harness gates with bare slug configs, diverges from official gate — 🟡 OPEN
+
+**Logged:** 2026-06-11 (4-guide compliance recon).
+
+Zero-flip harness gates with bare keyword-configs/<slug>.json; the official
+gate (run-batch.sh guide mode) merges audit-configs/guide.json — a deliberate
+65-token domain-stopword ngram_ignore — into both passes. The harness
+therefore produces false SAT1 fails on live guides (fsm-quickbooks 'fsm
+tool', linxup 'vehicle month', hipaa 'on call', answerconnect 'per month'
+were all merge-whitelisted artifacts, not real failures). Any future
+harness/regression run must replicate the official merge (guide.json
+ngram_ignore union, struct + slug passes) or its results are unreliable.
+
+**Trigger:** next time anyone builds a gate-regression harness or batch
+re-audit over live guides.
