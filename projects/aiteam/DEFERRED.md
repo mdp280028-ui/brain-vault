@@ -1267,3 +1267,44 @@ Queue: 82 pending, seed-then-merit order. **This is the LAST category
 expansion until revenue or GSC data justifies more** (recorded in the
 master list). Kustomer-alternatives at 70 SV is the hard floor edge —
 nothing below without operator sign-off.
+
+### D099 — keyword_registry shows status=killed on live asbestos slugs — 🟡 OPEN
+
+**Logged:** 2026-06-11 (asbestos queue expansion pass).
+
+The registry rebuild reports `killed` status on slugs that are live in the
+site's APPROVED_GUIDE_SLUGS: `how-long-does-asbestos-stay-in-the-air`,
+`mesothelioma-vs-asbestosis`, `asbestos-one-time-exposure` (and
+`asbestos-encapsulation-vs-removal`, live + ✓ in the drafter queue, also
+shows killed). Likely the researched/killed import is overriding ship-time
+live status at rebuild. Needs registry-agent reconciliation: live should
+outrank killed, or a distinct `shipped-despite-kill` state so kill history
+isn't lost. Until fixed, any pass that reads registry status for dedupe
+must cross-check against APPROVED_GUIDE_SLUGS (the 2026-06-11 expansion
+pass did).
+
+**Trigger:** next keyword-registry agent session, or the next queue
+expansion pass that relies on registry statuses.
+
+### D100 — live-page secondary folds from 2026-06-11 expansion recon — 🟡 OPEN
+
+**Logged:** 2026-06-11 (asbestos queue expansion pass).
+
+Verified floor-pass keywords that collapse into LIVE guides; no live edits
+during the expansion pass (pipeline rule: never hand-edit approved JSON, so
+these need a proper refresh run). Full table mirrored in the master list
+FOLD section (content/asbestos/AITEAM_Asbestos_Article_Master_List.md):
+
+- asbestos on pipes (200 SV / KD 0 / $7.00) + what does asbestos pipe
+  insulation look like (150 / 0 / $25 CPC) → asbestos-pipe-guide H2
+- asbestos in plaster walls (200/0) + lath and plaster asbestos (150/0)
+  → does-plaster-have-asbestos
+- does sheetrock have asbestos (100/1) → asbestos-drywall-guide
+- what year was asbestos banned in homes (150/5)
+  → when-was-asbestos-used-in-homes
+- asbestos survey cost (150/0) → asbestos-inspection-cost
+- vermiculite asbestos (700/9) → vermiculite-insulation-guide (confirm
+  coverage; likely already owned)
+
+**Trigger:** first live-guide refresh pass, or whenever any of these guides
+goes back through the pipeline for another reason.
