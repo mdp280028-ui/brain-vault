@@ -1215,3 +1215,22 @@ ngram_ignore union, struct + slug passes) or its results are unreliable.
 
 **Trigger:** next time anyone builds a gate-regression harness or batch
 re-audit over live guides.
+
+### D097 — helpdesk-support category: site-side section required before queueing — 🟡 OPEN
+
+**Logged:** 2026-06-11 (SSG article master list build).
+
+helpdesk-support approved as SSG's 4th content category (strongest revenue
+case in the 2026-06-08 Ahrefs study: zendesk pricing 9,100 SV / KD 9 / $17,
+zendesk alternatives 1,200 / 4 / $55, freshdesk alternatives 1,200 / 3 /
+$50 — Freshworks affiliate live). 14 vetted candidates sit in the HELD
+block of content/ssg/AITEAM_SSG_Article_Master_List.md. The site has no
+helpdesk-support nav section / category route yet — queueing any of them
+would ship guides into a category the renderer doesn't serve.
+
+**Unblock:** add the helpdesk-support category to smartsourceguide
+(site-config whitelist section, nav, category landing), then move the HELD
+block lines into drafter_queue.txt.
+
+**Trigger:** operator green-lights the site-side category build, or the
+existing-category queue (30 lines) runs low.
