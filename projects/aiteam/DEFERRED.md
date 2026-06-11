@@ -1216,7 +1216,7 @@ ngram_ignore union, struct + slug passes) or its results are unreliable.
 **Trigger:** next time anyone builds a gate-regression harness or batch
 re-audit over live guides.
 
-### D097 — helpdesk-support category: site-side section required before queueing — 🟡 OPEN
+### D097 — helpdesk-support category: site-side section required before queueing — ✅ CLOSED 2026-06-11
 
 **Logged:** 2026-06-11 (SSG article master list build).
 
@@ -1234,3 +1234,25 @@ block lines into drafter_queue.txt.
 
 **Trigger:** operator green-lights the site-side category build, or the
 existing-category queue (30 lines) runs low.
+
+**Closure (2026-06-11):** category shipped end-to-end. Site: CATEGORIES
+registry + new app/[category]/page.tsx landing route (all 4 categories —
+previously /it-support/ etc. 404'd), nav repointed to category landings,
+sitemap +4 URLs, data/guides/helpdesk-support/ created (smartsourceguide
+`4a0fa76`, live-verified: 4 landings + 2 guide pages curl 200, helpdesk
+empty state renders, 26 guide cards on existing landings). Pipeline:
+run-batch enums + OUTPUT_FORMAT (`1d18012`), drafter prompt (`e0ffb56`).
+The 14 HELD master-list slugs are now queue-eligible once configs exist.
+
+### D098 — sitemap.xml is hand-maintained and stale — 🟡 OPEN
+
+**Logged:** 2026-06-11 (helpdesk-support category build).
+
+public/sitemap.xml is a static hand-edited file. Before this pass it held
+16 URLs vs 26 live guide pages; now 20 (added the 4 category landings) vs
+30 live pages — still missing ~10 pipeline-shipped guide URLs. Needs
+generation from the CATEGORIES registry + APPROVED_GUIDE_SLUGS whitelist
+(build step or ship-to-site hook), then a GSC sitemap resubmit.
+
+**Trigger:** next ship-to-site touching session, or before the next GSC
+indexing push.
