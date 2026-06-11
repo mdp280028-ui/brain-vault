@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-08
-entry_count: 25
+last_updated: 2026-06-10
+entry_count: 26
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -58,3 +58,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-07 (gkDqbvMnMHI): Cowen introduces a three-stage bear market framework defined by crowd consensus — Stage 1 (few believe), Stage 2 (roughly half believe), Stage 3 (majority believe) — each lasting approximately four months, and declares Stage 3 begun as BTC broke below the February 2026 low on June 6. He conditions the October outcome on June's severity: "If we bottom out now and start to trend back up, then I would think, you know, June or an October low could be could be lower. But if we drop a lot now, then maybe October doesn't have to be uh quite as bad." [11:38] The 2018 analog supports a shallow June sweep (marginally below $57,000–58,000), while the 2014 analog warns of deeper sequential drops; the bear ends when Stage 3 consensus reaches maximum — "once everyone believes in the bare market, that's usually when the bare market ends." [13:03]
 
 - 2026-06-08 (CtOaNSQSZkY): In a 59-second clip, Cowen explicitly restates that BTC is in Stage 3 of the bear market and that this stage will run from June 2026 to October 2026 — "I believe this stage will last approximately the same length as the first two stages." [00:06] He adds a methodological note on crowd sentiment: rather than treating majority-bearish poll results as a contrarian signal, he argues his recent Twitter polls showed "the majority was actually" correct, framing widespread bear belief as confirmation of Stage 3 rather than a reason to flip bullish.
+
+- 2026-06-10 (vxnpP3EOl-8): Cowen presents the Bitcoin supply-in-profit vs. supply-in-loss crossover as a historically necessary precondition for calling a cycle bottom — the cross has now occurred in June 2026, unlocking what he calls open-mindedness to a market cycle low forming. Historical lag data across four prior cycles shows the actual bottom arrives 1–4 months post-cross, consistent with his existing October 2026 target, though he flags the 2022 analog (lines briefly uncrossed after the June cross before re-crossing in September) as a live risk scenario. "We have now seen them cross. And you know, usually when they cross, the low's not immediately in like that's never happened before." [03:42]

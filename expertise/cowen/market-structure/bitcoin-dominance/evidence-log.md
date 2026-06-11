@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-05-28
-entry_count: 4
+last_updated: 2026-06-10
+entry_count: 5
 ---
 
 # Evidence log: Bitcoin Dominance
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-26 (7byCfkDQxq8): Cowen uses stablecoin dominance (USDT + USDC combined) as his primary dominance indicator in this video, noting it just produced a weekly close below the 21-week EMA before bouncing back — which he identifies as an exact replay of the 2022 bear market pattern, where identical false breakdowns in March, August, and October each time gave bulls false confidence before the bear resumed. This reinforces rather than challenges the BTC-favoring regime thesis: stablecoins remain the dominant capital shelter, not alts. No direct quote on dominance specifically, but the stablecoin dominance chart is listed as a key tool and the 2022 parallel is explicit in key point 8.
 
 - 2026-05-28 (OuHBTQ6fkfQ): Cowen argues BTC's failure to make new all-time highs during a seven-to-eight week S&P 500 rally is the supercycle thesis failing in real time, placing BTC in a subordinate risk-curve position relative to equities — the same position altcoins occupied relative to BTC, where "the minute Bitcoin started dropping, altcoins would get annihilated." [00:37] When the overdue SPX correction arrives, BTC will be hit harder than equities precisely because it has been lagging, further entrenching the BTC bear market that drives continued dominance of stablecoins over alts in capital allocation.
+
+- 2026-06-10 (vxnpP3EOl-8): The supply-in-profit/loss crossover has now occurred, which Cowen treats as the historical permission condition for calling a cycle bottom — "until these lines cross, there's no reason to call for market cycle bottoms" [02:31] — placing the likely BTC low 1–4 months out (i.e., by October 2026). This is BTC-specific accumulation framing; no altcoin rotation is implied, and the BTC-dominance-over-alts dynamic remains intact through the bottoming window as the macro environment (no cuts through 2027) still withholds the liquidity catalyst alts require.

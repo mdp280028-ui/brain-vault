@@ -1,0 +1,5 @@
+- ask accountant about putting the mac mini through the company
+- replace the UPS battery before winter storms — last replaced 2023
+- check whether time machine is actually backing up the external SSD or just the internal one
+- look at the WD elements drive — has it ever spun up since I plugged it in?
+- ping mark about whether his memory tuning numbers shifted at all in the last 6 months
