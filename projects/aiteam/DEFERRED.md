@@ -1308,3 +1308,34 @@ FOLD section (content/asbestos/AITEAM_Asbestos_Article_Master_List.md):
 
 **Trigger:** first live-guide refresh pass, or whenever any of these guides
 goes back through the pipeline for another reason.
+
+### D101 — fix-runner agent (serial mechanical-fix executor) — ✅ CLOSED 2026-06-11
+
+**Logged:** 2026-06-11 (built same day; this entry is the registry record).
+
+`~/agents/fix-runner/` — script-tier agent (no LLM, no cron, operator-triggered
+only). Global FIXES.md queue, items tagged by repo via repos.yaml
+(asbestoshq-site, smartsourceguide, asbestos-contractors, ssg-content live;
+ust + payrolldetective stubbed until paths/deploy verified). Per item:
+clean-tree gate → scripted EDIT → VERIFY → implicit build_cmd →
+single-purpose commit; first failure reverts + halts run. End of run: one
+push per fully-green repo (PUBLISHER_DEPLOY_ENABLED honored), clean-tree
+sweep, Telegram summary, audit rows on one correlation_id. D094 shlock at
+state/fix-runner.lock; refuses to start 22:30-23:30 PT (deploy_batch window —
+no shared git lock exists with ship-to-site).
+
+**v2 candidates (still deferred):** LLM-assisted EDIT blocks for non-scriptable
+fixes; shared repo-level git lock honored by both fix-runner and
+ship-to-site/git_ops.sh; post-deploy content-aware live checks (beyond HTTP
+200 on base URL).
+
+### D102 — Nightly agents-vault auto-commit sweeps unknown runtime files blindly — 🟡 OPEN
+
+**Logged:** 2026-06-11 (working-tree triage; source of the c885d33 strays).
+
+Nightly agents-vault auto-commit sweeps unknown runtime files blindly
+(watchdog/*_alerted.date, logs/cron-vol-check.txt, market/shared/*.bak all
+got committed this way before being gitignored in c885d33). Fix: selective
+pathspec or porcelain-unknown → Telegram flag instead of auto-commit.
+
+**Trigger:** next time a stray gets swept.

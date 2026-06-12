@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-200d-rejection
 group: market-structure
-last_updated: 2026-06-08
-entry_count: 10
+last_updated: 2026-06-11
+entry_count: 11
 ---
 
 # Evidence log: Btc 200d Rejection
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-06 (LuiJ6uK_qh0): Cowen confirms the February 2026 low sweep as the direct, on-schedule consequence of the 200D rejection — the full 2018 price sequence (February low → higher low → 200D rally → rejection → June lower low) has now played out at 10x the price, with the sweep arriving ~17 weeks after the February low versus 2018's ~19 weeks. The 200D rejection is referenced explicitly as the initiating structural event: "Bitcoin has swept the low. This was always the base case that we would sweep the low. The only question now is how much lower does it go?" [20:20]. Cowen adds that he cannot yet confirm whether the June low is in, maintaining the same bearish framework while deferring to time-based capitulation (October base case) unless a price-based capitulation forces a pivot.
 
 - 2026-06-08 (SG3tuA8zqs8): With the February low swept and BTC closing back above the 200-week EMA, Cowen tentatively reads the 200D rejection sequence as now complete at the June low stage — but stresses low conviction, saying "the reason why this is dubious speculation is because it's still fairly early on in June to know for sure" [00:54]. He frames the 200-week EMA hold as the critical near-term confirmation signal: a second consecutive weekly close above it would meaningfully increase odds of the counter-trend rally into July that the 200D rejection framework predicted all along, with the final bear market low still expected in Q4.
+
+- 2026-06-11 (R9vEpIpyj2s): Cowen introduces the realized price (~$53–54K) as an on-chain condition that has been met before every prior cycle bottom (2011, 2014–15, 2018, 2020) but has not yet been met in the current cycle — directly extending the bear case established by the 200D rejection and leaving open the possibility of a lower low below ~$59K. He states: "throughout all these bear markets, Bitcoin has historically gone below the realized price before the market cycle bottom was in" [01:13], and explicitly leans toward models (including the terminal price) that say the low is not yet in, consistent with the 200D rejection sequence pointing to a second-half 2026 final bottom.

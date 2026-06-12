@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-10
-entry_count: 26
+last_updated: 2026-06-11
+entry_count: 27
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -60,3 +60,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-08 (CtOaNSQSZkY): In a 59-second clip, Cowen explicitly restates that BTC is in Stage 3 of the bear market and that this stage will run from June 2026 to October 2026 — "I believe this stage will last approximately the same length as the first two stages." [00:06] He adds a methodological note on crowd sentiment: rather than treating majority-bearish poll results as a contrarian signal, he argues his recent Twitter polls showed "the majority was actually" correct, framing widespread bear belief as confirmation of Stage 3 rather than a reason to flip bullish.
 
 - 2026-06-10 (vxnpP3EOl-8): Cowen presents the Bitcoin supply-in-profit vs. supply-in-loss crossover as a historically necessary precondition for calling a cycle bottom — the cross has now occurred in June 2026, unlocking what he calls open-mindedness to a market cycle low forming. Historical lag data across four prior cycles shows the actual bottom arrives 1–4 months post-cross, consistent with his existing October 2026 target, though he flags the 2022 analog (lines briefly uncrossed after the June cross before re-crossing in September) as a live risk scenario. "We have now seen them cross. And you know, usually when they cross, the low's not immediately in like that's never happened before." [03:42]
+
+- 2026-06-11 (R9vEpIpyj2s): Cowen presents the realized price (~$53–54K, calculated as realized cap ÷ circulating supply) as a near-necessary condition for cycle bottoms, showing that Bitcoin has dipped below this level before every prior bear market low (2011, 2014–15, 2018, 2020) but has not done so in the current cycle — BTC is currently trading just above a price/realized-price ratio of 1.0. He explicitly leans toward models saying the low is not yet in, stating "throughout all these bear markets, Bitcoin has historically gone below the realized price before the market cycle bottom was in" [01:13], while noting that historically any such dip is brief rather than prolonged. This is framed as consistent with the midterm-year pattern and the supply-in-profit/loss crossover framework, both of which place the bottom window in H2 2026.

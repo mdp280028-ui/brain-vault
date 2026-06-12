@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-09
-row_count: 56
+last_updated: 2026-06-11
+row_count: 58
 ---
 
 # BTC outlook history (Casper)
@@ -66,3 +66,5 @@ Append-only. Newest entries at bottom.
 | 2026-06-08 | months | ↓ | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
 | 2026-06-08 | weeks | → | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
 | 2026-06-08 | days | ↑ | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
+| 2026-06-10 | weeks | → | 2 | Casper holds a live BTC long at a key support level ("please Bitcoin line") while flagging historic weekly bullish divergences on both BTC and ETH as potential significant lows. | _Tmmk68Ch_U | /Users/mmm2/brain/channels/casper/briefs/2026-06-10__Tmmk68Ch_U.md |
+| 2026-06-10 | days | ↑ | 2 | Casper holds a live BTC long at a key support level ("please Bitcoin line") while flagging historic weekly bullish divergences on both BTC and ETH as potential significant lows. | _Tmmk68Ch_U | /Users/mmm2/brain/channels/casper/briefs/2026-06-10__Tmmk68Ch_U.md |
