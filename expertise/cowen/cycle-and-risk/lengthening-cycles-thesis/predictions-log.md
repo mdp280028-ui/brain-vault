@@ -1,8 +1,8 @@
 ---
 topic_slug: lengthening-cycles-thesis
 group: cycle-and-risk
-last_updated: 2026-06-10
-entry_count: 7
+last_updated: 2026-06-12
+entry_count: 8
 ---
 
 # Predictions log: Lengthening Cycles Thesis
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-10 (vxnpP3EOl-8): Market cycle bottom likely to occur 1–4 months after the June 2026 supply-in-profit/loss crossover, placing it roughly between now and October 2026.
 - 2026-06-10 (vxnpP3EOl-8): 2027–2028 expected to be the next bull phase as the four-year cycle continues, with the current crossed-over period lasting only a few months.
+
+- 2026-06-12 (Di8YR9nX8Q8): Bitcoin cycle bottom most likely in October 2026, with the low forming before end of 2026, consistent with the lengthening-cycles time-based thesis.

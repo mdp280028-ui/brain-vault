@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-11
-entry_count: 27
+last_updated: 2026-06-12
+entry_count: 28
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -62,3 +62,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-10 (vxnpP3EOl-8): Cowen presents the Bitcoin supply-in-profit vs. supply-in-loss crossover as a historically necessary precondition for calling a cycle bottom — the cross has now occurred in June 2026, unlocking what he calls open-mindedness to a market cycle low forming. Historical lag data across four prior cycles shows the actual bottom arrives 1–4 months post-cross, consistent with his existing October 2026 target, though he flags the 2022 analog (lines briefly uncrossed after the June cross before re-crossing in September) as a live risk scenario. "We have now seen them cross. And you know, usually when they cross, the low's not immediately in like that's never happened before." [03:42]
 
 - 2026-06-11 (R9vEpIpyj2s): Cowen presents the realized price (~$53–54K, calculated as realized cap ÷ circulating supply) as a near-necessary condition for cycle bottoms, showing that Bitcoin has dipped below this level before every prior bear market low (2011, 2014–15, 2018, 2020) but has not done so in the current cycle — BTC is currently trading just above a price/realized-price ratio of 1.0. He explicitly leans toward models saying the low is not yet in, stating "throughout all these bear markets, Bitcoin has historically gone below the realized price before the market cycle bottom was in" [01:13], while noting that historically any such dip is brief rather than prolonged. This is framed as consistent with the midterm-year pattern and the supply-in-profit/loss crossover framework, both of which place the bottom window in H2 2026.
+
+- 2026-06-12 (Di8YR9nX8Q8): Cowen presents a composite on-chain risk metric aggregating ~9 normalized indicators (including MVRV Z-score, Puell Multiple, RHODL ratio, and supply in profit/loss) currently reading ~0.18–0.198, below the historically rare 0.2 threshold — a zone he says confirms Bitcoin is in the "third and final stage of the bare market" and that the cycle low should form before end of 2026. He notes sub-0.2 readings cluster in midterm years, reinforcing the four-year cycle framework, and distinguishes his operating thesis as "time-based capitulation" while remaining open to pivoting to price-based if conditions change: "right now, I'm operating under what I called time-based capitulation, but I would be willing to pivot to price-based capitulation if something like that were to happen." [09:25]

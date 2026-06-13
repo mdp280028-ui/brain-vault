@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-11
-entry_count: 66
+last_updated: 2026-06-12
+entry_count: 69
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -96,3 +96,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-11 (R9vEpIpyj2s): If historical patterns hold, Bitcoin is likely to dip below the realized price (~$53–54K) before the cycle bottom is confirmed.
 - 2026-06-11 (R9vEpIpyj2s): Cycle bottom likely in the second half of 2026, consistent with midterm-year historical patterns.
 - 2026-06-11 (R9vEpIpyj2s): Any move below the realized price expected to be brief, not a prolonged stay.
+
+- 2026-06-12 (Di8YR9nX8Q8): Bitcoin cycle bottom most likely in October 2026, with the low forming before end of 2026.
+- 2026-06-12 (Di8YR9nX8Q8): The composite on-chain risk metric will carve out a multi-month low before recovering, consistent with prior bear market patterns.
+- 2026-06-12 (Di8YR9nX8Q8): The post-bear-market bull run may be more euphoric than the last cycle if the 2019 analogue holds, given the apathetic 2025 top.
