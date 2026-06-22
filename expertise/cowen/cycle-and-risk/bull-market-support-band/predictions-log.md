@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-06-08
-entry_count: 7
+last_updated: 2026-06-13
+entry_count: 8
 ---
 
 # Predictions log: Bull Market Support Band
@@ -19,3 +19,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (slTIiS-Y65k): Final cycle low expected in September–October 2026, with the 200-week MA coming into play before the bear market ends.
 
 - 2026-06-08 (SG3tuA8zqs8): A counter-trend rally back toward the bear market resistance band is possible in late July / early August if Bitcoin holds the 200-week EMA for a second consecutive weekly close — but this is framed as a low-conviction, within-bear bounce, not a regime reclaim.
+
+- 2026-06-13 (DoteyQFNfnE): Gold is expected to find support on the bull market support band (20-month MA / 21-month EMA) during the current midterm-year correction and consolidate there before continuing higher into end of decade.

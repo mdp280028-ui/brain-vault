@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-06-08
-entry_count: 4
+last_updated: 2026-06-13
+entry_count: 5
 ---
 
 # Evidence log: Bull Market Support Band
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (slTIiS-Y65k): Bitcoin fell back below the bear market resistance band on the daily chart, with the weekly 20-week SMA sitting at ~$74K and BTC trading roughly $1,000 beneath it — a weekly close below would confirm the weekly breakdown. Cowen highlights that the preceding rally had far less follow-through than the analogous 2023 bounce before retesting the band, calling it the textbook midterm fake-out: "Bitcoin briefly pokes above the resistance band, bulls dunk on bears, and then the air comes out." He maps the current structure onto the standard midterm sequence documented in 2018 and 2022 — 21-week EMA rally, 200-day MA push, retrace, one more bounce, then lower — treating the band breakdown as confirmation that this sequence is playing out again.
 
 - 2026-06-08 (SG3tuA8zqs8): Cowen references the bear market resistance band as the likely ceiling for a potential counter-trend rally in late July or early August, consistent with the 2018 analog where Bitcoin rallied in May to slightly above the band before dropping into a June low and then bouncing. He treats any such rally as explicitly a low-conviction counter-trend move within the bear, not a regime change signal. At [13:03] he states: "if Bitcoin can hold the 200E moving average for the next couple of weeks, then I think that would significantly increase the odds of a counter trend rally into July, maybe back up to the bare market resistance band."
+
+- 2026-06-13 (DoteyQFNfnE): Cowen applies the bull market support band to gold on the monthly chart (20-month MA / 21-month EMA), noting it held as structural support throughout the 1970s and 2000s bull markets with only brief exceptions in 1974 and 2008 — both followed by continued bull market advances. Gold dipped below the band briefly in 2022 and recovered; Cowen expects the same this cycle, stating: [15:24] "there's a good chance gold will sort of find support on this bull market support band, consolidate there, and then ultimately go up higher into the end of the decade." This is the first application of the band concept to gold in this channel's brief history, and the timeframe distinction matters — monthly for gold (bull support) versus weekly for BTC (bear resistance).

@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-06-22T05:00:00Z",
+  "actor_id": "ship-to-site-preview",
+  "expected_actions": ["preview_ping_sent"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "20:00 preview ping",
+  "watchdog_state": "missing"
+}

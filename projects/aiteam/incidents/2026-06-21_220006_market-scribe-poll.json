@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-06-22T05:00:00Z",
+  "actor_id": "market-scribe-poll",
+  "expected_actions": ["scribe_poll"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "07:00 PT scribe poll for new YouTube market videos (D033)",
+  "watchdog_state": "missing"
+}

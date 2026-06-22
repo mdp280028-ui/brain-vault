@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-06-22T05:00:00Z",
+  "actor_id": "market-process-queue",
+  "expected_actions": ["analyst_batch_run"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "07:15 PT process_queue: fetch transcripts + Sonnet briefs per video (D033)",
+  "watchdog_state": "missing"
+}
