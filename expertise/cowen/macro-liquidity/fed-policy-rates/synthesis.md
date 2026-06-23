@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-05-28
-brief_count: 6
+last_updated: 2026-06-21
+brief_count: 10
 ---
 
 # Fed Policy & Rates
@@ -11,19 +11,23 @@ The Federal Reserve's policy-rate decisions, FOMC meeting cycles, rate-cut and r
 
 ## Current Thesis
 
-The Fed under Warsh faces a structural paradox that has hardened through late May: headline CPI at 3.78% with core at 2.74% and reversing upward has already forced markets to fully price out cuts through 2027 and begin pricing in a hike, and the imminent oil-shortage inflation channel (SPR depletion) closes any remaining window for easing. Warsh's reputational incentive — avoiding a Powell-style "transitory" blunder at the start of his tenure — means any surprise inflation spike is likely to be met with rate hikes rather than patience. The May 28 panel adds a second-order confirmation: the panel explicitly frames the absence of rate cuts as the direct macro reason crypto keeps bleeding, noting that "crypto is more dependent on looser monetary policy than the stock market is" and that rate hikes now being priced in remove any monetary tailwind. A longer-term structural risk remains live: 30-year yields are now cited above 5% (10-year ~4.5%), reinforcing the possibility that the decades-long era of falling rates has structurally ended. The "something breaks" forced-cut scenario stays a tail — arriving only via a post-midterm recession under the bearish Republican president + Democratic Congress configuration — and paradoxically, a recession would be net positive for BTC precisely because it would force the Fed back toward looseness.
+Warsh's Fed represents a definitive regime change — abandoned forward guidance, leaning hawkish, with the dot plot roughly 50/50 on year-end hikes and Cowen personally assessing hikes as more likely than not. The structural rate backdrop remains hardened: the high-rate/QT environment is the direct suppressor of crypto outperformance and the root cause of retail's absence, as prolonged tightening pushes capital away from frothy assets first (altcoins, then BTC) and toward basic-cost survival. There is no near-term catalyst for easier policy — the AI trade keeping equities elevated removes all Fed pressure to cut, and "as long as the AI trade keeps working, there's no reason to cut rates." The sole credible pivot path runs through a late-Q3/early-Q4 2026 equity market dislocation that forces the Fed's hand; until that materializes, crypto remains structurally stuck at the far end of the risk curve.
 
 ## Key Evidence
 
-- CPI rose to 3.78% YoY (above 3.6–3.7% consensus), led by housing (3.37% → 3.63%) and transportation (6.89%); core CPI at 2.74% reversed its February trough of 2.47%, moving away from — not toward — the 2% target (Rf-gAQJk5-0)
-- Markets have fully repriced: no cuts priced for 2026 or 2027; a 2027 hike is now more likely than a cut — a 180° reversal from the multi-cut path priced at year-start (Rf-gAQJk5-0)
-- Panel explicitly ties crypto's persistent underperformance to the rate environment: "energy prices have gone up, inflation's heading higher, and now all these rate cuts have gotten priced out of the curve" — framing rate-hike pricing as the direct macro drag on risk assets (Tj7mvTHDe1U, 28:39)
-- 30-year US Treasury yield now cited above 5%, 10-year ~4.5% — concrete levels reinforcing the structural end-of-falling-rates thesis and validating bonds as a credible alternative allocation (Tj7mvTHDe1U)
-- Strategic petroleum reserves being drawn down to buffer the Hormuz/oil-shortage shock; once exhausted, real shortages will hit consumers and official data, delivering an inflation spike Warsh's Fed will respond to with hikes (8PQee-onXrU)
-- Post-midterm political configuration (Republican president + Democratic Congress) is historically the most bearish equity regime and the primary setting for business-cycle recessions — the structural trigger for any "something breaks" forced-cut tail; paradoxically, recession would force looser policy and benefit BTC (9a-LA7tm8Mo, Tj7mvTHDe1U)
+- Warsh's first FOMC dot plot: roughly 50/50 on rate hikes by year-end; Cowen personally assesses hikes before year-end as "more likely than not" and characterizes it as definitive regime change; nine dot-plot members projecting a hike and CME FedWatch pricing ~84.5% probability of at least one hike by December (xutthOFM_RA, zKPohkQdq_Q)
+- Warsh abandoned forward guidance and declined to give his own dot-plot call — signals a chair who communicates through actions, reinforcing the reputational incentive to hike into any inflation surprise rather than reassure with "transitory" language (xutthOFM_RA, zKPohkQdq_Q)
+- Market is explicitly "more worried about rate hikes than rate cuts" and looser monetary policy has "no promise" of materializing — the AI trade is identified as the key structural reason the Fed faces no pressure to ease (5feBKA1-w-Q, gAf6tPzkcgg)
+- Crypto sits at "the furthest thing up the risk curve," meaning prolonged high-rate/QT environments drain it first; altcoin weakness preceded BTC weakness by months, confirming the risk-curve sequencing (5feBKA1-w-Q)
+- CPI at 3.78% YoY with core at 2.74% moving away from the 2% target; two-year Treasury yield rising as a near-mechanical forcing function on the Fed funds rate; 30-year has already retested October 2023 highs and the 10-year (~4.5%) expected to follow (Rf-gAQJk5-0, zKPohkQdq_Q, Tj7mvTHDe1U)
+- Post-midterm political configuration (Republican president + Democratic Congress) is historically the most bearish equity regime and the primary business-cycle recession setting — the structural trigger for any "something breaks" forced-cut tail; a late-Q3/early-Q4 2026 equity dislocation is the specific identified pivot catalyst (9a-LA7tm8Mo, gAf6tPzkcgg, 5feBKA1-w-Q)
 
 ## Recent Updates
 
+- 2026-06-21 (5feBKA1-w-Q): Cowen reiterates the high-rate/QT environment keeps crypto in a holding pattern as the frothiest risk-curve asset, flags the AI trade as the reason the Fed has no pressure to cut, and pins the only credible pivot trigger on stock market weakness in late Q3/early Q4 2026.
+- 2026-06-19 (gAf6tPzkcgg): Cowen identifies the high-rate/QT environment as the root cause of retail's absence from crypto, notes rate hikes are being priced back in due to the AI trade and geopolitical inflation, and sees no near-term catalyst for easier policy — with late-Q3/early-Q4 2026 equity weakness as the only credible Fed pivot trigger.
+- 2026-06-18 (xutthOFM_RA): Guy characterizes Warsh's FOMC as definitive regime change — abandoned forward guidance, leaned hawkish, dot plot roughly 50/50 on year-end hikes, and Guy's personal view is that rate hikes before year-end are still more likely than not.
+- 2026-06-18 (zKPohkQdq_Q): Warsh's first FOMC confirms the rate-hike path — nine dot-plot members project a hike, CME FedWatch prices ~84.5% probability of at least one hike by December, the two-year yield is rising as a forcing function, the 30-year has already retested October 2023 highs, a dollar breakout is flagged as an additional headwind, and rate-hike pricing (regardless of whether a hike materializes) is cited as the direct ongoing suppressor of crypto outperformance.
 - 2026-05-28 (Tj7mvTHDe1U): Panel frames rate-hike pricing as the direct macro explanation for crypto's underperformance, with 30-year yields above 5% and 10-year ~4.5% cited as concrete evidence that monetary tailwinds have fully reversed; recession scenario noted as a tail that would paradoxically force Fed looseness and benefit BTC.
 - 2026-05-21 (8PQee-onXrU): Panel argues SPR depletion makes an oil-shortage inflation spike imminent; Warsh's reputational incentive means he will respond with rate hikes rather than risk a "transitory" blunder, and 30-year yields at 2023 highs raise the possibility that the era of falling rates has structurally ended.
 - 2026-05-15 (FgxAe_NAh5c): Powell steps down; Warsh inherits a Fed where resurging CPI/PPI makes rate cuts politically pressured but practically blocked, with Cowen calling for steady rates through summer 2026 and hike risk in 2027.

@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-08
-entry_count: 7
+last_updated: 2026-06-16
+entry_count: 8
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -22,3 +22,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-06 (LuiJ6uK_qh0): BTC has now swept the February 2026 low (~$60K) approximately 17 weeks after that low, closely mirroring the 2018 analog (19 weeks to the next lower low), confirming Cowen's stated base case. The three-act June structure is reinforced — local low in June, counter-trend rally July–August, final cycle bottom in October — though Cowen adds a key caveat: "Bitcoin has swept the low. This was always the base case that we would sweep the low. The only question now is how much lower does it go?" [20:20]. He explicitly says he cannot yet confirm whether the June low is in and recommends waiting for confirmation before repositioning.
 
 - 2026-06-08 (SG3tuA8zqs8): After BTC swept the February low and closed back above the 200-week EMA, Cowen frames the June low thesis as probable but unconfirmed, explicitly calling it "dubious speculation" given timing: "the reason why this is dubious speculation is because it's still fairly early on in June to know for sure" [00:54]. He anchors the 2018 analog (mid-June low timing) as the reason the early-June ~$59K print may get retested, and identifies a second consecutive 200-week EMA weekly close as the concrete confirmation trigger — after which a counter-trend rally back toward the bear market resistance band into late July becomes materially more likely.
+
+- 2026-06-16 (vTcABO_0Exg): Cowen states on June 16 that BTC is actively putting in its June low and that it "makes sense to start accumulating here as we put in the June low." He frames the post-June-low window through year-end as historically the best re-entry approach for the midterm cycle — "usually the time to start getting back into the market for Bitcoin is right after that June low, then accumulation through the end of the midterm year, even as price goes lower, often works out the best" [00:34]. This marks a shift in tone from the prior week's "wait for confirmation" posture to one of active accumulation.

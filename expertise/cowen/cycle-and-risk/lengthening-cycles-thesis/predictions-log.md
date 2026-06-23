@@ -1,8 +1,8 @@
 ---
 topic_slug: lengthening-cycles-thesis
 group: cycle-and-risk
-last_updated: 2026-06-12
-entry_count: 8
+last_updated: 2026-06-14
+entry_count: 11
 ---
 
 # Predictions log: Lengthening Cycles Thesis
@@ -20,3 +20,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-10 (vxnpP3EOl-8): 2027–2028 expected to be the next bull phase as the four-year cycle continues, with the current crossed-over period lasting only a few months.
 
 - 2026-06-12 (Di8YR9nX8Q8): Bitcoin cycle bottom most likely in October 2026, with the low forming before end of 2026, consistent with the lengthening-cycles time-based thesis.
+
+- 2026-06-14 (psz9FwqWGns): Bitcoin base case cycle low in October 2026 (plus or minus a few months), consistent with the ~50–60 week historical bear market duration and the lengthening-cycles framework
+- 2026-06-14 (psz9FwqWGns): Bitcoin finds a June low, rallies in July, then prints a final lower low in Q4 accompanied by a massive volume spike and a stock market decline — replicating the 2018 and 2022 three-phase midterm pattern
+- 2026-06-14 (psz9FwqWGns): If Bitcoin drops ~$20K from ~$63K (to ~$43K) and all on-chain indicators fully reset, Cowen would pivot away from the October base case — the one defined exit from the time-based capitulation framework

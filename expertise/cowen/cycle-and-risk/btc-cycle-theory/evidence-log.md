@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-12
-entry_count: 28
+last_updated: 2026-06-21
+entry_count: 31
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -64,3 +64,9 @@ Append-only. Newest entries at bottom.
 - 2026-06-11 (R9vEpIpyj2s): Cowen presents the realized price (~$53–54K, calculated as realized cap ÷ circulating supply) as a near-necessary condition for cycle bottoms, showing that Bitcoin has dipped below this level before every prior bear market low (2011, 2014–15, 2018, 2020) but has not done so in the current cycle — BTC is currently trading just above a price/realized-price ratio of 1.0. He explicitly leans toward models saying the low is not yet in, stating "throughout all these bear markets, Bitcoin has historically gone below the realized price before the market cycle bottom was in" [01:13], while noting that historically any such dip is brief rather than prolonged. This is framed as consistent with the midterm-year pattern and the supply-in-profit/loss crossover framework, both of which place the bottom window in H2 2026.
 
 - 2026-06-12 (Di8YR9nX8Q8): Cowen presents a composite on-chain risk metric aggregating ~9 normalized indicators (including MVRV Z-score, Puell Multiple, RHODL ratio, and supply in profit/loss) currently reading ~0.18–0.198, below the historically rare 0.2 threshold — a zone he says confirms Bitcoin is in the "third and final stage of the bare market" and that the cycle low should form before end of 2026. He notes sub-0.2 readings cluster in midterm years, reinforcing the four-year cycle framework, and distinguishes his operating thesis as "time-based capitulation" while remaining open to pivoting to price-based if conditions change: "right now, I'm operating under what I called time-based capitulation, but I would be willing to pivot to price-based capitulation if something like that were to happen." [09:25]
+
+- 2026-06-14 (psz9FwqWGns): Cowen draws the sharpest distinction yet between time-based and price-based capitulation, arguing that with the bear at ~week 35 against a historical 50–60 week midterm-year duration, waiting for the clock to expire is the primary framework — "I defer to time-based capitulation until that happens" [10:02] (referring to a March-2020-style reset). He adds the absence of a weekly volume capitulation spike as a new structural reason the low is not yet in, refines the supply-in-profit/loss crossover lag data across all four prior cycles (1–5 months), and specifies the precise pivot condition: a ~$20K drop from ~$63K accompanied by full on-chain indicator reset would end his bearish stance before October.
+
+- 2026-06-16 (vTcABO_0Exg): Cowen acknowledges the psychological difficulty of sitting through typical 70–80% Bitcoin bear-market drawdowns and states he has reduced exposure accordingly while still holding some BTC. He identifies the current moment as the June low forming and argues that accumulating from this point through year-end — even as price moves lower — has historically been the optimal re-entry strategy. His core behavioral warning: "The biggest mistake people make though is they sell and they never buy back." [00:30] He directly addresses investors who sold late last year and haven't re-entered, telling them that if they were never going to buy back, they would have been better off not selling at all.
+
+- 2026-06-21 (hXlR5xu0HK4): Cowen presents the MVRV Z-Score as a cycle-framework confirmation tool, noting the current reading of ~0.35 is approaching the zero threshold and that every prior sub-zero episode — lasting 5 months to over a year — has been an attractive accumulation window preceding a new bull market, with the pandemic dip explicitly dismissed as a non-repeatable exception. He ties the indicator directly to the four-year cycle and his midterm-year rule: "accumulating Bitcoin in the second half of mid-term years often works out" [04:14], and frames the coming reset as the setup for the next bull leg — "this thing historically resets and from those reset levels, it then begins a new bull market, which again could very well line up with that four-year cycle." [04:43]

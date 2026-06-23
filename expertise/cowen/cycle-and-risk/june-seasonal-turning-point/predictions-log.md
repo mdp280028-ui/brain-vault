@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-08
-entry_count: 15
+last_updated: 2026-06-16
+entry_count: 16
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -29,3 +29,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-08 (SG3tuA8zqs8): If Bitcoin holds the 200-week EMA for a second consecutive weekly close, a counter-trend rally back toward the bear market resistance band into late July/early August becomes significantly more likely.
 - 2026-06-08 (SG3tuA8zqs8): Summer volatility expected to dry up significantly even if a counter-trend rally occurs — no major move expected before later in the summer.
 - 2026-06-08 (SG3tuA8zqs8): The final bear market low remains expected in Q4 2026, with the June low a local low only.
+
+- 2026-06-16 (vTcABO_0Exg): BTC is putting in its June low now; accumulating from this point through the end of the midterm year is expected to produce strong results.

@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-asymmetric-quantile-model
 group: market-structure
-last_updated: 2026-06-11
-entry_count: 6
+last_updated: 2026-06-22
+entry_count: 7
 ---
 
 # Predictions log: Btc Asymmetric Quantile Model
@@ -17,3 +17,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-04 (QMn7cm4nfYU): BTC has crossed below Q1 (1st percentile floor ~$62K); the model's conditional dislocation analogs define the expected bear-case floor sequence at ~$58K, ~$52K, ~$48K, and ~$40K during the current cycle's capitulation phase.
 
 - 2026-06-11 (R9vEpIpyj2s): If historical patterns hold, Bitcoin is likely to dip below the realized price (~$53–54K) before the cycle bottom is confirmed — a level that falls within the asymmetric model's Q1 dislocation floor sequence (~$52K March 2020 analog).
+
+- 2026-06-22 (d71wYhwKpFY): BTC likely trades below its realized price (~$53–54K) at some point later in 2026, which would confirm the asymmetric model's Q1 dislocation floor sequence is being tested at the $52K and $48K analog levels.

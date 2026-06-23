@@ -1,8 +1,8 @@
 ---
 topic_slug: lengthening-cycles-thesis
 group: cycle-and-risk
-last_updated: 2026-06-12
-entry_count: 4
+last_updated: 2026-06-14
+entry_count: 5
 ---
 
 # Evidence log: Lengthening Cycles Thesis
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-10 (vxnpP3EOl-8): Cowen introduces the Bitcoin supply-in-profit vs. supply-in-loss crossover as a new on-chain pillar for the time-based thesis: historically, the cycle low has never occurred before these lines cross, and the lag from crossover to actual low has ranged from 1–4 months across all prior cycles — placing the likely bottom between June and October 2026, squarely consistent with the October window derived from day-count metrics. The 2022 analog risk (lines briefly uncrossing after the first cross) is acknowledged but does not alter the core timing framework. Cowen explicitly reaffirmed the four-year cycle, stating: [07:06] "the four-year cycle is just so obvious and clear that it's baffling to me just how many people fade it."
 
 - 2026-06-12 (Di8YR9nX8Q8): Cowen introduces a composite on-chain risk metric (~9 indicators normalized to 0–1) currently reading ~0.18–0.198, and notes that historically Bitcoin spends very little time below 0.2 — with such readings concentrating in midterm years, exactly the current position in the 4-year cycle. He declares Bitcoin "clearly in the third and final stage of the bare market" and names October 2026 as the most likely bottom month, consistent with the lengthening-cycles time-based framework. He explicitly labels his operating thesis "time-based capitulation," stating: [09:25] "right now, I'm operating under what I called timebased capitulation, but I would be willing to pivot to price-based capitulation if something like that were to happen."
+
+- 2026-06-14 (psz9FwqWGns): Cowen provided explicit week-count data anchoring the lengthening-cycles thesis: the last two midterm-year bear markets ran ~50–60 weeks (Dec 2017–Dec 2018 ~53 weeks; Nov 2021–Nov 2022 ~54 weeks), and at "currently about week 35" [03:08] the current cycle has not yet reached that duration threshold, directly supporting a Q4 2026 resolution. He also identified the absence of a volume-capitulation spike — present at every prior cycle low — as a key real-time confirmation that the bear market is incomplete, and defined the single pivot condition that would cause him to abandon the October base case: a price-based capitulation dropping Bitcoin ~$20K from ~$63K with full on-chain reset, analogous to March 2020.

@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-11
-row_count: 58
+last_updated: 2026-06-22
+row_count: 70
 ---
 
 # BTC outlook history (Casper)
@@ -68,3 +68,15 @@ Append-only. Newest entries at bottom.
 | 2026-06-08 | days | ↑ | 2 | Casper flags a rare weekly bullish divergence on MarketCipher B — the first since November 2022 — as a potential bottom signal, while maintaining his macro base case of a further drop to low-$50Ks ... | AazDvIG9e_I | /Users/mmm2/brain/channels/casper/briefs/2026-06-08_AazDvIG9e_I.md |
 | 2026-06-10 | weeks | → | 2 | Casper holds a live BTC long at a key support level ("please Bitcoin line") while flagging historic weekly bullish divergences on both BTC and ETH as potential significant lows. | _Tmmk68Ch_U | /Users/mmm2/brain/channels/casper/briefs/2026-06-10__Tmmk68Ch_U.md |
 | 2026-06-10 | days | ↑ | 2 | Casper holds a live BTC long at a key support level ("please Bitcoin line") while flagging historic weekly bullish divergences on both BTC and ETH as potential significant lows. | _Tmmk68Ch_U | /Users/mmm2/brain/channels/casper/briefs/2026-06-10__Tmmk68Ch_U.md |
+| 2026-06-15 | months | ↑ | 2 | Casper sees historic bullish divergence signals on BTC and ETH weekly/multi-day timeframes but remains cautious, holding both a long and a short on BTC simultaneously while watching $68K as key res... | OqezIC_lMbY | /Users/mmm2/brain/channels/casper/briefs/2026-06-15_OqezIC_lMbY.md |
+| 2026-06-15 | weeks | ↑ | 2 | Casper sees historic bullish divergence signals on BTC and ETH weekly/multi-day timeframes but remains cautious, holding both a long and a short on BTC simultaneously while watching $68K as key res... | OqezIC_lMbY | /Users/mmm2/brain/channels/casper/briefs/2026-06-15_OqezIC_lMbY.md |
+| 2026-06-15 | days | → | 2 | Casper sees historic bullish divergence signals on BTC and ETH weekly/multi-day timeframes but remains cautious, holding both a long and a short on BTC simultaneously while watching $68K as key res... | OqezIC_lMbY | /Users/mmm2/brain/channels/casper/briefs/2026-06-15_OqezIC_lMbY.md |
+| 2026-06-17 | months | ↑ | 2 | Casper watches Warsh's inaugural FOMC press conference live while holding both a long and short on BTC, remaining neutral/hedged as $68K holds the key decision point between a squeeze to mid-70s or... | czNVhX4VhQk | /Users/mmm2/brain/channels/casper/briefs/2026-06-17_czNVhX4VhQk.md |
+| 2026-06-17 | weeks | → | 2 | Casper watches Warsh's inaugural FOMC press conference live while holding both a long and short on BTC, remaining neutral/hedged as $68K holds the key decision point between a squeeze to mid-70s or... | czNVhX4VhQk | /Users/mmm2/brain/channels/casper/briefs/2026-06-17_czNVhX4VhQk.md |
+| 2026-06-17 | days | → | 2 | Casper watches Warsh's inaugural FOMC press conference live while holding both a long and short on BTC, remaining neutral/hedged as $68K holds the key decision point between a squeeze to mid-70s or... | czNVhX4VhQk | /Users/mmm2/brain/channels/casper/briefs/2026-06-17_czNVhX4VhQk.md |
+| 2026-06-19 | months | ↑ | 3 | Bitcoin has broken below key support at $62,500 and Casper expects a new low into the mid-$50s, while framing this as a long-term DCA accumulation opportunity ahead of a projected cycle bottom arou... | wwYr--0P9F4 | /Users/mmm2/brain/channels/casper/briefs/2026-06-19_wwYr--0P9F4.md |
+| 2026-06-19 | weeks | ↓ | 4 | Bitcoin has broken below key support at $62,500 and Casper expects a new low into the mid-$50s, while framing this as a long-term DCA accumulation opportunity ahead of a projected cycle bottom arou... | wwYr--0P9F4 | /Users/mmm2/brain/channels/casper/briefs/2026-06-19_wwYr--0P9F4.md |
+| 2026-06-19 | days | ↓ | 4 | Bitcoin has broken below key support at $62,500 and Casper expects a new low into the mid-$50s, while framing this as a long-term DCA accumulation opportunity ahead of a projected cycle bottom arou... | wwYr--0P9F4 | /Users/mmm2/brain/channels/casper/briefs/2026-06-19_wwYr--0P9F4.md |
+| 2026-06-21 | months | ↓ | 3 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
+| 2026-06-21 | weeks | ↓ | 3 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
+| 2026-06-21 | days | ↑ | 2 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |

@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-relative-weakness-vs-equities
 group: market-structure
-last_updated: 2026-06-09
-entry_count: 6
+last_updated: 2026-06-19
+entry_count: 8
 ---
 
 # Evidence log: Btc Relative Weakness Vs Equities
@@ -20,3 +20,7 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (Tj7mvTHDe1U): Ben explicitly frames BTC's underperformance versus equities as a mechanical midterm-year pattern compounded by monetary policy: crypto is more rate-sensitive than stocks, and with rate cuts fully priced out and hikes now being priced in, there is no tailwind. At [08:18] Ben states verbatim: "I think Bitcoin's going to keep bleeding against both the stock market and gold and energy and manufacturing. This is what it does in midterm years." The panel consensus is that BTC continues underperforming through June, with a possible counter-trend bounce in July–August before a final Q4 capitulation low — a view consistent with Cowen's prior structural-weakness framing.
 
 - 2026-06-09 (IOFwbuyDC78): Cowen's fair-value logarithmic regression model independently corroborates the BTC-vs-equities weakness thesis: he states "my guess is that Bitcoin will probably spend the rest of the year below sort of the {quote} {unquote} fair value price" [04:07], framing the prolonged below-trend period as driven by monetary tightening and inflation concerns starting in 2021 — the same macro headwinds cited in the panel discussions. He compares current conditions to the 2019–2020 business-cycle trough, implying BTC's structural lag versus equities reflects where it sits in the broader cycle rather than an idiosyncratic factor, with recovery above fair value not expected until 2027 or possibly later.
+
+- 2026-06-14 (hx_neha7BVQ): Although the June 14 video focuses on DCA mechanics rather than BTC/SPX comparison directly, it implicitly corroborates the relative-weakness thesis in two ways: Cowen's composite risk metric sits at 0.296 — matching June 2022 levels — with social risk now lower than in 2022, confirming BTC remains in a deeper-apathy trough than the prior cycle; and his application of "time-based capitulation" (deliberately not buying in February despite a sub-0.3 dip because it was too early in the midterm year) reflects operational confidence in the structural-lag thesis. As he states at [13:18]: "now that we're approaching the back half of the midterm year, you could argue that the accumulation phase is starting" — implying the first half was correctly characterized as a period of continued weakness.
+
+- 2026-06-19 (gAf6tPzkcgg): Cowen frames BTC's continued underperformance versus equities as a monetary-policy trap: the AI trade is keeping SPX at new highs, which eliminates any Fed incentive to cut or pivot, and "we're more worried about rate hikes than rate cuts at this point" [10:49] — exactly the macro environment that structurally favors equities over crypto. He draws an explicit 2019 parallel (same three Fed cuts, same QT-end timing relative to the BTC price peak) to argue that retail never came back this cycle, cementing an "apathetic top" rather than a euphoric one, and that crypto remains stuck until equity weakness in late Q3/early Q4 2026 forces the Fed's hand.

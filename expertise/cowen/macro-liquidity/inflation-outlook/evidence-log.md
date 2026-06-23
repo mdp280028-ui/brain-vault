@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-09
-entry_count: 8
+last_updated: 2026-06-18
+entry_count: 9
 ---
 
 # Evidence log: Inflation Outlook
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-05 (ulDJeCNJo3Y): Cowen does not introduce new inflation data in this brief but names the BoJ rate hike expected around mid-June as the most plausible macro trigger for current BTC weakness, citing the carry-trade unwind mechanism directly: "the Bank of Japan's likely to raise rates. Historically, crypto doesn't like it because it leads to the unwind of the carry trade." [12:09] The BoJ/Fed meeting window (~June 17th) is treated as the near-term crystallization point for the tightening regime that has been the settled structural backdrop since May.
 
 - 2026-06-09 (AvKtrd_JZdU): Cowen does not introduce new inflation data but invokes the macro environment as the settled causal explanation for BTC's extended underperformance, stating "monetary policy got a lot tighter, you know, inflation was a concern" [00:52] — framing both tightening and inflation not as live debates but as background facts that explain why BTC will likely spend the rest of 2026 below fair value and not recover until 2027 or later.
+
+- 2026-06-18 (zKPohkQdq_Q): Cowen reframes the inflation problem structurally at Warsh's first FOMC: inflation has been above 2% continuously since 2021 and he calls it "a choice" — the political will to allow asset prices to fall is absent, making the persistence self-reinforcing. Nine dot-plot members expect a hike before year-end, with CME FedWatch pricing only a 15.5% chance rates are NOT hiked by December; Cowen notes at [02:11]: "by December, the market is pricing in only a 15 and 1/2% chance that the Fed hasn't hiked rates at that point." The rising two-year yield is treated as a near-mechanical forcing function — historically it leads or forces Fed funds rate hikes — and the 10-year yield is expected to retest its October 2023 highs, with the 30-year already having done so.

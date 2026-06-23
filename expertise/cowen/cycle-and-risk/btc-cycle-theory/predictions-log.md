@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-12
-entry_count: 69
+last_updated: 2026-06-16
+entry_count: 75
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -100,3 +100,11 @@ Append-only. Newest entries at bottom.
 - 2026-06-12 (Di8YR9nX8Q8): Bitcoin cycle bottom most likely in October 2026, with the low forming before end of 2026.
 - 2026-06-12 (Di8YR9nX8Q8): The composite on-chain risk metric will carve out a multi-month low before recovering, consistent with prior bear market patterns.
 - 2026-06-12 (Di8YR9nX8Q8): The post-bear-market bull run may be more euphoric than the last cycle if the 2019 analogue holds, given the apathetic 2025 top.
+
+- 2026-06-14 (psz9FwqWGns): Bitcoin base case: cycle low in October 2026, plus or minus a few months
+- 2026-06-14 (psz9FwqWGns): Bitcoin finds a June low, rallies in July, then faces a final lower low in Q4 accompanied by surging volume and a stock market decline
+- 2026-06-14 (psz9FwqWGns): If Bitcoin drops ~$20K from ~$63K (to ~$43K) and all on-chain indicators reset, Cowen would pivot away from the October base case
+- 2026-06-14 (psz9FwqWGns): If Bitcoin goes to ~$54K (below realized price), it would raise questions about whether the June low is still intact
+- 2026-06-14 (psz9FwqWGns): Accumulation from the June low through end of midterm year is expected to produce good outcomes for investors
+
+- 2026-06-16 (vTcABO_0Exg): BTC is putting in its June low now; accumulating from this point through the end of the midterm year is expected to produce strong results.

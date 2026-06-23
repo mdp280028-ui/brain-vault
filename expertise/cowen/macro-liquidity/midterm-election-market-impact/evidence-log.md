@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-09
-entry_count: 7
+last_updated: 2026-06-22
+entry_count: 10
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -22,3 +22,9 @@ Append-only. Newest entries at bottom.
 - 2026-06-09 (IOFwbuyDC78): Cowen reiterates that Bitcoin will likely spend the rest of 2026 below the fair-value logarithmic regression trend line, attributing this prolonged below-fair-value period directly to midterm-year macro headwinds — monetary tightening and inflation concerns that began in 2021. He flags June as a candidate local low and frames 2026 as analogous to the 2019–2020 business cycle trough, consistent with the midterm-year reset pattern. He also notes he plans to refit the regression model after year-end to incorporate full midterm-year data: "I do think that we'll likely still spend the rest of this year below that sort of that fair value logarithmic regression trend line, which as always is a monotonically increasing function." [04:36]
 
 - 2026-06-09 (AvKtrd_JZdU): In a 59-second speculative summary, Cowen invokes the midterm-year framework as context for his full-year bearish lean, stating "midterm years aren't necessarily the best for crypto" and that BTC will "probably spend the rest of the year below sort of the quote-unquote fair value price." He identifies June as "certainly a candidate month for at least a local low" and attributes the prolonged below-fair-value period to macro conditions — "monetary policy got a lot tighter, you know, inflation was a concern" — placing recovery above fair value in 2027 or possibly later. The framing is explicitly speculative and heavily hedged, pulling conviction below prior videos on this topic.
+
+- 2026-06-14 (hx_neha7BVQ): Cowen explicitly uses midterm-year calendar positioning as a timing gate for capital deployment, stating he did not buy the February 2026 dip because he applied "time-based capitulation" — judging it too early in the midterm year — and is now actively DCAing as the second half of the midterm year approaches: "now that we're approaching the back half of the midterm year, you could argue that the accumulation phase is starting" [13:18]. October remains his modal expectation for the cycle low, consistent with the June low → Q4 final bottom midterm template, though he acknowledges the June low may already be in.
+
+- 2026-06-16 (gFiKyyPXMFo): In a video focused on the SpaceX IPO, Cowen applies the midterm-year H2 equity correction pattern to forecast a meaningful pullback in SpaceX stock, citing 2022, 2018, and 2014 as instances where stocks corrected in the back half of midterm years. He frames this expected drawdown not as a reason to avoid the stock but as a buying opportunity for investors with a multi-year horizon. Direct quote [11:54]: "there's also the market risk and we know that in the back half of midterm years we normally get a correction by stocks."
+
+- 2026-06-22 (d71wYhwKpFY): Cowen explicitly invokes the midterm-year pattern as the historical template for BTC's current bear market structure, noting that breakdowns at the end of 2014, 2018, and 2022 — all midterm years — are real precedents that "cannot be dismissed." He flags the unmet realized-price condition as a key reason to expect a further leg lower in 2026, and reiterates the midterm-year seasonal roadmap of June low → late-July countertrend rally → eventual breakdown, stating at [02:00]: "this is what we've seen happen every midterm year." He also notes that H2 2026 begins in about a week from the video date, marking the entry into the phase he has long flagged as the most consequential part of the midterm-year cycle.

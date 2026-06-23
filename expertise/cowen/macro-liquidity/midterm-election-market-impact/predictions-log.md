@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-09
-entry_count: 15
+last_updated: 2026-06-22
+entry_count: 21
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -30,3 +30,12 @@ Append-only. Newest entries at bottom.
 - 2026-06-09 (IOFwbuyDC78): Recovery above fair value expected in 2027 or possibly the year after, once full midterm-year data is incorporated into the refitted model.
 
 - 2026-06-09 (AvKtrd_JZdU): BTC will likely spend the rest of 2026 below the fair-value logarithmic regression trend line, with recovery above fair value not expected until 2027 or possibly the year after.
+
+- 2026-06-14 (hx_neha7BVQ): Bitcoin cycle bottom most likely in October 2026, consistent with the midterm-year June low → counter-trend rally → Q4 final low template, though Cowen would pivot immediately if the risk metric dropped to 0.1.
+- 2026-06-14 (hx_neha7BVQ): Bitcoin likely finds at minimum a June local low in mid-2026, analogous to the June 2018 midterm-year low, before potentially going lower in Q4.
+
+- 2026-06-16 (gFiKyyPXMFo): SpaceX likely pulls back meaningfully in H2 2026, consistent with the midterm-year equity correction pattern seen in 2022, 2018, and 2014.
+- 2026-06-16 (gFiKyyPXMFo): If/when SpaceX pulls back in H2 2026, Cowen expects it to represent a good multi-year buying opportunity.
+
+- 2026-06-22 (d71wYhwKpFY): BTC likely trades below its realized price at some point later in 2026, consistent with every prior midterm-year bear market.
+- 2026-06-22 (d71wYhwKpFY): A countertrend rally in late July is possible if the 200-week MA holds, consistent with the 2018 and 2022 midterm-year analogs.

@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-05-25
-entry_count: 5
+last_updated: 2026-06-18
+entry_count: 8
 ---
 
 # Predictions log: Business Cycle Phase
@@ -16,3 +16,7 @@ Append-only. Newest entries at bottom.
 
 - 2026-05-25 (dy3E7Jzte88): Energy prices may rise again in Q3, driving additional rate-hike pricing and extending BTC's bear macro headwinds through year-end.
 - 2026-05-25 (dy3E7Jzte88): BTC to underperform SPX for at least a few more months; BTC/SPX outperformance resumes likely in 2027, marking the start of the next cycle's accumulation window.
+
+- 2026-06-18 (zKPohkQdq_Q): The 10-year yield is likely heading back up to its October 2023 highs (the 30-year has already done so).
+- 2026-06-18 (zKPohkQdq_Q): The dollar is likely breaking out of a large base formation relatively soon, acting as a headwind for risk assets.
+- 2026-06-18 (zKPohkQdq_Q): The S&P 500 may test Warsh with a correction in the back half of the midterm year (H2 2026).

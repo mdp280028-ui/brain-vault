@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-05
-entry_count: 9
+last_updated: 2026-06-18
+entry_count: 10
 ---
 
 # Predictions log: Inflation Outlook
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-29 (JAQfs3rxFz4): BoJ likely raises rates in June 2026 (hedged: "good chance, not a sure thing")
 
 - 2026-06-05 (ulDJeCNJo3Y): The Bank of Japan is expected to raise rates around mid-June (alongside the June 17th Fed meeting), triggering a carry-trade unwind that drives BTC to a local low around that date.
+
+- 2026-06-18 (zKPohkQdq_Q): The 10-year yield is likely heading back up to its October 2023 highs (the 30-year has already done so), reinforcing the view that long yields rise whether the Fed hikes or bond vigilantes force it.

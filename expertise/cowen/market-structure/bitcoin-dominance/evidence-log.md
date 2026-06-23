@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-06-10
-entry_count: 5
+last_updated: 2026-06-22
+entry_count: 9
 ---
 
 # Evidence log: Bitcoin Dominance
@@ -18,3 +18,11 @@ Append-only. Newest entries at bottom.
 - 2026-05-28 (OuHBTQ6fkfQ): Cowen argues BTC's failure to make new all-time highs during a seven-to-eight week S&P 500 rally is the supercycle thesis failing in real time, placing BTC in a subordinate risk-curve position relative to equities — the same position altcoins occupied relative to BTC, where "the minute Bitcoin started dropping, altcoins would get annihilated." [00:37] When the overdue SPX correction arrives, BTC will be hit harder than equities precisely because it has been lagging, further entrenching the BTC bear market that drives continued dominance of stablecoins over alts in capital allocation.
 
 - 2026-06-10 (vxnpP3EOl-8): The supply-in-profit/loss crossover has now occurred, which Cowen treats as the historical permission condition for calling a cycle bottom — "until these lines cross, there's no reason to call for market cycle bottoms" [02:31] — placing the likely BTC low 1–4 months out (i.e., by October 2026). This is BTC-specific accumulation framing; no altcoin rotation is implied, and the BTC-dominance-over-alts dynamic remains intact through the bottoming window as the macro environment (no cuts through 2027) still withholds the liquidity catalyst alts require.
+
+- 2026-06-14 (hx_neha7BVQ): Cowen's dynamic DCA framework is BTC-exclusive, with alts entirely absent from the accumulation thesis — the operative cycle analog is 2019, when "the current market environment closely mirrors 2019: Bitcoin topped on apathy rather than euphoria, there was no altcoin rotation." He is actively DCAing into BTC at 0.296 risk as the second half of the midterm year approaches, but the framework contains no trigger or threshold for rotating into alts, leaving the BTC-dominance-over-alts regime structurally intact through the bottoming window.
+
+- 2026-06-18 (xutthOFM_RA): The brief adds two structural reinforcers to the BTC-over-alts dominance thesis: first, the Warsh Fed is characterized as a definitive regime change with rate hikes before year-end "more likely than not," sustaining the macro environment that starves alts of liquidity; second, Coinbase's tokenized stocks rollout crowds out altcoin demand by consolidating BTC, alts, and equities on one platform — reducing the addressable capital available to rotate into alts. BTC itself is framed as tracking SPX in a sideways waiting game pending the Clarity Act, with no altcoin rotation catalyst mentioned. Guy notes directly: "I can see Bitcoin kind of tracking the S&P 500 more closely." [04:55]
+
+- 2026-06-19 (gAf6tPzkcgg): Cowen adds social risk as a new explanatory driver of BTC dominance: as the composite social interest metric (Google Trends, Coinbase app ranking, YouTube subscribers/views, Wikipedia, Twitter followers) trends down in a mirror of the post-2019 apathy phase, BTC dominance excluding stablecoins continues to make higher highs. The 2019 analog is now quantitatively tightened — identical Fed cut count and QT-end timing relative to the price peak in both cycles — confirming the "apathetic top" template with no altcoin rotation. At [08:41] Cowen states: "It made sense to just stick with Bitcoin in the past crypto market cycle. It made sense. Right? Retail never came back."
+
+- 2026-06-22 (d71wYhwKpFY): Cowen invokes the 2018 analog as a specific near-term risk for altcoins relative to BTC: while Bitcoin moves sideways between the bear market resistance band and the 200-week MA, altcoins face the prospect of severe underperformance — "the altcoin market got annihilated in July 2018, and Bitcoin was basically doing okay" [05:41]. Declining social interest and fewer retail participants buying alts make a July 2026 repeat of this dynamic plausible, reinforcing the BTC-favoring regime with a new historical data point beyond the 2019 analog.
