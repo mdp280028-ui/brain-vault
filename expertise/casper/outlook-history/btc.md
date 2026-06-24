@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-22
-row_count: 70
+last_updated: 2026-06-23
+row_count: 72
 ---
 
 # BTC outlook history (Casper)
@@ -80,3 +80,5 @@ Append-only. Newest entries at bottom.
 | 2026-06-21 | months | ↓ | 3 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
 | 2026-06-21 | weeks | ↓ | 3 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
 | 2026-06-21 | days | ↑ | 2 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
+| 2026-06-22 | weeks | ↑ | 2 | Bitcoin is holding a higher-low structure above $64K VWAP and needs to reclaim $65K to target $68K, while ETH shows a weekly bullish divergence at macro support but remains in a downtrend until it ... | 4ks0a6p5hcI | /Users/mmm2/brain/channels/casper/briefs/2026-06-22_4ks0a6p5hcI.md |
+| 2026-06-22 | days | ↑ | 2 | Bitcoin is holding a higher-low structure above $64K VWAP and needs to reclaim $65K to target $68K, while ETH shows a weekly bullish divergence at macro support but remains in a downtrend until it ... | 4ks0a6p5hcI | /Users/mmm2/brain/channels/casper/briefs/2026-06-22_4ks0a6p5hcI.md |
