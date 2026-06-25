@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-05-27
-entry_count: 7
+last_updated: 2026-06-23
+entry_count: 9
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -20,3 +20,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-05-27 (Ibh7wDgNGCE): Small SPX correction in June-July 2026 (probably June), followed by a rebound.
 - 2026-05-27 (Ibh7wDgNGCE): Larger SPX drop beginning approximately September 2026 (possibly August), extending into early Q4 2026.
+
+- 2026-06-23 (xK6bqL-QNE4): SPX will find a local top in H2 2026 — likely September, consistent with 2018 and 2014 — before a larger correction that weighs on risk assets including SpaceX through year-end.
+- 2026-06-23 (xK6bqL-QNE4): If SPX drops ~20% or takes out its March 2026 low, that would likely mark a durable long-term low for risk assets such as SpaceX.
