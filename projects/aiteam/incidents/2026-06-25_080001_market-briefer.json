@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-06-25T15:00:00Z",
+  "actor_id": "market-briefer",
+  "expected_actions": ["briefer_run"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "08:45 PT morning brief to Telegram (D033)",
+  "watchdog_state": "missing"
+}
