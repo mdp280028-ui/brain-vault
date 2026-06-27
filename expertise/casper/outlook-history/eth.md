@@ -1,7 +1,7 @@
 ---
 asset: eth
-last_updated: 2026-06-23
-row_count: 7
+last_updated: 2026-06-26
+row_count: 8
 ---
 
 # ETH outlook history (Casper)
@@ -17,3 +17,4 @@ Append-only. Newest entries at bottom.
 | 2026-06-15 | months | ↑ | 2 | Casper sees historic bullish divergence signals on BTC and ETH weekly/multi-day timeframes but remains cautious, holding both a long and a short on BTC simultaneously while watching $68K as key res... | OqezIC_lMbY | /Users/mmm2/brain/channels/casper/briefs/2026-06-15_OqezIC_lMbY.md |
 | 2026-06-15 | weeks | ↑ | 2 | Casper sees historic bullish divergence signals on BTC and ETH weekly/multi-day timeframes but remains cautious, holding both a long and a short on BTC simultaneously while watching $68K as key res... | OqezIC_lMbY | /Users/mmm2/brain/channels/casper/briefs/2026-06-15_OqezIC_lMbY.md |
 | 2026-06-22 | weeks | ↑ | 2 | Bitcoin is holding a higher-low structure above $64K VWAP and needs to reclaim $65K to target $68K, while ETH shows a weekly bullish divergence at macro support but remains in a downtrend until it ... | 4ks0a6p5hcI | /Users/mmm2/brain/channels/casper/briefs/2026-06-22_4ks0a6p5hcI.md |
+| 2026-06-24 | weeks | ↓ | 2 | Casper is running a compounding short from $81.5K (entered May 14) and expects Bitcoin to take the range low and continue toward the macro Fibonacci golden pocket near $57K, with a final bear-marke... | RhyQunjxXlQ | /Users/mmm2/brain/channels/casper/briefs/2026-06-24_RhyQunjxXlQ.md |

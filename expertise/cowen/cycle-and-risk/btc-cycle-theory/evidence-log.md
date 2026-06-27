@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-21
-entry_count: 31
+last_updated: 2026-06-25
+entry_count: 33
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -70,3 +70,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-16 (vTcABO_0Exg): Cowen acknowledges the psychological difficulty of sitting through typical 70–80% Bitcoin bear-market drawdowns and states he has reduced exposure accordingly while still holding some BTC. He identifies the current moment as the June low forming and argues that accumulating from this point through year-end — even as price moves lower — has historically been the optimal re-entry strategy. His core behavioral warning: "The biggest mistake people make though is they sell and they never buy back." [00:30] He directly addresses investors who sold late last year and haven't re-entered, telling them that if they were never going to buy back, they would have been better off not selling at all.
 
 - 2026-06-21 (hXlR5xu0HK4): Cowen presents the MVRV Z-Score as a cycle-framework confirmation tool, noting the current reading of ~0.35 is approaching the zero threshold and that every prior sub-zero episode — lasting 5 months to over a year — has been an attractive accumulation window preceding a new bull market, with the pandemic dip explicitly dismissed as a non-repeatable exception. He ties the indicator directly to the four-year cycle and his midterm-year rule: "accumulating Bitcoin in the second half of mid-term years often works out" [04:14], and frames the coming reset as the setup for the next bull leg — "this thing historically resets and from those reset levels, it then begins a new bull market, which again could very well line up with that four-year cycle." [04:43]
+
+- 2026-06-25 (5nIhiijBQt4): In a co-hosted session with Guy (Coin Bureau), Cowen reaffirms the four-year cycle as the single most reliable Bitcoin indicator — undefeated across three prior cycles — and places the crypto bull market return in Q4 2026, contingent on a stock market correction rotating capital back into Bitcoin. He frames BTC's current dormancy as cycle-consistent and identifies the 200-week MA (~$62K), 250-week MA (~$57K), and 350-week MA (~$47K) as sequential support levels where any flush represents a buying opportunity rather than a crisis. "All you really ever had to do was buy Bitcoin at the end of the midterm year and sell it in the fourth quarter of the post having year." [10:44]
+
+- 2026-06-25 (g4FiHz14W14): Cowen presents a full bottom-indicator audit, led by his highest-weight timer — ROI from cycle low — which nailed the prior two cycle tops within one week and now places the bottom at day ~1,424–1,432, approximately 100–110 days from the broadcast date (late Q3/early Q4 2026). He maps the expected path as a near-term low, a counter-trend rally in mid-to-late July, then the final Q4 drop, noting every key on-chain condition (MVRV Z-Score below zero, realized-price breach, volume capitulation spike) remains unsatisfied. The balance price (~$38K) is introduced as the clearest price-based all-clear signal — "if we go to the balance price...at that point, who cares when it happens?" [11:19] — though Cowen does not require it, and closes by defending the framework directly: "The four-year cycle didn't fail at the top. Maybe it won't fail at the bottom." [16:20]

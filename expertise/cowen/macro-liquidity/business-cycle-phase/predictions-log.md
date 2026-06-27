@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-06-18
-entry_count: 8
+last_updated: 2026-06-25
+entry_count: 10
 ---
 
 # Predictions log: Business Cycle Phase
@@ -20,3 +20,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-18 (zKPohkQdq_Q): The 10-year yield is likely heading back up to its October 2023 highs (the 30-year has already done so).
 - 2026-06-18 (zKPohkQdq_Q): The dollar is likely breaking out of a large base formation relatively soon, acting as a headwind for risk assets.
 - 2026-06-18 (zKPohkQdq_Q): The S&P 500 may test Warsh with a correction in the back half of the midterm year (H2 2026).
+
+- 2026-06-25 (5nIhiijBQt4): SPX expected to rally into August/September after the June shallow correction, then take a larger drop toward end of the midterm year (back half of 2026).
+- 2026-06-25 (5nIhiijBQt4): BTC bull market rotation likely begins in Q4 2026, triggered by the back-half SPX correction rotating capital back into crypto.

@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-23
-row_count: 72
+last_updated: 2026-06-26
+row_count: 77
 ---
 
 # BTC outlook history (Casper)
@@ -82,3 +82,8 @@ Append-only. Newest entries at bottom.
 | 2026-06-21 | days | ↑ | 2 | Bitcoin is at a critical decision point at $64K — hold it and a squeeze to $72.5K is likely; lose it and a bear flag targets sub-$50K, with Casper's cycle model pointing to a final low in October 2... | HF-_y1Sm8G0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-21_HF-_y1Sm8G0.md |
 | 2026-06-22 | weeks | ↑ | 2 | Bitcoin is holding a higher-low structure above $64K VWAP and needs to reclaim $65K to target $68K, while ETH shows a weekly bullish divergence at macro support but remains in a downtrend until it ... | 4ks0a6p5hcI | /Users/mmm2/brain/channels/casper/briefs/2026-06-22_4ks0a6p5hcI.md |
 | 2026-06-22 | days | ↑ | 2 | Bitcoin is holding a higher-low structure above $64K VWAP and needs to reclaim $65K to target $68K, while ETH shows a weekly bullish divergence at macro support but remains in a downtrend until it ... | 4ks0a6p5hcI | /Users/mmm2/brain/channels/casper/briefs/2026-06-22_4ks0a6p5hcI.md |
+| 2026-06-24 | months | ↑ | 2 | Casper is running a compounding short from $81.5K (entered May 14) and expects Bitcoin to take the range low and continue toward the macro Fibonacci golden pocket near $57K, with a final bear-marke... | RhyQunjxXlQ | /Users/mmm2/brain/channels/casper/briefs/2026-06-24_RhyQunjxXlQ.md |
+| 2026-06-24 | weeks | ↓ | 3 | Casper is running a compounding short from $81.5K (entered May 14) and expects Bitcoin to take the range low and continue toward the macro Fibonacci golden pocket near $57K, with a final bear-marke... | RhyQunjxXlQ | /Users/mmm2/brain/channels/casper/briefs/2026-06-24_RhyQunjxXlQ.md |
+| 2026-06-24 | days | ↓ | 3 | Casper is running a compounding short from $81.5K (entered May 14) and expects Bitcoin to take the range low and continue toward the macro Fibonacci golden pocket near $57K, with a final bear-marke... | RhyQunjxXlQ | /Users/mmm2/brain/channels/casper/briefs/2026-06-24_RhyQunjxXlQ.md |
+| 2026-06-25 | months | ↑ | 2 | Bitcoin has made a second fake-out of the range low but remains bearish unless it closes the weekly above $65,600, with the highest-probability destination being the $53K–$58K Fibonacci golden pocket. | QewQZr873W0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-25_QewQZr873W0.md |
+| 2026-06-25 | weeks | ↓ | 3 | Bitcoin has made a second fake-out of the range low but remains bearish unless it closes the weekly above $65,600, with the highest-probability destination being the $53K–$58K Fibonacci golden pocket. | QewQZr873W0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-25_QewQZr873W0.md |
