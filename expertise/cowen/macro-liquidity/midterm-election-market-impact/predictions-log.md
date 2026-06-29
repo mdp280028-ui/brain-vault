@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-22
-entry_count: 21
+last_updated: 2026-06-28
+entry_count: 23
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -39,3 +39,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-22 (d71wYhwKpFY): BTC likely trades below its realized price at some point later in 2026, consistent with every prior midterm-year bear market.
 - 2026-06-22 (d71wYhwKpFY): A countertrend rally in late July is possible if the 200-week MA holds, consistent with the 2018 and 2022 midterm-year analogs.
+
+- 2026-06-28 (OYcGIifaO4Q): If the Biden-cycle analog holds, BTC bottoms later in 2026 and begins the next bull market into 2027.
+- 2026-06-28 (OYcGIifaO4Q): Dollar (DXY) likely heads back up to the 105–106 area, acting as a continued macro headwind for crypto later in 2026.

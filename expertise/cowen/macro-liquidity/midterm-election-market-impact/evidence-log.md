@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-22
-entry_count: 10
+last_updated: 2026-06-28
+entry_count: 11
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-16 (gFiKyyPXMFo): In a video focused on the SpaceX IPO, Cowen applies the midterm-year H2 equity correction pattern to forecast a meaningful pullback in SpaceX stock, citing 2022, 2018, and 2014 as instances where stocks corrected in the back half of midterm years. He frames this expected drawdown not as a reason to avoid the stock but as a buying opportunity for investors with a multi-year horizon. Direct quote [11:54]: "there's also the market risk and we know that in the back half of midterm years we normally get a correction by stocks."
 
 - 2026-06-22 (d71wYhwKpFY): Cowen explicitly invokes the midterm-year pattern as the historical template for BTC's current bear market structure, noting that breakdowns at the end of 2014, 2018, and 2022 — all midterm years — are real precedents that "cannot be dismissed." He flags the unmet realized-price condition as a key reason to expect a further leg lower in 2026, and reiterates the midterm-year seasonal roadmap of June low → late-July countertrend rally → eventual breakdown, stating at [02:00]: "this is what we've seen happen every midterm year." He also notes that H2 2026 begins in about a week from the video date, marking the entry into the phase he has long flagged as the most consequential part of the midterm-year cycle.
+
+- 2026-06-28 (OYcGIifaO4Q): Cowen overlays BTC returns across all presidential terms and finds Biden's term and Trump's second term are nearly identical at day 524 (−43.8% vs −41.1%), attributing both to shared macro headwinds — inflation, unemployment trends, and a rising dollar — rather than political party, which he frames as evidence that the presidential/midterm cycle is a macro phenomenon, not a political one. Under Biden at this same cycle point, BTC then followed the exact midterm playbook: stalling through summer, a brief counter-trend rally, one final low, and then the next bull market — Cowen: "Bitcoin kind of stalled out for the summer, had a little bit of a counter trend rally in like late July early August and then it sold off and then it had one final drop, we formed the low and then we went into the next bull market." [04:10] If the current cycle mirrors Biden's, BTC bottoms later in 2026 and begins the next bull market into 2027, consistent with Cowen's standing Q4 cycle-low thesis.

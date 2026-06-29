@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-26
-row_count: 77
+last_updated: 2026-06-28
+row_count: 80
 ---
 
 # BTC outlook history (Casper)
@@ -87,3 +87,6 @@ Append-only. Newest entries at bottom.
 | 2026-06-24 | days | ↓ | 3 | Casper is running a compounding short from $81.5K (entered May 14) and expects Bitcoin to take the range low and continue toward the macro Fibonacci golden pocket near $57K, with a final bear-marke... | RhyQunjxXlQ | /Users/mmm2/brain/channels/casper/briefs/2026-06-24_RhyQunjxXlQ.md |
 | 2026-06-25 | months | ↑ | 2 | Bitcoin has made a second fake-out of the range low but remains bearish unless it closes the weekly above $65,600, with the highest-probability destination being the $53K–$58K Fibonacci golden pocket. | QewQZr873W0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-25_QewQZr873W0.md |
 | 2026-06-25 | weeks | ↓ | 3 | Bitcoin has made a second fake-out of the range low but remains bearish unless it closes the weekly above $65,600, with the highest-probability destination being the $53K–$58K Fibonacci golden pocket. | QewQZr873W0 | /Users/mmm2/brain/channels/casper/briefs/2026-06-25_QewQZr873W0.md |
+| 2026-06-28 | months | ↓ | 3 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |
+| 2026-06-28 | weeks | ↓ | 2 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |
+| 2026-06-28 | days | ↑ | 2 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |

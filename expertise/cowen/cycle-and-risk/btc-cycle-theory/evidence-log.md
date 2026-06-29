@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-25
-entry_count: 33
+last_updated: 2026-06-28
+entry_count: 34
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -74,3 +74,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-25 (5nIhiijBQt4): In a co-hosted session with Guy (Coin Bureau), Cowen reaffirms the four-year cycle as the single most reliable Bitcoin indicator — undefeated across three prior cycles — and places the crypto bull market return in Q4 2026, contingent on a stock market correction rotating capital back into Bitcoin. He frames BTC's current dormancy as cycle-consistent and identifies the 200-week MA (~$62K), 250-week MA (~$57K), and 350-week MA (~$47K) as sequential support levels where any flush represents a buying opportunity rather than a crisis. "All you really ever had to do was buy Bitcoin at the end of the midterm year and sell it in the fourth quarter of the post having year." [10:44]
 
 - 2026-06-25 (g4FiHz14W14): Cowen presents a full bottom-indicator audit, led by his highest-weight timer — ROI from cycle low — which nailed the prior two cycle tops within one week and now places the bottom at day ~1,424–1,432, approximately 100–110 days from the broadcast date (late Q3/early Q4 2026). He maps the expected path as a near-term low, a counter-trend rally in mid-to-late July, then the final Q4 drop, noting every key on-chain condition (MVRV Z-Score below zero, realized-price breach, volume capitulation spike) remains unsatisfied. The balance price (~$38K) is introduced as the clearest price-based all-clear signal — "if we go to the balance price...at that point, who cares when it happens?" [11:19] — though Cowen does not require it, and closes by defending the framework directly: "The four-year cycle didn't fail at the top. Maybe it won't fail at the bottom." [16:20]
+
+- 2026-06-28 (OYcGIifaO4Q): Cowen overlays Trump's second-term BTC performance against prior presidential terms, finding that at day 524 Biden's return was -43.8% and Trump's second-term return is -41.1% — "nearly identical despite all political differences" — and attributes the shared underperformance to macro headwinds (inflation, unemployment, rising dollar) rather than politics. The Biden analog then showed BTC stalling through summer, a brief counter-trend rally in late July/early August, one final low, and then the next bull market, which Cowen frames as consistent with his existing cycle path: "If it does, then you would expect Bitcoin to bottom out later in the year and then begin the next bull market into 2027." [07:53]
