@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-06-22
-entry_count: 6
+last_updated: 2026-06-29
+entry_count: 7
 ---
 
 # Evidence log: Bull Market Support Band
@@ -20,3 +20,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-13 (DoteyQFNfnE): Cowen applies the bull market support band to gold on the monthly chart (20-month MA / 21-month EMA), noting it held as structural support throughout the 1970s and 2000s bull markets with only brief exceptions in 1974 and 2008 — both followed by continued bull market advances. Gold dipped below the band briefly in 2022 and recovered; Cowen expects the same this cycle, stating: [15:24] "there's a good chance gold will sort of find support on this bull market support band, consolidate there, and then ultimately go up higher into the end of the decade." This is the first application of the band concept to gold in this channel's brief history, and the timeframe distinction matters — monthly for gold (bull support) versus weekly for BTC (bear resistance).
 
 - 2026-06-22 (d71wYhwKpFY): Cowen focuses the entire video on the bear market resistance band (~$70–74K), describing Bitcoin as caught between the band trending down from above and the 200-week MA trending up from below, with a directional break inevitable. He notes BTC has tested the band repeatedly in bear markets but rarely sustained above it — the lone partial exception being 2014 — and that the absence of a realized-price undershoot (historically a bear-market condition) strengthens the case for an eventual downside resolution. Direct quote [01:17]: "you have the 200-week moving average kind of trending up. You have the bear market resistance band trending down. And Bitcoin is moving between these two things and trying to figure out which way it's going to break."
+
+- 2026-06-29 (1LI9wfqxOmc): With BTC posting its first weekly close below the 200-week MA this cycle, the bear market resistance band (20-week SMA / 21-week EMA) now sits as dual overhead resistance above spot price — a structurally deeper bear confirmation than prior briefs had documented. Cowen's roadmap places any mid-to-late summer countertrend rally as likely capping out at or below the band, not reclaiming it, and frames the 2018 analog (where that bounce failed and price dropped to ~$6K / ~$60K equivalent) as the template. He notes the drop below these moving averages is "a little scary" but not unprecedented: [00:39] "Bitcoin, unfortunately, just had its first weekly close below the 200-week moving average for the first time this cycle."

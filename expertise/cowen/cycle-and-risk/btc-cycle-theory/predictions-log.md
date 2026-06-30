@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-28
-entry_count: 81
+last_updated: 2026-06-29
+entry_count: 83
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -117,3 +117,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-28 (OYcGIifaO4Q): If the Biden-cycle analog holds, BTC bottoms later in 2026 and begins the next bull market into 2027.
 - 2026-06-28 (OYcGIifaO4Q): BTC is expected to stall through summer, have a brief counter-trend rally in late July/early August, then sell off to one final low before the bull market begins.
+
+- 2026-06-29 (1LI9wfqxOmc): BTC most likely forms a low early in summer 2026, rallies mid-to-late summer, then makes a final cycle bottom in late Q3 or early Q4 2026.
+- 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 (the 2018 analog equivalent of the $6,000 level) would likely signal the market cycle bottom is forming.

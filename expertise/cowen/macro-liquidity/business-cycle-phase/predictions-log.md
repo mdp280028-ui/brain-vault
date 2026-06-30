@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-06-25
-entry_count: 10
+last_updated: 2026-06-29
+entry_count: 12
 ---
 
 # Predictions log: Business Cycle Phase
@@ -23,3 +23,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-25 (5nIhiijBQt4): SPX expected to rally into August/September after the June shallow correction, then take a larger drop toward end of the midterm year (back half of 2026).
 - 2026-06-25 (5nIhiijBQt4): BTC bull market rotation likely begins in Q4 2026, triggered by the back-half SPX correction rotating capital back into crypto.
+
+- 2026-06-29 (1LI9wfqxOmc): BTC most likely forms a low early in summer 2026, rallies mid-to-late summer, then makes a final cycle bottom in late Q3 or early Q4 2026.
+- 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 would likely signal the market cycle bottom is forming (based on the 2018 analog where $6,000 was the corresponding level).

@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-06-22
-entry_count: 10
+last_updated: 2026-06-29
+entry_count: 12
 ---
 
 # Predictions log: Bull Market Support Band
@@ -24,3 +24,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-22 (d71wYhwKpFY): BTC will eventually break below the bear market resistance band rather than reclaim it, consistent with all prior midterm bear years except the brief 2014 exception.
 - 2026-06-22 (d71wYhwKpFY): A countertrend rally back toward the resistance band in late July is possible if the 200-week MA holds, consistent with 2022 and 2018 analogs, but is not a regime change.
+
+- 2026-06-29 (1LI9wfqxOmc): A countertrend rally mid-to-late summer 2026 is expected to fail at or below the bear market resistance band, with the final cycle bottom arriving in late Q3 or early Q4 — not on a band reclaim.
+- 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 (the 2018 analog level) would likely signal the market cycle bottom is forming, implying the bear market resistance band remains overhead resistance well above any bottom.

@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-06-25
-entry_count: 5
+last_updated: 2026-06-29
+entry_count: 6
 ---
 
 # Evidence log: Business Cycle Phase
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-18 (zKPohkQdq_Q): Warsh's first FOMC crystallizes the late-cycle tightening trajectory: nine committee members project a rate hike, and CME FedWatch prices only a 15.5% chance of no hike by December (~84.5% implied probability of at least one). Cowen frames this as a structural late-cycle condition, not a temporary repricing — "inflation has been above the 2% target continuously since 2021, never actually touching 2% even at its lowest," and political will to allow asset prices to fall is absent. The rising two-year yield and a dollar breaking out of a large base reinforce the late-cycle headwind picture. At [12:47] Cowen notes: "the dollar is sort of forming a massive base down here. And it looks to be likely breaking out relatively soon, which also could be a headwind for risk assets."
 
 - 2026-06-25 (5nIhiijBQt4): Cowen adds new late-cycle stress indicators — real disposable income has turned negative for the first time in ~2.5 years, a potential July 29 Fed hike is priced at 60/40 to 65/35 odds, and US-Iran geopolitical tension adds supply-side risk — while M2 trending up in 2026 provides a macro floor absent in the 2022 bear. The business cycle reading informs the crypto rotation thesis directly: "if we do get a correction in the stock market in the back half of the year um then you might actually see the bull market come back to Bitcoin" [07:59], framing the expected midterm-year SPX drop as the mechanism that closes the late-cycle gap for BTC.
+
+- 2026-06-29 (1LI9wfqxOmc): BTC's first weekly close below the 200-week moving average this cycle — occurring in June 2026, precisely mirroring June 2022 and June 2018 — corroborates Cowen's late-cycle framework by confirming the four-year cycle is tracking historical bear-market templates. The absence of a volume capitulation spike (present at every prior bottom in 2014, 2018, and 2022) is the key indicator Cowen uses to rule out a current bottom and maintain his lower-low expectation. He explicitly notes the 2018 analog where a $6,000 break (scaling to ~$60,000 in 2026) marked the ultimate cycle bottom, and recommends DCA in midterm second halves as the cycle-aware allocation strategy: "I actually think the best strategy for Bitcoin generally is just DCA'ing Bitcoin in the second half of midterm years." [04:01]
