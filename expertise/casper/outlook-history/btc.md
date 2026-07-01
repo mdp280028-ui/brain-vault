@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-28
-row_count: 80
+last_updated: 2026-06-30
+row_count: 83
 ---
 
 # BTC outlook history (Casper)
@@ -90,3 +90,6 @@ Append-only. Newest entries at bottom.
 | 2026-06-28 | months | ↓ | 3 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |
 | 2026-06-28 | weeks | ↓ | 2 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |
 | 2026-06-28 | days | ↑ | 2 | Bitcoin is at a critical decision point near $60,500 with bullish divergences on multiple timeframes, but failure to reclaim that level risks a breakdown toward the $38K–$48K zone by late September... | Eai04iHzUlk | /Users/mmm2/brain/channels/casper/briefs/2026-06-28_Eai04iHzUlk.md |
+| 2026-06-29 | months | ↓ | 3 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
+| 2026-06-29 | weeks | ↓ | 2 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
+| 2026-06-29 | days | ↑ | 2 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
