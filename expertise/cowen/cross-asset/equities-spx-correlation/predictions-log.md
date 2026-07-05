@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-06-23
-entry_count: 9
+last_updated: 2026-06-30
+entry_count: 12
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -23,3 +23,7 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-23 (xK6bqL-QNE4): SPX will find a local top in H2 2026 — likely September, consistent with 2018 and 2014 — before a larger correction that weighs on risk assets including SpaceX through year-end.
 - 2026-06-23 (xK6bqL-QNE4): If SPX drops ~20% or takes out its March 2026 low, that would likely mark a durable long-term low for risk assets such as SpaceX.
+
+- 2026-06-30 (Wef7vP6ffBM): S&P 500 to drift higher through July/August, then see a larger correction of 10-20% starting in the August-September 2026 timeframe.
+- 2026-06-30 (Wef7vP6ffBM): This larger equity correction is expected to coincide with Bitcoin forming its market cycle bottom, and possibly gold bottoming around the same time or slightly sooner.
+- 2026-06-30 (Wef7vP6ffBM): Historical seasonality suggests the midterm-year stock market low typically lands in late September or early October.

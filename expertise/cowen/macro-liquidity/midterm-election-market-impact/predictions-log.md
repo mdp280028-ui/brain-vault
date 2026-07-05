@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-28
-entry_count: 23
+last_updated: 2026-06-30
+entry_count: 26
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -42,3 +42,7 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-28 (OYcGIifaO4Q): If the Biden-cycle analog holds, BTC bottoms later in 2026 and begins the next bull market into 2027.
 - 2026-06-28 (OYcGIifaO4Q): Dollar (DXY) likely heads back up to the 105–106 area, acting as a continued macro headwind for crypto later in 2026.
+
+- 2026-06-30 (Wef7vP6ffBM): S&P 500 to see a drift-higher rally through July/August, followed by a larger correction of 10-20% starting in the August-September 2026 timeframe.
+- 2026-06-30 (Wef7vP6ffBM): This larger equity correction is expected to coincide with Bitcoin forming its market cycle bottom, and possibly gold bottoming around the same time or slightly sooner.
+- 2026-06-30 (Wef7vP6ffBM): Historical seasonality suggests the midterm-year stock market low typically lands in late September or early October.

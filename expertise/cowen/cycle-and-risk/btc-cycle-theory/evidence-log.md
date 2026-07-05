@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-29
-entry_count: 35
+last_updated: 2026-07-03
+entry_count: 39
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -78,3 +78,11 @@ Append-only. Newest entries at bottom.
 - 2026-06-28 (OYcGIifaO4Q): Cowen overlays Trump's second-term BTC performance against prior presidential terms, finding that at day 524 Biden's return was -43.8% and Trump's second-term return is -41.1% — "nearly identical despite all political differences" — and attributes the shared underperformance to macro headwinds (inflation, unemployment, rising dollar) rather than politics. The Biden analog then showed BTC stalling through summer, a brief counter-trend rally in late July/early August, one final low, and then the next bull market, which Cowen frames as consistent with his existing cycle path: "If it does, then you would expect Bitcoin to bottom out later in the year and then begin the next bull market into 2027." [07:53]
 
 - 2026-06-29 (1LI9wfqxOmc): BTC posted its first weekly close below the 200-week MA this cycle — an event Cowen contextualizes as non-exceptional, noting it also occurred in June 2022 and June 2018. The 2026 price structure (Feb low, higher low late March/early April, lower low June) is a near-exact repeat of 2018, with the 2018 analog pointing to a brief bounce then a sell-off to the cycle-equivalent of the $6K level (~$60K in 2026 terms) before the final bottom. Cowen reaffirms time-based capitulation as the default — no volume spike has occurred, so the low is not yet in — but explicitly flags price-based capitulation (sudden massive volume spike resetting all on-chain metrics) as the one scenario that would cause him to remove the lower-low expectation: "I would say it makes the most amount of sense to defer to time-based capitulation, but to be open-minded to price-based capitulation forming a low sooner if that's how it plays out." [03:09]
+
+- 2026-07-01 (8TmOvGK235I): Cowen points to Bitcoin's July 1st low of $57.7K as an almost exact repeat of the $5,743 low from late June/early July 2018, calling the parallel "simulation confirmed" and noting both cycles share the same February-low → higher-low → May rally → June/July sweep structure; he tempers this by citing 2014 and 2022 as years when seasonality broke pattern, and reiterates his DCA-through-second-half-of-midterm-years strategy over trying to time the exact bottom — "I would say that's worked out pretty well because on July 1st, right on July 1st today, Bitcoin put in a new low at 57,000 57.7K." [03:14]
+
+- 2026-07-02 (oj2n8nkTTTE): Cowen reiterates the 2018 analog with a sharper day-count: using ROI-measured-from-low-to-low, BTC sits on cycle day 1,331, and the last two cycles bottomed about 100 days from a comparable point, pointing to a late September/October bottom. He notes 2026's year-to-date performance is outperforming 2018 and 2022 but underperforming 2014, and that 2014 also saw a rally-then-fall-to-an-October-low pattern, concluding the four-year cycle "remains intact." Rob adds that the current ~51% drawdown is far milder than 2022's 71% drawdown at the same point in the cycle. "And the last two cycles bottomed in about 100 days, right? So, in about 3 months." [06:03]
+
+- 2026-07-03 (uoF9yzXHmt4): Cowen reiterates that the crypto asset class remains below its fair value logarithmic regression trendline and expects it to stay there for the rest of 2026, drawing a 2019 analogy (rising BTC dominance, rate cuts, QT ending, no altcoin rotation) to explain why no durable overvaluation ever developed; he expects the market to seek support at the trendline over coming months before a later-year low, noting the percentage-below-fair-value duration is unmatched since 2010 — "probably form a low a little bit later in the year after a counter turn reality in the summer" [02:02].
+
+- 2026-07-03 (BoSW-PLx1Ms): Cowen states Bitcoin and the broader crypto asset class will spend more of this year below the fair value logarithmic regression trendline, expecting it to seek support there in the coming months before trending back upward starting 2027-2028. He notes total crypto market cap (~$2.125T) is well off 2025 highs and actually slightly below its 2021 level, and reiterates that the 2023-2025 move was "justifiably what we saw in 2019" — rising BTC dominance, three rate cuts, QT ending, and no rotation into altcoins. [00:36] "it's justifiably what we saw in 2019."

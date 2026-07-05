@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-06-29
-entry_count: 83
+last_updated: 2026-07-03
+entry_count: 94
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -120,3 +120,18 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-29 (1LI9wfqxOmc): BTC most likely forms a low early in summer 2026, rallies mid-to-late summer, then makes a final cycle bottom in late Q3 or early Q4 2026.
 - 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 (the 2018 analog equivalent of the $6,000 level) would likely signal the market cycle bottom is forming.
+
+- 2026-07-01 (8TmOvGK235I): Bitcoin bear market expected to last about one year from the top, implying roughly three more months (into Q3/Q4 2026) before a final cycle bottom.
+- 2026-07-01 (8TmOvGK235I): A possible countertrend rally topping out near the 200-day moving average/bear market resistance band sometime between late July and late August 2026.
+- 2026-07-01 (8TmOvGK235I): If Bitcoin is still trading around $60K by October 2026, Cowen says he may pivot his view regardless of the one-year framework.
+
+- 2026-07-02 (oj2n8nkTTTE): Bitcoin cycle bottom expected roughly 100 days (~3 months) from the recent low, landing around late September to October 2026, possibly later into Q4 but not much beyond that.
+- 2026-07-02 (oj2n8nkTTTE): A rejection at the 200-day moving average expected in the "late July, early August" window, mirroring 2018.
+- 2026-07-02 (oj2n8nkTTTE): Possible rate hike priced in for September 2026, potentially acting as a capitulation catalyst shortly after.
+
+- 2026-07-03 (uoF9yzXHmt4): Crypto asset class to remain below the fair value log regression trendline for the rest of 2026, seeking support at that line over the coming months.
+- 2026-07-03 (uoF9yzXHmt4): Market likely forms a low later in 2026 following a "counter-turn rally" in the summer, then transitions into a new bull market.
+- 2026-07-03 (uoF9yzXHmt4): Trend back upward toward/above fair value expected starting 2027-2028.
+
+- 2026-07-03 (BoSW-PLx1Ms): Crypto market to remain below the fair value log regression trendline for "more of this year," seeking support at that line in the coming months.
+- 2026-07-03 (BoSW-PLx1Ms): Market likely forms a low later in 2026 following a turnaround in the summer, then trends back up in 2027-2028.

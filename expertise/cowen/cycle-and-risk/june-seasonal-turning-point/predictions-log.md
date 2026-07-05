@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-06-16
-entry_count: 16
+last_updated: 2026-07-01
+entry_count: 17
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -31,3 +31,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-08 (SG3tuA8zqs8): The final bear market low remains expected in Q4 2026, with the June low a local low only.
 
 - 2026-06-16 (vTcABO_0Exg): BTC is putting in its June low now; accumulating from this point through the end of the midterm year is expected to produce strong results.
+
+- 2026-07-01 (8TmOvGK235I): A possible countertrend rally topping out near the 200-day moving average/bear market resistance band sometime between late July and late August 2026, followed by a stock-market-driven correction producing the final cycle bottom later in Q3/Q4 2026.

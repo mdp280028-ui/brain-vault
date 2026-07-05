@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-06-24
-brief_count: 7
+last_updated: 2026-06-30
+brief_count: 8
 ---
 
 # Equities & SPX Correlation
@@ -11,19 +11,20 @@ SPX (S&P 500) price action, structural corrections, and its correlation with Bit
 
 ## Current Thesis
 
-Cowen's base case for SPX in 2026 remains a two-drop structure: a smaller correction in June-July, a rebound, then a larger drop beginning in September (possibly August) extending into early Q4 — with the S&P/M2 fractal in time specifically pinning September as the larger-drop window. As of late June, Cowen confirms the second drop has not yet occurred, and the midterm-year pattern (2010: ~17%, 2014: ~10%, 2018: ~20%, 2022: ~20%) remains the dominant template. Underpinning the framework is a historical principle Cowen has now highlighted twice: when SPX retests and breaks below its early-year low in late June/early July, that lower-low becomes a durable long-term bottom for correlated risk assets — as demonstrated in 2010, where SPX's lower-low retest in July coincided exactly with Tesla's all-time bottom, a level neither asset has revisited in 16 years. Bitcoin is positioned further down the risk curve than SPX: it fails to participate in SPX rallies to new ATHs but gets hit harder on SPX drops, and a September SPX top could catalyze a BTC cycle low as early as October 2026.
+Cowen's midterm-year SPX roadmap is playing out on schedule: the shallow June correction he called a month prior materialized at roughly 5% (within his 5-8% estimate), confirming the early-year-low → shallow-summer-dip → drift-higher-rally → larger-second-half-drop template drawn from 2010, 2014, 2018, and 2022. He now expects SPX to drift higher through July/August on lower vacation-season volume before a larger 10-20% correction hits in the August-September window, with historical midterm-year lows typically landing late September/early October. Critically, he now explicitly ties the timing of this larger SPX drop to Bitcoin's cycle low — expecting the correction to coincide with, or immediately precede, BTC's market-cycle bottom, with gold bottoming around the same time or slightly earlier. A strengthening dollar under Trump's second term (echoing the first-term pattern of an early drop followed by a grinding rise) is flagged as a possible headwind contributing to the later-year correction.
 
 ## Key Evidence
 
-- The S&P/M2 fractal overlaid from 1996 has correctly mapped both the 2023 ~10% correction and the recent ~10% drop; the fractal in time specifically points to September 2026 for the larger decline. (APCjkL5gfFI, M5d5fbiSfhc, Ibh7wDgNGCE)
-- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~20% — in each case SPX found a local top in H2 (September in 2018 and 2014) before the larger correction; Cowen explicitly states the second 2026 drop has not yet occurred as of June 23. (Ibh7wDgNGCE, xK6bqL-QNE4)
-- The 2018 analogue is explicit: SPX topped in September 2018, crashed into December, and Bitcoin simultaneously collapsed to ~$3,100 — in 2018 the second SPX drop was not dramatically lower than the first, but Bitcoin went substantially lower on the second leg. Cowen maps the same divergence onto 2026. (FgxAe_NAh5c, APCjkL5gfFI, Ibh7wDgNGCE)
-- In 2010, SPX's late June/early July lower-low retest (breaking the January/February low) marked the durable bottom for both SPX and Tesla — neither has revisited that level in 16 years; Cowen uses this as a template for how SPX lower-low retests function as bottoming mechanisms for correlated assets, while noting today's SPX is not near its March 2026 low. (xK6bqL-QNE4, L5XGhGQFISs)
-- SPX has bottomed approximately every four years since at least 1958, establishing the four-year cycle as a macro-structural feature shared with Bitcoin. (FgxAe_NAh5c)
-- Cowen's pessimistic overlay: if the broader business cycle ends in late 2026, an SPX bear market could extinguish Bitcoin's bull entirely rather than merely triggering a corrective leg — mirroring how BTC's own bear market ended altcoin season in Q4 2025. (M5d5fbiSfhc)
+- Cowen's predicted "shallow June correction" (5-8% estimate) materialized at ~5%, validating the midterm-year seasonality template before the larger second-half drop. (Wef7vP6ffBM)
+- Midterm-year historical pattern: early-year low, shallow early-summer correction, July/August drift-higher rally, then a larger second-half drop — which began in September 2014, September 2018, and August 2022, pointing to a similar August/September window in 2026. (Wef7vP6ffBM)
+- The S&P/M2 fractal overlaid from 1996 has correctly mapped both the 2023 ~10% correction and the recent ~10% drop; the fractal in time specifically points to September 2026 for the larger decline. (prior)
+- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~20% — Cowen now estimates the coming 2026 second-half correction at 10-20% based on the 2014/2018/2022 analogs. (Wef7vP6ffBM, prior)
+- The 2018 analogue remains explicit: SPX topped in September 2018, crashed into December, and Bitcoin simultaneously collapsed to ~$3,100 — Cowen maps the same SPX-drop/BTC-cycle-low divergence onto 2026, now stating the larger SPX drop should coincide with BTC's cycle bottom. (Wef7vP6ffBM, prior)
+- In 2010, SPX's late June/early July lower-low retest marked the durable bottom for both SPX and Tesla, a level neither has revisited in 16 years — Cowen's template for how SPX lower-low retests function as bottoming mechanisms for correlated assets. (prior)
 
 ## Recent Updates
 
+- 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%), now expects a July/August drift-higher rally followed by a 10-20% correction in August-September that should coincide with Bitcoin's cycle bottom and gold bottoming around the same time.
 - 2026-06-24 (L5XGhGQFISs): Cowen elaborates the 2010 SPX lower-low episode — SPX took out its January/February low in late June/early July, Tesla bottomed at that exact moment, and neither asset has revisited that level in 16 years — reinforcing the principle that SPX lower-low retests in the June/July window can mark durable bottoms for correlated risk assets.
 - 2026-06-23 (xK6bqL-QNE4): Cowen reaffirms the H2 midterm SPX correction has not yet occurred, cites historical midterm drops (2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~20%) and expects a local SPX top in September before a larger decline — and contrasts the 2010 SPX low (which marked Tesla's durable bottom) with today's SPX not being near its March 2026 low.
 - 2026-05-27 (Ibh7wDgNGCE): Cowen formalizes a two-drop SPX framework for 2026 — smaller correction in June-July, larger drop starting September into early Q4 — supported by the S&P/M2 fractal and midterm-year seasonality, while noting the fractal could break to the upside first before any larger decline.

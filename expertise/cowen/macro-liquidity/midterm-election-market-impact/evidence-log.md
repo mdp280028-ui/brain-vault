@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-28
-entry_count: 11
+last_updated: 2026-06-30
+entry_count: 12
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -30,3 +30,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-22 (d71wYhwKpFY): Cowen explicitly invokes the midterm-year pattern as the historical template for BTC's current bear market structure, noting that breakdowns at the end of 2014, 2018, and 2022 — all midterm years — are real precedents that "cannot be dismissed." He flags the unmet realized-price condition as a key reason to expect a further leg lower in 2026, and reiterates the midterm-year seasonal roadmap of June low → late-July countertrend rally → eventual breakdown, stating at [02:00]: "this is what we've seen happen every midterm year." He also notes that H2 2026 begins in about a week from the video date, marking the entry into the phase he has long flagged as the most consequential part of the midterm-year cycle.
 
 - 2026-06-28 (OYcGIifaO4Q): Cowen overlays BTC returns across all presidential terms and finds Biden's term and Trump's second term are nearly identical at day 524 (−43.8% vs −41.1%), attributing both to shared macro headwinds — inflation, unemployment trends, and a rising dollar — rather than political party, which he frames as evidence that the presidential/midterm cycle is a macro phenomenon, not a political one. Under Biden at this same cycle point, BTC then followed the exact midterm playbook: stalling through summer, a brief counter-trend rally, one final low, and then the next bull market — Cowen: "Bitcoin kind of stalled out for the summer, had a little bit of a counter trend rally in like late July early August and then it sold off and then it had one final drop, we formed the low and then we went into the next bull market." [04:10] If the current cycle mirrors Biden's, BTC bottoms later in 2026 and begins the next bull market into 2027, consistent with Cowen's standing Q4 cycle-low thesis.
+
+- 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%, within his 5-8% range), matching the 2018/2022 midterm-year pattern of an early-year low followed by an early-summer correction; he now expects a drift-higher rally through July/August on lower volume, then a larger 10-20% correction in the August-September timeframe (per 2014, 2018, 2022 analogs), which he expects to coincide with Bitcoin's market cycle bottom and possibly gold bottoming around the same time. Cowen: "sometime around that August September time frame, I would expect a larger drop" [03:53].

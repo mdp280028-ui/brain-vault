@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-06-30
-row_count: 83
+last_updated: 2026-07-04
+row_count: 95
 ---
 
 # BTC outlook history (Casper)
@@ -93,3 +93,15 @@ Append-only. Newest entries at bottom.
 | 2026-06-29 | months | ↓ | 3 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
 | 2026-06-29 | weeks | ↓ | 2 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
 | 2026-06-29 | days | ↑ | 2 | Casper is holding a live long trade from June 25th (up ~$9K) but remains structurally bearish, expecting BTC to ultimately bottom in the $38K–$47K zone around October before a bull market recovery. | _BKA-UftLvg | /Users/mmm2/brain/channels/casper/briefs/2026-06-29__BKA-UftLvg.md |
+| 2026-06-30 | months | ↓ | 3 | Casper remains structurally bearish on Bitcoin, expecting a break below key support toward the $47K–$54K zone and possibly the $38K–$40K area, while still holding his live long trade and planning t... | WlZCGDFFqbc | /Users/mmm2/brain/channels/casper/briefs/2026-06-30_WlZCGDFFqbc.md |
+| 2026-06-30 | weeks | ↓ | 3 | Casper remains structurally bearish on Bitcoin, expecting a break below key support toward the $47K–$54K zone and possibly the $38K–$40K area, while still holding his live long trade and planning t... | WlZCGDFFqbc | /Users/mmm2/brain/channels/casper/briefs/2026-06-30_WlZCGDFFqbc.md |
+| 2026-06-30 | days | ↓ | 2 | Casper remains structurally bearish on Bitcoin, expecting a break below key support toward the $47K–$54K zone and possibly the $38K–$40K area, while still holding his live long trade and planning t... | WlZCGDFFqbc | /Users/mmm2/brain/channels/casper/briefs/2026-06-30_WlZCGDFFqbc.md |
+| 2026-07-01 | months | ↓ | 3 | Casper is holding a live $1M+ long from June 25th, up as much as $30K unrealized before taking partial profit, arguing BTC's bounce off the 618 golden pocket could push toward 61K–65K and eventuall... | I6QAQ-PEoI8 | /Users/mmm2/brain/channels/casper/briefs/2026-07-01_I6QAQ-PEoI8.md |
+| 2026-07-01 | weeks | ↑ | 2 | Casper is holding a live $1M+ long from June 25th, up as much as $30K unrealized before taking partial profit, arguing BTC's bounce off the 618 golden pocket could push toward 61K–65K and eventuall... | I6QAQ-PEoI8 | /Users/mmm2/brain/channels/casper/briefs/2026-07-01_I6QAQ-PEoI8.md |
+| 2026-07-01 | days | ↑ | 3 | Casper is holding a live $1M+ long from June 25th, up as much as $30K unrealized before taking partial profit, arguing BTC's bounce off the 618 golden pocket could push toward 61K–65K and eventuall... | I6QAQ-PEoI8 | /Users/mmm2/brain/channels/casper/briefs/2026-07-01_I6QAQ-PEoI8.md |
+| 2026-07-02 | months | ↓ | 3 | Casper still expects Bitcoin's cycle bottom around October near sub-$40K, but sees short-term bullish signs (bullish divergences, higher high, possible reclaim of $62K) that could send price toward... | 50lsWDv8SMg | /Users/mmm2/brain/channels/casper/briefs/2026-07-02_50lsWDv8SMg.md |
+| 2026-07-02 | weeks | ↑ | 2 | Casper still expects Bitcoin's cycle bottom around October near sub-$40K, but sees short-term bullish signs (bullish divergences, higher high, possible reclaim of $62K) that could send price toward... | 50lsWDv8SMg | /Users/mmm2/brain/channels/casper/briefs/2026-07-02_50lsWDv8SMg.md |
+| 2026-07-02 | days | ↑ | 3 | Casper still expects Bitcoin's cycle bottom around October near sub-$40K, but sees short-term bullish signs (bullish divergences, higher high, possible reclaim of $62K) that could send price toward... | 50lsWDv8SMg | /Users/mmm2/brain/channels/casper/briefs/2026-07-02_50lsWDv8SMg.md |
+| 2026-07-03 | months | ↓ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |
+| 2026-07-03 | weeks | ↑ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |
+| 2026-07-03 | days | ↑ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |

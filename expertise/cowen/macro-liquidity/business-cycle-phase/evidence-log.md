@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-06-29
-entry_count: 6
+last_updated: 2026-07-02
+entry_count: 8
 ---
 
 # Evidence log: Business Cycle Phase
@@ -20,3 +20,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-25 (5nIhiijBQt4): Cowen adds new late-cycle stress indicators — real disposable income has turned negative for the first time in ~2.5 years, a potential July 29 Fed hike is priced at 60/40 to 65/35 odds, and US-Iran geopolitical tension adds supply-side risk — while M2 trending up in 2026 provides a macro floor absent in the 2022 bear. The business cycle reading informs the crypto rotation thesis directly: "if we do get a correction in the stock market in the back half of the year um then you might actually see the bull market come back to Bitcoin" [07:59], framing the expected midterm-year SPX drop as the mechanism that closes the late-cycle gap for BTC.
 
 - 2026-06-29 (1LI9wfqxOmc): BTC's first weekly close below the 200-week moving average this cycle — occurring in June 2026, precisely mirroring June 2022 and June 2018 — corroborates Cowen's late-cycle framework by confirming the four-year cycle is tracking historical bear-market templates. The absence of a volume capitulation spike (present at every prior bottom in 2014, 2018, and 2022) is the key indicator Cowen uses to rule out a current bottom and maintain his lower-low expectation. He explicitly notes the 2018 analog where a $6,000 break (scaling to ~$60,000 in 2026) marked the ultimate cycle bottom, and recommends DCA in midterm second halves as the cycle-aware allocation strategy: "I actually think the best strategy for Bitcoin generally is just DCA'ing Bitcoin in the second half of midterm years." [04:01]
+
+- 2026-07-01 (8TmOvGK235I): Cowen treats Bitcoin's July 1, 2026 low of $57.7K as near-exact confirmation of the 2018 analog ($5,743 low in the same seasonal window), reinforcing his "simulation confirmed" cycle-bottom-timing thesis. He frames his base case as time-based capitulation (a months-long grind) rather than a sudden price-based capitulation event, expects roughly three more months left in a one-year-from-the-top bear market, and notably argues macro variables haven't actually mattered for predicting Bitcoin's cyclical turns: "the reality is is that Bitcoin in 2018 found a low in February and it did in 2026... none of it mattered."
+
+- 2026-07-02 (oj2n8nkTTTE): Cowen says there's an "increasing probability" the early-summer low is in, reiterating the near-exact 10x match between BTC's ~$57.7K low and 2018's $5,743 low, with both cycles sharing a February low, spring higher low, May 200-day MA rejection, and June/July lower low. Using an ROI low-to-low day count (day 1331), he notes the last two cycles bottomed about 100 days from a comparable point, projecting a final bottom around late September–October, "and the last two cycles bottomed in about 100 days, right? So, in about 3 months" [06:03]. Rob's note that the current ~51% drawdown is milder than 2022's 71% drawdown at the same stage adds supporting context that this bear market is comparatively less severe.

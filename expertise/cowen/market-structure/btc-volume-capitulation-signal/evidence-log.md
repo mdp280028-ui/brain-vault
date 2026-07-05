@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-volume-capitulation-signal
 group: market-structure
-last_updated: 2026-06-29
-entry_count: 3
+last_updated: 2026-07-01
+entry_count: 4
 ---
 
 # Evidence log: Btc Volume Capitulation Signal
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-26 (WrYTIBG10vI): In a short definitional clip, Cowen identifies a touch of the balance price (~$38K) as the clearest non-time-based signal of full price-based capitulation, noting that Bitcoin has historically spent only a few days below this level across 2011, 2015, 2018, and 2022. He frames the scenario conditionally: "If it does happen that would be price based capitulation. To go to that level would make it a lot easier for a lot of people to say the bare market is over." [00:37] The key mechanism is that reaching the balance price would "fully reset all on-chain indicators" simultaneously, eliminating the ambiguity that persists without such an event.
 
 - 2026-06-29 (1LI9wfqxOmc): With Bitcoin posting its first weekly close below the 200-week moving average this cycle, Cowen reiterates that no volume capitulation spike has occurred and that this absence is why he does not call a bottom. He formally names the two capitulation paths — time-based (gradual cycle resolution) and price-based (a sudden massive volume spike resetting all on-chain metrics) — and states his default is time-based: "I would say it makes the most amount of sense to defer to time-based capitulation, but to be open-minded to price-based capitulation forming a low sooner if that's how it plays out." [03:09] He also notes that even extreme price-based events in 2022 (FTX/Luna) did not prevent the four-year cycle from playing out, and warns that if price-based capitulation does occur and on-chain metrics fully reset, he would pivot and remove the expectation of a lower low.
+
+- 2026-07-01 (8TmOvGK235I): Cowen restates the time-based vs. price-based capitulation framework and says the market has not shown pandemic-style price-based capitulation signs, keeping time-based capitulation as his working assumption even as he flags the July 1st $57.7K low as confirming his 2018 analog. He hedges that he'd pivot if price decisively capitulates or if Bitcoin remains range-bound near $60K by October: "I would be willing to pivot if price were to capitulate sooner" [15:25].
