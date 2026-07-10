@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-07-09T09:45:00Z",
+  "actor_id": "tg-monitor-reader",
+  "expected_actions": [],
+  "check_window_hours": 1,
+  "last_seen_ts": 1783585501,
+  "last_seen_action": "sqlite_row",
+  "signal_type": "sqlite_row",
+  "description": "Telegram poller — poll_log last-poll timestamp (logs every poll regardless of new msgs)",
+  "watchdog_state": "missing"
+}
