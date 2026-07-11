@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-18
-entry_count: 9
+last_updated: 2026-07-09
+entry_count: 10
 ---
 
 # Evidence log: Inflation Outlook
@@ -26,3 +26,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-09 (AvKtrd_JZdU): Cowen does not introduce new inflation data but invokes the macro environment as the settled causal explanation for BTC's extended underperformance, stating "monetary policy got a lot tighter, you know, inflation was a concern" [00:52] — framing both tightening and inflation not as live debates but as background facts that explain why BTC will likely spend the rest of 2026 below fair value and not recover until 2027 or later.
 
 - 2026-06-18 (zKPohkQdq_Q): Cowen reframes the inflation problem structurally at Warsh's first FOMC: inflation has been above 2% continuously since 2021 and he calls it "a choice" — the political will to allow asset prices to fall is absent, making the persistence self-reinforcing. Nine dot-plot members expect a hike before year-end, with CME FedWatch pricing only a 15.5% chance rates are NOT hiked by December; Cowen notes at [02:11]: "by December, the market is pricing in only a 15 and 1/2% chance that the Fed hasn't hiked rates at that point." The rising two-year yield is treated as a near-mechanical forcing function — historically it leads or forces Fed funds rate hikes — and the 10-year yield is expected to retest its October 2023 highs, with the 30-year already having done so.
+
+- 2026-07-09 (OgvqZ2BiHZw): Panel (Cowen with Rob and Nick) characterizes Fed minutes as hawkish, noting roughly half of Fed governors reportedly want a rate hike by year-end; they cite NY Fed consumer inflation expectations hitting their highest level in nearly three years and a recent 10-year Treasury auction with the highest yield since February of last year as corroborating signs the Fed will stay hawkish. They also flag a new demand-side inflation source — AI/data-center buildout (chips, memory, electricity costs) — even as oil price pressure has eased somewhat, and view the Fed's reported "trimmed PCE" methodology tweak skeptically, as an attempt to make inflation look lower without addressing its underlying causes. Geopolitical risk (Iran peace deal vs. resumed Middle East fighting) is flagged as a swing factor that could push oil and the dollar higher again.

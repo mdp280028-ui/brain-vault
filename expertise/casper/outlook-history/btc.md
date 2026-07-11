@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-04
-row_count: 95
+last_updated: 2026-07-10
+row_count: 107
 ---
 
 # BTC outlook history (Casper)
@@ -105,3 +105,15 @@ Append-only. Newest entries at bottom.
 | 2026-07-03 | months | ↓ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |
 | 2026-07-03 | weeks | ↑ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |
 | 2026-07-03 | days | ↑ | 3 | Casper sees Bitcoin flipping local resistance into support with bullish divergences building, but still expects the real cycle bottom near sub-$40K around October after a possible run toward the mi... | HRwYNcsxRes | /Users/mmm2/brain/channels/casper/briefs/2026-07-03_HRwYNcsxRes.md |
+| 2026-07-06 | months | ↓ | 2 | Casper sees Bitcoin flashing rare weekly bullish divergence signals that could send it toward the mid-$70s or $82-83K, while flagging Ethereum's first-ever weekly bullish divergence as a potentiall... | cOCzC_ETtPM | /Users/mmm2/brain/channels/casper/briefs/2026-07-06_cOCzC_ETtPM.md |
+| 2026-07-06 | weeks | ↑ | 3 | Casper sees Bitcoin flashing rare weekly bullish divergence signals that could send it toward the mid-$70s or $82-83K, while flagging Ethereum's first-ever weekly bullish divergence as a potentiall... | cOCzC_ETtPM | /Users/mmm2/brain/channels/casper/briefs/2026-07-06_cOCzC_ETtPM.md |
+| 2026-07-06 | days | ↑ | 3 | Casper sees Bitcoin flashing rare weekly bullish divergence signals that could send it toward the mid-$70s or $82-83K, while flagging Ethereum's first-ever weekly bullish divergence as a potentiall... | cOCzC_ETtPM | /Users/mmm2/brain/channels/casper/briefs/2026-07-06_cOCzC_ETtPM.md |
+| 2026-07-07 | months | ↓ | 3 | Casper sees strong short-term bullish divergences pushing Bitcoin toward $67,000 and possibly the mid-$70s, but still expects one more catastrophic drop into the fall before the real cycle low. | E5F4xzE0XR4 | /Users/mmm2/brain/channels/casper/briefs/2026-07-07_E5F4xzE0XR4.md |
+| 2026-07-07 | weeks | ↑ | 4 | Casper sees strong short-term bullish divergences pushing Bitcoin toward $67,000 and possibly the mid-$70s, but still expects one more catastrophic drop into the fall before the real cycle low. | E5F4xzE0XR4 | /Users/mmm2/brain/channels/casper/briefs/2026-07-07_E5F4xzE0XR4.md |
+| 2026-07-07 | days | ↑ | 4 | Casper sees strong short-term bullish divergences pushing Bitcoin toward $67,000 and possibly the mid-$70s, but still expects one more catastrophic drop into the fall before the real cycle low. | E5F4xzE0XR4 | /Users/mmm2/brain/channels/casper/briefs/2026-07-07_E5F4xzE0XR4.md |
+| 2026-07-08 | months | ↑ | 2 | Casper is in no-man's-land after a failed reclaim of $62,500, adding to a long into a rejection at VWAP that immediately got dumped, and now wants a back-test of $59-61K before getting bullish agai... | AWZGmLiwlSg | /Users/mmm2/brain/channels/casper/briefs/2026-07-08_AWZGmLiwlSg.md |
+| 2026-07-08 | weeks | → | 2 | Casper is in no-man's-land after a failed reclaim of $62,500, adding to a long into a rejection at VWAP that immediately got dumped, and now wants a back-test of $59-61K before getting bullish agai... | AWZGmLiwlSg | /Users/mmm2/brain/channels/casper/briefs/2026-07-08_AWZGmLiwlSg.md |
+| 2026-07-08 | days | ↓ | 2 | Casper is in no-man's-land after a failed reclaim of $62,500, adding to a long into a rejection at VWAP that immediately got dumped, and now wants a back-test of $59-61K before getting bullish agai... | AWZGmLiwlSg | /Users/mmm2/brain/channels/casper/briefs/2026-07-08_AWZGmLiwlSg.md |
+| 2026-07-09 | months | ↑ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |
+| 2026-07-09 | weeks | ↑ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |
+| 2026-07-09 | days | ↓ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |

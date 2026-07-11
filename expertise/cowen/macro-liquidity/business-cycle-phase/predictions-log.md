@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-07-02
-entry_count: 18
+last_updated: 2026-07-08
+entry_count: 20
 ---
 
 # Predictions log: Business Cycle Phase
@@ -34,3 +34,6 @@ Append-only. Newest entries at bottom.
 - 2026-07-02 (oj2n8nkTTTE): Bitcoin cycle bottom expected roughly 100 days (~3 months) from the recent low, landing around late September to October 2026, possibly later into Q4 but not much beyond that.
 - 2026-07-02 (oj2n8nkTTTE): A rejection at the 200-day moving average expected in the "late July, early August" window, mirroring 2018.
 - 2026-07-02 (oj2n8nkTTTE): Possible rate hike priced in for September 2026, potentially acting as a capitulation catalyst shortly after.
+
+- 2026-07-08 (n9yTkx3r904): BTC's current rally off ~$57,000 likely stalls similar to the 2018/2022 patterns, with the declining 200-day moving average (projected just north of 70K by late July, ~70K by mid-August) acting as a likely resistance/rejection zone.
+- 2026-07-08 (n9yTkx3r904): The four-year cycle's market-cycle bottom is expected to form later in 2026 (Q4-type timing implied by the 2022 comparison), after which a new four-year cycle would begin.

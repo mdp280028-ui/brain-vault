@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-06-18
-brief_count: 9
+last_updated: 2026-07-09
+brief_count: 10
 ---
 
 # Inflation Outlook
@@ -11,19 +11,20 @@ CPI, PPI, and forward inflation expectations. Cowen uses inflation trajectory as
 
 ## Current Thesis
 
-Inflation has been above the 2% target continuously since 2021 — never actually touching 2% even at its trough — and Cowen now frames this persistence as a structural political choice rather than a transitory phenomenon: the political will to allow asset prices to fall (the most direct cure) is absent. With Warsh's first FOMC producing nine dot-plot members expecting a hike and the two-year yield heading back up, the market assigns only a 15.5% probability that rates are NOT hiked by December 2026, cementing the no-cut/hike-risk regime as locked in through year-end. The tightening backdrop has graduated from "settled constraint" to an actively escalating headwind: the 10-year yield is expected to retest its October 2023 highs, the dollar appears to be breaking out of a large base, and Cowen treats the two-year yield's sustained elevation as a near-mechanical forcing function on the Fed funds rate — regardless of whether a hike actually materializes.
+Inflation has been above the 2% target continuously since 2021, and Cowen frames this persistence as a structural political choice rather than a transitory phenomenon — the political will to allow asset prices to fall (the most direct cure) is absent. Warsh's first FOMC produced nine dot-plot members expecting a hike, and the panel now reports Fed minutes as hawkish, with about half of Fed governors reportedly wanting a hike by year-end; the no-cut/hike-risk regime remains locked in through year-end. The demand-side inflation story is broadening beyond energy: NY Fed consumer inflation expectations hit their highest level in nearly three years, a recent 10-year Treasury auction cleared at its highest yield since February of last year, and panelists now flag AI/data-center buildout (chips, memory, electricity) as a fresh demand-driven inflation source even as oil price pressure has eased somewhat. Cowen's circle also treats the Fed's reported tweaking of its PCE methodology (a "trimmed PCE" measure) skeptically, as an attempt to make inflation look lower without addressing its causes — reinforcing the "checkmate" framing that policy cannot genuinely ease while these pressures persist.
 
 ## Key Evidence
 
-- Headline CPI printed 3.78% YoY on a supply-side energy shock; core CPI reversed its downtrend from a 2.47% February trough back to 2.74%, signaling inflation is re-accelerating rather than converging to target (Rf-gAQJk5-0)
+- Headline CPI printed 3.78% YoY on a supply-side energy shock; core CPI reversed its downtrend from a 2.47% February trough back to 2.74% (Rf-gAQJk5-0)
 - PPI month-over-month spiked ~6%, a level that independently forecloses near-term easing (FgxAe_NAh5c)
-- Nine FOMC dot-plot members indicated they expect a rate hike before year-end; CME FedWatch prices only a 15.5% chance rates are NOT hiked by December 2026 — an ~84.5% implied hike probability (zKPohkQdq_Q)
-- Cowen frames inflation above 2% since 2021 as "a choice" — political unwillingness to allow asset-price declines has prevented the most direct cure, making the persistence structural rather than cyclical (zKPohkQdq_Q)
-- The two-year yield is heading back up, which Cowen treats as a near-mechanical forcing function on the Fed funds rate, citing the 1960s and late-1990s as precedents; the 30-year yield has already reached its October 2023 highs with the 10-year expected to follow (zKPohkQdq_Q)
-- Oil/energy prices remain structurally elevated with Q3 risk of another leg higher, which would drive additional rate-hike pricing and extend crypto bear headwinds through year-end (FgxAe_NAh5c, Rf-gAQJk5-0, dy3E7Jzte88)
+- Nine FOMC dot-plot members indicated they expect a rate hike before year-end; CME FedWatch priced only a 15.5% chance rates are NOT hiked by December 2026 (zKPohkQdq_Q)
+- Cowen frames inflation above 2% since 2021 as "a choice" — political unwillingness to allow asset-price declines has prevented the most direct cure (zKPohkQdq_Q)
+- Fed minutes described as hawkish, with roughly half of Fed governors reportedly wanting a hike by year-end; NY Fed consumer inflation expectations at nearly a 3-year high and a 10-year Treasury auction yield the highest since February of last year (OgvqZ2BiHZw)
+- New demand-side inflation risk flagged from AI/data-center buildout (chips, memory, electricity costs), even as oil price pressure has eased somewhat; the Fed's reported "trimmed PCE" methodology tweak is viewed skeptically as cosmetic rather than substantive (OgvqZ2BiHZw)
 
 ## Recent Updates
 
+- 2026-07-09 (OgvqZ2BiHZw): Panel describes hawkish Fed minutes (~half of governors wanting a year-end hike), NY Fed inflation expectations at a near-3-year high, and a high 10-year auction yield, while flagging new AI/data-center demand-driven inflation risk and skepticism toward the Fed's "trimmed PCE" methodology change.
 - 2026-06-18 (zKPohkQdq_Q): Warsh's first FOMC revealed nine committee members expecting a rate hike; Cowen frames inflation above 2% since 2021 as a structural political choice, and with the two-year yield rising and the 10-year heading toward its October 2023 highs, the tightening regime has escalated from settled backdrop to active macro headwind.
 - 2026-06-09 (AvKtrd_JZdU): Cowen references inflation and tightened monetary policy only as retrospective explanation for BTC's prolonged below-fair-value period, with no new inflation data cited — the macro constraint is treated as fully settled background.
 - 2026-06-05 (ulDJeCNJo3Y): Cowen names the BoJ rate hike expected around mid-June as the most plausible macro trigger for current BTC weakness, explicitly invoking the carry-trade unwind mechanism and the August 2024 precedent; the broader no-cut/hike-risk inflation backdrop is treated as the settled constraint, not a new development.

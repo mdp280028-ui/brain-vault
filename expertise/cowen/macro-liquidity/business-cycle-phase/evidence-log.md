@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-07-02
-entry_count: 8
+last_updated: 2026-07-08
+entry_count: 9
 ---
 
 # Evidence log: Business Cycle Phase
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-01 (8TmOvGK235I): Cowen treats Bitcoin's July 1, 2026 low of $57.7K as near-exact confirmation of the 2018 analog ($5,743 low in the same seasonal window), reinforcing his "simulation confirmed" cycle-bottom-timing thesis. He frames his base case as time-based capitulation (a months-long grind) rather than a sudden price-based capitulation event, expects roughly three more months left in a one-year-from-the-top bear market, and notably argues macro variables haven't actually mattered for predicting Bitcoin's cyclical turns: "the reality is is that Bitcoin in 2018 found a low in February and it did in 2026... none of it mattered."
 
 - 2026-07-02 (oj2n8nkTTTE): Cowen says there's an "increasing probability" the early-summer low is in, reiterating the near-exact 10x match between BTC's ~$57.7K low and 2018's $5,743 low, with both cycles sharing a February low, spring higher low, May 200-day MA rejection, and June/July lower low. Using an ROI low-to-low day count (day 1331), he notes the last two cycles bottomed about 100 days from a comparable point, projecting a final bottom around late September–October, "and the last two cycles bottomed in about 100 days, right? So, in about 3 months" [06:03]. Rob's note that the current ~51% drawdown is milder than 2022's 71% drawdown at the same stage adds supporting context that this bear market is comparatively less severe.
+
+- 2026-07-08 (n9yTkx3r904): Cowen frames July of mid-term years as a recurring "brief window of strength" within a broader "window of weakness," citing 2018 and 2022 as precedents where a late-June/early-July low was followed by a rally into late July/mid-August that topped near the 21-week EMA/20-week SMA/200-day MA before giving back gains into August/September; he draws a direct analogy between the current bounce off ~$57,000 and 2018's rally off $5,700. He notes average July returns of about +9% since 2012, projects the currently-declining 200-day MA will reach just north of 70K by late July and ~70K by mid-August as the likely rejection zone, and describes Bitcoin as stuck "between a rock and a hard place" (the 200-week MA and a bear-market resistance band) — "it's kind of in between the 200-week moving average and then also that bear market resistance band. And I think it's going to be forced to make a decision a little bit later this year." [06:55]

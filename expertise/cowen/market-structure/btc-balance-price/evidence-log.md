@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-balance-price
 group: market-structure
-last_updated: 2026-07-03
-entry_count: 3
+last_updated: 2026-07-06
+entry_count: 4
 ---
 
 # Evidence log: Btc Balance Price
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 NONE
 
 - 2026-07-03 (BoSW-PLx1Ms): This brief does not mention the balance price; it focuses entirely on the fair value logarithmic regression trendline and total crypto market cap cycle comparison, with no reference to on-chain capitulation signals like the balance price.
+
+- 2026-07-06 (sy6AxBbgico): This brief does not address the balance price. Cowen's bottom-timing argument instead rests on a four-year-cycle comparison to 2018, projecting Bitcoin will "form a low before December," with October as the leading candidate month: "the reason I think it could happen as early as October is because the top was in October. And normally the Bitcoin bear markets are about 1 year." [09:51/10:16] No on-chain or balance-price reset language appears anywhere in the transcript.
