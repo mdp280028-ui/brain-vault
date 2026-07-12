@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-07-11T13:00:00Z",
+  "actor_id": "ship-to-site-digest",
+  "expected_actions": ["shipping_digest_sent"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "07:00 morning digest",
+  "watchdog_state": "missing"
+}

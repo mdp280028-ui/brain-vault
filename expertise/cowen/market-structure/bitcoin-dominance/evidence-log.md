@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-06-22
-entry_count: 9
+last_updated: 2026-07-10
+entry_count: 10
 ---
 
 # Evidence log: Bitcoin Dominance
@@ -26,3 +26,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-19 (gAf6tPzkcgg): Cowen adds social risk as a new explanatory driver of BTC dominance: as the composite social interest metric (Google Trends, Coinbase app ranking, YouTube subscribers/views, Wikipedia, Twitter followers) trends down in a mirror of the post-2019 apathy phase, BTC dominance excluding stablecoins continues to make higher highs. The 2019 analog is now quantitatively tightened — identical Fed cut count and QT-end timing relative to the price peak in both cycles — confirming the "apathetic top" template with no altcoin rotation. At [08:41] Cowen states: "It made sense to just stick with Bitcoin in the past crypto market cycle. It made sense. Right? Retail never came back."
 
 - 2026-06-22 (d71wYhwKpFY): Cowen invokes the 2018 analog as a specific near-term risk for altcoins relative to BTC: while Bitcoin moves sideways between the bear market resistance band and the 200-week MA, altcoins face the prospect of severe underperformance — "the altcoin market got annihilated in July 2018, and Bitcoin was basically doing okay" [05:41]. Declining social interest and fewer retail participants buying alts make a July 2026 repeat of this dynamic plausible, reinforcing the BTC-favoring regime with a new historical data point beyond the 2019 analog.
+
+- 2026-07-10 (sigSZCnSa6M): Cowen states this cycle is the first where cycle end brought no altcoin rotation, and maps 2025/2026 directly onto 2019/2020 as the closest historical analog (three rate cuts and QT ending roughly two months after BTC's cycle top in both cases). He also points to broad, sustained apathy — crypto YouTube views down roughly an order of magnitude from ~3-4M/day in 2021 to ~400K/day now, and a multi-year decline in the advanced-decline index of the top 100 cryptocurrencies — as the backdrop keeping capital from rotating into alts; he notes "if the stars align and the fear overtakes everyone later this year, I don't know what the narrative will be" [11:44], reflecting his view that no altcoin narrative currently has traction.

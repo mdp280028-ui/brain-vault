@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-08
-brief_count: 10
+last_updated: 2026-07-10
+brief_count: 11
 ---
 
 # June Seasonal Turning Point
@@ -11,19 +11,20 @@ Auto-created topic. Seed description pending operator review. Slug-as-words: jun
 
 ## Current Thesis
 
-Cowen now frames the pattern as a "brief window of strength" within a broader mid-term-year window of weakness: the June/July capitulation low (confirmed by the near-exact 2018 price match, BTC's $57.7K vs. $5,743) has given way to a counter-trend rally off ~$57K that he expects to stall near the declining 200-day MA (currently ~74K, projected to ~70K by late July/mid-August), echoing 2018's rejection at the 200-day MA and 21-week EMA/20-week SMA after topping near 6,800. He continues to expect the broader four-year cycle to complete with a final market bottom later in 2026 (Q3/Q4-type timing) before a new cycle begins, and reiterates that the correct posture is DCA-ing through the second half of the mid-term year rather than trying to time the exact top or bottom. He backs the seasonal framework with quantified historical July returns (average +9% since 2012, +8.2% since 2014, with 2018 +38%, 2022 +19-20%, 2014 -5%), while still flagging that red Julys (2014) tend to keep August/September red too, adding nuance to his caveat that seasonality isn't universal.
+Cowen treats the June/July capitulation low as confirmed (BTC's July 1 low of $57.7K near-exactly mirroring 2018's $5,743) and now frames the ensuing counter-trend rally as a squeeze between the 200-week MA (support) and the bear-market resistance band (resistance) that cannot yet break either direction, with resolution expected in "about a month or two" (Q4 2026). He still expects July to run seasonally green (2018 +38%, 2022 +19-20%, 2014 -5%) before August/September/October revert red as in every midterm year cited, and now leans on on-chain evidence — MVRV Z-score not yet below zero, realized price (~53K) and balance price (~38K) both still above where prior cycles bottomed — to argue further downside is likely before the true low. He continues to expect a time-based (roughly year-long) capitulation rather than a sharp price-based crash, targets a final low with 60-65% confidence by his November 21 ITC conference, and maintains that the correct posture is DCA-ing through the second half of the mid-term year while ignoring narratives and fading gurus.
 
 ## Key Evidence
 
-- The 2018 analog maps onto 2026 in sequence and price behavior: February low → higher low in March/April → May rally to bear-market resistance/200-day MA → June/July capitulation sweep of the February low → subsequent countertrend rally. (prior)
-- BTC's July 1, 2026 low of $57.7K is almost identical in pattern to the 2018 low of $5,743 set in late June/early July 2018, which Cowen presents as strong direct confirmation of the analog. (prior; 8TmOvGK235I)
-- Historical July returns quantify the seasonal edge: average +9% (+/-15-16%) since 2012, narrowing to +8.2% (+/-13.6%) since 2014, driven by 2018 (+38%), 2022 (+19-20%), and 2014 (-5%). (n9yTkx3r904)
-- In both 2018 and 2022 the counter-move rallied into late July/mid-August before topping and giving back gains into August/September, with 2018 rejected at the 21-week EMA/20-week SMA and 200-day MA — the same rejection zone he now projects for the current bounce (200-day MA ~74K now, falling to ~70K by late July/mid-August). (n9yTkx3r904)
+- The 2018 analog maps onto 2026 in sequence and price behavior: February low → higher low in March/April → May rally to bear-market resistance/200-day MA → June/July capitulation sweep of the February low → subsequent countertrend rally, with 2018 rallying to the 200-day MA in both May and late July before resuming down into Q4. (prior; sigSZCnSa6M)
+- BTC's July 1, 2026 low of $57.7K is almost identical to the 2018 low of $5,743 set in late June/early July 2018, presented as strong direct confirmation of the analog; BTC also fell against gold (-28%), the S&P (-39%), energy (-44%), silver (-18%), and Microsoft (-13%) in H1 2026, consistent with the "ignore BTC in H1 of midterm years" strategy. (prior; sigSZCnSa6M)
+- Historical July returns quantify the seasonal edge: average +9% (+/-15-16%) since 2012, narrowing to +8.2% (+/-13.6%) since 2014, driven by 2018 (+38%), 2022 (+19-20%), and 2014 (-5%); August/September/October have been red in every midterm year cited, suggesting July strength fades again into fall. (n9yTkx3r904; sigSZCnSa6M)
+- On-chain indicators haven't fully reset for a cycle bottom: MVRV Z-score hasn't gone below zero as in every prior cycle bottom, and realized price (~53K)/balance price (~38K) are historical downside levels BTC has undercut in every prior midterm year — implying more downside before a true low. (sigSZCnSa6M)
 - Cowen flags that seasonality is not universal — 2022 crashed in May instead of rallying, 2014 fell in July instead of rallying, and red Julys (2014) tended to keep August/September red as well — as an explicit caveat on how much weight to put on the pattern. (prior; n9yTkx3r904)
 - Confirmation for a genuine countertrend rally requires a higher low; absent that, he treats price as a falling knife, citing 2022 as the cautionary example. (prior)
 
 ## Recent Updates
 
+- 2026-07-10 (sigSZCnSa6M): Cowen reframes the current bounce as a squeeze between the 200-week MA and bear-market resistance band with resolution likely in Q4, cites unreset on-chain metrics (MVRV Z-score, realized/balance price) as evidence more downside is likely, and reiterates July's seasonal green-month tendency fading into a red August-October, with 60-65% odds the final low is in by November 21.
 - 2026-07-08 (n9yTkx3r904): Cowen frames July as a recurring "brief window of strength" within mid-term-year weakness, expects the current rally off ~$57K (mirroring 2018's rally off $5,700) to stall near the falling 200-day MA (~70K by late July/mid-August) as in 2018/2022, and reiterates a Q4-type final cycle bottom later in 2026.
 - 2026-07-01 (8TmOvGK235I): Cowen highlights BTC's July 1 low of $57.7K as an almost exact repeat of the 2018 low ($5,743), declaring "simulation confirmed" and outlining a possible rally into July/August before a stock-market-driven correction produces the final Q3/Q4 2026 bottom.
 - 2026-06-16 (vTcABO_0Exg): Cowen states BTC is putting in its June low now and that accumulating from this level through year-end is historically the best re-entry window, directly advocating action rather than continued waiting for confirmation.

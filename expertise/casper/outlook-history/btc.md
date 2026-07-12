@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-10
-row_count: 107
+last_updated: 2026-07-11
+row_count: 110
 ---
 
 # BTC outlook history (Casper)
@@ -117,3 +117,6 @@ Append-only. Newest entries at bottom.
 | 2026-07-09 | months | ↑ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |
 | 2026-07-09 | weeks | ↑ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |
 | 2026-07-09 | days | ↓ | 2 | Casper flipped bullish after BTC reclaimed $62.5K and targeted $67K, but by stream's end the level was rejected with bearish divergences and he flipped short, ending the video down on the new trade. | xLMDX6FNoSI | /Users/mmm2/brain/channels/casper/briefs/2026-07-09_xLMDX6FNoSI.md |
+| 2026-07-10 | months | ↑ | 3 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
+| 2026-07-10 | weeks | ↑ | 4 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
+| 2026-07-10 | days | ↑ | 2 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
