@@ -1,8 +1,8 @@
 ---
 topic_slug: gold-vs-crypto
 group: cross-asset
-last_updated: 2026-06-13
-entry_count: 7
+last_updated: 2026-07-13
+entry_count: 10
 ---
 
 # Predictions log: Gold vs Crypto
@@ -19,3 +19,7 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-13 (DoteyQFNfnE): Gold likely finds its midterm-year low between June and October 2026, with June–July being the average based on day 187 seasonality.
 - 2026-06-13 (DoteyQFNfnE): New gold all-time highs expected in the 2027–2028 timeframe; possible in 2026 only if gold bottoms within the next few weeks (by approximately early July 2026).
+
+- 2026-07-13 (sjt1LV2iDog): Gold likely to find its 2026 low sometime between July and October 2026, based on midterm-year seasonality averages, with the low likely in by around the November 20-22, 2026 ITC conference.
+- 2026-07-13 (sjt1LV2iDog): Gold's bull market support band (currently ~$3,800-3,841) likely to be tested/tagged within the next few months, followed by a bounce.
+- 2026-07-13 (sjt1LV2iDog): Gold expected to resume strength later in 2026 and especially into 2027.

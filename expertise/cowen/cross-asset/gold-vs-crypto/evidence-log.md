@@ -1,8 +1,8 @@
 ---
 topic_slug: gold-vs-crypto
 group: cross-asset
-last_updated: 2026-06-13
-entry_count: 5
+last_updated: 2026-07-13
+entry_count: 6
 ---
 
 # Evidence log: Gold vs Crypto
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-04 (QMn7cm4nfYU): With Bitcoin live at the 200-week exponential MA (~$61.8K), Cowen notes that BTC was rejected at bare market resistance against gold and states that Bitcoin will likely drop further against the metal through the rest of 2026. He gives a specific magnitude — "Bitcoin will likely drop about another 30% against gold this year" [32:12] — through a combination of BTC falling and gold recovering after finding a low within the next 1–2 months. The outlook table rates Gold ↑2 (months) while BTC is rated ↓4 (months) and ↓3 (year), sustaining the structural preference for gold that has been consistent across prior briefs.
 
 - 2026-06-13 (DoteyQFNfnE): Cowen explicitly frames gold's ~28% correction from its early-2026 peak as a healthy midterm-year pause within an ongoing bull market, not a top, citing comparable drawdowns in 2008, 1974, and 2006 that all resolved higher. Midterm-year seasonality places the average gold bottom on day 187 (currently day 162 as of June 13), pointing to a late June/early July low with the full window extending through October — after which Cowen expects gold to recover and ultimately reach new all-time highs in 2027–2028, further widening its advantage over Bitcoin across that timeframe. As he put it at [08:19]: "for me, I remain still bullish on gold. And having a correction in the first half of 2026 is what we said would likely happen."
+
+- 2026-07-13 (sjt1LV2iDog): Cowen refines the seasonal-low case for gold, noting 2026's YTD drawdown (~7-8%) is milder than the 2018/2022 midterm-year analogs (10-11%) and that a recent death cross has historically preceded short-term rallies; he pinpoints gold's bull market support band (~$3,800-3,841, untested since 2023) as the level to watch for a bounce, with the low likely in by the November ITC conference. He also stresses gold's much faster historical recovery from recession-driven drawdowns versus equities: "back then, gold did drop about 26%. If you compare that to what it's dropped right now, it's about 28%." [10:57]

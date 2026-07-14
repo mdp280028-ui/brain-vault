@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-06-30
-entry_count: 8
+last_updated: 2026-07-13
+entry_count: 9
 ---
 
 # Evidence log: Equities & SPX Correlation
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-24 (L5XGhGQFISs): Cowen drills into the 2010 SPX bottoming mechanism: SPX formed a low in January/February, then took out that low in late June/early July — and it was precisely at that lower-low retest that Tesla bottomed for good. As Cowen states: "when we took out that low, that is where Tesla bottomed. And Tesla never went below that low ever again." [00:34] The durability of the signal is the key point — the S&P itself also never returned below that level, and 16 years later it still holds, illustrating how SPX lower-low retests in the June/July window can lock in durable bottoms for correlated risk assets.
 
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his month-old call for a "shallow June correction" materialized at ~5%, within his 5-8% range, validating the midterm-year seasonality template (early-year low, shallow summer dip, July/August drift-higher rally, larger second-half drop). He now expects the larger correction — sized at 10-20% based on 2014/2018/2022 analogs — to hit in the August-September window and to "help reset things, likely lead to Bitcoin putting in a market cycle bottom," with gold possibly bottoming "a little bit sooner." He also flags a strengthening dollar under Trump's second term as a possible headwind contributing to the later-year correction. ("And then sometime around that August September time frame, I would expect a larger drop." [03:53])
+
+- 2026-07-13 (sjt1LV2iDog): In a video primarily about gold's 2026 correction, Cowen reiterates his standing stock market call without modification: no major further SPX drop until August/September, following the shallow June correction and current July rally. He states, "I don't think stocks are going to really start to get another drop until August or September" [09:23], and separately frames gold's own expected low (July-October window) as tracking alongside this SPX timeline.

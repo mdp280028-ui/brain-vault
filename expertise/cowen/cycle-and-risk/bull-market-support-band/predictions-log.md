@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-06-29
-entry_count: 12
+last_updated: 2026-07-13
+entry_count: 13
 ---
 
 # Predictions log: Bull Market Support Band
@@ -27,3 +27,5 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-29 (1LI9wfqxOmc): A countertrend rally mid-to-late summer 2026 is expected to fail at or below the bear market resistance band, with the final cycle bottom arriving in late Q3 or early Q4 — not on a band reclaim.
 - 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 (the 2018 analog level) would likely signal the market cycle bottom is forming, implying the bear market resistance band remains overhead resistance well above any bottom.
+
+- 2026-07-13 (sjt1LV2iDog): Gold's bull market support band (currently ~$3,800-3,841) likely to be tested/tagged within the next few months, followed by a bounce.

@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-06-30
-entry_count: 12
+last_updated: 2026-07-13
+entry_count: 13
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -27,3 +27,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): S&P 500 to drift higher through July/August, then see a larger correction of 10-20% starting in the August-September 2026 timeframe.
 - 2026-06-30 (Wef7vP6ffBM): This larger equity correction is expected to coincide with Bitcoin forming its market cycle bottom, and possibly gold bottoming around the same time or slightly sooner.
 - 2026-06-30 (Wef7vP6ffBM): Historical seasonality suggests the midterm-year stock market low typically lands in late September or early October.
+
+- 2026-07-13 (sjt1LV2iDog): Stock market (S&P) expected to have no major further drop until August/September 2026, following a shallow June correction and a July rally.
