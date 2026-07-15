@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-07-08
-entry_count: 20
+last_updated: 2026-07-14
+entry_count: 24
 ---
 
 # Predictions log: Business Cycle Phase
@@ -37,3 +37,8 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-08 (n9yTkx3r904): BTC's current rally off ~$57,000 likely stalls similar to the 2018/2022 patterns, with the declining 200-day moving average (projected just north of 70K by late July, ~70K by mid-August) acting as a likely resistance/rejection zone.
 - 2026-07-08 (n9yTkx3r904): The four-year cycle's market-cycle bottom is expected to form later in 2026 (Q4-type timing implied by the 2022 comparison), after which a new four-year cycle would begin.
+
+- 2026-07-14 (Wf7vUIoGQrE): Bitcoin market cycle bottom most likely around late September/early October 2026, based on ROI-from-low measurement.
+- 2026-07-14 (Wf7vUIoGQrE): Possible tail scenario: Bitcoin bottoms as late as December 2026 if this bear market extends to 13-14 months like 2013-2014 (explicitly stated as not his base case).
+- 2026-07-14 (Wf7vUIoGQrE): Bitcoin likely to see a brief bounce/higher low around mid-July (near the CPI report), then give most gains back by late July/early August.
+- 2026-07-14 (Wf7vUIoGQrE): Stock market (S&P) correction expected to start in August or September 2026, which would trigger Bitcoin's drop to its market cycle bottom.

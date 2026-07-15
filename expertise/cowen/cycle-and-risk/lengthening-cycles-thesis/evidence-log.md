@@ -1,8 +1,8 @@
 ---
 topic_slug: lengthening-cycles-thesis
 group: cycle-and-risk
-last_updated: 2026-06-14
-entry_count: 5
+last_updated: 2026-07-14
+entry_count: 6
 ---
 
 # Evidence log: Lengthening Cycles Thesis
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-12 (Di8YR9nX8Q8): Cowen introduces a composite on-chain risk metric (~9 indicators normalized to 0–1) currently reading ~0.18–0.198, and notes that historically Bitcoin spends very little time below 0.2 — with such readings concentrating in midterm years, exactly the current position in the 4-year cycle. He declares Bitcoin "clearly in the third and final stage of the bare market" and names October 2026 as the most likely bottom month, consistent with the lengthening-cycles time-based framework. He explicitly labels his operating thesis "time-based capitulation," stating: [09:25] "right now, I'm operating under what I called timebased capitulation, but I would be willing to pivot to price-based capitulation if something like that were to happen."
 
 - 2026-06-14 (psz9FwqWGns): Cowen provided explicit week-count data anchoring the lengthening-cycles thesis: the last two midterm-year bear markets ran ~50–60 weeks (Dec 2017–Dec 2018 ~53 weeks; Nov 2021–Nov 2022 ~54 weeks), and at "currently about week 35" [03:08] the current cycle has not yet reached that duration threshold, directly supporting a Q4 2026 resolution. He also identified the absence of a volume-capitulation spike — present at every prior cycle low — as a key real-time confirmation that the bear market is incomplete, and defined the single pivot condition that would cause him to abandon the October base case: a price-based capitulation dropping Bitcoin ~$20K from ~$63K with full on-chain reset, analogous to March 2020.
+
+- 2026-07-14 (Wf7vUIoGQrE): Cowen argues the current bear market can be read through two simultaneously-true lenses — structurally a "less volatile version" of 2018, and from a liquidity/business-cycle perspective more like the 2019-2020 digestion phase after the 2019 apathetic top ("it looks more like the digestion phase after the 2019 apathetic top" [00:24]). He sets his base case for the market cycle bottom at late September/early October 2026, explicitly saying the bear market likely won't need to run to December like the last two cycles ("my guess is that we won't have to wait until the end of December for the low" [07:32]), while naming the 2013-2014 cycle (~13-14 months) as a non-base-case exception that could push the low into December.
