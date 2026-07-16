@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-10
-entry_count: 21
+last_updated: 2026-07-15
+entry_count: 23
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -39,3 +39,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-10 (sigSZCnSa6M): A resolution of the current 200-week-MA/bear-market-resistance-band squeeze is likely to kick off "in about a month or two" (i.e., Q4 2026).
 - 2026-07-10 (sigSZCnSa6M): July is likely to be a green month for BTC (seasonally), with August/September/October likely red based on every midterm year cited (2014, 2018, 2022).
+
+- 2026-07-15 (rWfLRMiyQVY): Bitcoin's current rally likely extends into late July, possibly as late as early-to-mid August, before giving back gains (based on the 2018 seasonal analog).
+- 2026-07-15 (rWfLRMiyQVY): If the bear market resistance band rejection plays out as expected, Bitcoin's resolution/breakdown is expected in the August-to-Q4 timeframe, aligning with a later-in-the-year market cycle bottom.

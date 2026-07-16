@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-07-13
-entry_count: 8
+last_updated: 2026-07-15
+entry_count: 9
 ---
 
 # Evidence log: Bull Market Support Band
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-29 (1LI9wfqxOmc): With BTC posting its first weekly close below the 200-week MA this cycle, the bear market resistance band (20-week SMA / 21-week EMA) now sits as dual overhead resistance above spot price — a structurally deeper bear confirmation than prior briefs had documented. Cowen's roadmap places any mid-to-late summer countertrend rally as likely capping out at or below the band, not reclaiming it, and frames the 2018 analog (where that bounce failed and price dropped to ~$6K / ~$60K equivalent) as the template. He notes the drop below these moving averages is "a little scary" but not unprecedented: [00:39] "Bitcoin, unfortunately, just had its first weekly close below the 200-week moving average for the first time this cycle."
 
 - 2026-07-13 (sjt1LV2iDog): Cowen applies gold's bull market support band (20-month SMA / 21-month EMA, distinct from the BTC version) and locates it at roughly $3,800, specifically 3,824-3,841; gold hasn't tagged this band since 2023. He expects the ongoing ~28% midterm-year correction to reach the band sometime in the next few months (his broader guess is a low between July and October 2026) and then bounce, with a multi-month rally to follow regardless of whether the broader bull thesis holds: "yes, gold has had a pullback... but ultimately I think it's going to set up for the continuation for a move back up starting as we get later into 2026, but especially going into 2027" [07:15].
+
+- 2026-07-15 (rWfLRMiyQVY): Cowen says Bitcoin is currently squeezed between the 200-week moving average and the bear market resistance band, with the structure mirroring the 2018 fractal (Feb low, higher low in March/April, May rejection off the band, sweep of the Feb low in late June/early July). A cooler-than-expected July CPI print is fueling the seasonal rally he called in advance, but he expects BTC to push back up toward the band, get rejected again, and resolve — likely to the downside — between August and Q4: "Bitcoin is getting squeezed between the 200-week moving average and the bear market resistance band" [03:13].

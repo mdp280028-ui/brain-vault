@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-10
-entry_count: 11
+last_updated: 2026-07-15
+entry_count: 12
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -30,3 +30,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-08 (n9yTkx3r904): Cowen quantifies the July seasonal bounce with historical return data (average +9% since 2012, +8.2% since 2014; +38% in 2018, +19-20% in 2022, -5% in 2014) and draws a direct chart analogy between the current rally off ~$57,000 and Bitcoin's 2018 rally off $5,700, which topped near 6,800 before pulling back to a higher low and sweeping it in August. He projects the declining 200-day MA (~74K now) as the likely rejection zone, reaching just north of 70K by late July and ~70K by mid-August: "So far, so good. Same thing as always. Getting a rally off of 57,000 just like we got one off of 5,700 back in 2018" [10:47].
 
 - 2026-07-10 (sigSZCnSa6M): Cowen describes BTC as "squeezed" between 200-week MA support and bear-market-resistance-band resistance, unable to break either way, with the 2026 price path (matching lows, matching lower May high, matching late-June/early-July drop, now a matching counter-trend rally) mirroring 2018 where price rallied to the 200-day MA in both May and late July before resuming down into Q4. He adds that July is historically green in midterm years (2022 +~20%, 2018 +~38%, 2014 -5%) while August/September/October have historically been red across all three cited years. As he put it: "it's trying to go above it and getting and not able to break out. it's trying to go below it and not able to break down" [09:39].
+
+- 2026-07-15 (rWfLRMiyQVY): Cowen ties the cooler-than-expected July CPI print (headline 3.5% vs. ~3.8-3.9% consensus; core 2.6% vs. 2.8-2.9% forecast) directly to Bitcoin's ongoing seasonal July rally, noting BTC is already up ~10% this July versus +19-20% in 2022 and nearly +40% in 2018. He describes Bitcoin as "getting squeezed between the 200-week moving average and the bear market resistance band" [03:13], expecting a push toward resistance, a rejection, and "your resolution like between the August to, you know, sort of Q4 time frame in line with what we saw in prior cycles" [03:29]. He frames this as a second, smaller countertrend rally analogous to 2018's April rally followed by a smaller July rally, and notes that if the squeeze breaks down, "it would be in line with market cycle theory, and then you would have a low late in the year which would then align to the normal market cycle bottom" [07:35].

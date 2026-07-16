@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-11
-row_count: 110
+last_updated: 2026-07-15
+row_count: 113
 ---
 
 # BTC outlook history (Casper)
@@ -120,3 +120,6 @@ Append-only. Newest entries at bottom.
 | 2026-07-10 | months | ↑ | 3 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
 | 2026-07-10 | weeks | ↑ | 4 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
 | 2026-07-10 | days | ↑ | 2 | Casper is leaning bullish on Bitcoin after a rare weekly bullish divergence, targeting $67K next and potentially the mid-70s to $85K if that level flips to support. | ZpBWvhM63_o | /Users/mmm2/brain/channels/casper/briefs/2026-07-10_ZpBWvhM63_o.md |
+| 2026-07-15 | months | ↑ | 4 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |
+| 2026-07-15 | weeks | ↑ | 3 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |
+| 2026-07-15 | days | ↓ | 2 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |

@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-07-13
-entry_count: 13
+last_updated: 2026-07-15
+entry_count: 15
 ---
 
 # Predictions log: Bull Market Support Band
@@ -29,3 +29,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-29 (1LI9wfqxOmc): A decisive break below ~$60,000 (the 2018 analog level) would likely signal the market cycle bottom is forming, implying the bear market resistance band remains overhead resistance well above any bottom.
 
 - 2026-07-13 (sjt1LV2iDog): Gold's bull market support band (currently ~$3,800-3,841) likely to be tested/tagged within the next few months, followed by a bounce.
+
+- 2026-07-15 (rWfLRMiyQVY): Bitcoin's current rally likely extends into late July, possibly as late as early-to-mid August, before giving back gains (based on the 2018 seasonal analog).
+- 2026-07-15 (rWfLRMiyQVY): If the bear market resistance band rejection plays out as expected, Bitcoin's resolution/breakdown is expected in the August-to-Q4 timeframe, aligning with a later-in-the-year market cycle bottom.

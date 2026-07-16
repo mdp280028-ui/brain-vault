@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-07-09
-brief_count: 10
+last_updated: 2026-07-15
+brief_count: 11
 ---
 
 # Inflation Outlook
@@ -11,19 +11,19 @@ CPI, PPI, and forward inflation expectations. Cowen uses inflation trajectory as
 
 ## Current Thesis
 
-Inflation has been above the 2% target continuously since 2021, and Cowen frames this persistence as a structural political choice rather than a transitory phenomenon — the political will to allow asset prices to fall (the most direct cure) is absent. Warsh's first FOMC produced nine dot-plot members expecting a hike, and the panel now reports Fed minutes as hawkish, with about half of Fed governors reportedly wanting a hike by year-end; the no-cut/hike-risk regime remains locked in through year-end. The demand-side inflation story is broadening beyond energy: NY Fed consumer inflation expectations hit their highest level in nearly three years, a recent 10-year Treasury auction cleared at its highest yield since February of last year, and panelists now flag AI/data-center buildout (chips, memory, electricity) as a fresh demand-driven inflation source even as oil price pressure has eased somewhat. Cowen's circle also treats the Fed's reported tweaking of its PCE methodology (a "trimmed PCE" measure) skeptically, as an attempt to make inflation look lower without addressing its causes — reinforcing the "checkmate" framing that policy cannot genuinely ease while these pressures persist.
+Inflation has been above the 2% target continuously since 2021, and Cowen has long framed this persistence as a structural political choice — the political will to allow asset prices to fall (the most direct cure) is absent — underpinning a "Fed checkmate" no-cut/hike-risk regime through year-end. The July CPI report is the first real crack in that hot-inflation narrative: headline CPI cooled to 3.5% (from 4.2% prior, below consensus) and core CPI fell to 2.6% (from 2.9%, also below consensus), driven mainly by a substantial drop in housing costs (roughly two-thirds of the CPI weight) alongside softer food, apparel, medical care, and transportation categories. Cowen is treating this as primarily a seasonal/technical tailwind for Bitcoin rather than a durable dovish pivot — he still expects the broader hike-risk backdrop to reassert itself, flagging a bounce in oil prices as the key risk that could reignite the inflation picture if it proves more than "back-testing" a prior breakdown.
 
 ## Key Evidence
 
 - Headline CPI printed 3.78% YoY on a supply-side energy shock; core CPI reversed its downtrend from a 2.47% February trough back to 2.74% (Rf-gAQJk5-0)
 - PPI month-over-month spiked ~6%, a level that independently forecloses near-term easing (FgxAe_NAh5c)
 - Nine FOMC dot-plot members indicated they expect a rate hike before year-end; CME FedWatch priced only a 15.5% chance rates are NOT hiked by December 2026 (zKPohkQdq_Q)
-- Cowen frames inflation above 2% since 2021 as "a choice" — political unwillingness to allow asset-price declines has prevented the most direct cure (zKPohkQdq_Q)
 - Fed minutes described as hawkish, with roughly half of Fed governors reportedly wanting a hike by year-end; NY Fed consumer inflation expectations at nearly a 3-year high and a 10-year Treasury auction yield the highest since February of last year (OgvqZ2BiHZw)
-- New demand-side inflation risk flagged from AI/data-center buildout (chips, memory, electricity costs), even as oil price pressure has eased somewhat; the Fed's reported "trimmed PCE" methodology tweak is viewed skeptically as cosmetic rather than substantive (OgvqZ2BiHZw)
+- July CPI cooled sharply: headline 3.5% (vs. 4.2% prior) and core 2.6% (vs. 2.9% prior), both below consensus, led by a substantial drop in housing costs; oil is showing a bounce that Cowen is watching as a risk to renewed inflation (rWfLRMiyQVY)
 
 ## Recent Updates
 
+- 2026-07-15 (rWfLRMiyQVY): Cooler-than-expected July CPI (headline 3.5%, core 2.6%), led by a large housing-cost drop, is fueling Bitcoin's seasonal July rally, but Cowen flags a bounce in oil prices as a watch-item that could reverse the disinflation picture.
 - 2026-07-09 (OgvqZ2BiHZw): Panel describes hawkish Fed minutes (~half of governors wanting a year-end hike), NY Fed inflation expectations at a near-3-year high, and a high 10-year auction yield, while flagging new AI/data-center demand-driven inflation risk and skepticism toward the Fed's "trimmed PCE" methodology change.
 - 2026-06-18 (zKPohkQdq_Q): Warsh's first FOMC revealed nine committee members expecting a rate hike; Cowen frames inflation above 2% since 2021 as a structural political choice, and with the two-year yield rising and the 10-year heading toward its October 2023 highs, the tightening regime has escalated from settled backdrop to active macro headwind.
 - 2026-06-09 (AvKtrd_JZdU): Cowen references inflation and tightened monetary policy only as retrospective explanation for BTC's prolonged below-fair-value period, with no new inflation data cited — the macro constraint is treated as fully settled background.

@@ -1,8 +1,8 @@
 ---
 topic_slug: inflation-outlook
 group: macro-liquidity
-last_updated: 2026-07-09
-entry_count: 10
+last_updated: 2026-07-15
+entry_count: 11
 ---
 
 # Evidence log: Inflation Outlook
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-18 (zKPohkQdq_Q): Cowen reframes the inflation problem structurally at Warsh's first FOMC: inflation has been above 2% continuously since 2021 and he calls it "a choice" — the political will to allow asset prices to fall is absent, making the persistence self-reinforcing. Nine dot-plot members expect a hike before year-end, with CME FedWatch pricing only a 15.5% chance rates are NOT hiked by December; Cowen notes at [02:11]: "by December, the market is pricing in only a 15 and 1/2% chance that the Fed hasn't hiked rates at that point." The rising two-year yield is treated as a near-mechanical forcing function — historically it leads or forces Fed funds rate hikes — and the 10-year yield is expected to retest its October 2023 highs, with the 30-year already having done so.
 
 - 2026-07-09 (OgvqZ2BiHZw): Panel (Cowen with Rob and Nick) characterizes Fed minutes as hawkish, noting roughly half of Fed governors reportedly want a rate hike by year-end; they cite NY Fed consumer inflation expectations hitting their highest level in nearly three years and a recent 10-year Treasury auction with the highest yield since February of last year as corroborating signs the Fed will stay hawkish. They also flag a new demand-side inflation source — AI/data-center buildout (chips, memory, electricity costs) — even as oil price pressure has eased somewhat, and view the Fed's reported "trimmed PCE" methodology tweak skeptically, as an attempt to make inflation look lower without addressing its underlying causes. Geopolitical risk (Iran peace deal vs. resumed Middle East fighting) is flagged as a swing factor that could push oil and the dollar higher again.
+
+- 2026-07-15 (rWfLRMiyQVY): Headline CPI cooled to 3.5% (from 4.2% prior, below the ~3.8-3.9% consensus) and core CPI fell to 2.6% (from 2.9%, also below forecast), with housing — roughly two-thirds of the CPI weight — posting a "pretty substantial drop" as the largest contributor to the decline, alongside softer food & beverage, apparel, medical care, and transportation readings. Cowen frames the cooler print as confirming a call he made weeks earlier and as the fuel behind Bitcoin's current seasonal rally, but flags one caution: oil is showing a bit of a bounce, and he says he "hope[s] it's just back-testing" a prior breakdown level rather than a resumption higher that would worsen the inflation picture.
