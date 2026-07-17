@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-07-16T23:00:00Z",
+  "actor_id": "orchestrator",
+  "expected_actions": ["diary_written"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "End-of-day diary",
+  "watchdog_state": "missing"
+}
