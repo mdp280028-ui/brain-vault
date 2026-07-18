@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-07-17T14:00:00Z",
+  "actor_id": "market-curator",
+  "expected_actions": ["curator_run"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "08:15 PT curator synthesis (Cowen LLM + Casper mechanical) (D033)",
+  "watchdog_state": "missing"
+}

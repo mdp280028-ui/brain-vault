@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-30
-entry_count: 26
+last_updated: 2026-07-16
+entry_count: 28
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -46,3 +46,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): S&P 500 to see a drift-higher rally through July/August, followed by a larger correction of 10-20% starting in the August-September 2026 timeframe.
 - 2026-06-30 (Wef7vP6ffBM): This larger equity correction is expected to coincide with Bitcoin forming its market cycle bottom, and possibly gold bottoming around the same time or slightly sooner.
 - 2026-06-30 (Wef7vP6ffBM): Historical seasonality suggests the midterm-year stock market low typically lands in late September or early October.
+
+- 2026-07-16 (XQN1M-sIuGs): Based on the ROI-from-low chart, a cycle bottom could land roughly ~100 days from now, extrapolating from prior cycle bottoms at day 1432/1436 versus the current day 1333.
+- 2026-07-16 (XQN1M-sIuGs): Per the 2018/2022 midterm-year analog, the current July rally is expected to be given back in August or September, consistent with dollar strength (DXY) remaining a headwind later in the year.

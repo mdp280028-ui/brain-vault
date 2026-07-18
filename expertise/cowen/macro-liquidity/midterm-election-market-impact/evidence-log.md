@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-06-30
-entry_count: 12
+last_updated: 2026-07-16
+entry_count: 13
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -32,3 +32,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-28 (OYcGIifaO4Q): Cowen overlays BTC returns across all presidential terms and finds Biden's term and Trump's second term are nearly identical at day 524 (−43.8% vs −41.1%), attributing both to shared macro headwinds — inflation, unemployment trends, and a rising dollar — rather than political party, which he frames as evidence that the presidential/midterm cycle is a macro phenomenon, not a political one. Under Biden at this same cycle point, BTC then followed the exact midterm playbook: stalling through summer, a brief counter-trend rally, one final low, and then the next bull market — Cowen: "Bitcoin kind of stalled out for the summer, had a little bit of a counter trend rally in like late July early August and then it sold off and then it had one final drop, we formed the low and then we went into the next bull market." [04:10] If the current cycle mirrors Biden's, BTC bottoms later in 2026 and begins the next bull market into 2027, consistent with Cowen's standing Q4 cycle-low thesis.
 
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%, within his 5-8% range), matching the 2018/2022 midterm-year pattern of an early-year low followed by an early-summer correction; he now expects a drift-higher rally through July/August on lower volume, then a larger 10-20% correction in the August-September timeframe (per 2014, 2018, 2022 analogs), which he expects to coincide with Bitcoin's market cycle bottom and possibly gold bottoming around the same time. Cowen: "sometime around that August September time frame, I would expect a larger drop" [03:53].
+
+- 2026-07-16 (XQN1M-sIuGs): Cowen's new July cycle memo compares BTC's current midterm-year bear market against prior cycles via day-count (ROI-from-low, peak-to-low), election-cycle overlay, and social-interest metrics, finding current price action sits "in the middle" of the 2014/2018/2022 range and that BTC's path under Trump's second term now closely mirrors Biden's term. He notes sentiment/social-interest readings match July 2018 while liquidity and business-cycle positioning more closely resemble 2019 (more time left in the four-year cycle) — Cowen: "despite mental gymnastics being preferred by a lot of people to explain why this time is different, it actually just continues to be the same." [04:12]

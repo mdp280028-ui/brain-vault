@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-06
-entry_count: 97
+last_updated: 2026-07-16
+entry_count: 99
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -139,3 +139,6 @@ Append-only. Newest entries at bottom.
 - 2026-07-06 (sy6AxBbgico): Bitcoin likely to rally toward the 200-day moving average in late July/early August 2026, mirroring the 2018 pattern.
 - 2026-07-06 (sy6AxBbgico): Bitcoin expected to give back gains in August/September 2026, then break below the current pattern before November.
 - 2026-07-06 (sy6AxBbgico): Cycle low most likely to form in October 2026, with December 2026 as a possible later alternative.
+
+- 2026-07-16 (XQN1M-sIuGs): Based on the ROI-from-low chart, a cycle bottom could land roughly ~100 days from now (extrapolating from prior cycle bottoms at day 1432/1436 vs. current day 1333).
+- 2026-07-16 (XQN1M-sIuGs): Typical seasonal pattern (per the 2018/2022 analog) suggests the current July rally gets given back in August or September.
