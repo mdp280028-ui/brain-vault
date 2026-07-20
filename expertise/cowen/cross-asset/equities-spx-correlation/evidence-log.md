@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-13
-entry_count: 9
+last_updated: 2026-07-19
+entry_count: 10
 ---
 
 # Evidence log: Equities & SPX Correlation
@@ -26,3 +26,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his month-old call for a "shallow June correction" materialized at ~5%, within his 5-8% range, validating the midterm-year seasonality template (early-year low, shallow summer dip, July/August drift-higher rally, larger second-half drop). He now expects the larger correction — sized at 10-20% based on 2014/2018/2022 analogs — to hit in the August-September window and to "help reset things, likely lead to Bitcoin putting in a market cycle bottom," with gold possibly bottoming "a little bit sooner." He also flags a strengthening dollar under Trump's second term as a possible headwind contributing to the later-year correction. ("And then sometime around that August September time frame, I would expect a larger drop." [03:53])
 
 - 2026-07-13 (sjt1LV2iDog): In a video primarily about gold's 2026 correction, Cowen reiterates his standing stock market call without modification: no major further SPX drop until August/September, following the shallow June correction and current July rally. He states, "I don't think stocks are going to really start to get another drop until August or September" [09:23], and separately frames gold's own expected low (July-October window) as tracking alongside this SPX timeline.
+
+- 2026-07-19 (q0-LgUAyf-o): Cowen presents S&P monthly seasonality since 2015 showing July green and August/September red on average, and layers 2026's year-to-date ROI over the 2022, 2018, and 2014 midterm-year analogs to show the same early-correction/summer-rally/back-half-correction shape repeating, with all three analog years also showing a small June dip before their larger later-year drops (2022 -19% from mid-August, 2018 -20% from mid-September, 2014 -10% from September). He ties this to Bitcoin directly: "For Bitcoin, normally Bitcoin finds its market cycle bottom in the correction by the stock market that occurs in the back half of the midterm year" [05:19], suggesting the four-year BTC cycle bottom could align with an SPX low in August/September, with a semiconductor-sector correction floated as a possible trigger.

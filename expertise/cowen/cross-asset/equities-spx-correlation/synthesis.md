@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-13
-brief_count: 9
+last_updated: 2026-07-19
+brief_count: 10
 ---
 
 # Equities & SPX Correlation
@@ -11,19 +11,20 @@ SPX (S&P 500) price action, structural corrections, and its correlation with Bit
 
 ## Current Thesis
 
-Cowen's midterm-year SPX roadmap continues unchanged and reaffirmed: the shallow June correction (~5%) has already played out, a July rally is underway, and he expects no major further equity drop until the August-September window, when a larger 10-20% correction should hit. He continues to tie this SPX drop to Bitcoin's cycle low, with gold bottoming around the same time or slightly earlier — and this brief, focused primarily on gold, reinforces that linkage by placing gold's own expected low in the same July-October window as the SPX correction. Historical midterm-year lows typically land late September/early October, consistent with the S&P/M2 fractal pointing to September 2026. A strengthening dollar under Trump's second term remains a flagged headwind contributing to the later-year correction.
+Cowen's midterm-year SPX roadmap continues unchanged and is now reinforced with a dedicated seasonality breakdown: the shallow June correction has already played out (June rarely marks a major top), a July rally is underway (July has been green every year since 2015), and a larger 10-20% correction should hit in the historically red August-September window. He continues to tie this directly to Bitcoin, arguing BTC normally finds its market-cycle bottom during that same back-half-of-midterm-year stock correction, potentially aligning the four-year BTC cycle low with an SPX low — with gold also expected to bottom in the same window. Historical midterm-year analogs (2022 topped mid-August/-19%, 2018 topped mid-September/-20%, 2014 corrected ~10% from September) all showed the same small-June-dip-then-larger-later-drop shape now repeating in 2026, and the S&P/M2 fractal continues to point to a September 2026 top. Cowen speculates, without strong conviction, that a semiconductor-sector correction could be the trigger.
 
 ## Key Evidence
 
-- Cowen's predicted "shallow June correction" (5-8% estimate) materialized at ~5%, validating the midterm-year seasonality template before the larger second-half drop. (prior)
-- Midterm-year historical pattern: early-year low, shallow early-summer correction, July/August drift-higher rally, then a larger second-half drop — which began in September 2014, September 2018, and August 2022, pointing to a similar August/September window in 2026. (prior)
-- The S&P/M2 fractal overlaid from 1996 has correctly mapped both the 2023 ~10% correction and the recent ~10% drop; the fractal in time specifically points to September 2026 for the larger decline. (prior)
-- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~20% — Cowen estimates the coming 2026 second-half correction at 10-20% based on the 2014/2018/2022 analogs. (prior)
-- Cowen reiterates no major further equity drop is expected until August/September, following the shallow June correction and July rally — directly quoted: "I don't think stocks are going to really start to get another drop until August or September." (sjt1LV2iDog)
+- Monthly seasonality data since 2015 shows July averaging green and August/September averaging red for the S&P, a pattern Cowen says is more pronounced in midterm years — the basis for his June-dip/July-rally/August-September-drop framework. (q0-LgUAyf-o)
+- Year-to-date 2026 S&P ROI mapped against 2022, 2018, and 2014 individually and as an average shows the same shape: early correction, summer rally, bigger back-half correction. (q0-LgUAyf-o)
+- All three midterm-year analogs (2022, 2018, 2014) had a small June correction before their larger later-year drop, matching the 2026 pattern so far. (q0-LgUAyf-o)
+- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~19-20% — Cowen estimates the coming 2026 second-half correction at 10-20% based on these analogs. (prior)
+- The S&P/M2 fractal overlaid from 1996 has correctly mapped both the 2023 ~10% correction and the recent ~10% drop; it points to September 2026 for the larger decline. (prior)
 - The 2018 analogue remains explicit: SPX topped in September 2018, crashed into December, and Bitcoin simultaneously collapsed to ~$3,100 — Cowen maps the same SPX-drop/BTC-cycle-low divergence onto 2026. (prior)
 
 ## Recent Updates
 
+- 2026-07-19 (q0-LgUAyf-o): Cowen lays out S&P monthly seasonality (green July, red August/September) and year-to-date ROI comparisons against 2022/2018/2014 to argue the seasonal correction window is approaching, reiterating that Bitcoin's cycle bottom normally coincides with that back-half SPX correction and floating semiconductors as a possible trigger.
 - 2026-07-13 (sjt1LV2iDog): In a gold-focused brief, Cowen reiterates his stock market call unchanged — no major further SPX drop expected until August/September, following the shallow June correction and ongoing July rally — and implicitly reinforces the SPX/gold/BTC cycle-low linkage by placing gold's own 2026 low in the same July-October window.
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%), now expects a July/August drift-higher rally followed by a 10-20% correction in August-September that should coincide with Bitcoin's cycle bottom and gold bottoming around the same time.
 - 2026-06-24 (L5XGhGQFISs): Cowen elaborates the 2010 SPX lower-low episode — SPX took out its January/February low in late June/early July, Tesla bottomed at that exact moment, and neither asset has revisited that level in 16 years — reinforcing the principle that SPX lower-low retests in the June/July window can mark durable bottoms for correlated risk assets.

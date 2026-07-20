@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-13
-entry_count: 13
+last_updated: 2026-07-19
+entry_count: 15
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -29,3 +29,6 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): Historical seasonality suggests the midterm-year stock market low typically lands in late September or early October.
 
 - 2026-07-13 (sjt1LV2iDog): Stock market (S&P) expected to have no major further drop until August/September 2026, following a shallow June correction and a July rally.
+
+- 2026-07-19 (q0-LgUAyf-o): S&P 500 seasonal correction of roughly 10-20% expected to start in the August-September 2026 time frame, based on the pattern in the last three midterm years (2022, 2018, 2014).
+- 2026-07-19 (q0-LgUAyf-o): Bitcoin's market cycle bottom is expected to coincide with that same back-half-of-2026 stock market correction, potentially aligning the four-year BTC cycle low with an S&P low.

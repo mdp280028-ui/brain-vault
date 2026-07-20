@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-07-20T06:00:00Z",
+  "actor_id": "assignment-drafter",
+  "expected_actions": ["drafter_tick_started"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "Drafter daily 9am heartbeat",
+  "watchdog_state": "missing"
+}
