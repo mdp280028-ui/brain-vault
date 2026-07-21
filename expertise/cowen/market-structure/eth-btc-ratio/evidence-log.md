@@ -1,8 +1,8 @@
 ---
 topic_slug: eth-btc-ratio
 group: market-structure
-last_updated: 2026-05-21
-entry_count: 3
+last_updated: 2026-07-20
+entry_count: 4
 ---
 
 # Evidence log: ETH-BTC Ratio
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-05-19 (C1W7rFTWQWo): The brief contains no direct commentary on the ETH/BTC ratio or altcoin conditions; ETH is absent from the outlook table. Cowen's entire focus is on dismissing BTC counter-trend bounces as self-deception, reinforcing a short-term bearish BTC stance (↓ 2): "all the bulls over here haven't made any money" [00:26]. By implication, a BTC environment characterized by failed rallies and unrecovered losses provides no foundation for ETH/BTC ratio recovery or an alt-favoring regime shift.
 
 - 2026-05-21 (mwrgOz852wI): The ETH/BTC ratio received its first explicit treatment across all processed briefs, with Cowen labeling it actively "bleeding" and attributing the decline to both a cyclical driver (2026 rate-cut expectations fully repriced into rate-hike expectations, routing capital from ETH to BTC) and a structural one (BTC fundamentally superior, ETH exhibiting lower highs since 2017 and underperforming cash over five years). The ratio's current level below its February position creates an asymmetric downside: "if Bitcoin were to return to 60K with the ETH Bitcoin ratio in a downtrend, you could have Ethereum going down here to the April 2025 low while Bitcoin could still be around 60K" [10:47]. Cowen's near-term target is a return to June 2025 levels, consistent with his 2019 cycle analog in which ETH bled versus BTC through the summer before forming an earlier-than-BTC cycle low.
+
+- 2026-07-20 (OZAQDVkVuG8): Cowen highlighted that ETH/BTC has repeatedly tagged its bull market support band roughly every three months (mid-January, mid-April, mid-July) and gotten rejected, and is also being rejected at the 20-month moving average, a level ETH didn't durably reclaim until the election year last cycle. He thinks the pair "might see it drop one last time" ([13:56]) due to drying social interest and the risk of a September–October Fed rate hike, and doesn't expect a durable break above resistance "until next year" ([17:01]).

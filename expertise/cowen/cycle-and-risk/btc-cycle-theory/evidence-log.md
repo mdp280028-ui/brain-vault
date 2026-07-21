@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-16
-entry_count: 42
+last_updated: 2026-07-20
+entry_count: 43
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -92,3 +92,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-07 (rxekpAAHwRs): Cowen restates the core 2018/2026 structural analogy step by step — February low, spring higher low, May lower high, June sweep of the February low landing at 10x the 2018 level ($57,000 vs. $5,700) — and adds a new precision detail: the May 2026 lower high formed exactly at the 200-day moving average, something he did not call out in the 2018 description. "A lower high in May at the 200-day moving average. You sweep the low in June." [00:19]
 
 - 2026-07-16 (XQN1M-sIuGs): Cowen's new July cycle memo runs BTC (~$64K) through ROI-from-low (day 1333 vs. prior bottoms at day 1432/1436) and ROI-from-peak-to-low (day 283 vs. prior post-halving-year bears ending at day 364/377/406) day-count charts, both consistent with a Q3/Q4 low still ahead, while an election-cycle overlay shows Trump's second term tracking Biden's term almost exactly (summer dip, small rally, giveback in August/September, Q4 bottom). He splits the 2026 analog by lens — market structure resembles 2019 (cycle top near end of QT, more time left in the cycle) while social interest resembles 2018 (~0.25 risk metric, ~350K/day YouTube views vs. ~1M/day in 2022) — and notes June's price-based-capitulation window passed without an event, which was never his base case. "More similar to 2018 in terms of social interest and in terms of market structure, more similar to 2019 in terms of like liquidity and and where we are in in the business cycle." [06:53]
+
+- 2026-07-20 (OZAQDVkVuG8): While centered on ETH, this brief reaffirms BTC's cycle framing is unchanged (year outlook still ↓2, tied to the same August/September seasonal-correction-into-cycle-bottom logic) and applies the underlying 2018-vs-2022 midterm-year analog more broadly, noting that buying Bitcoin from July through December in midterm years "has historically worked out well" while altcoin timing in the same window is comparatively unreliable — reinforcing BTC's DCA-the-second-half rule as the more robust piece of the cycle framework.

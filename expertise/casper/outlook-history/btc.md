@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-15
-row_count: 113
+last_updated: 2026-07-20
+row_count: 116
 ---
 
 # BTC outlook history (Casper)
@@ -123,3 +123,6 @@ Append-only. Newest entries at bottom.
 | 2026-07-15 | months | ↑ | 4 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |
 | 2026-07-15 | weeks | ↑ | 3 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |
 | 2026-07-15 | days | ↓ | 2 | Casper is currently in a short trade on Bitcoin due to forming bearish divergences at resistance, but remains bullish on higher timeframes after a rare weekly bullish divergence, and would flip lon... | PfiEO2nD8rc | /Users/mmm2/brain/channels/casper/briefs/2026-07-15_PfiEO2nD8rc.md |
+| 2026-07-19 | months | ↑ | 4 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |
+| 2026-07-19 | weeks | ↓ | 3 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |
+| 2026-07-19 | days | ↓ | 2 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |

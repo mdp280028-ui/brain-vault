@@ -1,8 +1,8 @@
 ---
 topic_slug: eth-btc-ratio
 group: market-structure
-last_updated: 2026-05-21
-brief_count: 3
+last_updated: 2026-07-20
+brief_count: 4
 ---
 
 # ETH-BTC Ratio
@@ -11,19 +11,21 @@ The price ratio of Ethereum to Bitcoin, used by Cowen as the leading indicator f
 
 ## Current Thesis
 
-Cowen now argues the ETH/BTC ratio is actively "bleeding" and frames the decline as both cyclical and structural: cyclically, the repricing of 2026 rate-cut expectations into rate-hike expectations has mechanically shifted capital from higher-risk ETH toward lower-risk BTC; structurally, Cowen views Bitcoin as fundamentally superior, citing ETH's pattern of lower highs since 2017 and underperformance versus cash over a five-year holding period. The ratio's continued decline creates an asymmetric downside scenario for ETH in USD terms — if BTC merely returns to ~60K, ETH could still reach its April 2025 lows because the ETH/BTC ratio is already below where it was when BTC last traded there. Any alt-season recovery thesis requiring ETH/BTC improvement is directly contradicted by Cowen's explicit bearish call on the ratio, with a near-term target of June 2025 levels.
+Cowen remains bearish-to-neutral on ETH/BTC, now framing it through a 2018-vs-2022 midterm-year analog rather than pure "bleeding" momentum: the ratio keeps tagging its bull market support band roughly every three months (mid-January, mid-April, mid-July) and getting rejected, with the 20-month moving average also rejecting price again, unreclaimed since the analogous point last cycle. He thinks the pair could test that support "one last time" — driven by drying social participation (currently ~0.25, matching bearish July 2018 rather than bullish July 2022) and the risk of a Fed rate hike or rate-hike scare in September–October, which would echo the same cyclical capital-rotation logic (higher-risk ETH to lower-risk BTC) from the prior brief. His base case is explicitly "somewhere in between" 2018's 80% ETH collapse and 2022's higher-low bounce, with the biggest window of ratio/ETH weakness expected August–October and no durable reclaim of the resistance band expected until 2027. Near-term (July) he isn't overly bearish given seasonal strength, but does not see confirmation of the pair's direction until September/October.
 
 ## Key Evidence
 
-- ETH/BTC ratio explicitly identified as "bleeding" for the first time across all processed briefs, with a near-term target of returning to June 2025 levels (mwrgOz852wI).
-- Cyclical driver: 2026 rate-cut expectations have been fully priced out and replaced by rate-hike expectations, mechanically routing capital from higher-risk ETH to lower-risk BTC (mwrgOz852wI).
-- Structural driver: Cowen states "fundamentally Bitcoin is better than Ethereum," citing ETH's pattern of lower highs since 2017 and multi-year underperformance versus cash — framing the ETH/BTC bleed as more than a positioning trade (mwrgOz852wI).
-- Asymmetric downside scenario: with the ETH/BTC ratio already below its February level, ETH can fall to April 2025 lows even if BTC only retreats to ~60K, meaning ratio weakness amplifies ETH's USD drawdown independent of BTC direction (mwrgOz852wI).
-- BTC bear-market cycle analysis points to continued downside into Q4 2026, which historically correlates with ETH/BTC ratio weakness (WHK1S6MrlCA).
-- Prior two briefs left ETH outlook entirely blank, establishing a baseline of zero alt-season setup before this first direct bearish ETH/BTC call (WHK1S6MrlCA, C1W7rFTWQWo).
+- ETH/BTC has tagged the bull market support band on a roughly 3-month cadence (mid-January, mid-April, mid-July) and been rejected each time; Cowen expects it may test that support "one last time" (OZAQDVkVuG8).
+- The 20-month moving average on ETH/BTC is being rejected again at the same level where, last cycle, ETH didn't durably reclaim it until the election year — used as the key resistance marker for a durable trend change (OZAQDVkVuG8).
+- Social participation reading (~0.25) currently matches bearish July 2018 rather than bullish July 2022 (~0.5), implying less buying support underpinning any ETH/BTC recovery attempt (OZAQDVkVuG8).
+- A possible Fed rate hike or rate-hike scare in September–October is flagged as a catalyst that could shake out higher-risk altcoin positioning against BTC, echoing the prior brief's cyclical rate-driven capital rotation from ETH to BTC (OZAQDVkVuG8; prior).
+- Structural framing shifted from outright "bleeding"/BTC-superiority (prior brief) to a base case "somewhere in between" 2018's 80% ETH breakdown and 2022's higher-low bounce, with no durable reclaim of resistance expected until 2027 (OZAQDVkVuG8).
+- Prior brief's cyclical/structural bearish call — rate repricing pushing capital from ETH to BTC, plus Cowen's view that Bitcoin is fundamentally superior — established the baseline bearish framing this brief builds on (mwrgOz852wI).
+- Two earlier briefs left ETH/ETH-BTC entirely unaddressed, underscoring how recent this sustained ETH/BTC commentary is (WHK1S6MrlCA, C1W7rFTWQWo).
 
 ## Recent Updates
 
+- 2026-07-20 (OZAQDVkVuG8): Cowen reframed ETH/BTC via a 2018-vs-2022 midterm-year analog, noting repeated rejection at the bull market support band and 20-month MA, with a base case between 2018's collapse and 2022's bounce and the biggest weakness window in August–October.
 - 2026-05-21 (mwrgOz852wI): Cowen directly addressed the ETH/BTC ratio for the first time, calling it actively "bleeding" due to monetary policy tightening and structural BTC superiority, with a near-term target of returning to June 2025 levels.
 - 2026-05-19 (C1W7rFTWQWo): Brief did not address the ETH/BTC ratio; ETH outlook row was left blank and the video focused entirely on dismissing BTC counter-trend bounces as psychological "cope," reinforcing a short-term bearish BTC view with no alt commentary.
 - 2026-05-17 (WHK1S6MrlCA): Brief did not address the ETH/BTC ratio; ETH outlook row was left blank and the video focused entirely on BTC bear-market psychology, cycle timing, and BTC/Gold dynamics.
