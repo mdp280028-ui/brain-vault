@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-15
-entry_count: 12
+last_updated: 2026-07-20
+entry_count: 13
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -32,3 +32,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-10 (sigSZCnSa6M): Cowen describes BTC as "squeezed" between 200-week MA support and bear-market-resistance-band resistance, unable to break either way, with the 2026 price path (matching lows, matching lower May high, matching late-June/early-July drop, now a matching counter-trend rally) mirroring 2018 where price rallied to the 200-day MA in both May and late July before resuming down into Q4. He adds that July is historically green in midterm years (2022 +~20%, 2018 +~38%, 2014 -5%) while August/September/October have historically been red across all three cited years. As he put it: "it's trying to go above it and getting and not able to break out. it's trying to go below it and not able to break down" [09:39].
 
 - 2026-07-15 (rWfLRMiyQVY): Cowen ties the cooler-than-expected July CPI print (headline 3.5% vs. ~3.8-3.9% consensus; core 2.6% vs. 2.8-2.9% forecast) directly to Bitcoin's ongoing seasonal July rally, noting BTC is already up ~10% this July versus +19-20% in 2022 and nearly +40% in 2018. He describes Bitcoin as "getting squeezed between the 200-week moving average and the bear market resistance band" [03:13], expecting a push toward resistance, a rejection, and "your resolution like between the August to, you know, sort of Q4 time frame in line with what we saw in prior cycles" [03:29]. He frames this as a second, smaller countertrend rally analogous to 2018's April rally followed by a smaller July rally, and notes that if the squeeze breaks down, "it would be in line with market cycle theory, and then you would have a low late in the year which would then align to the normal market cycle bottom" [07:35].
+
+- 2026-07-20 (ygVIJCGLLSQ): Cowen contrasts the two prior mid-term-year analogs underpinning the June/July turning-point thesis: in both 2018 and 2022 BTC rallied in July then gave back the gains, but the reversal landed at different times (2018 sooner, 2022 not until August/September) and ETH behaved oppositely in each — new cycle lows in 2018 vs. a higher low in 2022. He frames this as the live question for the current cycle: "Is this 2022? Or is it 2018?" [00:00]

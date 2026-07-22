@@ -1,7 +1,7 @@
 ---
 asset: eth
-last_updated: 2026-07-10
-row_count: 12
+last_updated: 2026-07-21
+row_count: 13
 ---
 
 # ETH outlook history (Casper)
@@ -22,3 +22,4 @@ Append-only. Newest entries at bottom.
 | 2026-07-06 | weeks | ↑ | 3 | Casper sees Bitcoin flashing rare weekly bullish divergence signals that could send it toward the mid-$70s or $82-83K, while flagging Ethereum's first-ever weekly bullish divergence as a potentiall... | cOCzC_ETtPM | /Users/mmm2/brain/channels/casper/briefs/2026-07-06_cOCzC_ETtPM.md |
 | 2026-07-07 | weeks | ↑ | 3 | Casper sees strong short-term bullish divergences pushing Bitcoin toward $67,000 and possibly the mid-$70s, but still expects one more catastrophic drop into the fall before the real cycle low. | E5F4xzE0XR4 | /Users/mmm2/brain/channels/casper/briefs/2026-07-07_E5F4xzE0XR4.md |
 | 2026-07-08 | weeks | ↑ | 2 | Casper is in no-man's-land after a failed reclaim of $62,500, adding to a long into a rejection at VWAP that immediately got dumped, and now wants a back-test of $59-61K before getting bullish agai... | AWZGmLiwlSg | /Users/mmm2/brain/channels/casper/briefs/2026-07-08_AWZGmLiwlSg.md |
+| 2026-07-20 | months | ↑ | 3 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |

@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-20
-row_count: 116
+last_updated: 2026-07-21
+row_count: 119
 ---
 
 # BTC outlook history (Casper)
@@ -126,3 +126,6 @@ Append-only. Newest entries at bottom.
 | 2026-07-19 | months | ↑ | 4 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |
 | 2026-07-19 | weeks | ↓ | 3 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |
 | 2026-07-19 | days | ↓ | 2 | Casper says Bitcoin is about to confirm a historic weekly bullish divergence, but still expects one more drop toward $40K around early October (per the 4-year cycle) before going heavily long into ... | hOmjm8Y_vWE | /Users/mmm2/brain/channels/casper/briefs/2026-07-19_hOmjm8Y_vWE.md |
+| 2026-07-20 | months | ↑ | 5 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
+| 2026-07-20 | weeks | ↓ | 2 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
+| 2026-07-20 | days | ↓ | 2 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
