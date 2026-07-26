@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-21
-row_count: 119
+last_updated: 2026-07-25
+row_count: 121
 ---
 
 # BTC outlook history (Casper)
@@ -129,3 +129,5 @@ Append-only. Newest entries at bottom.
 | 2026-07-20 | months | ↑ | 5 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
 | 2026-07-20 | weeks | ↓ | 2 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
 | 2026-07-20 | days | ↓ | 2 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
+| 2026-07-21 | months | ↑ | 4 | Casper says confirmed bullish divergences across the weekly, two-week, and daily timeframes have him leaning bullish toward $74–75K, but he expects a possible dip toward $60K first, with the real c... | cs1ao7nBGak | /Users/mmm2/brain/channels/casper/briefs/2026-07-21_cs1ao7nBGak.md |
+| 2026-07-21 | weeks | ↑ | 2 | Casper says confirmed bullish divergences across the weekly, two-week, and daily timeframes have him leaning bullish toward $74–75K, but he expects a possible dip toward $60K first, with the real c... | cs1ao7nBGak | /Users/mmm2/brain/channels/casper/briefs/2026-07-21_cs1ao7nBGak.md |

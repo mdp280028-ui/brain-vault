@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-07-10
-entry_count: 10
+last_updated: 2026-07-23
+entry_count: 11
 ---
 
 # Evidence log: Bitcoin Dominance
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-22 (d71wYhwKpFY): Cowen invokes the 2018 analog as a specific near-term risk for altcoins relative to BTC: while Bitcoin moves sideways between the bear market resistance band and the 200-week MA, altcoins face the prospect of severe underperformance — "the altcoin market got annihilated in July 2018, and Bitcoin was basically doing okay" [05:41]. Declining social interest and fewer retail participants buying alts make a July 2026 repeat of this dynamic plausible, reinforcing the BTC-favoring regime with a new historical data point beyond the 2019 analog.
 
 - 2026-07-10 (sigSZCnSa6M): Cowen states this cycle is the first where cycle end brought no altcoin rotation, and maps 2025/2026 directly onto 2019/2020 as the closest historical analog (three rate cuts and QT ending roughly two months after BTC's cycle top in both cases). He also points to broad, sustained apathy — crypto YouTube views down roughly an order of magnitude from ~3-4M/day in 2021 to ~400K/day now, and a multi-year decline in the advanced-decline index of the top 100 cryptocurrencies — as the backdrop keeping capital from rotating into alts; he notes "if the stars align and the fear overtakes everyone later this year, I don't know what the narrative will be" [11:44], reflecting his view that no altcoin narrative currently has traction.
+
+- 2026-07-23 (UIv9IQ4uXEA): Cowen ties continued BTC dominance strength (ex-stables) directly to the collapse in social/retail participation rather than any organic BTC demand, noting engagement metrics (YouTube views/subs, X followers, advance-decline index) have fallen roughly an order of magnitude from 2021 and now sit at 2018-cycle levels. He states plainly: "when you exclude stables, dominance, you know, dominance has still been generally trending higher, and it's just because there's not a lot of people left in the space right now" [03:44].

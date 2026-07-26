@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-16
-entry_count: 99
+last_updated: 2026-07-24
+entry_count: 104
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -142,3 +142,10 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-16 (XQN1M-sIuGs): Based on the ROI-from-low chart, a cycle bottom could land roughly ~100 days from now (extrapolating from prior cycle bottoms at day 1432/1436 vs. current day 1333).
 - 2026-07-16 (XQN1M-sIuGs): Typical seasonal pattern (per the 2018/2022 analog) suggests the current July rally gets given back in August or September.
+
+- 2026-07-23 (UIv9IQ4uXEA): Cowen expects social interest to keep declining before it eventually bottoms, possibly later this year or early next year, hoping to see a low form sometime in the next 6-12 months.
+
+- 2026-07-24 (JY_wY8XXjYU): BTC strength/rally window ends within 2–4 weeks from now, giving way to weakness into August-September.
+- 2026-07-24 (JY_wY8XXjYU): BTC likely retests the ~57k February low, and possibly goes a bit lower later in the year, to fully reset on-chain indicators — contingent on happening before year-end.
+- 2026-07-24 (JY_wY8XXjYU): S&P 500 expected to top in August or September, followed by a 10-20% drop that would drag Bitcoin into a market cycle bottom.
+- 2026-07-24 (JY_wY8XXjYU): If BTC has not broken down by the end of the year, Cowen says he would pivot to viewing the bull market as already resumed (time-based capitulation).

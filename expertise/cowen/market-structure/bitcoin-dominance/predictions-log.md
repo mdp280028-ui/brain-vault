@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-06-22
-entry_count: 6
+last_updated: 2026-07-23
+entry_count: 7
 ---
 
 # Predictions log: Bitcoin Dominance
@@ -20,3 +20,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-19 (gAf6tPzkcgg): Bitcoin dominance (excluding stablecoins) continues to trend higher while social interest remains depressed and no monetary easing catalyst emerges.
 
 - 2026-06-22 (d71wYhwKpFY): Altcoins may underperform or get "annihilated" relative to BTC, particularly in July 2026, if the 2018 pattern repeats.
+
+- 2026-07-23 (UIv9IQ4uXEA): Cowen expects social interest to keep declining before it eventually bottoms, possibly later this year or early next year, hoping to see a low form sometime in the next 6-12 months — the resolution point he ties to when a BTC-favoring dominance regime could finally give way to rotation.

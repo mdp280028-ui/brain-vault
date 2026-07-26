@@ -1,8 +1,8 @@
 ---
 topic_slug: logarithmic-regression-bands
 group: cycle-and-risk
-last_updated: 2026-07-20
-entry_count: 5
+last_updated: 2026-07-24
+entry_count: 7
 ---
 
 # Predictions log: Logarithmic Regression Bands
@@ -15,3 +15,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-20 (OZAQDVkVuG8): Expects ETH to stall at or before the bear market resistance band and not durably break above it until next year (2027).
 - 2026-07-20 (OZAQDVkVuG8): If ETH drops roughly 40% from a July high, that would put it around/slightly below the April 2025 low (~$2,000-2,100 area), a zone aligned with the lower regression band.
+
+- 2026-07-24 (JY_wY8XXjYU): BTC likely retests the ~57k February low, and possibly goes a bit lower later in the year, to fully reset on-chain indicators — contingent on happening before year-end.
+- 2026-07-24 (JY_wY8XXjYU): Bitcoin's ping-pong between the bear market resistance band and the 200-week moving average is expected to resolve with a breakdown later in the year, forming the market cycle bottom, unless BTC has not broken down by year-end (in which case Cowen would pivot to viewing the bull market as already resumed).

@@ -1,8 +1,8 @@
 ---
 topic_slug: logarithmic-regression-bands
 group: cycle-and-risk
-last_updated: 2026-07-20
-entry_count: 3
+last_updated: 2026-07-24
+entry_count: 4
 ---
 
 # Evidence log: Logarithmic Regression Bands
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-20 (OZAQDVkVuG8): Cowen reaffirms the bear market resistance band as the key overhead ceiling for ETH, saying he expects it to "stall out at or before" that band in the near term and doesn't anticipate a durable break above it until next year, pointing to the 2022 analog where rejection at the band persisted until January of the following year: "My guess is you won't really durably get past it until next year." [17:01] Separately, his base-case ~40% drop scenario from a July high would carry ETH down to roughly sweep or slightly undercut the April 2025 low (~$2,000-2,100), a zone consistent with the lower regression band referenced in the prior brief.
 
 - 2026-07-20 (ygVIJCGLLSQ): This brief doesn't invoke the log-regression bands directly, but bears on the same lower-band/floor question via a cycle-analog comparison: Cowen frames the key question as "Is this 2022? Or is it 2018?" [00:00], noting that in 2018 "Ethereum... was not able to hold support, and it actually dropped to a new cycle low in August" [00:39], whereas "in 2022, when Bitcoin dropped, Ethereum printed a higher low" [00:53] — offering two contrasting historical outcomes for whether ETH breaks down toward the lower band or holds above it.
+
+- 2026-07-24 (JY_wY8XXjYU): Cowen frames BTC's current price action as trapped between the two-band structure — the bear market resistance band above and the 200-week moving average below — noting each successive test has pushed further through the respective band, signaling the range is tightening ahead of a resolution. He says: [01:41] "So, what's happening for Bitcoin right now is that it's ping-ponging between the 200-week moving average and the bear market resistance band." He ties this to an expected retest of the ~57k February low later in the year to fully reset on-chain indicators, effectively treating a lower-band-area breakdown as the likely resolution of the current range.

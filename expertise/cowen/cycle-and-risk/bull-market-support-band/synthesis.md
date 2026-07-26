@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-07-15
-brief_count: 9
+last_updated: 2026-07-22
+brief_count: 10
 ---
 
 # Bull Market Support Band
@@ -11,19 +11,20 @@ A combined indicator (20-week SMA + 21-week EMA) Cowen treats as the bull/bear r
 
 ## Current Thesis
 
-BTC remains squeezed between the 200-week MA below and the bear market resistance band above, and Cowen's July 2018 fractal call is now playing out almost exactly: a cooler-than-expected CPI print is fueling a seasonal mid-July-into-early-August countertrend rally (BTC already +10% this July), but he expects it to stall and get rejected at the band again, just as it did in May, with a resolution — likely a downside break in line with the 2018 fractal — expected between August and Q4, producing a later-in-the-year cycle low. This is framed as the second, smaller of two countertrend rallies (the first came a couple months ago), not a regime change; only a sustained reclaim of the band would alter that view. For gold, the same structure (20-month MA/21-month EMA) continues to play the opposite role — structural bull-market support — pinpointed at ~$3,800–3,841, with Cowen expecting a tag-and-bounce between July and October 2026.
+BTC remains squeezed between the 200-week MA below and the bear market resistance band above, with Cowen's July 2018 fractal call playing out closely: a cooler-than-expected CPI print fueled a seasonal mid-July countertrend rally, but he expects rejection at the band again with a resolution — likely a downside break — between August and Q4. For gold, the analogous monthly-timeframe band (20-month MA/21-month EMA) continues to play the opposite role — structural bull-market support — pinpointed at ~$3,800, with Cowen reiterating a tag-and-bounce expected in the July-to-October window as gold's seasonal midterm-year correction (now ~30% off highs, ~4% above the band) completes; he stresses timing the low matters more to him than calling the exact drawdown depth, and frames the post-low move as a continuation of the gold bull market into the end of the decade.
 
 ## Key Evidence
 
 - Bitcoin is squeezed between the 200-week MA and the bear market resistance band, mirroring the 2018 fractal structure (Feb low, higher low in March/April, May rejection off the band, sweep of the Feb low in late June/early July) (rWfLRMiyQVY)
-- Cooler-than-expected July CPI (headline 3.5% vs. 3.8-3.9% consensus; core 2.6% vs. 2.8-2.9% forecast) is fueling the seasonal rally Cowen had called weeks in advance, with BTC up ~10% this July vs. +20% in July 2022 and nearly +40% in July 2018 (rWfLRMiyQVY)
-- Bitcoin rejected at the 20-week SMA / 21-week EMA band in the current midterm year, matching the pattern from 2014, 2018, 2019, and 2022 midterm bear cycles (dy3E7Jzte88)
+- Cooler-than-expected July CPI is fueling the seasonal rally Cowen had called weeks in advance, with BTC up ~10% this July vs. +20% in July 2022 and nearly +40% in July 2018 (rWfLRMiyQVY)
 - BTC posted its first weekly close below the 200-week MA this cycle in late June 2026, mirroring June 2022 and June 2018; the band now sits as overhead resistance above both the 200-week MA and spot price (1LI9wfqxOmc)
-- The recent BTC rally produced minimal follow-through before retesting the band — far less than 2023 — matching the classic midterm fake-out pattern (slTIiS-Y65k)
-- Gold's bull market support band currently sits around $3,800 (3,824–3,841); gold hasn't tagged this band since 2023, and Cowen expects a low within the next few months followed by a bounce, with a multi-month rally likely even if the broader bull thesis were wrong (sjt1LV2iDog)
+- Gold's bull market support band sits at ~$3,800 (~4% below current price of ~$4,000); gold hasn't tagged this band since 2023, briefly broke below it in 2022 and 2008, and 2018/2022 midterm-year ROI comparisons point to an average August–September bottom window (jpQb-Aia57k)
+- Gold is down ~30% from its high and ~5-6% YTD, consistent with prior midterm-year drawdowns (2022: ~22%, 2008: ~34%, 2006: ~26%), with Cowen prioritizing timing the low over the drawdown magnitude (jpQb-Aia57k)
+- Silver has separately reached its own bull market support band and has underperformed gold since Cowen's February call favoring gold on a low gold-silver ratio; a break below $50/oz would mark a "deep value zone" (jpQb-Aia57k)
 
 ## Recent Updates
 
+- 2026-07-22 (jpQb-Aia57k): Gold reiterated at ~30% off highs with its bull market support band near $3,800 (~4% below spot); Cowen keeps the July–October low window (August–September average from 2018/2022 comps), prioritizing timing over exact depth, and expects continuation of the gold bull market into decade-end once the low forms; silver sits at its own band and could draw attention after gold bottoms.
 - 2026-07-15 (rWfLRMiyQVY): Cooler CPI is fueling the expected July seasonal rally per the 2018 fractal, but Cowen expects BTC to get rejected again at the bear market resistance band (squeezed against the 200-week MA below) with resolution — likely a downside break — in the August-to-Q4 window.
 - 2026-07-13 (sjt1LV2iDog): Gold's bull market support band (20-month SMA/21-month EMA) pinpointed at ~$3,800-3,841; Cowen expects gold to tag and bounce off it between July and October 2026, framing this as a low-risk setup since even a "wrong" bull thesis would still produce a similar bounce.
 - 2026-06-29 (1LI9wfqxOmc): BTC closed below the 200-week MA for the first time this cycle, removing that floor; the bear market resistance band now sits as dual overhead resistance alongside the 200-week MA, and any countertrend summer rally is expected to fail at or below the band.

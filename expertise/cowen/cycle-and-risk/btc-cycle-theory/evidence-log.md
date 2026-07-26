@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-20
-entry_count: 43
+last_updated: 2026-07-24
+entry_count: 45
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -94,3 +94,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-16 (XQN1M-sIuGs): Cowen's new July cycle memo runs BTC (~$64K) through ROI-from-low (day 1333 vs. prior bottoms at day 1432/1436) and ROI-from-peak-to-low (day 283 vs. prior post-halving-year bears ending at day 364/377/406) day-count charts, both consistent with a Q3/Q4 low still ahead, while an election-cycle overlay shows Trump's second term tracking Biden's term almost exactly (summer dip, small rally, giveback in August/September, Q4 bottom). He splits the 2026 analog by lens — market structure resembles 2019 (cycle top near end of QT, more time left in the cycle) while social interest resembles 2018 (~0.25 risk metric, ~350K/day YouTube views vs. ~1M/day in 2022) — and notes June's price-based-capitulation window passed without an event, which was never his base case. "More similar to 2018 in terms of social interest and in terms of market structure, more similar to 2019 in terms of like liquidity and and where we are in in the business cycle." [06:53]
 
 - 2026-07-20 (OZAQDVkVuG8): While centered on ETH, this brief reaffirms BTC's cycle framing is unchanged (year outlook still ↓2, tied to the same August/September seasonal-correction-into-cycle-bottom logic) and applies the underlying 2018-vs-2022 midterm-year analog more broadly, noting that buying Bitcoin from July through December in midterm years "has historically worked out well" while altcoin timing in the same window is comparatively unreliable — reinforcing BTC's DCA-the-second-half rule as the more robust piece of the cycle framework.
+
+- 2026-07-23 (UIv9IQ4uXEA): Cowen presents a composite social-interest/social-risk index (Google Trends, Coinbase app ranking, YouTube views/subscribers, X follower growth) showing engagement collapsed to roughly half the prior bear-market reading and matching 2018's ~0.25 level, with YouTube views down ~10x since the 2021 peak (3-4M/day to ~358K/day) and subscriber growth down from 50-60K/day to ~285/day; he pairs this with a market-structure match (2026's 60k support parallel to 2018's 6k, February low swept in late June/early July both cycles) to argue sentiment and structure are confirming the same 2018-style bottoming process. Direct quote: [01:20] "what's fascinating is the social interest is about the same, and then the market structure is about the same as it was in 2018, right?"
+
+- 2026-07-24 (JY_wY8XXjYU): Cowen frames BTC as "ping-ponging between the 200-week moving average and the bear market resistance band" [01:41], with each successive test punching further through the range, tightening the squeeze; he ties this directly to the four-year cycle's tendency to produce a late-June/early-July low followed by a July bounce (as in 2018, 2022, and now 2026), comparing July returns across midterm years (2026 ~+9%, 2022 +20%, 2018 +40%, 2014 slightly negative). He expects the rally to end "within two to two to four weeks" [03:45], be given back in August/September, and gives an explicit fallback that if BTC hasn't broken down by year-end he'll treat the bull market as already resumed.
