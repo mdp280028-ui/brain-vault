@@ -1,8 +1,8 @@
 ---
 topic_slug: logarithmic-regression-bands
 group: cycle-and-risk
-last_updated: 2026-07-24
-entry_count: 4
+last_updated: 2026-07-27
+entry_count: 5
 ---
 
 # Evidence log: Logarithmic Regression Bands
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-20 (ygVIJCGLLSQ): This brief doesn't invoke the log-regression bands directly, but bears on the same lower-band/floor question via a cycle-analog comparison: Cowen frames the key question as "Is this 2022? Or is it 2018?" [00:00], noting that in 2018 "Ethereum... was not able to hold support, and it actually dropped to a new cycle low in August" [00:39], whereas "in 2022, when Bitcoin dropped, Ethereum printed a higher low" [00:53] — offering two contrasting historical outcomes for whether ETH breaks down toward the lower band or holds above it.
 
 - 2026-07-24 (JY_wY8XXjYU): Cowen frames BTC's current price action as trapped between the two-band structure — the bear market resistance band above and the 200-week moving average below — noting each successive test has pushed further through the respective band, signaling the range is tightening ahead of a resolution. He says: [01:41] "So, what's happening for Bitcoin right now is that it's ping-ponging between the 200-week moving average and the bear market resistance band." He ties this to an expected retest of the ~57k February low later in the year to fully reset on-chain indicators, effectively treating a lower-band-area breakdown as the likely resolution of the current range.
+
+- 2026-07-27 (lfYYC7qxDQ8): Cowen frames BTC's July rally as following the 2018 seasonal script toward the bear market resistance band — a February low, higher low in spring, swept low in late June/early July, then a rally back to the band by late July/early August — and expects rejection there. He also cites the prior-cycle precedent that BTC didn't durably break above the band until January of the post-halving year, suggesting a similarly long wait this cycle: "in the last cycle, we didn't get through it in any durable sense until January of the post-halving year." [06:35]

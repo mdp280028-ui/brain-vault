@@ -1,8 +1,8 @@
 ---
 topic_slug: logarithmic-regression-bands
 group: cycle-and-risk
-last_updated: 2026-07-24
-entry_count: 7
+last_updated: 2026-07-27
+entry_count: 9
 ---
 
 # Predictions log: Logarithmic Regression Bands
@@ -18,3 +18,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-24 (JY_wY8XXjYU): BTC likely retests the ~57k February low, and possibly goes a bit lower later in the year, to fully reset on-chain indicators — contingent on happening before year-end.
 - 2026-07-24 (JY_wY8XXjYU): Bitcoin's ping-pong between the bear market resistance band and the 200-week moving average is expected to resolve with a breakdown later in the year, forming the market cycle bottom, unless BTC has not broken down by year-end (in which case Cowen would pivot to viewing the bull market as already resumed).
+
+- 2026-07-27 (lfYYC7qxDQ8): Bitcoin likely gets rejected near the bear market resistance band in late July/early August, similar to 2018.
+- 2026-07-27 (lfYYC7qxDQ8): Durable break above the bear market resistance band historically hasn't occurred until well into the post-halving year, suggesting any strong sustained upside is still far off.

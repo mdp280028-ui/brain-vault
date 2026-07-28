@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-15
-entry_count: 23
+last_updated: 2026-07-27
+entry_count: 27
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -42,3 +42,8 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-15 (rWfLRMiyQVY): Bitcoin's current rally likely extends into late July, possibly as late as early-to-mid August, before giving back gains (based on the 2018 seasonal analog).
 - 2026-07-15 (rWfLRMiyQVY): If the bear market resistance band rejection plays out as expected, Bitcoin's resolution/breakdown is expected in the August-to-Q4 timeframe, aligning with a later-in-the-year market cycle bottom.
+
+- 2026-07-27 (lfYYC7qxDQ8): Bitcoin likely gets rejected near the bear market resistance band in late July/early August, similar to 2018.
+- 2026-07-27 (lfYYC7qxDQ8): Bitcoin likely pulls back into the August-September timeframe following the July rally.
+- 2026-07-27 (lfYYC7qxDQ8): Q4 is the historically likely window for a final drop and full on-chain indicator reset / market cycle bottom, though not certain.
+- 2026-07-27 (lfYYC7qxDQ8): Durable break above the bear market resistance band historically hasn't occurred until well into the post-halving year, suggesting any strong sustained upside is still far off.
