@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-25
-row_count: 121
+last_updated: 2026-07-28
+row_count: 123
 ---
 
 # BTC outlook history (Casper)
@@ -131,3 +131,5 @@ Append-only. Newest entries at bottom.
 | 2026-07-20 | days | ↓ | 2 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
 | 2026-07-21 | months | ↑ | 4 | Casper says confirmed bullish divergences across the weekly, two-week, and daily timeframes have him leaning bullish toward $74–75K, but he expects a possible dip toward $60K first, with the real c... | cs1ao7nBGak | /Users/mmm2/brain/channels/casper/briefs/2026-07-21_cs1ao7nBGak.md |
 | 2026-07-21 | weeks | ↑ | 2 | Casper says confirmed bullish divergences across the weekly, two-week, and daily timeframes have him leaning bullish toward $74–75K, but he expects a possible dip toward $60K first, with the real c... | cs1ao7nBGak | /Users/mmm2/brain/channels/casper/briefs/2026-07-21_cs1ao7nBGak.md |
+| 2026-07-27 | months | ↑ | 3 | Casper says Bitcoin is pinned between a Fibonacci golden pocket and PC support in a "no trade zone," staying bullish above the PC toward the mid-$70Ks but still open to a drop toward $60K (or a top... | 4xfBEwpDUxA | /Users/mmm2/brain/channels/casper/briefs/2026-07-27_4xfBEwpDUxA.md |
+| 2026-07-27 | weeks | ↑ | 3 | Casper says Bitcoin is pinned between a Fibonacci golden pocket and PC support in a "no trade zone," staying bullish above the PC toward the mid-$70Ks but still open to a drop toward $60K (or a top... | 4xfBEwpDUxA | /Users/mmm2/brain/channels/casper/briefs/2026-07-27_4xfBEwpDUxA.md |
