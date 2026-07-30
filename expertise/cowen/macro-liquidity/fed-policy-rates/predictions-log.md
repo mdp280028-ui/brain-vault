@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-06-21
-entry_count: 10
+last_updated: 2026-07-28
+entry_count: 13
 ---
 
 # Predictions log: Fed Policy & Rates
@@ -25,3 +25,7 @@ Append-only. Newest entries at bottom.
 - 2026-06-19 (gAf6tPzkcgg): Stock market shows weakness in late Q3/early Q4 2026, which could prompt a Fed policy pivot.
 
 - 2026-06-21 (5feBKA1-w-Q): Stock market will show weakness in late Q3/early Q4 2026, which may prompt the Fed to reconsider its rate stance.
+
+- 2026-07-28 (TOKUXlPBhOs): Fed holds rates constant at the July 29th FOMC meeting, then raises rates in September.
+- 2026-07-28 (TOKUXlPBhOs): 10-year yield heads back up toward its October 2023 high; 30-year yield breaks through the 5.1-5.2% resistance level.
+- 2026-07-28 (TOKUXlPBhOs): Market-implied Fed funds rate target of 4.25% by December.

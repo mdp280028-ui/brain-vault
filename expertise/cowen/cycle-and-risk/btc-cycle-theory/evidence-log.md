@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-24
-entry_count: 45
+last_updated: 2026-07-28
+entry_count: 47
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -98,3 +98,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-23 (UIv9IQ4uXEA): Cowen presents a composite social-interest/social-risk index (Google Trends, Coinbase app ranking, YouTube views/subscribers, X follower growth) showing engagement collapsed to roughly half the prior bear-market reading and matching 2018's ~0.25 level, with YouTube views down ~10x since the 2021 peak (3-4M/day to ~358K/day) and subscriber growth down from 50-60K/day to ~285/day; he pairs this with a market-structure match (2026's 60k support parallel to 2018's 6k, February low swept in late June/early July both cycles) to argue sentiment and structure are confirming the same 2018-style bottoming process. Direct quote: [01:20] "what's fascinating is the social interest is about the same, and then the market structure is about the same as it was in 2018, right?"
 
 - 2026-07-24 (JY_wY8XXjYU): Cowen frames BTC as "ping-ponging between the 200-week moving average and the bear market resistance band" [01:41], with each successive test punching further through the range, tightening the squeeze; he ties this directly to the four-year cycle's tendency to produce a late-June/early-July low followed by a July bounce (as in 2018, 2022, and now 2026), comparing July returns across midterm years (2026 ~+9%, 2022 +20%, 2018 +40%, 2014 slightly negative). He expects the rally to end "within two to two to four weeks" [03:45], be given back in August/September, and gives an explicit fallback that if BTC hasn't broken down by year-end he'll treat the bull market as already resumed.
+
+- 2026-07-28 (TOKUXlPBhOs): Cowen ties BTC's cycle-bottom timing to a specific macro chain: the Fed holds rates at the July 29th FOMC meeting but hikes in September as the two-year yield (already above the Fed funds rate) signals policy isn't restrictive enough, prompting bond vigilantes to push long-end yields higher and trigger a 10-20% stock correction in the August-September window; he cites 2022, 2018, 2014, and 2023 as precedent years for corrections starting in that seasonal window, and expects "you see Bitcoin drop even more, going to its market cycle bottom" in Q4 [12:31]. He separately notes BTC dominance excluding stablecoins is still rising, arguing the appearance of stalled dominance is a stablecoin "flight to safety" artifact rather than a cycle signal.
+
+- 2026-07-28 (oDvuDHTv2zo): Cowen quantifies the current BTC rally against midterm-year seasonal precedent, noting BTC is up ~10% this July versus +20% in July 2022 and nearly +40% in July 2018 — a softer move than either historical comp. He flags that in all three closest analog years (2022, 2018, 2014), the July rally was followed by a red August and September, reinforcing his expectation the current strength reverses. He also splits his analog framework by purpose: "what tends to happen in July of midterm years. And that is a rally back" [00:04-00:07], with 2018 preferred for market structure but 2019 preferred for liquidity and flows.

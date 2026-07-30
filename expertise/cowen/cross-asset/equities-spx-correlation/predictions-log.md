@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-24
-entry_count: 16
+last_updated: 2026-07-28
+entry_count: 18
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -34,3 +34,6 @@ Append-only. Newest entries at bottom.
 - 2026-07-19 (q0-LgUAyf-o): Bitcoin's market cycle bottom is expected to coincide with that same back-half-of-2026 stock market correction, potentially aligning the four-year BTC cycle low with an S&P low.
 
 - 2026-07-24 (JY_wY8XXjYU): S&P 500 expected to top in August or September, followed by a 10-20% drop that would drag Bitcoin into a market cycle bottom.
+
+- 2026-07-28 (TOKUXlPBhOs): Stock market (S&P) correction of 10-20% starting in the August-September timeframe (back half of the midterm year), driven by bond-market pressure from anticipated Fed rate hikes.
+- 2026-07-28 (TOKUXlPBhOs): 10-year yield heads back up toward its October 2023 high; 30-year yield breaks through the 5.1-5.2% resistance level, which he ties to triggering the equities correction.

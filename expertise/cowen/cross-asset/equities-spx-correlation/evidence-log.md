@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-24
-entry_count: 11
+last_updated: 2026-07-28
+entry_count: 12
 ---
 
 # Evidence log: Equities & SPX Correlation
@@ -30,3 +30,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-19 (q0-LgUAyf-o): Cowen presents S&P monthly seasonality since 2015 showing July green and August/September red on average, and layers 2026's year-to-date ROI over the 2022, 2018, and 2014 midterm-year analogs to show the same early-correction/summer-rally/back-half-correction shape repeating, with all three analog years also showing a small June dip before their larger later-year drops (2022 -19% from mid-August, 2018 -20% from mid-September, 2014 -10% from September). He ties this to Bitcoin directly: "For Bitcoin, normally Bitcoin finds its market cycle bottom in the correction by the stock market that occurs in the back half of the midterm year" [05:19], suggesting the four-year BTC cycle bottom could align with an SPX low in August/September, with a semiconductor-sector correction floated as a possible trigger.
 
 - 2026-07-24 (JY_wY8XXjYU): Cowen compares midterm-year July returns directly (2026 up ~9% so far vs. 2022's +20%, 2018's ~+40%, and 2014's slight negative), reinforcing July as a seasonally milder month before the August-September drop, and notes that in both 2022 and 2018 the July gains were fully given back in the following two months — the template he expects to repeat in 2026. He ties this to Bitcoin's own technical range, saying the SPX top/correction is the mechanism that would push BTC into its cycle low, framing 2026 as "a less volatile version of 2018" [08:26].
+
+- 2026-07-28 (TOKUXlPBhOs): Cowen lays out a rates-to-equities transmission chain: the Fed holds on July 29th, bond vigilantes then push the 10-year toward its October 2023 high and the 30-year through 5.1-5.2% resistance, and that yield pressure triggers the expected August-September stock correction before the Fed delivers hikes. He states plainly "we're about to see a 10 to 20% drop in stocks" [09:33], and extends his precedent list to include 2023 (correction starting late July amid rising long-end yields) alongside 2022, 2018, and 2014, tying the eventual correction to Bitcoin's Q4 market-cycle bottom.

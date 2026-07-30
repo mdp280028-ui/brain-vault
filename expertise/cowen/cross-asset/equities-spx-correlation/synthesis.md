@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-24
-brief_count: 11
+last_updated: 2026-07-28
+brief_count: 12
 ---
 
 # Equities & SPX Correlation
@@ -11,19 +11,19 @@ SPX (S&P 500) price action, structural corrections, and its correlation with Bit
 
 ## Current Thesis
 
-Cowen's midterm-year SPX roadmap remains unchanged and is now explicitly fused with his Bitcoin range-bound framework: the shallow June SPX correction has played out, a July rally is underway (2026 up ~9% so far, in line with 2022's +20% and 2018's nearly +40%), and a top should form in August or September before a 10-20% drop, matching the last three midterm years (2014, 2018, 2022). He ties Bitcoin's own ping-pong between the bear-market resistance band and the 200-week moving average directly to this SPX timeline, arguing BTC's current strength window closes in roughly two to four weeks and that the eventual SPX correction is what drags Bitcoin down into its market-cycle bottom, with 2026 characterized as "a less volatile version of 2018." The S&P/M2 fractal continues to point to a September 2026 top, and Cowen still floats a semiconductor correction as a possible trigger, though with low conviction.
+Cowen's midterm-year SPX roadmap remains intact and now has an explicit monetary-policy trigger attached: he expects the Fed to hold rates on July 29th but hike in September as bond vigilantes push the 10- and 30-year yields higher, and that yield pressure is what tips the S&P into its expected 10-20% August-September correction. That correction remains the mechanism he expects to drag Bitcoin down into its Q4 market-cycle bottom, consistent with his "less volatile version of 2018" framing and the S&P/M2 fractal's September top target. He's widened his precedent set beyond 2010/2014/2018/2022 to include 2023 (a correction starting late July amid rising long-end yields), reinforcing rising rates/yields as a recurring proximate cause of the back-half SPX drop rather than just seasonality.
 
 ## Key Evidence
 
 - Midterm-year July returns line up across cycles: 2026 up ~9% so far, 2022 up 20%, 2018 up almost 40%, 2014 slightly negative — supporting July as a seasonally milder/green month before the August-September drop. (JY_wY8XXjYU)
-- In both 2022 and 2018, July gains were given back in August/September, the direct template Cowen applies to 2026, expecting Bitcoin's strength window to end in that same 2-4 week span. (JY_wY8XXjYU)
 - Monthly seasonality data since 2015 shows July averaging green and August/September averaging red for the S&P, more pronounced in midterm years — the basis for the June-dip/July-rally/August-September-drop framework. (q0-LgUAyf-o)
-- Year-to-date 2026 S&P ROI mapped against 2022, 2018, and 2014 individually and as an average shows the same shape: early correction, summer rally, bigger back-half correction. (q0-LgUAyf-o)
-- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~19-20% — Cowen estimates the coming 2026 second-half correction at 10-20% based on these analogs. (prior)
+- Midterm-year historical corrections confirm the two-drop structure: 2010 ~17%, 2014 ~10%, 2018 ~20%, 2022 ~19-20%; Cowen now adds 2023 (correction starting late July amid rising long-end yields) as a further precedent for the setup. (prior; TOKUXlPBhOs)
 - The S&P/M2 fractal overlaid from 1996 has correctly mapped both the 2023 ~10% correction and the recent ~10% drop; it points to September 2026 for the larger decline. (prior)
+- New rates-side mechanism: the two-year yield sitting above the Fed funds rate implies policy is no longer sufficiently restrictive, market pricing points to 4.25% by December, and Cowen chains this to bond vigilantes pushing long-end yields up, which he now names as the proximate trigger for the August-September stock correction. (TOKUXlPBhOs)
 
 ## Recent Updates
 
+- 2026-07-28 (TOKUXlPBhOs): Cowen ties his rates call (Fed holds July 29th, hikes September) to the SPX thesis via a chain — bond vigilantes push long-end yields higher, stocks correct 10-20% in the August-September window, then the Fed hikes and Bitcoin drops further to its Q4 cycle bottom — citing 2022, 2018, 2014, and newly 2023 as precedent.
 - 2026-07-24 (JY_wY8XXjYU): Cowen reiterates the S&P call (shallow June drop, July bounce, August/September top then decline) and explicitly links it to Bitcoin's resistance-band/200-week-MA ping-pong, expecting the SPX correction to drag BTC into its market-cycle bottom later this year, likening 2026 to "a less volatile version of 2018."
 - 2026-07-19 (q0-LgUAyf-o): Cowen lays out S&P monthly seasonality (green July, red August/September) and year-to-date ROI comparisons against 2022/2018/2014 to argue the seasonal correction window is approaching, reiterating that Bitcoin's cycle bottom normally coincides with that back-half SPX correction and floating semiconductors as a possible trigger.
 - 2026-07-13 (sjt1LV2iDog): In a gold-focused brief, Cowen reiterates his stock market call unchanged — no major further SPX drop expected until August/September, following the shallow June correction and ongoing July rally — and implicitly reinforces the SPX/gold/BTC cycle-low linkage by placing gold's own 2026 low in the same July-October window.
@@ -33,5 +33,3 @@ Cowen's midterm-year SPX roadmap remains unchanged and is now explicitly fused w
 - 2026-05-27 (Ibh7wDgNGCE): Cowen formalizes a two-drop SPX framework for 2026 — smaller correction in June-July, larger drop starting September into early Q4 — supported by the S&P/M2 fractal and midterm-year seasonality, while noting the fractal could break to the upside first before any larger decline.
 - 2026-05-19 (M5d5fbiSfhc): Cowen reiterates his call for another SPX drop later in 2026 and introduces a pessimistic overlay in which an SPX bear market — if the broader business cycle ends — could choke off Bitcoin's bull entirely rather than just catalyzing a corrective leg.
 - 2026-05-17 (WHK1S6MrlCA): Cowen reaffirms the second-half SPX correction as the expected macro catalyst for Bitcoin's Q4 leg down, explicitly contrasting the 2018 (SPX-driven) and 2019 (pandemic-driven) bear-market analogs and placing higher weight on the SPX-correction path for 2026.
-- 2026-05-15 (FgxAe_NAh5c): Cowen expects SPX to suffer a second major correction in Q3 or Q4 2026, mirroring the 2018 double-correction pattern, driven by resurging inflation blocking any Fed pivot; the four-year cycle is cited as a shared SPX/BTC macro rhythm dating to the 1950s.
-- 2026-05-08 (APCjkL5gfFI): SPX at ATH consistent with the 2018 midterm template; Cowen's 2026 roadmap has early-year weakness complete and current ATH rally ongoing, with a secondary correction window expected in late Q3/early Q4 2026 — the S&P/M2 fractal still tracking and pointing to a September top.

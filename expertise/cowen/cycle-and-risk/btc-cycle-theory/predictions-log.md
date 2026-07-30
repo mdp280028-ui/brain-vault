@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-24
-entry_count: 104
+last_updated: 2026-07-28
+entry_count: 106
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -149,3 +149,6 @@ Append-only. Newest entries at bottom.
 - 2026-07-24 (JY_wY8XXjYU): BTC likely retests the ~57k February low, and possibly goes a bit lower later in the year, to fully reset on-chain indicators — contingent on happening before year-end.
 - 2026-07-24 (JY_wY8XXjYU): S&P 500 expected to top in August or September, followed by a 10-20% drop that would drag Bitcoin into a market cycle bottom.
 - 2026-07-24 (JY_wY8XXjYU): If BTC has not broken down by the end of the year, Cowen says he would pivot to viewing the bull market as already resumed (time-based capitulation).
+
+- 2026-07-28 (TOKUXlPBhOs): Stock market (S&P) correction of 10-20% starting in the August-September timeframe.
+- 2026-07-28 (TOKUXlPBhOs): Bitcoin drops further to a market-cycle bottom in Q4, the back half of the back half of the midterm year.

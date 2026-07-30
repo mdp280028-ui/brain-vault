@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-07-16
-entry_count: 13
+last_updated: 2026-07-28
+entry_count: 14
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -34,3 +34,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%, within his 5-8% range), matching the 2018/2022 midterm-year pattern of an early-year low followed by an early-summer correction; he now expects a drift-higher rally through July/August on lower volume, then a larger 10-20% correction in the August-September timeframe (per 2014, 2018, 2022 analogs), which he expects to coincide with Bitcoin's market cycle bottom and possibly gold bottoming around the same time. Cowen: "sometime around that August September time frame, I would expect a larger drop" [03:53].
 
 - 2026-07-16 (XQN1M-sIuGs): Cowen's new July cycle memo compares BTC's current midterm-year bear market against prior cycles via day-count (ROI-from-low, peak-to-low), election-cycle overlay, and social-interest metrics, finding current price action sits "in the middle" of the 2014/2018/2022 range and that BTC's path under Trump's second term now closely mirrors Biden's term. He notes sentiment/social-interest readings match July 2018 while liquidity and business-cycle positioning more closely resemble 2019 (more time left in the four-year cycle) — Cowen: "despite mental gymnastics being preferred by a lot of people to explain why this time is different, it actually just continues to be the same." [04:12]
+
+- 2026-07-28 (oDvuDHTv2zo): Cowen confirms the ongoing rally as a typical July pattern for midterm years, showing BTC up about 10% so far versus 2022's +20% and 2018's +40% at the same point in the cycle. He flags that in the closest historical analogs — 2022, 2018, and 2014 — the following August and September both turned red, and reiterates 2018 as the best structural/sentiment analog while 2019 remains the better liquidity/business-cycle analog. Quote: [00:16] "you can see that in 2022 up 20%, in 2018 up" / [00:19] "almost 40%. So far, we're up about 10."

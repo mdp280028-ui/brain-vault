@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-06-21
-entry_count: 10
+last_updated: 2026-07-28
+entry_count: 11
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-19 (gAf6tPzkcgg): Cowen frames the high-rate/QT macro environment as the structural cause of retail's absence from crypto, arguing that keeping people focused on basic costs prevented speculative re-entry. He notes that rate-hike expectations are now being pushed back in rather than out — driven by the AI trade sustaining equity highs and geopolitical inflation pressures — with no near-term catalyst for easier policy: "The problem the crypto has right now is that we keep not having a reason for looser monetary policy" [01:42]. The sole identified pivot path is a late-Q3/early-Q4 2026 equity market dislocation that could pressure the Fed to change course.
 
 - 2026-06-21 (5feBKA1-w-Q): Cowen argues that reviving crypto requires "much looser monetary policy" but "there's no promise of that right now" — the market is "more worried about rate hikes than rate cuts." He frames crypto as "the furthest thing up the risk curve," explaining why prolonged high-rate/QT conditions drain it first, and identifies the AI trade as the structural blocker: "as long as the AI trade keeps working, there's no reason to cut rates." The sole credible Fed pivot trigger remains stock market weakness in late Q3/early Q4 2026.
+
+- 2026-07-28 (TOKUXlPBhOs): Cowen expects the Fed to hold rates at tomorrow's July 29th FOMC meeting (FedWatch pricing only ~29.4% odds of a hike) but to raise rates in September, noting it would be unprecedented for the Fed to start hiking in summer since the 2024 and 2025 cutting cycles both began in September. He argues the labor market is fine — jobless claims just printed 187,000, the lowest in decades, with unemployment at 4.2% and falling since November 2025 — so "the bond market" is really worried about inflation, reinforced by the two-year yield now trading above the Fed funds rate ("The Fed tracks the two-year yield," [11:07]) which implies policy is no longer sufficiently restrictive and lines up with market pricing of a 4.25% funds rate by December.
