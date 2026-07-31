@@ -1464,9 +1464,16 @@ looks identical to a working one.
 **Trigger:** before granting any agent broader tools, or before relying on any
 existing agent's settings.json as a security boundary.
 
-### D107 — GEO scorer: single-shot parse, and ship.sh folds "scorer broke" into a benign skip — 🟡 OPEN
+### D110 — GEO scorer: single-shot parse, and ship.sh folds "scorer broke" into a benign skip — 🟡 OPEN
 
 **Logged:** 2026-07-31 (found while verifying the D072-mirror cap fix, 431eb33).
+
+**RENUMBERED D107 -> D110 on 2026-07-31.** A sister chat claimed D107 for the
+`<agent>/.claude/settings.json` phantom allow-list audit while this entry was
+being written — the recurring D-number race noted in LESSONS.md. Commits
+`431eb33`, `f466673` and `bbdad17`, plus the comment block in
+`geo-optimizer/score.sh`, all say "D107" and predate the renumber; read those
+references as pointing here.
 
 `geo-optimizer/score.sh` asks Sonnet for one tab-separated line of eight
 integers 1-5 and validates with an awk guard requiring `NF==8` and every field
@@ -1505,6 +1512,23 @@ clamping out-of-range values to 1-5. If the model emitted a measurement rather
 than a score, clamping fabricates a plausible verdict and ships on it —
 precisely the false-positive POLICY Q1 says is much worse than a false negative.
 
+**UPDATE 2026-07-31 (post-implementation):** retry + error-key landed in
+f466673; the ship.sh no-verdict reclassification landed in bbdad17. **The retry
+does not fix every case, and the failure is narrower and more systematic than
+first thought.** On asbestos-roof-tiles the model returns an out-of-range value
+in axis 1 (CAPSULE) across resamples — observed 0, 0, then 8, 8 — with
+byte-perfect formatting otherwise (verified with od: eight single digits, seven
+tabs). All four rejected samples on record put the bad value in axis 1
+(9, 9, 0, 0); the one accepted sample had CAPSULE=1.
+
+A targeted prompt restatement (an OUTPUT FLOOR block naming the 1-5 range, the
+no-zero rule, and score-not-measurement) was written, tested against
+asbestos-roof-tiles, **failed to fix it**, and was reverted. So the remaining
+defect is not a parse-layer or instruction-clarity problem — it points at the
+CAPSULE rubric anchors themselves (rubric.md axis 1, 'Answer capsule (first 30%
+of body)', whose anchors are phrased in word counts: <=120 words, <=80 words).
+Next step is to rewrite that axis's anchors, not to tune the caller.
+
 **Trigger:** before GEO volume resumes (i.e. once guides start reaching
 `approved/guides/` again), or immediately if a `geo_no_verdict` skip appears.
 
@@ -1532,7 +1556,7 @@ Compensating controls:
 only defensible while it is strictly read-only. If Bash is ever added, this
 exemption must be removed in the same change.
 
-### D109 — conversation_log replay is chat-scoped, not agent-scoped — 🟡 OPEN
+### D109 — conversation_log replay is chat-scoped, not agent-scoped — ✅ CLOSED 2026-07-31
 
 **Logged:** 2026-07-31 (majordomo build; found while verifying memory wiring).
 
@@ -1559,3 +1583,82 @@ attribution.
 
 **Trigger:** before a third agent opts into `lib/agents_with_memory.txt`, or as
 soon as the shared-lib lane is free.
+
+### D111 — conversation_log metadata corrupted by unquoted brace default — ✅ CLOSED 2026-07-31
+
+**Logged + closed:** 2026-07-31 (majordomo migration).
+
+`lib/log_to_conversation.sh:18` read `METADATA="${LOG_CONV_METADATA:-{}}"`. Bash
+takes the FIRST `}` as the end of the expansion, so the default became `{` and
+the trailing `}` was emitted literally, appended to the caller's value:
+
+```
+LOG_CONV_METADATA='{"route":"x"}'   ->   {"route":"x"}}
+```
+
+Every row written through the script carried a stray brace. **94 of 129
+`conversation_log` rows were malformed JSON**, and `json_extract()` failed
+against the whole table — which is how it was found (a routing-usage query
+errored with "malformed JSON").
+
+**Fix:** quote the default — `"${LOG_CONV_METADATA:-"{}"}"`. Handles both the
+set and unset cases.
+
+**Data repair:** all 94 rows were uniformly fixable by trimming one trailing
+character (verified none needed anything else first). Repaired in place; DB
+backed up to `~/store/aiteam.db.bak-d111-1785537481` beforehand;
+`integrity_check` ok after; 0 malformed rows remain.
+
+**Blocked D109** — that fix needs `agent_id` read from rows whose JSON parses.
+
+### D112 — notify.sh had no PATH hardening (D054 scope gap) — ✅ CLOSED 2026-07-31
+
+**Logged + closed:** 2026-07-31 (chased from a majordomo diagnosis).
+
+D054 closed the cron PATH problem with a crontab-level `PATH=` header, covering
+"all 8 direct cron-invoked scripts + transitive children". That reasoning was
+correct for cron and **silently excluded every other invocation path** —
+launchd jobs, ad-hoc runs, and any future caller.
+
+`lib/notify.sh` — the fleet's single delivery path, called by **20 scripts** —
+had no PATH hardening of its own. Evidence: `audit_log` id 26662,
+2026-07-31 12:08:47, `err=curl_did_not_run_rc127` (127 = command not found).
+Majordomo spotted this in a routine health question and correctly separated it
+from the 26 bash-3.2 failures around it as a different root cause.
+
+Reproduced deterministically with a PATH containing every tool notify.sh needs
+except `curl`. The failure is worse than a missed send: `bash` is also
+unavailable, so `log_to_audit.sh` cannot run and **the failure is not recorded
+either**.
+
+**Fix:** PATH hardened inside `notify.sh` itself — one line covers all 20
+callers, rather than trusting each to harden its own. Verified: the identical
+invocation that produced rc127 now returns http 200 and writes its
+`notify_sent` row.
+
+**Generalisation worth keeping:** "the crontab header covers it" is only true
+for cron. Any shared helper on a critical path should harden its own PATH.
+
+### D113 — circuit breaker for playbook auto-execute — 🟡 OPEN (deferred by design)
+
+**Logged:** 2026-07-31 (playbook runner v1).
+
+`majordomo/runner.sh` v1 is **propose-only**: majordomo emits a
+` ```playbook-request ` block, the operator taps CONFIRM in Telegram, and only
+then does the runner execute. Every run has a human in the loop, so no circuit
+breaker is needed today.
+
+**Before auto-execute is ever enabled, this must exist:**
+
+- **Rate limit** — max N playbook executions per hour, per playbook and overall.
+  A diagnosis loop that proposes and executes the same restart repeatedly is the
+  obvious first failure.
+- **Repeat detection** — same playbook + same args succeeding but not fixing the
+  symptom means the diagnosis is wrong; stop and escalate rather than re-run.
+- **Trip to propose-only** — on breaker trip, fall back to today's behavior
+  (propose and wait) rather than stopping entirely. Degraded, not dead.
+- **Operator notification on trip**, through `notify.sh`.
+- **Blast-radius tiering** — `remount-backups` is not `refire-cron-job`. Any
+  auto-execute tier should start with the read-mostly playbooks only.
+
+**Trigger:** the moment anyone proposes removing the CONFIRM step.
