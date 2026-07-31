@@ -1463,3 +1463,99 @@ looks identical to a working one.
 
 **Trigger:** before granting any agent broader tools, or before relying on any
 existing agent's settings.json as a security boundary.
+
+### D107 — GEO scorer: single-shot parse, and ship.sh folds "scorer broke" into a benign skip — 🟡 OPEN
+
+**Logged:** 2026-07-31 (found while verifying the D072-mirror cap fix, 431eb33).
+
+`geo-optimizer/score.sh` asks Sonnet for one tab-separated line of eight
+integers 1-5 and validates with an awk guard requiring `NF==8` and every field
+`^[1-5]$`. A single out-of-range value rejects the whole line; the script then
+writes one audit row and `exit 1`. **There is no retry** — one bad sample and
+that slug gets no verdict.
+
+Observed 2026-07-31: the model returned `9 5 1 3 4 4 5 1` and `9 7 4 4 3 4 4 2`
+against a 1-5 rubric. Plausible mechanism: the rubric embedded in the prompt is
+written in *counts* ("Count of authorityLinks[]", "≥10 stats per 1000 words"),
+and the single "integers 1-5" instruction sits at the top of the prompt, before
+a 68-line rubric and up to 60KB of article — far from the point of output.
+
+**Scope correction — this has never fired in production.** All 15 historical raw
+responses on disk validate cleanly; the only 2 rejects are from this session's
+testing. Earlier in the session I asserted this was "the likely reason geo-v1
+has written no verdict since 2026-07-19" (repeated in the 431eb33 commit
+message). **That was wrong.** geo-v1 went quiet because `ship.sh` only invokes
+it for slugs reaching `approved/guides/`, and nothing new arrived after 07-19.
+This is latent fragility, not the active outage.
+
+**Second, separable defect (the one that matches the error-folding class):**
+`ship.sh` discards score.sh's exit code (`bash score.sh … || true`), re-queries
+for a verdict, and on finding none writes `ship_to_site_skipped` with
+`reason:"geo_no_verdict"`. That action does not end in `_failed` and its payload
+carries no `error`/`failed`/`fatal` key, so `issues-capture` does not surface it
+— and it lands in the same bucket as the 1389 benign `slug_already_shipped`
+skips. score.sh's own `geo_parse_failed` row *does* surface on /issues; the blind
+spot is one layer down, at the ship boundary.
+
+**Proposed fix (not applied):** retry once on a rejected line (the evidence
+supports this — the identical prompt succeeded on re-run), restate the 1-5
+constraint immediately after the rubric, and reclassify the ship.sh
+no-verdict path as an error rather than a skip. **Explicitly rejected:**
+clamping out-of-range values to 1-5. If the model emitted a measurement rather
+than a score, clamping fabricates a plausible verdict and ships on it —
+precisely the false-positive POLICY Q1 says is much worse than a false negative.
+
+**Trigger:** before GEO volume resumes (i.e. once guides start reaching
+`approved/guides/` again), or immediately if a `geo_no_verdict` skip appears.
+
+### D108 — majordomo is exempt from SYSTEM_PAUSED (knowing kill-switch weakening) — 🟡 OPEN
+
+**Logged:** 2026-07-31 (majordomo build, Phase 4). **Operator-approved, on the record.**
+
+`majordomo/run.sh` does NOT check `SYSTEM_PAUSED`. Every other agent does.
+
+Reasoning: `SYSTEM_PAUSED` stops the fleet from spending and ACTING. Majordomo
+has no shell (`--tools Read Grep Glob`) and cannot act — it reads and reports.
+A hard cost-cap trip sets `SYSTEM_PAUSED` automatically, so honoring it would
+disable the diagnostic instrument at exactly the moment the operator needs it,
+which is the failure this agent exists to prevent.
+
+Compensating controls:
+- `MAJORDOMO_PAUSED` — its own daily cap (`MAJORDOMO_COST_CAP_USD`, default $10),
+  set by `check_cost_caps.sh`, honored by `run.sh`, cleared by the 00:00 cron.
+- `LLM_SPAWN_ENABLED=false` is STILL honored — the deliberate manual "no LLM
+  calls at all" switch keeps working.
+- `MAJORDOMO_ENABLED=false` disables the agent outright.
+- The agent cannot execute anything regardless of flags.
+
+**Revisit if:** majordomo ever gains a tool that mutates state. The exemption is
+only defensible while it is strictly read-only. If Bash is ever added, this
+exemption must be removed in the same change.
+
+### D109 — conversation_log replay is chat-scoped, not agent-scoped — 🟡 OPEN
+
+**Logged:** 2026-07-31 (majordomo build; found while verifying memory wiring).
+
+`lib/build_conversation_context.sh` selects from `conversation_log` by
+`chat_id` only, and hardcodes the assistant label as `You (orchestrator)`:
+
+```python
+label = "Operator" if r["role"] == "user" else "You (orchestrator)"
+```
+
+Now that a second agent (majordomo) reads the same chat's history, replayed
+turns spoken by the orchestrator are presented to majordomo as its own prior
+statements. An agent can be led to defend a position it never took.
+
+`conversation_log` already has an `agent_id` column, so the fix is small — either
+filter by agent, or label each turn with its actual `agent_id`. Labelling is
+probably better than filtering: cross-agent context in one chat is useful, it
+just has to be attributed honestly.
+
+Not fixed now: `build_conversation_context.sh` is shared infrastructure and a
+parallel session was working in the repo. Mitigated in the meantime by an
+explicit warning in `majordomo/CLAUDE.md` telling it not to trust the
+attribution.
+
+**Trigger:** before a third agent opts into `lib/agents_with_memory.txt`, or as
+soon as the shared-lib lane is free.
