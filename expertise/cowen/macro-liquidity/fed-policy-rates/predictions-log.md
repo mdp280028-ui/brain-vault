@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-07-28
-entry_count: 13
+last_updated: 2026-07-30
+entry_count: 14
 ---
 
 # Predictions log: Fed Policy & Rates
@@ -29,3 +29,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (TOKUXlPBhOs): Fed holds rates constant at the July 29th FOMC meeting, then raises rates in September.
 - 2026-07-28 (TOKUXlPBhOs): 10-year yield heads back up toward its October 2023 high; 30-year yield breaks through the 5.1-5.2% resistance level.
 - 2026-07-28 (TOKUXlPBhOs): Market-implied Fed funds rate target of 4.25% by December.
+
+- 2026-07-30 (q2QLLihl6cc): Ben expects a Fed rate hike this year, with September as a likely candidate month.

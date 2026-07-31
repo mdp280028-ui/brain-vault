@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-07-28
-brief_count: 11
+last_updated: 2026-07-30
+brief_count: 12
 ---
 
 # Fed Policy & Rates
@@ -11,19 +11,20 @@ The Federal Reserve's policy-rate decisions, FOMC meeting cycles, rate-cut and r
 
 ## Current Thesis
 
-Warsh's Fed has entered a definitive hawkish regime, and Cowen's base case is now sequenced: the Fed holds at the July 29th FOMC meeting (market pricing only ~29.4% odds of a hike), but delivers a hike in September, since both prior cutting cycles (2024, 2025) turned in September and a summer hike would be historically unprecedented. The labor market is fine — jobless claims at decades-low 187k and unemployment trending down since November 2025 — so the bond market's real fear is inflation (which spiked to ~4.1% before easing to 3.4-3.5%, with energy/XLE a reacceleration risk), not employment. The two-year yield sitting above the Fed funds rate signals policy is arguably no longer restrictive enough, aligning with market pricing of 4.25% by December. Cowen's full scenario chain: Fed holds in July → bond vigilantes push long-end yields higher (10-year toward its October 2023 high, 30-year through 5.1-5.2%) → stock correction of 10-20% starts August-September → Fed hikes → Bitcoin drops further into its Q4 market-cycle bottom, consistent with historical midterm-year precedent (2022, 2018, 2014, 2023) and a mid-1990s Fed-resumes-hiking parallel.
+The Fed held at the July 29th FOMC (rate target 3.50-3.75%), but the panel's base case remains a September 16th hike to 3.75-4.00%, now reinforced by three dissenting FOMC members voting for an immediate hike and Chair Warsh explicitly abandoning forward guidance ("play the ball and not the referee"), which raises market uncertainty until decisions are announced. Fresh data (June PCE +0.1% m/m at 3.7% y/y, GDP +1.5% annualized, jobless claims 197k) came in soft and Bitcoin only ticked up modestly, reinforcing that the hawkish path is now driven less by labor weakness and more by the Fed's rigid 2% inflation target versus a public that has adjusted to a ~3% "shifting baseline." The two-year yield sitting above the Fed funds rate continues to signal policy is no longer restrictive, a dynamic the panel worries could let wage/headline inflation reheat and force the Fed's hand. The full scenario chain holds: rate-hike fear (not necessarily the hike itself) drives long-end yields higher (30-year to new highs, 10-year approaching October 2023 levels) → a stock correction in the back half of the midterm year (S&P dropped ~10% in the analogous 2023 stretch) → a Bitcoin cycle bottom most likely in Q4 2026, which Ben still estimates is under 50% likely to have already occurred.
 
 ## Key Evidence
 
-- Fed holds rates at the July 29th FOMC (only ~29.4% hike odds per FedWatch) but Cowen expects a September hike, since the last two cutting cycles (2024, 2025) both turned in September and a summer hike would be unprecedented (TOKUXlPBhOs)
-- Two-year yield now trades above the Fed funds rate — policy arguably no longer sufficiently restrictive — with market pricing a 4.25% target by December; 10-year expected back toward its October 2023 high and 30-year to break its 5.1-5.2% ceiling (TOKUXlPBhOs)
-- Labor market is healthy (187k jobless claims, decades-low; unemployment 4.2% and falling since November 2025), meaning the bond market's real concern is inflation reaccelerating (2.4%→4.1%→3.4-3.5%, with energy/XLE flagged as a re-acceleration risk) rather than employment (TOKUXlPBhOs)
-- Warsh's first FOMC dot plot: roughly 50/50 on rate hikes by year-end; nine dot-plot members projecting a hike and CME FedWatch pricing ~84.5% probability of at least one hike by December; Warsh abandoned forward guidance, signaling a chair inclined to hike into inflation surprises rather than reassure (xutthOFM_RA, zKPohkQdq_Q)
-- High-rate/QT environment remains the direct suppressor of crypto outperformance and root cause of retail's absence — crypto sits "the furthest thing up the risk curve," with altcoin weakness preceding BTC weakness (5feBKA1-w-Q, gAf6tPzkcgg)
-- Post-midterm political configuration (Republican president + Democratic Congress) plus historical precedent (2022, 2018, 2014, 2023 corrections) underpins the August-September 10-20% stock correction call and the Q4 BTC cycle-bottom timing (9a-LA7tm8Mo, TOKUXlPBhOs)
+- Fed held rates at the July 29th FOMC (3.50-3.75% target); September 16th meeting now priced roughly 60/40 toward a hike to 3.75-4.00%, with three of twelve FOMC members already dissenting in favor of an immediate hike and Warsh calling it "the beginning of the story and not the end" (q2QLLihl6cc)
+- Warsh has abandoned forward guidance entirely — "play the ball and not the referee" — forcing markets to guess Fed moves until announced and raising volatility; the Fed remains anchored to its 2% inflation target despite the public having adjusted to ~3% as a new normal ("shifting baseline theory") (q2QLLihl6cc)
+- Two-year yield continues to trade above the Fed funds rate (previously the reverse), which the panel reads as policy no longer being restrictive and a risk that labor/wage inflation reheats; 30-year yield has broken to new highs and the 10-year is approaching its October 2023 level, echoing the July-October 2023 breakout that preceded a ~10% S&P drop (q2QLLihl6cc, prior)
+- June PCE fell 0.1% m/m (3.7% y/y), core PCE +0.1%, GDP +1.5% annualized, jobless claims at 197k — soft data that produced only a modest Bitcoin uptick, consistent with the view that hike risk is now the dominant driver over labor data (q2QLLihl6cc)
+- Warsh's first FOMC dot plot showed roughly 50/50 odds of a hike by year-end with nine of the then-current members projecting a hike, and CME FedWatch pricing ~84.5% odds of at least one hike by December (prior)
+- High-rate/QT environment remains the direct suppressor of crypto outperformance and root cause of retail's absence, with post-midterm political configuration (Republican president + Democratic Congress) and historical precedent (2022, 2018, 2014, 2023 corrections) underpinning the Q4 BTC cycle-bottom call (prior)
 
 ## Recent Updates
 
+- 2026-07-30 (q2QLLihl6cc): Soft PCE/GDP/claims data still leaves Bitcoin only modestly higher as the panel highlights three FOMC dissents for an immediate hike, Warsh's abandonment of forward guidance, and the 2yr-above-fed-funds spread as reasons a September hike remains the base case feeding into a Q4 BTC cycle bottom.
 - 2026-07-28 (TOKUXlPBhOs): Cowen expects the Fed to hold on July 29th but hike in September, cites healthy labor data (187k claims, falling unemployment) to argue the bond market's real worry is inflation, and chains this into a 10-20% August-September stock correction and a Q4 Bitcoin cycle bottom.
 - 2026-06-21 (5feBKA1-w-Q): Cowen reiterates the high-rate/QT environment keeps crypto in a holding pattern as the frothiest risk-curve asset, flags the AI trade as the reason the Fed has no pressure to cut, and pins the only credible pivot trigger on stock market weakness in late Q3/early Q4 2026.
 - 2026-06-19 (gAf6tPzkcgg): Cowen identifies the high-rate/QT environment as the root cause of retail's absence from crypto, notes rate hikes are being priced back in due to the AI trade and geopolitical inflation, and sees no near-term catalyst for easier policy — with late-Q3/early-Q4 2026 equity weakness as the only credible Fed pivot trigger.
@@ -33,5 +34,3 @@ Warsh's Fed has entered a definitive hawkish regime, and Cowen's base case is no
 - 2026-05-21 (8PQee-onXrU): Panel argues SPR depletion makes an oil-shortage inflation spike imminent; Warsh's reputational incentive means he will respond with rate hikes rather than risk a "transitory" blunder, and 30-year yields at 2023 highs raise the possibility that the era of falling rates has structurally ended.
 - 2026-05-15 (FgxAe_NAh5c): Powell steps down; Warsh inherits a Fed where resurging CPI/PPI makes rate cuts politically pressured but practically blocked, with Cowen calling for steady rates through summer 2026 and hike risk in 2027.
 - 2026-05-14 (zFIXrjvMGik): Brief focused exclusively on the Democratic president + split Congress zero-negative-year historical record; no direct Fed policy content present.
-- 2026-05-13 (9a-LA7tm8Mo): Brief focused on political-regime equity returns; direct Fed policy content was absent, but Cowen's identification of a post-midterm Republican president + Democratic Congress configuration as the primary business-cycle recession risk reinforces the existing "something breaks" forced-cut tail scenario.
-- 2026-05-12 (Rf-gAQJk5-0): CPI rises to 3.78% with hot core at 2.74%, forcing markets to fully price out cuts through 2027 and begin pricing a 2027 hike; Cowen frames this as the Fed approaching "checkmate" as rising inflation and potential labor weakness cannot both be addressed with a single rate tool.

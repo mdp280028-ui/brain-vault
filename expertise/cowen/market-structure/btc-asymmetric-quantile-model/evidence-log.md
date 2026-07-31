@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-asymmetric-quantile-model
 group: market-structure
-last_updated: 2026-07-09
-entry_count: 5
+last_updated: 2026-07-30
+entry_count: 6
 ---
 
 # Evidence log: Btc Asymmetric Quantile Model
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-22 (d71wYhwKpFY): The June 22 video does not invoke the asymmetric quantile model by name but directly reinforces its core lower-tail implication: the realized price (~$53–54K), which falls within the model's Q1 dislocation floor sequence, remains unbreached. Cowen states "normally it goes below it in bear markets. And we just simply haven't gone below it yet. Right? And so, for me it makes me think that we likely will go below it at some point later on this year" [02:35], sustaining the thesis that the model's deeper analog floors ($52K, $48K) are still live targets and the cycle low is not yet confirmed.
 
 - 2026-07-09 (OgvqZ2BiHZw): This brief does not engage the asymmetric quantile model by name or restate its Q1 dislocation floors; instead the panel (Nick, Rob, Cowen) discusses adjacent bottom-signal indicators — on-chain supply held at a loss (>50%), a 17-year-low monthly RSI, an on-chain valuation Z-score near 1.5 SD, and price sitting on the cusp of the 200-week SMA — as tentative evidence a bottom may be forming. Nick frames the near-term range as 62-68K pending confirmation via sustained ETF inflows and Coinbase premium strength: "many of the bottom signals have fired, eh? We've had like more than 50% of the on-chain Bitcoin supply is held at a loss." [01:10] This is complementary context rather than a direct update to the quantile model's dislocation-floor framework.
+
+- 2026-07-30 (q2QLLihl6cc): The brief contains no direct reference to the asymmetric quantile model itself; instead, Ben (Into the Cryptoverse) argues the Bitcoin cycle bottom is probably not yet in, tying the call to Fed rate-hike risk and midterm-year seasonality rather than the model's percentile/floor framework. His stated odds — "I would say it's probably less than 50% would be my guess that it's already in" [25:32] — with Q4 2026 flagged as the more likely bottom window, is directionally consistent with the quantile model's still-unbreached deeper analog floors (~$52K, ~$48K) but does not update the model's parameters or floors.

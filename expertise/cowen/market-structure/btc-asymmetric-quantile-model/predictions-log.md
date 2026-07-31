@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-asymmetric-quantile-model
 group: market-structure
-last_updated: 2026-06-22
-entry_count: 7
+last_updated: 2026-07-30
+entry_count: 8
 ---
 
 # Predictions log: Btc Asymmetric Quantile Model
@@ -19,3 +19,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-11 (R9vEpIpyj2s): If historical patterns hold, Bitcoin is likely to dip below the realized price (~$53–54K) before the cycle bottom is confirmed — a level that falls within the asymmetric model's Q1 dislocation floor sequence (~$52K March 2020 analog).
 
 - 2026-06-22 (d71wYhwKpFY): BTC likely trades below its realized price (~$53–54K) at some point later in 2026, which would confirm the asymmetric model's Q1 dislocation floor sequence is being tested at the $52K and $48K analog levels.
+
+- 2026-07-30 (q2QLLihl6cc): Ben estimates less than 50% chance the Bitcoin cycle bottom is already in, with Q4 of this year as the most likely bottom window.

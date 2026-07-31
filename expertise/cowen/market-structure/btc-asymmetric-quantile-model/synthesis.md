@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-asymmetric-quantile-model
 group: market-structure
-last_updated: 2026-07-09
-brief_count: 5
+last_updated: 2026-07-30
+brief_count: 6
 ---
 
 # Btc Asymmetric Quantile Model
@@ -11,7 +11,7 @@ Auto-created topic. Seed description pending operator review. Slug-as-words: btc
 
 ## Current Thesis
 
-Cowen's asymmetric tail curvature quantile model fits Bitcoin's lower and upper price tails with mathematically distinct curvature, superseding his earlier regression rainbow and non-rigorous quantile attempts. As of late June 2026, BTC had crossed below Q1 (~$62K), placing it in the historical dislocation zone with conditional bear-case floors mapped at ~$58K, ~$52K, ~$48K, and ~$40K, with the realized price (~$53–54K) standing as the model's primary unmet condition for cycle-bottom confirmation. The July 9 stream did not directly reference the quantile model itself; instead Cowen's panel (Nick, Rob) leaned on adjacent on-chain/technical indicators — supply-in-loss, monthly RSI, valuation Z-score, and the 200/250-week SMAs — describing several "bottom signals" as having fired while BTC sits range-bound around 60-68K, a framing that is directionally consistent with but not a restatement of the quantile model's dislocation-zone thesis. Cowen's base case of an eventual test of the deeper analog floors was not reiterated or contradicted in this brief, leaving it the operative view pending confirmation of a durable break above the 200-week SMA or sustained ETF/Coinbase-premium strength.
+Cowen's asymmetric tail curvature quantile model fits Bitcoin's lower and upper price tails with mathematically distinct curvature, superseding his earlier regression rainbow and non-rigorous quantile attempts. As of late June 2026, BTC had crossed below Q1 (~$62K), placing it in the historical dislocation zone with conditional bear-case floors mapped at ~$58K, ~$52K, ~$48K, and ~$40K, with the realized price (~$53–54K) standing as the model's primary unmet condition for cycle-bottom confirmation. Neither the July 9 nor July 30 streams directly revisited the quantile model itself; instead the panels have leaned on adjacent indicators — on-chain bottom signals in July 9's case, and macro/Fed-driven seasonality (rate-hike risk, midterm-year correction pattern) in the July 30 stream — to argue for a probable Q4 2026 cycle-bottom timing, which is directionally consistent with the quantile model's dislocation-zone thesis but not a restatement of it. Cowen's base case of an eventual test of the deeper analog floors (~$52K, ~$48K) remains uncontradicted and is now reinforced by the panel's explicit lean toward a further correction before a Q4 bottom.
 
 ## Key Evidence
 
@@ -19,11 +19,12 @@ Cowen's asymmetric tail curvature quantile model fits Bitcoin's lower and upper 
 - The four historical Q1 dislocation analogs map to today's conditional bear-case floors: ~$58K (FTX-crash equivalent), ~$52K (March 2020 equivalent), ~$48K (August 2015 analog), ~$40K (balance price ~$38.65K) (prior)
 - The realized price (~$53–54K) sits inside the Q1 dislocation floor sequence and has not been breached; Cowen explicitly flagged this as an unmet bear market condition as of June 22 (prior)
 - Time between Q1 dislocation events: ~238 weeks (2015→2020), ~139 weeks (2020→2022); at ~185 weeks since 2022, a late-2026 Q1 dislocation falls within historical range (prior)
-- Both the 2019 mid-cycle peak and the 2025 cycle peak topped at approximately the 75th percentile — short of the 95th–99th percentile range historically required to trigger durable alt rotation (prior)
-- Adjacent bottom-signal indicators (>50% of on-chain supply held at a loss, 17-year-low monthly RSI, ~1.5 SD on-chain valuation Z-score, price on the cusp of the 200-week SMA) were cited as having fired, complementing but not extending the quantile model's dislocation-zone read (OgvqZ2BiHZw)
+- Adjacent bottom-signal indicators (>50% of on-chain supply held at a loss, 17-year-low monthly RSI, ~1.5 SD on-chain valuation Z-score, price on the cusp of the 200-week SMA) were cited as having fired, complementing but not extending the quantile model's dislocation-zone read (prior)
+- Panel (Ben) now frames a likely Fed rate hike and midterm-year seasonality as the probable trigger for a further correction into a Q4 2026 bottom, estimating under 50% odds the bottom is already in — consistent with the quantile model's still-unmet deeper floors (q2QLLihl6cc)
 
 ## Recent Updates
 
+- 2026-07-30 (q2QLLihl6cc): No direct discussion of the quantile model; panel argues a likely Fed rate hike (possibly September) and midterm-year seasonality point to a further correction before a Q4 2026 Bitcoin cycle bottom, with Ben estimating less than 50% odds the bottom is already in.
 - 2026-07-09 (OgvqZ2BiHZw): No direct discussion of the asymmetric quantile model; panel instead cites adjacent bottom-signal indicators (supply in loss, RSI, Z-score, 200-week SMA) as having fired while BTC trades range-bound around 60-68K, with confirmation still pending on a sustained SMA recovery and ETF/Coinbase-premium strength.
 - 2026-06-22 (d71wYhwKpFY): Cowen reiterates the realized price as an unmet bear market condition, stating BTC "normally goes below it in bear markets" and hasn't yet, reinforcing the asymmetric model's deeper analog floors ($52K, $48K) as live targets and supporting his base case that a further breakdown is likely later in 2026.
 - 2026-06-11 (R9vEpIpyj2s): Cowen presents the realized price (~$53–54K) as a near-necessary condition for cycle bottom confirmation; BTC has not yet breached it, consistent with the asymmetric model's deeper analog floors ($52K, $48K) remaining live targets and Cowen leaning toward the low not yet being in.

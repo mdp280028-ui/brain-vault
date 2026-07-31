@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-07-28
-entry_count: 11
+last_updated: 2026-07-30
+entry_count: 12
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -30,3 +30,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-21 (5feBKA1-w-Q): Cowen argues that reviving crypto requires "much looser monetary policy" but "there's no promise of that right now" — the market is "more worried about rate hikes than rate cuts." He frames crypto as "the furthest thing up the risk curve," explaining why prolonged high-rate/QT conditions drain it first, and identifies the AI trade as the structural blocker: "as long as the AI trade keeps working, there's no reason to cut rates." The sole credible Fed pivot trigger remains stock market weakness in late Q3/early Q4 2026.
 
 - 2026-07-28 (TOKUXlPBhOs): Cowen expects the Fed to hold rates at tomorrow's July 29th FOMC meeting (FedWatch pricing only ~29.4% odds of a hike) but to raise rates in September, noting it would be unprecedented for the Fed to start hiking in summer since the 2024 and 2025 cutting cycles both began in September. He argues the labor market is fine — jobless claims just printed 187,000, the lowest in decades, with unemployment at 4.2% and falling since November 2025 — so "the bond market" is really worried about inflation, reinforced by the two-year yield now trading above the Fed funds rate ("The Fed tracks the two-year yield," [11:07]) which implies policy is no longer sufficiently restrictive and lines up with market pricing of a 4.25% funds rate by December.
+
+- 2026-07-30 (q2QLLihl6cc): June PCE data came in soft (+0.1% m/m, 3.7% y/y, GDP +1.5% annualized, jobless claims 197k), yet Bitcoin only ticked up modestly as Guy and Ben highlighted three FOMC members dissenting for an immediate hike and Chair Warsh scrapping forward guidance entirely — "to play the ball and not the referee" [06:28] — with the September 16th meeting now pricing roughly 60/40 toward a hike to 3.75-4.00%. Ben pointed to the two-year yield now sitting above the Fed funds rate ("the two-year yield is is actually above the Fed funds rate even though the Fed funds rate hasn't gone anywhere in a while" [09:47]) and a 30-year/10-year breakout echoing the July-October 2023 move that preceded a roughly 10% S&P drop ("The S&P ended up getting like a 10% drop." [10:58]), concluding "I think that we are likely going to get a rate hike this year." [11:00]
