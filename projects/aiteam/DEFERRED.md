@@ -1339,3 +1339,127 @@ got committed this way before being gitignored in c885d33). Fix: selective
 pathspec or porcelain-unknown → Telegram flag instead of auto-commit.
 
 **Trigger:** next time a stray gets swept.
+
+### D105 — auditor_verdicts.scorer_version records repo HEAD, not script version — 🟡 OPEN
+
+**Logged:** 2026-07-31 (audit_guide 74%-failure diagnosis).
+
+`audit_guide.py` writes the *repository* HEAD SHA into
+`auditor_verdicts.scorer_version`, not its own `__version__`. The nightly
+`content-autocommit.sh` bumps that SHA every day, so the column changes daily
+regardless of whether the auditor changed.
+
+Concrete harm: querying scorer_version for July 2026 shows 22 distinct values
+(`d8796b2`, `592fe0a`, `b4762e8`, …), which reads as 22 auditor revisions. The
+actual number of changes to `scripts/audit_guide.py` in that window is **zero** —
+the file has been frozen since `0e8089b` (2026-05-16), and its last
+threshold-affecting change was v3.4 on 2026-04-24. The audit trail actively
+misleads anyone asking "did a gate get stricter?", which is exactly the question
+the column exists to answer.
+
+Fix: persist `__version__` (e.g. `"3.4"`), or a composite `"3.4+<sha>"` so both
+signals survive. Historical rows cannot be recovered — they only ever held HEAD.
+
+**Trigger:** before the next gate-tuning session that needs to correlate pass
+rate against auditor version.
+
+### D106 — SSG audit_guide v4.4 has no verdict-persistence block; SSG has never written a verdict row — 🟡 OPEN
+
+**Logged:** 2026-07-31 (audit_guide 74%-failure diagnosis).
+
+`asbestos-contractors/scripts/audit_guide.py` (v3.4) carries the verdict
+persistence added 2026-05-17 — `DB_PATH`, the `sqlite3`/`subprocess` imports,
+and the `auditor_verdicts` insert. `ssg-content/scripts/audit_guide.py` (v4.4)
+does not: SSG forked to its own rich-schema line on 2026-05-28 (`8aba0f4`) and
+the persistence block never came across.
+
+Consequence: **every** `scorer='audit_guide'` row in `auditor_verdicts` is
+asbestos. SSG has zero. That is backwards from where the value is — SSG is the
+healthy lane (queue 54 pending vs asbestos 0; 11 briefs in the last 14 days vs
+~1) and it is the one flying blind. Any future "which gate is blocking SSG?"
+question currently has no data to answer it, and the 74% figure that triggered
+this whole investigation describes only the starved site.
+
+Fix: port the persistence block to the SSG copy. Note the two files have
+genuinely diverged (v3.4 flat schema vs v4.4 rich Zod schema, different check
+sets) — this is a port, not a merge, and should not be attempted by copying the
+file wholesale.
+
+**Trigger:** before tuning any SSG gate, or as part of D105.
+
+### D103 — run_agent.sh ignores agent.yaml `tools:` and `max_turns:` — 🟡 OPEN
+
+**Logged:** 2026-07-31 (majordomo + scout build, Phase 0 recon).
+
+`lib/run_agent.sh:21` parses **only** `tier:` from `<agent>/agent.yaml`. Nothing
+anywhere in the codebase reads `tools:` or `max_turns:` — verified by grep. Both
+keys are decorative in every agent.yaml in the fleet. Actual turn limits come
+from the global `AGENT_MAX_TURNS=30` in `config/.env`; actual tool access comes
+from the claude CLI's defaults.
+
+This is dangerous mainly because it *looks* enforced. An agent.yaml listing
+`tools: [Read, Grep]` reads as a restriction and is not one.
+
+Fix: have run_agent.sh parse `max_turns:` and pass it, and either parse `tools:`
+into a `--tools` flag or delete the key fleet-wide so it stops implying a
+guarantee. Note `--tools` is the only fail-closed tool restriction available
+(see D107).
+
+Workaround in use: majordomo and scout bypass run_agent.sh entirely with their
+own runners that pass `--tools` and `--max-turns` explicitly.
+
+**Trigger:** next agent that needs a non-default turn limit or tool set.
+
+### D104 — true session resume for conversational agents — 🟡 OPEN
+
+**Logged:** 2026-07-31 (majordomo build, Phase 4 design).
+
+Conversation continuity today is *replay*, not resumption: `run_agent.sh` calls
+`build_conversation_context.sh` and prepends a recent transcript to the prompt
+for agents opted in via `lib/agents_with_memory.txt`. Every call is a fresh
+session. That re-pays the context cost each turn and loses anything not captured
+in `conversation_log`.
+
+**The upgrade path is already open:** `token_usage.session_id` is populated on
+every row (4988/4988 as of this logging, real UUIDs e.g.
+`ca593252-785a-40fa-8aea-b7782936b3cf`). The exact session-ID string that
+`claude -p --resume` requires is therefore already persisted per run — no new
+capture plumbing is needed, only a resume-capable invocation path and a
+per-chat_id lookup.
+
+Deferred deliberately: replay is proven in production for orchestrator, and
+adding a second continuity mechanism next to a live grammy bot is risk without
+v1 benefit.
+
+**Trigger:** when replay demonstrably fails — long multi-turn diagnoses losing
+earlier context, or context-cost complaints.
+
+### D107 — audit every `<agent>/.claude/settings.json` for phantom allow-list enforcement — 🟡 OPEN
+
+**Logged:** 2026-07-31 (majordomo build; escalated from the fail-closed probe).
+**Numbering note:** originally scoped as D105, which was taken by a parallel
+session before this was written. D105/D106 belong to the audit_guide lane.
+
+`permissions.allow` in `.claude/settings.json` is an **additive auto-approve
+list, not a deny-by-default allow-list**. Tools omitted from it still run. Any
+agent whose sandbox is assumed to come from an allow-list has no sandbox.
+
+Known instance: `orchestrator/.claude/settings.json` carries a 4-entry allow
+list (`write_to_dropzone.sh` variants) and enforces nothing — proven by live
+probe, an arbitrary `echo` ran from that trusted directory with
+`permission_denials: []`.
+
+Scope of this item: inventory **every** `<agent>/.claude/settings.json` in the
+fleet, and report which ones were written on the assumption that allow-lists
+restrict. Report only — do not change shared agents until the inventory exists.
+
+Secondary finding to check for in the same pass: absolute-path rules need a
+**doubled** leading slash — `Read(//Users/...)`. A single leading slash is
+treated as project-root-relative and silently never matches. This produced a
+real hole during the majordomo build: with `Read(/Users/mmm2/agents/config/.env)`
+the agent read `.env` successfully; with `//` the same read returns *"File is in
+a directory that is denied by your permission settings."* A malformed path rule
+looks identical to a working one.
+
+**Trigger:** before granting any agent broader tools, or before relying on any
+existing agent's settings.json as a security boundary.
