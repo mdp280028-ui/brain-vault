@@ -1662,3 +1662,59 @@ breaker is needed today.
   auto-execute tier should start with the read-mostly playbooks only.
 
 **Trigger:** the moment anyone proposes removing the CONFIRM step.
+
+### D114 — agent_issues has re-accumulated to ~2,900 open rows — 🟡 OPEN
+
+**Logged:** 2026-07-31 (Jeff capability audit).
+
+The backlog was closed to 0 on 2026-05-30. It is now **2,894 open**. This is the
+documented by-design behavior of soft-severity capture (soft issues are captured
+silently and surface only via the daily digest), but at ~2.9k the `/issues`
+dashboard count is meaningless as a signal and Jeff's daily brief reports a
+number the operator cannot act on.
+
+Dominant contributors over 30 days: `ship_to_site_skipped` (3,222 rows),
+`poll_source_skipped` (637, all reddit-disabled-by-design), `notify_failed`
+(706, now fixed).
+
+Options: auto-age soft rows after N days; exclude `*_skipped` actions from
+capture entirely (a skip is not an issue); or add a severity filter to the
+dashboard count. **Recommend excluding `*_skipped` at capture** — it is the
+single biggest contributor and a skip is a routine outcome, not a fault.
+
+**Trigger:** before anyone treats the /issues count as a health signal.
+
+### D115 — `MAX(ts) < strftime(...)` silently always-true (SQLite affinity) — 🟡 OPEN
+
+**Logged:** 2026-07-31 (found building Jeff's daily brief).
+
+`strftime('%s',…)` returns **TEXT**. Comparing a bare column (`ts >= strftime(…)`)
+works because the column's INTEGER affinity coerces the text. Comparing an
+**expression** (`MAX(ts) < strftime(…)`) does **not** — affinity is lost, and in
+SQLite an INTEGER always sorts before TEXT, so the comparison is unconditionally
+true.
+
+Symptom: a "which agents have gone quiet" query returned **all 25 agents**. Fixed
+locally with `CAST(strftime(…) AS INTEGER)`.
+
+This pattern is used across the fleet. Every `HAVING MAX(ts) …`, `MIN(ts) …` or
+other expression-vs-strftime comparison should be audited — each one is silently
+returning everything or nothing. Not swept in this pass; scope was Jeff.
+
+**Trigger:** next time an aggregate-over-timestamp query gives an implausible
+answer.
+
+### D116 — restart-grammy detachment unproven under a real bot-issued SIGTERM — 🟡 OPEN
+
+**Logged:** 2026-07-31.
+
+`majordomo/playbooks/restart-grammy.sh` detaches (nohup + own stdio + delay) so
+the restart survives the parent bot dying. Verified end to end (85222 → 88856,
+completion row written by the child after its parent exited) — but the test
+spawned `runner.sh` from a shell, **not from bot.js**, so the specific case of
+the child surviving a SIGTERM sent to the bot's process group is reasoned rather
+than observed.
+
+**Trigger:** first real `/jeff restart the bot` approval. Watch for
+`grammy_restart_completed` in audit_log; its absence means the child died with
+its parent and the detachment needs `setsid` proper.
