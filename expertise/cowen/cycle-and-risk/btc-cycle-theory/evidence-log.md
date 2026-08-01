@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-28
-entry_count: 47
+last_updated: 2026-07-30
+entry_count: 48
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -102,3 +102,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (TOKUXlPBhOs): Cowen ties BTC's cycle-bottom timing to a specific macro chain: the Fed holds rates at the July 29th FOMC meeting but hikes in September as the two-year yield (already above the Fed funds rate) signals policy isn't restrictive enough, prompting bond vigilantes to push long-end yields higher and trigger a 10-20% stock correction in the August-September window; he cites 2022, 2018, 2014, and 2023 as precedent years for corrections starting in that seasonal window, and expects "you see Bitcoin drop even more, going to its market cycle bottom" in Q4 [12:31]. He separately notes BTC dominance excluding stablecoins is still rising, arguing the appearance of stalled dominance is a stablecoin "flight to safety" artifact rather than a cycle signal.
 
 - 2026-07-28 (oDvuDHTv2zo): Cowen quantifies the current BTC rally against midterm-year seasonal precedent, noting BTC is up ~10% this July versus +20% in July 2022 and nearly +40% in July 2018 — a softer move than either historical comp. He flags that in all three closest analog years (2022, 2018, 2014), the July rally was followed by a red August and September, reinforcing his expectation the current strength reverses. He also splits his analog framework by purpose: "what tends to happen in July of midterm years. And that is a rally back" [00:04-00:07], with 2018 preferred for market structure but 2019 preferred for liquidity and flows.
+
+- 2026-07-30 (7vNA0geUryY): Cowen ties this July's ~10.5% BTC gain to the 2022/2018 midterm-year relief-rally pattern and notes 2014 was a partial exception (cycle low held off until October despite a stronger June low); he flags the 10-year Treasury yield turning up while the Fed holds as a bearish echo of 2023, when the same divergence preceded BTC's July downturn, and stresses genuine uncertainty about whether price even reaches the bear market resistance band or 200-day MA this time — "The the true answer is that is that no one knows" [03:12] — before using the ROI-from-low chart to place the cycle bottom at or near November 2026.

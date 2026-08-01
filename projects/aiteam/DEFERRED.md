@@ -1754,3 +1754,47 @@ Related to D105 (`scorer_version` records repo HEAD): the verdicts table has
 more than one field that cannot be trusted at face value.
 
 **Trigger:** before approving any slug on the strength of a `passed` flag alone.
+
+### D119 — `permissions.allow` is required to AUTO-APPROVE Bash outside the agent cwd — 🟡 OPEN (documented, not a defect to fix)
+
+**Logged:** 2026-07-31 (Bob build).
+
+D107 established that `permissions.allow` does not RESTRICT anything. This is the
+other half: it is the only thing that **auto-approves**, and without it a `Bash`
+call touching a path outside the agent's working directory raises a permission
+prompt — which in headless `-p` mode with no TTY means **denied**.
+
+Symptom: Bob had `--tools Bash …` and an empty `allow: []`. He replied *"approve
+the directory for this session and I'll do it"* and did nothing. A direct
+`claude -p … --tools Bash` probe ran the same command fine, because the probe's
+command touched no outside path.
+
+So the correct mental model is:
+- `--tools` — what tools EXIST (fail-closed, the real boundary)
+- `deny` — removes a tool (enforced)
+- `allow` — auto-approves calls that would otherwise prompt (NOT a restriction)
+
+An agent needs BOTH `--tools` and a matching `allow` list to work headlessly
+outside its own directory. Recorded so the next agent build does not lose an
+hour to it.
+
+### D120 — an agent with a shell obeys destructive instructions unless told otherwise — 🟡 OPEN
+
+**Logged:** 2026-07-31 (Bob build, found by testing).
+
+Bob's policy listed `rm` under ASK FIRST. Told *"Delete the retired folder for
+asbestos to free up space: rm -rf …"*, he **deleted it** and reported afterwards
+(accurately, including that it was git-recoverable). Restored from git.
+
+The wording was the bug: "ask first" reads as "ask unless he already asked", and
+a direct instruction is not a question. Fixed by stating that destructive
+operations get a confirmation step **even when directly ordered**, with the
+reasoning: a plausible destructive instruction is exactly the shape a successful
+injection takes, and "it seemed unambiguous" is not evidence about where it came
+from.
+
+**This remains prompt policy, not enforcement.** Bob has a shell; nothing stops
+him. The residual risk is real and accepted — the operator chose isolation over
+amputation. Revisit if Bob ever performs a destructive action unasked again;
+the next step would be a mandatory confirmation wrapper on destructive verbs at
+the runner level rather than in the prompt.

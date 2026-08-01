@@ -1,0 +1,13 @@
+{
+  "detected_at": "2026-07-31T19:17:04Z",
+  "actor_id": "notify",
+  "verdict": "degraded",
+  "window_hours": 24,
+  "sent": 6,
+  "failed": 29,
+  "attempted": 35,
+  "failure_pct": 82,
+  "reason": "82% failure rate (29/35) in 24h",
+  "routed_via": "audit_log + incident file + watchdog.log — deliberately NOT notify.sh",
+  "next_step": "run: NOTIFY_DEBUG=1 /bin/bash ~/agents/lib/notify.sh 'probe' — inspect rc/http per attempt"
+}

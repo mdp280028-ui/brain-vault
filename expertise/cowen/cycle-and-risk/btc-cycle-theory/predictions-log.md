@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-28
-entry_count: 106
+last_updated: 2026-07-30
+entry_count: 108
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -152,3 +152,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-28 (TOKUXlPBhOs): Stock market (S&P) correction of 10-20% starting in the August-September timeframe.
 - 2026-07-28 (TOKUXlPBhOs): Bitcoin drops further to a market-cycle bottom in Q4, the back half of the back half of the midterm year.
+
+- 2026-07-30 (7vNA0geUryY): Bitcoin's next "window of weakness" (renewed downside) begins within the next 2-3 weeks, landing in August or September.
+- 2026-07-30 (7vNA0geUryY): Bear market low expected within a few more months, with market at or near a cycle bottom by around November 2026.
