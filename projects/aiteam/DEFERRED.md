@@ -1718,3 +1718,39 @@ than observed.
 **Trigger:** first real `/jeff restart the bot` approval. Watch for
 `grammy_restart_completed` in audit_log; its absence means the child died with
 its parent and the detachment needs `setsid` proper.
+
+### D117 — needs_review_queue.txt holds stale entries for already-approved slugs — 🟡 OPEN
+
+**Logged:** 2026-07-31 (found by Jeff during the production-playbook build).
+
+7 of 10 entries in `ship-to-site/state/needs_review_queue.txt` name slugs that
+are **already in `approved/guides/`**, and `asbestos-abatement-process` is
+**live on the public site**. The review backlog is 3 real items, not 10.
+
+Nothing removes a slug from the queue when it is approved by another path, so
+entries accumulate. `ship.sh:99` skips any slug in the queue, meaning a stale
+entry would also block a genuine re-ship of that slug.
+
+`pipeline_status.sh` now flags these as STALE REVIEW ENTRIES. Clearing them is a
+one-line `clear-review-slug` per slug — deliberately not done in bulk here,
+because each one deserves a glance at whether it is genuinely live.
+
+**Trigger:** next review pass, or before trusting the review count.
+
+### D118 — auditor_verdicts rows with composite_score 0.00 AND passed=1 — 🟡 OPEN
+
+**Logged:** 2026-07-31 (found by Jeff).
+
+Three slugs in needs-review (`asbestos-removal-near-me`, `asbestos-gasket`,
+`asbestos-disposal-supplies`) have a latest verdict of `0.00 pass=1`, while the
+same slugs' best-ever composites are 2.62 / 2.88 / 2.88. A zero composite with
+a passing flag is a **malformed row**, not a win.
+
+This matters because it is exactly the signal an approve-slug proposal would key
+on: "it passed, ship it". Approving on a malformed row risks publishing content
+that never actually passed the gate — POLICY Q1's expensive direction.
+
+Related to D105 (`scorer_version` records repo HEAD): the verdicts table has
+more than one field that cannot be trusted at face value.
+
+**Trigger:** before approving any slug on the strength of a `passed` flag alone.
