@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-27
-entry_count: 27
+last_updated: 2026-07-31
+entry_count: 28
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -47,3 +47,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-27 (lfYYC7qxDQ8): Bitcoin likely pulls back into the August-September timeframe following the July rally.
 - 2026-07-27 (lfYYC7qxDQ8): Q4 is the historically likely window for a final drop and full on-chain indicator reset / market cycle bottom, though not certain.
 - 2026-07-27 (lfYYC7qxDQ8): Durable break above the bear market resistance band historically hasn't occurred until well into the post-halving year, suggesting any strong sustained upside is still far off.
+
+- 2026-07-31 (XiNkIzh1fmQ): Cowen expects Bitcoin to come back down later in August and notably in September, consistent with 2023/2022/2018/2014 mid-term-year seasonality, allowing for a possible modest rally extension into August first.

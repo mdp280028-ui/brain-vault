@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-07-16
-entry_count: 28
+last_updated: 2026-07-31
+entry_count: 29
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -49,3 +49,5 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-16 (XQN1M-sIuGs): Based on the ROI-from-low chart, a cycle bottom could land roughly ~100 days from now, extrapolating from prior cycle bottoms at day 1432/1436 versus the current day 1333.
 - 2026-07-16 (XQN1M-sIuGs): Per the 2018/2022 midterm-year analog, the current July rally is expected to be given back in August or September, consistent with dollar strength (DXY) remaining a headwind later in the year.
+
+- 2026-07-31 (XiNkIzh1fmQ): Cowen expects Bitcoin to come back down later in August and notably in September, consistent with 2023/2022/2018/2014 mid-term-year seasonality, with a possible modest rally extension into August before the downturn.

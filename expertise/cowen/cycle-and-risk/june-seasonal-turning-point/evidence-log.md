@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-27
-entry_count: 14
+last_updated: 2026-07-31
+entry_count: 15
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -36,3 +36,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-20 (ygVIJCGLLSQ): Cowen contrasts the two prior mid-term-year analogs underpinning the June/July turning-point thesis: in both 2018 and 2022 BTC rallied in July then gave back the gains, but the reversal landed at different times (2018 sooner, 2022 not until August/September) and ETH behaved oppositely in each — new cycle lows in 2018 vs. a higher low in 2022. He frames this as the live question for the current cycle: "Is this 2022? Or is it 2018?" [00:00]
 
 - 2026-07-27 (lfYYC7qxDQ8): Cowen reiterates that 2026 is "repeating the structure" of 2018 every month this year — February low, higher low in spring, swept low in late June/early July, rally into the bear-market resistance band by late July/early August — and points to the historical pattern of red August/September months following July strength in 2018, 2022, and 2014 as reason to expect a pullback after rejection near resistance. He also notes durable breaks above the resistance band have historically taken until well into the post-halving year (e.g., "in the last cycle, we didn't get through it in any durable sense until January of the post-halving year" [06:35]), tempering how much upside to expect even if the rally persists.
+
+- 2026-07-31 (XiNkIzh1fmQ): Cowen checks off both halves of his prior June-seasonal call — the late June/early July low and the July countertrend rally — and extends the historical analogue set from just 2018 to include 2023, 2022, and 2014, all of which show Bitcoin turning red in August/September regardless of July's direction. He allows the rally could stretch a bit further into August but expects the downturn to hit later in August and "notably" September, tying this to a bond market that is "starting to revolt" and a Fed on hold: "So, it made sense to say that look, we were going to form a low by late June, early July. We did." [00:14]
