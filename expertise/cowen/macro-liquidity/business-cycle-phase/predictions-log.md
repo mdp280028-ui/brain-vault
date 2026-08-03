@@ -1,8 +1,8 @@
 ---
 topic_slug: business-cycle-phase
 group: macro-liquidity
-last_updated: 2026-07-14
-entry_count: 24
+last_updated: 2026-08-02
+entry_count: 25
 ---
 
 # Predictions log: Business Cycle Phase
@@ -42,3 +42,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-14 (Wf7vUIoGQrE): Possible tail scenario: Bitcoin bottoms as late as December 2026 if this bear market extends to 13-14 months like 2013-2014 (explicitly stated as not his base case).
 - 2026-07-14 (Wf7vUIoGQrE): Bitcoin likely to see a brief bounce/higher low around mid-July (near the CPI report), then give most gains back by late July/early August.
 - 2026-07-14 (Wf7vUIoGQrE): Stock market (S&P) correction expected to start in August or September 2026, which would trigger Bitcoin's drop to its market cycle bottom.
+
+- 2026-08-02 (2o0qSlwjkv8): Cowen expects Bitcoin/the asset class to remain undervalued and weak for "at least a few more months," potentially going even lower before the year is over, in line with the four-year cycle.
