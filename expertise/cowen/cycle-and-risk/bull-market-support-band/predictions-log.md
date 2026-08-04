@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-07-22
-entry_count: 17
+last_updated: 2026-08-03
+entry_count: 19
 ---
 
 # Predictions log: Bull Market Support Band
@@ -35,3 +35,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-22 (jpQb-Aia57k): Gold's midterm-year low likely forms between July and October 2026, with the bull market support band near $3,800 (~4% below current price) as the target zone.
 - 2026-07-22 (jpQb-Aia57k): After the low forms, Cowen expects the gold bull market to potentially continue into the end of the decade, aiming for a new higher high.
+
+- 2026-08-03 (WRftdLFrepU): A decisive break of either the bear market resistance band (~69k) or the 200-week moving average (~63.7k) will be forced within the next couple of months, and by year-end at the latest.
+- 2026-08-03 (WRftdLFrepU): Bitcoin likely heads back down below 60k at some point, tied to on-chain indicators needing a further reset later this year (no exact week given).

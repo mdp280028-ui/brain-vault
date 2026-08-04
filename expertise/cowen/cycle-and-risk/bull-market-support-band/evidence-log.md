@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-07-22
-entry_count: 10
+last_updated: 2026-08-03
+entry_count: 11
 ---
 
 # Evidence log: Bull Market Support Band
@@ -28,3 +28,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-15 (rWfLRMiyQVY): Cowen says Bitcoin is currently squeezed between the 200-week moving average and the bear market resistance band, with the structure mirroring the 2018 fractal (Feb low, higher low in March/April, May rejection off the band, sweep of the Feb low in late June/early July). A cooler-than-expected July CPI print is fueling the seasonal rally he called in advance, but he expects BTC to push back up toward the band, get rejected again, and resolve — likely to the downside — between August and Q4: "Bitcoin is getting squeezed between the 200-week moving average and the bear market resistance band" [03:13].
 
 - 2026-07-22 (jpQb-Aia57k): Gold, down ~30% from its high, is closing in on its bull market support band at ~$3,800 (roughly 4% below the current ~$4,000 price); Cowen compares 2026's year-to-date ROI to the 2018 and 2022 midterm years, both of which line up closely and average out to an August–September bottom, with an outside chance of a July low. He says: "Gold moves a lot slower, so we have the gold bull market support band, and that's getting really close to where the price is. So, that's currently at around 3,800." [03:37]
+
+- 2026-08-03 (WRftdLFrepU): Cowen frames BTC's current setup as a squeeze between a falling bear market resistance band (~$69K) and a rising 200-week moving average (~$63.7K), with BTC trading almost exactly on the 200-week MA (63.5K vs. 63,551 average) after last week's close. He argues these two lines converging will force a decisive breakout or breakdown "within the next couple of months," citing 2022 and 2018 analogues where a green early-August bounce off the 200-week MA preceded a larger drawdown, and notes 2022's BTC never even reached the resistance band before the August correction hit. Direct quote: [01:38] "you have the bear market resistance band kind of coming down. You have the 200-week moving average coming up."

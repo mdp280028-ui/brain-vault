@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-07-31
-entry_count: 15
+last_updated: 2026-08-03
+entry_count: 16
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -38,3 +38,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (oDvuDHTv2zo): Cowen confirms the ongoing rally as a typical July pattern for midterm years, showing BTC up about 10% so far versus 2022's +20% and 2018's +40% at the same point in the cycle. He flags that in the closest historical analogs — 2022, 2018, and 2014 — the following August and September both turned red, and reiterates 2018 as the best structural/sentiment analog while 2019 remains the better liquidity/business-cycle analog. Quote: [00:16] "you can see that in 2022 up 20%, in 2018 up" / [00:19] "almost 40%. So far, we're up about 10."
 
 - 2026-07-31 (XiNkIzh1fmQ): Cowen widens his midterm-year analog set to 2023, 2022, 2018, and 2014, noting that in 2022 and 2018 July was green with August/September red, while in 2014 even a red July was followed by red August/September — reinforcing the seasonal downturn as the expected outcome regardless of July's direction. He confirms both prior checkpoints of his call (late-June/early-July low, July countertrend rally) played out and allows the rally could extend a bit further into August before turning down. "Even in 2014 when July was red, August and September were still red." [00:55]
+
+- 2026-08-03 (WRftdLFrepU): Cowen extends the midterm-year August seasonality call with a fuller historical set — every prior midterm year has been negative in August (2022 −15%, 2018 −15%, 2014 −18%, 2010 −5%) while July has consistently been green (2022 +20%, 2018 +40%, 2026 +7%) — and ties this to a mechanical squeeze between the falling bear market resistance band (~69k) and rising 200-week MA (~63.7k) that he says will force a decisive break within a couple months. Quote: "this July, up 7%... a lot of times July's green for Bitcoin, and this time proved no different. The problem is every prior midterm year was red for August." [05:26]

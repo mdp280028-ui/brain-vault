@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-07-31
-brief_count: 15
+last_updated: 2026-08-03
+brief_count: 16
 ---
 
 # Midterm Election Market Impact
@@ -11,19 +11,20 @@ Auto-created topic. Seed description pending operator review. Slug-as-words: mid
 
 ## Current Thesis
 
-Midterm years are historically the worst year for equities and the typical "reset window" for Bitcoin, and Cowen applies this seasonal roadmap to BTC, SPX, and gold in parallel. His base case — a June/summer dip, a small counter-trend rally into July, that rally given back in August-September, and a final bottom in Q4 — has now cleared two of its three checkpoints ("check" on the late-June/early-July low, "check" on the July countertrend rally), leaving only the expected August-September downturn still to play out. Cowen has widened his analog set from 2022/2018/2014 to also include 2023, and re-sharpened his BTC months conviction back to ↓4 (from ↓2 the prior brief) on the strength of that broader historical backing — in 2022 and 2018 July was green with August/September red, and even in 2014, when July itself was red, August and September were still red, reinforcing the seasonal tail as directionally robust regardless of July's outcome. He allows the current rally could extend modestly into August before turning down. The mechanism remains macro rather than partisan: BTC's return path under Trump's second term tracks Biden's term almost exactly, DXY behavior is similar across both Trump terms, and Cowen now also flags bond-market stress ("starting to revolt") alongside a non-hiking Fed as part of the macro backdrop. He continues to split his analog framing — 2018 as the best comparison for current sentiment/market structure, 2019 for liquidity and business-cycle positioning — and continues to favor DCA'ing over timing the exact low.
+Midterm years are historically the worst year for equities and the typical "reset window" for Bitcoin, and Cowen applies this seasonal roadmap to BTC, SPX, and gold in parallel. His base case — a June/summer dip, a small counter-trend rally into July, that rally given back in August-September, and a final bottom in Q4 — has now cleared two of its three checkpoints, with July confirmed green (+7%) and the expected August-September downturn the only leg still to play out. He now frames this as a mechanical squeeze: the falling bear market resistance band (~69k) and the rising 200-week MA (~63.7k) are converging and will force a decisive breakout or breakdown within the next couple of months, and by year-end at the latest, with on-chain indicators (NVRV Z-score) needing one more leg lower to fully reset. His expanded analog set (2023, 2022, 2018, 2014, now also 2010) shows every prior midterm year has been red in August, reinforcing his BTC months conviction at ↓4, while he adds a new near-term ↓3 flat/chop call (→2 weeks) for the immediate band/MA squeeze period before direction resolves. He continues to reject the "everyone already expects it so it won't happen" objection to seasonal patterns, still favors DCA'ing over timing the exact low, and now anchors his Q4 bottom expectation more specifically to late November (tied to his ITC conference timing).
 
 ## Key Evidence
 
-- Midterm year (Year 2 of presidential cycle) is historically the worst year for SPX on average; BTC midterm-year average return is −65%; BTC's YTD drawdown has tracked the historical midterm-year average almost exactly (prior)
-- Monthly BTC returns for July in past midterm years: 2022 up 20%, 2018 up almost 40%; 2026 is up about 10% so far, confirming the seasonal rally pattern Cowen forecast (oDvuDHTv2zo)
-- Expanded analog set (2023, 2022, 2018, 2014) shows August/September consistently red following the July setup — even 2014, where July itself was red, saw August and September stay red — Cowen: "Even in 2014 when July was red, August and September were still red." (XiNkIzh1fmQ)
-- Cowen's two-part prior call (low by late June/early July, then a July countertrend rally) has now fully played out — Cowen: "Countertrend rally in July, check." (XiNkIzh1fmQ)
-- BTC's return under Trump's second term tracks Biden's term closely (summer dip, small rally, given back in August/September, Q4 bottom), while DXY behavior is similar across both Trump terms and remains a flagged headwind; bond market stress and a non-hiking Fed are now cited as reinforcing macro context (prior; XiNkIzh1fmQ)
-- Cowen views 2018 as the best analog for current market structure/sentiment, but 2019 as the better analog for liquidity and business-cycle positioning (oDvuDHTv2zo; prior)
+- Every prior midterm year has been negative in August: −15% (2022), −15% (2018), −18% (2014), −5% (2010); July by contrast has been green in every case (2022 +20%, 2018 +40%, 2026 +7%) — Cowen: "this July, up 7%... a lot of times July's green for Bitcoin... The problem is every prior midterm year was red for August." (WRftdLFrepU)
+- Bear market resistance band (~69k, falling) and 200-week MA (~63.7k, rising) are converging and will force a decisive break within the next couple months, before year-end (WRftdLFrepU)
+- 2022 and 2018 analogs show a bounce/green week off the 200-week MA in early August followed by a larger drawdown, illustrating that a rally can precede rather than prevent the seasonal down leg (WRftdLFrepU)
+- Expanded analog set (2023, 2022, 2018, 2014) shows August/September consistently red following the July setup — even 2014, where July itself was red, saw August and September stay red (XiNkIzh1fmQ)
+- Cowen's two-part prior call (low by late June/early July, then a July countertrend rally) has fully played out, now confirmed with July closing +7% (WRftdLFrepU; XiNkIzh1fmQ)
+- BTC's return under Trump's second term tracks Biden's term closely (summer dip, small rally, given back in August/September, Q4 bottom); Cowen continues to frame the pattern as macro-driven rather than partisan (prior)
 
 ## Recent Updates
 
+- 2026-08-03 (WRftdLFrepU): Cowen frames BTC as squeezed between the falling bear market resistance band (~69k) and rising 200-week MA (~63.7k), forcing a decisive move within a couple months; reintroduces a specific August seasonality call (every prior midterm-year August negative: 2022 −15%, 2018 −15%, 2014 −18%, 2010 −5%) with BTC months back to ↓4 and a new →2 weeks chop call, and pegs his cycle-bottom expectation to late November.
 - 2026-07-31 (XiNkIzh1fmQ): Cowen confirms both legs of his prior call played out (late-June/early-July low, July countertrend rally), broadens his historical analog set to include 2023 alongside 2022/2018/2014, and resharpens BTC months conviction from ↓2 back to ↓4 on expectation of a red August and especially September, while allowing the rally could extend slightly into August first.
 - 2026-07-28 (oDvuDHTv2zo): Cowen confirms the July rally (BTC +10%) is typical midterm-year seasonality versus 2022 (+20%) and 2018 (+40%), but warns that August and September turned red in 2022, 2018, and 2014, and trims his BTC months conviction from ↓4 to ↓2 to reflect the softer near-term picture while reiterating 2018 as the best structural analog and 2019 as the best liquidity analog.
 - 2026-07-16 (XQN1M-sIuGs): Cowen's new July cycle memo compares day-count, election-cycle, and social-interest charts, concludes BTC is tracking prior midterm cycles closely (2018-like in sentiment, 2019-like in liquidity/business-cycle positioning), notes a bottom could be ~100 days out per day-count analogs, and reiterates DCA'ing over timing the exact low.
