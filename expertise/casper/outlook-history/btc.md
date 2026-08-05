@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-07-30
-row_count: 124
+last_updated: 2026-08-04
+row_count: 127
 ---
 
 # BTC outlook history (Casper)
@@ -134,3 +134,6 @@ Append-only. Newest entries at bottom.
 | 2026-07-27 | months | ↑ | 3 | Casper says Bitcoin is pinned between a Fibonacci golden pocket and PC support in a "no trade zone," staying bullish above the PC toward the mid-$70Ks but still open to a drop toward $60K (or a top... | 4xfBEwpDUxA | /Users/mmm2/brain/channels/casper/briefs/2026-07-27_4xfBEwpDUxA.md |
 | 2026-07-27 | weeks | ↑ | 3 | Casper says Bitcoin is pinned between a Fibonacci golden pocket and PC support in a "no trade zone," staying bullish above the PC toward the mid-$70Ks but still open to a drop toward $60K (or a top... | 4xfBEwpDUxA | /Users/mmm2/brain/channels/casper/briefs/2026-07-27_4xfBEwpDUxA.md |
 | 2026-07-29 | days | ↓ | 2 | Casper trades BTC live through the FOMC decision (no rate change), pointing to a golden pocket/support zone around $63.4K with liquidity draws toward $62K–$60K as his preferred long areas, while a ... | RVT_ijAP1Cc | /Users/mmm2/brain/channels/casper/briefs/2026-07-29_RVT_ijAP1Cc.md |
+| 2026-08-03 | months | ↑ | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
+| 2026-08-03 | weeks | → | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
+| 2026-08-03 | days | ↓ | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
