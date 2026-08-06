@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-07-30
-entry_count: 14
+last_updated: 2026-08-05
+entry_count: 16
 ---
 
 # Predictions log: Fed Policy & Rates
@@ -31,3 +31,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (TOKUXlPBhOs): Market-implied Fed funds rate target of 4.25% by December.
 
 - 2026-07-30 (q2QLLihl6cc): Ben expects a Fed rate hike this year, with September as a likely candidate month.
+
+- 2026-08-04 (3yiYSG8sOFE): S&P correction unlikely to begin before mid-August at the earliest, with Cowen leaning toward a September start (potentially tied to the September 16th Fed meeting), possibly extending into October, and if it matches 2018, bottoming as late as December 2026.
+
+- 2026-08-05 (cmgvWLCes0s): Possible correction starting around the September 16th Fed meeting, based on the 2014/2018 (and implied 2022) midterm-year pattern.

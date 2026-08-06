@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-08-04
-row_count: 127
+last_updated: 2026-08-05
+row_count: 130
 ---
 
 # BTC outlook history (Casper)
@@ -137,3 +137,6 @@ Append-only. Newest entries at bottom.
 | 2026-08-03 | months | ↑ | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
 | 2026-08-03 | weeks | → | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
 | 2026-08-03 | days | ↓ | 2 | Casper calls himself "extremely neutral" at fair-value chop, taking a small short scalp off the naked monthly point of control while outlining a squeeze toward ~$67.2K–$68K on bullish divergence if... | f9NMu2TMVHY | /Users/mmm2/brain/channels/casper/briefs/2026-08-03_f9NMu2TMVHY.md |
+| 2026-08-04 | months | ↑ | 3 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |
+| 2026-08-04 | weeks | → | 2 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |
+| 2026-08-04 | days | ↑ | 2 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |

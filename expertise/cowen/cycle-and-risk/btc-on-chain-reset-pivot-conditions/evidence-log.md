@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-on-chain-reset-pivot-conditions
 group: cycle-and-risk
-last_updated: 2026-08-03
-entry_count: 4
+last_updated: 2026-08-04
+entry_count: 5
 ---
 
 # Evidence log: Btc On Chain Reset Pivot Conditions
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-26 (WrYTIBG10vI): In a short definitional clip, Cowen identified a touch of the balance price (~$38K, within the $30K–$40K range) as the single clearest signal of full price-based capitulation, noting that Bitcoin has historically spent only a few days below this level across 2011, 2015, 2018, and 2022. He frames it conditionally rather than as a prediction: "If it does happen that would be price based capitulation… because then all the onchain indicators will be fully reset." [00:37/00:47] The significance is that reaching that level removes all ambiguity — it would simultaneously satisfy every on-chain reset condition, making the bear market bottom call straightforward for market participants.
 
 - 2026-08-03 (WRftdLFrepU): Cowen describes Bitcoin as caught between a falling bear market resistance band (~$69K) and a rising 200-week moving average (~$63.7K), a squeeze he expects will force a decisive breakout or breakdown within the next couple of months and no later than year-end. He ties this directly to the on-chain reset condition, noting the NVRV Z-score is close to bottoming out below zero but likely needs another move lower later in the year to fully reset — "what I am saying is that these two levels are going to force Bitcoin to make a decision, and once the decision is made, volatility is going to pick up a lot" [04:06].
+
+- 2026-08-04 (3yiYSG8sOFE): Cowen used a fractal comparison across 2014, 2018, and 2022 to argue that Bitcoin's market cycle bottom follows the stock market's second, later-year correction rather than an earlier one, and since 2026 already saw its first correction earlier in the year, he expects the true reset trigger to be an anticipated August/September S&P correction: "sometime in September getting that correction that then ushers in what I would consider to be the market cycle bottom for Bitcoin" [09:13]. He added that a deep enough S&P retest (possibly toward 6,000) "would very likely cause Bitcoin to lose that support that it has at at 60K" [16:09], while hedging with the 2018 precedent where Bitcoin held its $6,000 support most of the year despite the S&P's smaller first correction.

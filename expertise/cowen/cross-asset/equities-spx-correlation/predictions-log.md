@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-28
-entry_count: 18
+last_updated: 2026-08-05
+entry_count: 23
 ---
 
 # Predictions log: Equities & SPX Correlation
@@ -37,3 +37,10 @@ Append-only. Newest entries at bottom.
 
 - 2026-07-28 (TOKUXlPBhOs): Stock market (S&P) correction of 10-20% starting in the August-September timeframe (back half of the midterm year), driven by bond-market pressure from anticipated Fed rate hikes.
 - 2026-07-28 (TOKUXlPBhOs): 10-year yield heads back up toward its October 2023 high; 30-year yield breaks through the 5.1-5.2% resistance level, which he ties to triggering the equities correction.
+
+- 2026-08-04 (3yiYSG8sOFE): S&P correction unlikely to begin before mid-August at the earliest, with Cowen leaning toward a September start (potentially tied to the September 16th Fed meeting), possibly extending into October.
+- 2026-08-04 (3yiYSG8sOFE): If the pattern matches 2018, the S&P correction could continue bottoming as late as December 2026.
+- 2026-08-04 (3yiYSG8sOFE): Bitcoin's market cycle bottom is expected to follow the stock market's second/later-year correction (i.e., after the August/September S&P correction plays out), not before.
+- 2026-08-04 (3yiYSG8sOFE): Possible (not confident) scenario: S&P retests a longer-term trendline back toward 6,000, which would likely break Bitcoin's ~60K support.
+
+- 2026-08-05 (cmgvWLCes0s): Possible correction starting around the September 16th Fed meeting, based on the 2014/2018 (and implied 2022) midterm-year pattern.

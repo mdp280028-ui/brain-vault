@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-07-30
-entry_count: 12
+last_updated: 2026-08-05
+entry_count: 14
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -32,3 +32,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (TOKUXlPBhOs): Cowen expects the Fed to hold rates at tomorrow's July 29th FOMC meeting (FedWatch pricing only ~29.4% odds of a hike) but to raise rates in September, noting it would be unprecedented for the Fed to start hiking in summer since the 2024 and 2025 cutting cycles both began in September. He argues the labor market is fine — jobless claims just printed 187,000, the lowest in decades, with unemployment at 4.2% and falling since November 2025 — so "the bond market" is really worried about inflation, reinforced by the two-year yield now trading above the Fed funds rate ("The Fed tracks the two-year yield," [11:07]) which implies policy is no longer sufficiently restrictive and lines up with market pricing of a 4.25% funds rate by December.
 
 - 2026-07-30 (q2QLLihl6cc): June PCE data came in soft (+0.1% m/m, 3.7% y/y, GDP +1.5% annualized, jobless claims 197k), yet Bitcoin only ticked up modestly as Guy and Ben highlighted three FOMC members dissenting for an immediate hike and Chair Warsh scrapping forward guidance entirely — "to play the ball and not the referee" [06:28] — with the September 16th meeting now pricing roughly 60/40 toward a hike to 3.75-4.00%. Ben pointed to the two-year yield now sitting above the Fed funds rate ("the two-year yield is is actually above the Fed funds rate even though the Fed funds rate hasn't gone anywhere in a while" [09:47]) and a 30-year/10-year breakout echoing the July-October 2023 move that preceded a roughly 10% S&P drop ("The S&P ended up getting like a 10% drop." [10:58]), concluding "I think that we are likely going to get a rate hike this year." [11:00]
+
+- 2026-08-04 (3yiYSG8sOFE): Cowen puts the September 16th FOMC decision at roughly a coin flip — "It's about a coin flip. You're looking at about a 57% chance of a rate hike, a 43% chance that they do absolutely nothing" [06:29] — and argues either outcome still pressures risk assets, since a hike risks reigniting hiking-cycle fear while a hold still leaves the 10-year (4.6%) and 30-year (back to October 2023 levels) grinding higher; he ties this to midterm-year seasonality where prior corrections (2014, 2018, 2022) didn't start until mid-August to late-September.
+
+- 2026-08-05 (cmgvWLCes0s): Cowen draws a direct historical parallel between the 2014 and 2018 midterm-year corrections, both of which began within two days of each other (September 19th and September 21st), and the September 16th FOMC this cycle, which he still prices at roughly a 57% hike / 43% hold coin flip. He restates the expectation that "history could repeat" with a correction starting around the time of that meeting, though this brief presents the point more briefly and with less supporting data than his prior video. Quote: [00:07] "is that the correction started on" [00:10] "September 19th and September 21st."

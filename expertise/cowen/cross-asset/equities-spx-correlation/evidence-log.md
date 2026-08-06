@@ -1,8 +1,8 @@
 ---
 topic_slug: equities-spx-correlation
 group: cross-asset
-last_updated: 2026-07-28
-entry_count: 12
+last_updated: 2026-08-05
+entry_count: 14
 ---
 
 # Evidence log: Equities & SPX Correlation
@@ -32,3 +32,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-24 (JY_wY8XXjYU): Cowen compares midterm-year July returns directly (2026 up ~9% so far vs. 2022's +20%, 2018's ~+40%, and 2014's slight negative), reinforcing July as a seasonally milder month before the August-September drop, and notes that in both 2022 and 2018 the July gains were fully given back in the following two months — the template he expects to repeat in 2026. He ties this to Bitcoin's own technical range, saying the SPX top/correction is the mechanism that would push BTC into its cycle low, framing 2026 as "a less volatile version of 2018" [08:26].
 
 - 2026-07-28 (TOKUXlPBhOs): Cowen lays out a rates-to-equities transmission chain: the Fed holds on July 29th, bond vigilantes then push the 10-year toward its October 2023 high and the 30-year through 5.1-5.2% resistance, and that yield pressure triggers the expected August-September stock correction before the Fed delivers hikes. He states plainly "we're about to see a 10 to 20% drop in stocks" [09:33], and extends his precedent list to include 2023 (correction starting late July amid rising long-end yields) alongside 2022, 2018, and 2014, tying the eventual correction to Bitcoin's Q4 market-cycle bottom.
+
+- 2026-08-04 (3yiYSG8sOFE): With the S&P at new all-time highs (7750) on August 4th, Cowen shows the three most recent midterm-year corrections all started mid-to-late in the year — September 19th 2014 (~10%), September 21st 2018 (~20%), August 16th 2022 (~20%, already a bear market) — and stresses that a correction "starting" then doesn't mean it "finished" then, since 2018 bottomed in December and 2014/2022 bottomed mid-October. He reframes Bitcoin's cycle-bottom timing around each year's *second* correction (citing 2014, 2018, 2022), arguing 2026's early-year drop was the "first correction" and the coming August/September SPX correction is what should usher in Bitcoin's bottom: "sometime in September getting that correction that then ushers in what I would consider to be the market cycle bottom for Bitcoin" [09:13].
+
+- 2026-08-05 (cmgvWLCes0s): Cowen points out that the 2014 and 2018 midterm-year corrections both started within days of each other — September 19th and September 21st — and flags this as notable because the next Fed meeting this cycle falls on September 16th, with rate-hike odds sitting at "about a coin flip" (57% hike, 43% hold). He frames this as evidence that history could repeat "the last three midterm years'" pattern of a correction starting around the Fed meeting date. Quote: [00:07] "is that the correction started on" [00:10] "September 19th and September 21st."

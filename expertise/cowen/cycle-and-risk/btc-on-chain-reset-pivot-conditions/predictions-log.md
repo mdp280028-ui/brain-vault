@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-on-chain-reset-pivot-conditions
 group: cycle-and-risk
-last_updated: 2026-08-03
-entry_count: 5
+last_updated: 2026-08-04
+entry_count: 7
 ---
 
 # Predictions log: Btc On Chain Reset Pivot Conditions
@@ -16,3 +16,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-08-03 (WRftdLFrepU): A decisive break of either the bear market resistance band (~69k) or the 200-week moving average (~63.7k) will be forced within the next couple of months, and by year-end at the latest.
 - 2026-08-03 (WRftdLFrepU): Bitcoin likely heads back down below 60k at some point, tied to on-chain indicators needing a further reset later this year (no exact week given).
+
+- 2026-08-04 (3yiYSG8sOFE): Bitcoin's market cycle bottom is expected to follow the stock market's second/later-year correction (i.e., after the August/September S&P correction plays out), not before.
+- 2026-08-04 (3yiYSG8sOFE): Possible (not confident) scenario: S&P retests a longer-term trendline back toward 6,000, which would likely break Bitcoin's ~60K support.
