@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-08-03
-entry_count: 19
+last_updated: 2026-08-05
+entry_count: 20
 ---
 
 # Predictions log: Bull Market Support Band
@@ -38,3 +38,5 @@ Append-only. Newest entries at bottom.
 
 - 2026-08-03 (WRftdLFrepU): A decisive break of either the bear market resistance band (~69k) or the 200-week moving average (~63.7k) will be forced within the next couple of months, and by year-end at the latest.
 - 2026-08-03 (WRftdLFrepU): Bitcoin likely heads back down below 60k at some point, tied to on-chain indicators needing a further reset later this year (no exact week given).
+
+- 2026-08-05 (mo9PUWbEJ-4): Gold's main bottoming window for this midterm-year cycle is June through October 2026, potentially with one more leg of weakness (into mid-August per the 2022 overlay) before resuming its uptrend and using the bull market support band level as a springboard higher into 2027.

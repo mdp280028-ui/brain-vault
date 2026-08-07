@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-08-03
-entry_count: 11
+last_updated: 2026-08-05
+entry_count: 12
 ---
 
 # Evidence log: Bull Market Support Band
@@ -30,3 +30,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-22 (jpQb-Aia57k): Gold, down ~30% from its high, is closing in on its bull market support band at ~$3,800 (roughly 4% below the current ~$4,000 price); Cowen compares 2026's year-to-date ROI to the 2018 and 2022 midterm years, both of which line up closely and average out to an August–September bottom, with an outside chance of a July low. He says: "Gold moves a lot slower, so we have the gold bull market support band, and that's getting really close to where the price is. So, that's currently at around 3,800." [03:37]
 
 - 2026-08-03 (WRftdLFrepU): Cowen frames BTC's current setup as a squeeze between a falling bear market resistance band (~$69K) and a rising 200-week moving average (~$63.7K), with BTC trading almost exactly on the 200-week MA (63.5K vs. 63,551 average) after last week's close. He argues these two lines converging will force a decisive breakout or breakdown "within the next couple of months," citing 2022 and 2018 analogues where a green early-August bounce off the 200-week MA preceded a larger drawdown, and notes 2022's BTC never even reached the resistance band before the August correction hit. Direct quote: [01:38] "you have the bear market resistance band kind of coming down. You have the 200-week moving average coming up."
+
+- 2026-08-05 (mo9PUWbEJ-4): Cowen frames gold's current pullback to the 20-month SMA / 21-month EMA bull market support band as typical bull-market behavior, noting price has retested — and in the 2000s and 1970s bull runs even briefly broken below — this band without it marking a top. He anchors the timing case in year-to-date ROI overlays against 2022 and 2018 and in seasonal averages: "When you look at the average though of all prior midterm years on average gold bottoms in early July" [03:28–03:33], with the fuller bottoming window running June through October and the current ~30% drawdown ("gold corrected about 30%" [04:14]) sized comparably to past non-terminal corrections.

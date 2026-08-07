@@ -1,8 +1,8 @@
 ---
 topic_slug: gold-vs-crypto
 group: cross-asset
-last_updated: 2026-07-22
-brief_count: 8
+last_updated: 2026-08-05
+brief_count: 9
 ---
 
 # Gold vs Crypto
@@ -11,19 +11,20 @@ Gold price action and the gold-vs-Bitcoin relationship. Cowen uses gold's streng
 
 ## Current Thesis
 
-Gold remains structurally favored over Bitcoin through the remainder of 2026: Cowen frames gold's correction (~30% from its high, down ~5-6% YTD from the yearly open) as a normal midterm-year drawdown consistent with 2022 (~22%), 2008 (~34%), and 2006 (~26%) — none of which marked a top. He cares more about timing the low than its exact depth, and continues to lean toward an August-September bottom window (averaging 2018's mid-August and 2022's late-September lows) within a broader July-October base case, reiterating that gold is "exactly" where it was at the same point in the 2022 midterm cycle even though the drawdown feels worse having started from more elevated levels. The gold-specific bull market support band (~$3,800, ~4% below current price) remains his target zone for the low, after which he expects the gold bull market to extend into new highs by decade's end — keeping gold's relative-strength and political-cycle case against Bitcoin, which remains in its historically worst (midterm) year type, intact through Q4 2026. Silver, having underperformed gold since Cowen's February call favoring gold in the gold-silver ratio, may draw renewed attention once gold's bottom confirms, with a break below $50/oz seen as a potential (if premature to call) "deep value zone."
+Gold remains structurally favored over Bitcoin through the remainder of 2026: Cowen frames gold's ~30% correction from highs as normal midterm-year bull-market weakness — comparable to prior 20-30% corrections within gold bull runs (including dips below the bull market support band in the 2000s and 1970s) — rather than a macro top, while conceding he could be wrong. He continues to lean on 2026's YTD ROI tracking almost identically to 2022 (slightly underperforming) and similarly to 2018, both of which found relief around this point before one more bout of later weakness, reinforcing a June-October bottoming window (averaging early July across midterm years). He now frames gold as being in a "massive consolidation period" echoing 2022's move-up/consolidate/move-up pattern, expecting a bounce soon, with any renewed weakness likely tied to a firming dollar (a 2018-style falling-then-grinding-higher DXY path) and set to front-run rather than follow a stock market correction he doesn't expect until "probably sometime in late September." Once gold bottoms, he expects it to build support into a ~13% average pre-election-year (2027) gain, keeping gold's relative-strength and political-cycle edge over Bitcoin — still in its historically worst (midterm) year type — intact through Q4 2026.
 
 ## Key Evidence
 
-- Gold is down ~30% from its high and ~5-6% YTD from the yearly open, consistent with historical bull-market drawdowns of similar or greater magnitude (2022 ~22%, 2008 ~34%, 2006 ~26%) that did not mark tops. (jpQb-Aia57k)
-- 2026's YTD ROI trajectory lines up closely with both 2018 and 2022, sitting right at the average of those two midterm years; 2022's low bottomed late September and 2018's bottomed mid-August, averaging to an August-September bottom window within the broader July-October base case. (ylHfYEFDGs0, jpQb-Aia57k)
-- The gold-specific bull market support band sits near $3,800 (~4% below current price), last tagged in 2023 and briefly broken in 2022 and 2008 — Cowen's key technical level to watch for the low. (jpQb-Aia57k)
-- Gold recovers from recession-driven drawdowns much faster than equities: bottomed October 2008 and hit new highs by 2009, versus the S&P's wait until 2013; same fast-recovery pattern held in the 2025 tariff-tantrum scare. (prior)
-- Midterm-year seasonality shows gold bottoms on average in early July (same window Bitcoin also averages a bottom in); Cowen frames July-October 2026 as the likely gold low window, after which gold trends higher into 2027-2028. (jpQb-Aia57k, prior)
-- BTC was rejected at bare market resistance against gold in June 2026, and would need to fall ~40% vs. gold just to return to 2022 relative levels; gold performs best under the current Republican-sweep regime while Bitcoin faces its historically worst (midterm) year type. (prior)
+- Gold's ~30% correction from highs is comparable to 20-30% drawdowns seen within prior gold bull markets (including dips below the bull market support band in the 2000s and 1970s) that did not end those bull runs. (mo9PUWbEJ-4)
+- 2026's YTD ROI is tracking almost identically to 2022 (slightly underperforming) and similarly to 2018 — both years found relief around this point in the year before one more period of later weakness; averaging all prior midterm years, gold tends to bottom in early July, framing a June-October 2026 bottoming window. (mo9PUWbEJ-4)
+- Gold is described as being in a "massive consolidation period" mirroring 2022's move-up/consolidation/move-up pattern, with one final move up expected that could mark a more significant global top later in the decade. (mo9PUWbEJ-4)
+- Any further gold weakness would likely coincide with a firming US dollar, which Cowen compares to 2018's Trump-term path (falling, then sideways, then "begrudgingly" grinding higher); gold has historically been weak in a president's second year but picked back up in years three and four. (mo9PUWbEJ-4)
+- The gold-specific bull market support band sits near $3,800 (~4% below price as of late July), last tagged in 2023 and briefly broken in 2022 and 2008 — Cowen's key technical level to watch for the low. (jpQb-Aia57k)
+- BTC was rejected at bare market resistance against gold in June 2026 and would need to fall ~40% vs. gold just to return to 2022 relative levels; gold performs best under the current Republican-sweep regime while Bitcoin faces its historically worst (midterm) year type. (prior)
 
 ## Recent Updates
 
+- 2026-08-05 (mo9PUWbEJ-4): Cowen reiterates gold's ~30% correction as normal midterm-year weakness within a June-October bottoming window, describes gold as in a "massive consolidation period" like 2022's, expects a near-term bounce with any further weakness tied to a firming dollar and front-running (not following) a stock correction he doesn't expect until late September, and projects ~13% average gains through the 2027 pre-election year.
 - 2026-07-22 (ylHfYEFDGs0): Cowen reiterates the July-October gold low base case, showing 2026's YTD ROI sitting right at the average of the 2018 and 2022 midterm-year trajectories, which bottomed mid-August and late-September respectively — reinforcing the August-September bottom estimate.
 - 2026-07-22 (jpQb-Aia57k): Cowen narrows the gold low call toward an August-September window (averaging 2018/2022 midterm-year bottoms) within the July-October base case, flags the ~$3,800 gold bull market support band as the target, and notes silver's underperformance versus gold since February, positioning silver as a potential follow-on trade once gold bottoms.
 - 2026-07-13 (sjt1LV2iDog): Cowen refines the seasonal low call to July–October 2026 (average early July across midterm years, excluding 2018/2022), highlights gold's bull market support band (~$3,800-3,841) as the key bounce level, and reiterates gold's much faster historical recovery from recession-driven drawdowns versus equities — reinforcing gold's structural edge over Bitcoin through the cycle.

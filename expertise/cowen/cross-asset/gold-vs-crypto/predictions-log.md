@@ -1,8 +1,8 @@
 ---
 topic_slug: gold-vs-crypto
 group: cross-asset
-last_updated: 2026-07-22
-entry_count: 13
+last_updated: 2026-08-05
+entry_count: 16
 ---
 
 # Predictions log: Gold vs Crypto
@@ -28,3 +28,7 @@ Append-only. Newest entries at bottom.
 - 2026-07-22 (jpQb-Aia57k): Bitcoin, on average across prior midterm years, bottoms out in early July.
 
 - 2026-07-22 (ylHfYEFDGs0): Gold's midterm-year low will likely form between July and October 2026, with an August-September window highlighted as the average bottom timing based on 2018 and 2022.
+
+- 2026-08-05 (mo9PUWbEJ-4): Gold's main bottoming window for this midterm-year cycle is June through October 2026.
+- 2026-08-05 (mo9PUWbEJ-4): Gold could see one more period of weakness (potentially into mid-August, per the 2022 year-to-date overlay) before resuming its uptrend, and would likely bottom before a stock market correction that isn't expected to start until "probably sometime in late September."
+- 2026-08-05 (mo9PUWbEJ-4): Gold expected to rise roughly 13% on average through the 2027 pre-election year.

@@ -1,8 +1,8 @@
 ---
 topic_slug: dxy-dollar-strength
 group: macro-liquidity
-last_updated: 2026-07-02
-entry_count: 5
+last_updated: 2026-08-05
+entry_count: 6
 ---
 
 # Evidence log: DXY Dollar Strength
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-30 (Wef7vP6ffBM): In this SPX-focused update, Cowen revisits his presidential-term dollar comparison and notes the dollar's path under Trump's second term looks similar to the first term — dropping in year one, bottoming, then "begrudgingly" grinding higher. He connects this directly to his equity forecast, suggesting the strengthening dollar could be a headwind contributing to the larger correction he expects for stocks later in 2026. This is a secondary topic in the video (primary focus is the SPX correction call) but marks the first time the dollar-strength thesis is explicitly linked as a causal input to his SPX drawdown forecast rather than discussed as a standalone crypto headwind.
 
 - 2026-07-02 (oj2n8nkTTTE): Ben shows a chart comparing the dollar in Trump's second term to his first term, arguing it will keep grinding higher through the rest of the midterm year as a crypto headwind for the next 3-4 months (notwithstanding a possible countertrend rally), then top out and rise only marginally the following year — which he now frames as the eventual bull case for Bitcoin. He separately flags yen strength at a 40-year high and Bank of Japan rate hikes as a related risk-off overhang, noting crypto tends to be first to catch a yen-carry-trade-driven move. Quote: [24:45] "I'm like, it the dollar begrudgingly will go higher in the midterm year... And that'll probably be a headwind for crypto later in the year."
+
+- 2026-08-05 (mo9PUWbEJ-4): In this gold-focused update, Cowen extends his dollar-index analog into the gold outlook: he compares 2026's DXY path to 2018 under Trump's first term — "falling, then sideways, then 'begrudgingly' grinding higher" — and argues any further gold weakness would likely coincide with the dollar moving higher. He expects gold to front-run a stock market correction and bottom sooner than stocks, and for the first time pins the SPX correction start to "probably sometime in late September" rather than a broader August-September window.

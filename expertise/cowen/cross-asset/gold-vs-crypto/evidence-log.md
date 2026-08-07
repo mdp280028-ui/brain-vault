@@ -1,8 +1,8 @@
 ---
 topic_slug: gold-vs-crypto
 group: cross-asset
-last_updated: 2026-07-22
-entry_count: 8
+last_updated: 2026-08-05
+entry_count: 9
 ---
 
 # Evidence log: Gold vs Crypto
@@ -24,3 +24,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-22 (jpQb-Aia57k): Cowen updates the gold-vs-crypto framing with gold down ~30% from its high (~5-6% YTD), comparing this year's ROI path to 2018 (mid-August low) and 2022 (late-September low) to suggest an August-September bottom window within his broader July-October base case; he flags the gold-specific bull market support band near $3,800 as the level to watch, and notes Bitcoin's historical early-July midterm-year bottom as a loose seasonal parallel rather than a standalone BTC call. "So, I'm still going to run with this base case that the low will occur sometime between now and like kind of between the July to October window" [02:53].
 
 - 2026-07-22 (ylHfYEFDGs0): Cowen reiterates his base case that gold's midterm-year low will land between July and October 2026, comparing 2026's year-to-date ROI directly against 2022's trajectory and noting gold is at exactly the same point in the cycle now, "It just feels worse this time because we came from more elevated levels, but this is where gold was." Averaging the 2018 (mid-August) and 2022 (late-September) midterm-year bottoms, he lands on an August-September window as the current best estimate: "we're right at the average of the last two midterm years. And on average, they bottomed in the August to September time frame."
+
+- 2026-08-05 (mo9PUWbEJ-4): Cowen reiterates that gold's ~30% correction is normal midterm-year weakness, not a bull-market top, pointing to 2026's YTD ROI tracking almost identically to 2022 and similarly to 2018 — both years relieved around this point before one more later dip — and averaging all midterm years puts gold's typical bottom in early July, framing a June-October window. He now describes gold as in a "massive consolidation period" resembling 2022's move-up/consolidate pattern, expects a near-term bounce, and says renewed weakness would likely front-run (and bottom before) a stock correction he doesn't expect until "probably sometime in late September," with gold projected to rise ~13% on average through the 2027 pre-election year. Quote: [07:16] "if the bull market's intact,"
