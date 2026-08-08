@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-07-30
-entry_count: 48
+last_updated: 2026-08-06
+entry_count: 49
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -104,3 +104,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-28 (oDvuDHTv2zo): Cowen quantifies the current BTC rally against midterm-year seasonal precedent, noting BTC is up ~10% this July versus +20% in July 2022 and nearly +40% in July 2018 — a softer move than either historical comp. He flags that in all three closest analog years (2022, 2018, 2014), the July rally was followed by a red August and September, reinforcing his expectation the current strength reverses. He also splits his analog framework by purpose: "what tends to happen in July of midterm years. And that is a rally back" [00:04-00:07], with 2018 preferred for market structure but 2019 preferred for liquidity and flows.
 
 - 2026-07-30 (7vNA0geUryY): Cowen ties this July's ~10.5% BTC gain to the 2022/2018 midterm-year relief-rally pattern and notes 2014 was a partial exception (cycle low held off until October despite a stronger June low); he flags the 10-year Treasury yield turning up while the Fed holds as a bearish echo of 2023, when the same divergence preceded BTC's July downturn, and stresses genuine uncertainty about whether price even reaches the bear market resistance band or 200-day MA this time — "The the true answer is that is that no one knows" [03:12] — before using the ROI-from-low chart to place the cycle bottom at or near November 2026.
+
+- 2026-08-06 (CmGkfyot8qY): Cowen presents five independent cycle-timing measurements (low-to-low day count, top-to-top day count, peak-to-bottom day count, halving-relative behavior, and moving-average breakdown sequence) that all converge on the same conclusion: the four-year cycle is intact and Bitcoin is in the back stretch of its bear market, on day 1,354 of a historical 1,430-1,440 day pattern. He states plainly, "The four-year cycle does not refer to the highs in the market. It refers to the lows," and pins the bottom window to "late September through mid December" with October as a live candidate, while noting "we are in the back 30% of the bare market."
