@@ -1863,3 +1863,112 @@ him. The residual risk is real and accepted — the operator chose isolation ove
 amputation. Revisit if Bob ever performs a destructive action unasked again;
 the next step would be a mandatory confirmation wrapper on destructive verbs at
 the runner level rather than in the prompt.
+
+### D121 — `ship.sh --dry-run` is not dry: it fires both Sonnet gates and writes verdict rows — 🟡 OPEN
+
+**Logged:** 2026-08-09 (fix lane, found while tracing F09's call path).
+
+`ship.sh`'s own header documents `--dry-run` as "report what would ship, write
+nothing". It does not write nothing.
+
+The dry-run short-circuit is at `ship-to-site/ship.sh:349`. Both scoring gates
+are **above** it — GEO at `:239-296`, editor at `:297-348` — so a dry run walks
+straight through them for every eligible slug. When no verdict row exists yet,
+`ship.sh:263` and `:321` invoke `geo-optimizer/score.sh` and `editor/score.sh`
+for real. Neither scorer has any concept of a dry run: they make a live Sonnet
+call, `INSERT INTO auditor_verdicts` (`editor/score.sh:122`,
+`geo-optimizer/score.sh:157`), and append failures to
+`ship-to-site/state/needs_review_queue.txt` (`:29` in both).
+
+So a "dry run" can spend model capacity, write a permanent verdict row, and
+route a slug into the operator-review queue.
+
+**This is not hypothetical — it is the normal daily path.** `preview_ping.sh:66`
+is `ship.sh --dry-run`, on cron at `0 20 * * *`. Four of the twelve `editor-v1`
+verdicts on record were written by it, at exactly 20:00:
+
+```
+2026-06-07 20:00:04  how-long-does-asbestos-stay-in-the-air  3.80  pass
+2026-07-03 20:00:02  asbestos-insulation-identification      3.00  fail
+2026-07-12 20:00:04  asbestos-roof-tiles                     2.80  fail
+2026-07-15 20:00:02  asbestos-management-plan                3.00  fail
+```
+
+Three of those four routed a slug to `needs_review_queue.txt` from a command
+documented as writing nothing.
+
+**Why it matters more than the wasted capacity.** A flag named `--dry-run` is a
+safety mechanism, and this one is mislabelled. Someone — a future session, a
+playbook, an operator debugging at 2am — will reach for it precisely because it
+claims to be read-only, and will be wrong. That is the same class as the
+decorative `WRITER_ENABLED` (F04): a control that reads as protective and is
+not. `deploy_batch.sh:31` already relies on it too.
+
+**Not obviously a bug to "fix" by making the gates dry-run aware**, and that is
+the decision to make. Scoring during the 20:00 preview is arguably *useful* —
+it warms the verdict cache so the 23:00 real deploy does not pay the latency.
+The options are: (a) thread `DRY_RUN` into the gate blocks and skip scoring,
+losing the warm cache; (b) keep the behaviour and rename the flag to something
+honest like `--plan` / `--no-deploy`, fixing the header; (c) split into
+`--dry-run` (truly read-only, verdict-cache misses reported as "would score")
+and the current behaviour under a second name. (b) is cheapest and (c) is
+correct.
+
+**Trigger:** next ship-to-site session. Do not defer past any change that adds a
+new caller of `--dry-run`.
+
+### D122 — SSG ships with both Sonnet quality gates disabled — 🟢 ACCEPTED, recorded not to be re-litigated
+
+**Logged:** 2026-08-09 (fix lane, F09 diagnosis).
+
+`ship-to-site/config/ssg.yaml` sets `skip_geo_gate: true` and
+`skip_editor_gate: true`. Landed in `dd8c867` (2026-05-27). Every SSG guide ever
+shipped has done so with **zero** `geo-v1` and **zero** `editor-v1` verdicts —
+confirmed by query, not inference:
+
+```
+SELECT scorer, COUNT(*) FROM auditor_verdicts
+ WHERE slug IN (<the six SSG slugs>) GROUP BY scorer;   -> 0 rows
+```
+
+The six:
+
+```
+voicenation-vs-patlive   2026-06-11
+ramp-alternatives        2026-06-26
+front-alternatives       2026-07-02
+ramp-vs-expensify        2026-07-19
+atera-alternatives       2026-07-28
+helpscout-alternatives   2026-08-02
+```
+
+**DECISION: leave both flags OFF.** Not an oversight, not deferred maintenance —
+a decision, recorded here so it stops being rediscovered as a defect every time
+someone traces the editor's silence (it has now been rediscovered twice: audit
+F09, and D110's 07-31 scope correction before it).
+
+Reasoning:
+
+1. The rubrics are asbestos-tuned. `ssg.yaml`'s own comment records the
+   measurement: they punish rich-schema SSG content for missing
+   `authorityLinks[]` and expert quotations, and scored composite 2.62 to 2.88
+   on *identical* content with the coverage axis swinging 1 to 4 across runs. A
+   gate that non-deterministic is not a gate.
+2. **A mistuned gate is worse than a logged skip.** It fails good content
+   randomly and teaches the operator to override it, which is how a gate becomes
+   decorative for real.
+3. SSG is no longer unprotected. It now has fail-closed source verification,
+   which addresses the failure mode that actually destroys the site's value —
+   a fabricated figure carrying a real agency's name. That is a different and
+   more important check than editorial polish scoring.
+4. The skip is no longer silent. As of 2026-08-09 `ship.sh` writes
+   `geo_gate_skipped` / `editor_gate_skipped` audit rows and stamps
+   `gates:{geo,editor}` on every `ship_to_site` row, so "shipped ungated" is
+   countable from `audit_log` alone rather than inferred from missing verdicts.
+
+**Revisit only if:** SSG earns revenue (the bar changes when there is something
+to lose), **or** the geo + editor rubrics are retuned for B2B comparison content.
+Retuning is the real remedy; until someone does that work, turning the flags on
+would block SSG shipping outright for no gain.
+
+**Trigger:** SSG revenue, or a rubric retune. Not before.
