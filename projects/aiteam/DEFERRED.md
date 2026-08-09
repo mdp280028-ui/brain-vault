@@ -529,10 +529,6 @@ Do NOT retroactively edit the 3 malformed rows from this session — substring-f
 
 **Reference:** Surfaced during 2026-05-17 cleanup session. T2.5 commit. D044-redundancy audit_log row (correctly formed): `DFD1AF8B-7C6F-42CC-8DDD-4EE148C37F0F`.
 
-### D027 — Add `*.bak` to `~/brain/.gitignore`
-
-(Already documented in §Infrastructure — re-listed here as a hygiene item for convenience.)
-
 ### Provenance comment block on generated `page.tsx` — operator decision
 
 **Status:** Decided 2026-05-16 — strip via stage.sh (D048).
@@ -1464,7 +1460,7 @@ looks identical to a working one.
 **Trigger:** before granting any agent broader tools, or before relying on any
 existing agent's settings.json as a security boundary.
 
-### D110 — GEO scorer: single-shot parse, and ship.sh folds "scorer broke" into a benign skip — 🟡 OPEN
+### D110 — GEO scorer: single-shot parse, and "scorer broke" folded into a benign skip — 🟠 SPLIT 2026-08-09: half A ✅ CLOSED, half B 🟡 OPEN
 
 **Logged:** 2026-07-31 (found while verifying the D072-mirror cap fix, 431eb33).
 
@@ -1529,8 +1525,54 @@ CAPSULE rubric anchors themselves (rubric.md axis 1, 'Answer capsule (first 30%
 of body)', whose anchors are phrased in word counts: <=120 words, <=80 words).
 Next step is to rewrite that axis's anchors, not to tune the caller.
 
+**SPLIT 2026-08-09 (audit F24 / F15, fix-lane).** This entry was always two
+defects sharing a heading, and they now have different statuses. Split rather
+than closed or left open wholesale, because closing it would have buried a live
+fail-open and leaving it open would have kept re-litigating a fix that landed.
+
+---
+
+**HALF A — single-shot parse — ✅ CLOSED 2026-08-09.**
+`geo-optimizer/score.sh:100` is now `for ATTEMPT in 1 2` with a retry prompt,
+landed in `f466673` (2026-07-31). Verified present in the working tree today.
+The half as written — "there is no retry" — is no longer true.
+
+Carried forward, NOT as part of this item: the 2026-07-31 post-implementation
+update above establishes that the retry does not rescue `asbestos-roof-tiles`,
+because axis 1 (CAPSULE) returns out-of-range values across resamples and the
+cause is the rubric anchors themselves (`editor/rubric.md`-style word-count
+anchors on a 1-5 axis), not the parse layer. That is a rubric-authoring task,
+not a retry task, and it needs its own item when GEO volume resumes. Recording
+it here so closing half A does not lose it.
+
+**HALF B — cannot-check folded into a benign outcome — 🟡 OPEN.**
+The `ship.sh` instance is closed: `bbdad17` reclassified the no-verdict path and
+its payload now carries an `error` key, so `issues-capture` surfaces it. Verified
+in `ship-to-site/ship.sh` today.
+
+The instance that remains open is one layer up, in the pipeline, at
+`~/projects/asbestos-contractors/content/run-batch.sh:1552`:
+
+```bash
+if [ "$geo_exit" -eq 1 ]; then
+    # Hard error — operator policy: error ≠ fail, do NOT block APPROVED path
+    geo_pass_through=true
+```
+
+`exit 1` from `score.sh` means the scorer could not produce a verdict. The
+FAIL path and the CANNOT-CHECK path converge on `geo_pass_through=true`. It is
+deliberate, documented at `:1545`, and audit-logged as `geo_error` — so it is a
+knowing trade, not an oversight — but it is still the shape where a broken
+detector reads as permission to proceed. It stays open on that basis.
+
+Not fixed in this lane: `run-batch.sh` is in `~/projects/asbestos-contractors/`,
+which was read-only for the 2026-08-09 fix lane.
+
+---
+
 **Trigger:** before GEO volume resumes (i.e. once guides start reaching
 `approved/guides/` again), or immediately if a `geo_no_verdict` skip appears.
+Half B specifically: whenever the asbestos pipeline repo is next writable.
 
 ### D108 — majordomo is exempt from SYSTEM_PAUSED (knowing kill-switch weakening) — 🟡 OPEN
 
@@ -1737,7 +1779,7 @@ because each one deserves a glance at whether it is genuinely live.
 
 **Trigger:** next review pass, or before trusting the review count.
 
-### D118 — auditor_verdicts rows with composite_score 0.00 AND passed=1 — 🟡 OPEN
+### D118 — auditor_verdicts rows with composite_score 0.00 AND passed=1 — ✅ CLOSED 2026-08-09
 
 **Logged:** 2026-07-31 (found by Jeff).
 
@@ -1754,6 +1796,29 @@ Related to D105 (`scorer_version` records repo HEAD): the verdicts table has
 more than one field that cannot be trusted at face value.
 
 **Trigger:** before approving any slug on the strength of a `passed` flag alone.
+
+**CLOSED 2026-08-09 (audit F24, fix-lane verification).** The stated symptom no
+longer exists anywhere in the table:
+
+```
+SELECT COUNT(*) FROM auditor_verdicts WHERE composite_score=0.0 AND passed=1;
+-> 0
+```
+
+The three named slugs now read honestly — their latest `geo-v1` verdicts are
+`asbestos-disposal-supplies` 2.88 pass=0, `asbestos-gasket` 2.88 pass=0,
+`asbestos-removal-near-me` 2.62 pass=0. Failing scores with failing flags, which
+is what they always should have been.
+
+There ARE 69 rows with `composite_score IS NULL AND passed=1`, and every one is
+`scorer='audit_guide'`. That is documented as correct — `audit_guide` is the
+mechanical gate and writes `composite_score=NULL` deliberately
+(`ship-to-site/preview_ping.sh:95`). NULL is not 0.00, and "this scorer does not
+produce a composite" is not the same claim as "this scorer scored zero and
+passed it". Closing as stated.
+
+The underlying caution the entry raises — do not approve a slug on a `passed`
+flag alone — stands on its own and is not what was open here.
 
 ### D119 — `permissions.allow` is required to AUTO-APPROVE Bash outside the agent cwd — 🟡 OPEN (documented, not a defect to fix)
 
