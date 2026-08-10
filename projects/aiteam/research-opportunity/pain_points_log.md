@@ -1,6 +1,244 @@
 # Research/Opportunity — Pain Points Log
 
 
+## #42 — does-asbestos-exposure-cause-cancer
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.45 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** does asbestos cause cancer
+- **Pain:** Did asbestos exposure from all the popcorn ceilings and floor tile actually cause cancer rates to climb, or is the danger overblown?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgwhTATZAO57K9lVz8J4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:05 PT
+- **Action:** `/approve_pain 42` · `/reject_pain 42`
+
+---
+
+
+## #41 — diy-asbestos-removal-guide
+
+- **Source:** youtube · DIY asbestos removal? #hazmat #demolition #construction #renovation
+- **Score:** 0.55 · **Coverage:** partial
+- **Best match:** asbestos-floor-tile-removal
+- **Proposed kw:** diy asbestos removal
+- **Pain:** I have no choice but to remove asbestos myself, so how do I DIY it as safely as possible?
+- **Source post:** https://www.youtube.com/watch?v=LjRZ1fdy_AA&lc=UgyVwobK3UJXW1Wwn4N4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:05 PT
+- **Action:** `/approve_pain 41` · `/reject_pain 41`
+
+---
+
+
+## #40 — no slug (full coverage)
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.25 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** —
+- **Pain:** This whole abatement industry is just fear-mongering to sell an unnecessary service.
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgwrCWgtMK78L7M5jSV4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:05 PT
+- **Action:** `/approve_pain 40` · `/reject_pain 40`
+
+---
+
+
+## #39 — is-asbestos-abatement-worth-it
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.55 · **Coverage:** partial
+- **Best match:** asbestos-remediation-cost
+- **Proposed kw:** is asbestos abatement worth the cost
+- **Pain:** Is abatement really worth $10k+ when the health risk from brief asbestos exposure seems overstated?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=Ugy4a1IG-yqzgVmLlkt4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:05 PT
+- **Action:** `/approve_pain 39` · `/reject_pain 39`
+
+---
+
+
+## #38 — asbestos-dust-contamination-whole-house
+
+- **Source:** youtube · DIY asbestos removal? #hazmat #demolition #construction #renovation
+- **Score:** 0.85 · **Coverage:** partial
+- **Best match:** asbestos-air-quality-test
+- **Proposed kw:** asbestos dust contamination whole house test
+- **Pain:** After my dad disturbed asbestos-containing mastic and kicked up concrete dust throughout the house, could the whole house now be contaminated, and would a settled dust test confirm it?
+- **Source post:** https://www.youtube.com/watch?v=LjRZ1fdy_AA&lc=UgwfTGnI7f1DWGAeRhN4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:05 PT
+- **Action:** `/approve_pain 38` · `/reject_pain 38`
+
+---
+
+
+## #37 — broke-asbestos-tile-now-what
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.90 · **Coverage:** partial
+- **Best match:** asbestos-floor-tile-removal
+- **Proposed kw:** broke asbestos tile what to do now
+- **Pain:** I broke up asbestos tiles in my basement with a scraper before knowing better, and I want to know if I'm now at risk and how to finish removing them safely without paying a fortune, including any government or nonprofit aid.
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=Ugy0TWYaBfGEx71ctz94AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:04 PT
+- **Action:** `/approve_pain 37` · `/reject_pain 37`
+
+---
+
+
+## #36 — no slug (full coverage)
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.40 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** —
+- **Pain:** I do not believe asbestos removal companies are being straight with me about the actual health risk, since my grandfather worked with it for decades and was fine.
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgzQ-GiCMeuB45xzpR14AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 15:04 PT
+- **Action:** `/approve_pain 36` · `/reject_pain 36`
+
+---
+
+
+## #35 — no slug (full coverage)
+
+- **Source:** youtube · Saving £19,000 Doing It OURSELVES! DIY Asbestos Removal
+- **Score:** 0.15 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** —
+- **Pain:** There is no actual homeowner question here, just a viewer praising a DIY asbestos removal video.
+- **Source post:** https://www.youtube.com/watch?v=d-YO4ECt_RI&lc=UgwgoGFYVhSK-9QhZx54AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 14:26 PT
+- **Action:** `/approve_pain 35` · `/reject_pain 35`
+
+---
+
+
+## #34 — no slug (full coverage)
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.35 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** —
+- **Pain:** What does asbestos abatement actually involve?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgxX-TLTazMd3INQPuZ4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 14:24 PT
+- **Action:** `/approve_pain 34` · `/reject_pain 34`
+
+---
+
+
+## #33 — neighbor-asbestos-abatement-exposure
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.82 · **Coverage:** none
+- **Best match:** asbestos-air-quality-test
+- **Proposed kw:** neighbor asbestos abatement making me sick
+- **Pain:** My neighbor's asbestos abatement exhaust vent points straight at my bedroom window and I have been feeling unwell since the work started, what should I do?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgyYX2seZFWvBshEwy14AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 14:24 PT
+- **Action:** `/approve_pain 33` · `/reject_pain 33`
+
+---
+
+
+## #32 — no slug (full coverage)
+
+- **Source:** youtube · Saving £19,000 Doing It OURSELVES! DIY Asbestos Removal
+- **Score:** 0.20 · **Coverage:** none
+- **Best match:** —
+- **Proposed kw:** —
+- **Pain:** The commenter is expressing praise for a successful DIY asbestos removal project, not asking a question.
+- **Source post:** https://www.youtube.com/watch?v=d-YO4ECt_RI&lc=UgxYohMGPKH5svbPKOB4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 13:16 PT
+- **Action:** `/approve_pain 32` · `/reject_pain 32`
+
+---
+
+
+## #31 — asbestos-plaster-removal-process
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.70 · **Coverage:** partial
+- **Best match:** does-plaster-have-asbestos
+- **Proposed kw:** asbestos plaster removal process
+- **Pain:** I'm finally dealing with the asbestos plaster I left in one room 20 years ago when I casually ripped out the rest, and now I have to go through this whole formal abatement process for it.
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgxRoJszAKnsKJkg3Lt4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 13:15 PT
+- **Action:** `/approve_pain 31` · `/reject_pain 31`
+
+---
+
+
+## #30 — asbestos-post-abatement-cleanup
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.80 · **Coverage:** partial
+- **Best match:** asbestos-air-quality-test
+- **Proposed kw:** do you need to clean surfaces after asbestos abatement
+- **Pain:** After abatement is done, besides air testing, do I need to wipe down walls, ceilings, and household items, and can fibers get into drawers and clothes?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgywpK0zypFhaoy5uxd4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 13:15 PT
+- **Action:** `/approve_pain 30` · `/reject_pain 30`
+
+---
+
+
+## #29 — asbestos-abatement-containment-failure
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.68 · **Coverage:** partial
+- **Best match:** asbestos-abatement-near-me
+- **Proposed kw:** what happens if asbestos abatement containment fails
+- **Pain:** What happens if the containment fails during professional asbestos abatement and fibers leak out despite leak testing?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=Ugwaq8XcBOReiYt3JJl4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 12:35 PT
+- **Action:** `/approve_pain 29` · `/reject_pain 29`
+
+---
+
+
+## #28 — buying-a-house-with-asbestos-roof
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.60 · **Coverage:** partial
+- **Best match:** asbestos-roof-removal
+- **Proposed kw:** buying a house with asbestos roof
+- **Pain:** I found a house I want to buy but it has an asbestos roof because it is not modern, and I do not know what that means or what to do about it
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=Ugwv33ofZ0depVi6C0V4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 12:35 PT
+- **Action:** `/approve_pain 28` · `/reject_pain 28`
+
+---
+
+
+## #27 — no slug (full coverage)
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.72 · **Coverage:** full
+- **Best match:** asbestos-remediation-cost
+- **Proposed kw:** —
+- **Pain:** Homeowners want to know what a realistic whole-house asbestos abatement (siding plus tile) actually costs, since prices vary a lot and seem to be dropping as contractors get faster.
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgzKwYD_UAdan9hP8cB4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 12:35 PT
+- **Action:** `/approve_pain 27` · `/reject_pain 27`
+
+---
+
+
+## #26 — asbestos-abatement-cost-per-room
+
+- **Source:** youtube · How Asbestos Abatement Works | This Old House
+- **Score:** 0.78 · **Coverage:** partial
+- **Best match:** asbestos-remediation-cost
+- **Proposed kw:** asbestos abatement cost one room
+- **Pain:** Is a $10,000 quote to abate asbestos in just one room normal, or am I being overcharged?
+- **Source post:** https://www.youtube.com/watch?v=AkCGMR2qjIo&lc=UgwYzCbsOhLrjhWcTWB4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-09 12:35 PT
+- **Action:** `/approve_pain 26` · `/reject_pain 26`
+
+---
+
+
 ## #25 — asbestos-survey-rights-boiler-replacement
 
 - **Source:** youtube · Ryno's Group - Asbestos Removal Introduction Video

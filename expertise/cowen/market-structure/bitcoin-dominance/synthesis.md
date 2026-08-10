@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-07-23
-brief_count: 11
+last_updated: 2026-08-09
+brief_count: 12
 ---
 
 # Bitcoin Dominance
@@ -11,19 +11,20 @@ BTC's market-cap share of the total crypto market. Cowen tracks dominance as the
 
 ## Current Thesis
 
-BTC dominance continues to reflect a BTC-over-alts regime, driven by a collapse in social/retail interest, a hawkish macro backdrop, and 2018/2019 historical analogs pointing to altcoin underperformance while BTC chops sideways to lower. The newest brief sharpens the 2018 parallel with hard numbers — social interest at ~0.25, matching the 2018 reading exactly and about half the prior bear-market level — and explicitly ties dominance (ex-stables) grinding higher to a shrinking pool of participants rather than any organic BTC strength. Cowen frames this as unprecedented: crypto engagement (YouTube views/subs, X followers, Wikipedia views) has fallen an order of magnitude from the 2021 peak and never recovered the way it did in 2017/2021, leaving no capital base left to rotate into alts. He expects social interest to keep declining before possibly bottoming in the next 6–12 months, with the BTC-favoring regime holding through an expected Q4 time-based capitulation and into a possible bottom by his November ITC conference.
+BTC dominance continues to reflect a BTC-over-alts regime, driven by a collapse in social/retail interest, a hawkish macro backdrop, and 2018/2019 historical analogs pointing to altcoin underperformance while BTC chops sideways to lower. The newest brief reinforces this with a fresh macro angle: BTC dominance ex-stablecoins is still rising and now sits near its late-2025 highs, with Cowen noting the apparent headline dip in dominance is entirely a function of rising stablecoin share, not altcoin strength — investors are rotating toward "blue chip" crypto assets over riskier plays amid macro uncertainty. That macro uncertainty (a weak non-farm payroll print, low but rising unemployment-duration risk, and a Fed unlikely to cut in September) keeps the broader risk backdrop cautious, consistent with the BTC-favoring regime holding through an expected Q4 time-based capitulation and into a possible bottom by his November ITC conference.
 
 ## Key Evidence
 
-- BTC dominance excluding stablecoins continues trending higher purely because there is little capital/participation left to rotate into altcoins — not organic BTC strength (UIv9IQ4uXEA)
-- Social interest index at ~0.25, exactly matching the 2018 cycle low and roughly half the prior bear-market reading (~0.5); YouTube views down from 3-4M/day (2021 peak) to ~358K/day, subscriber growth down from 50-60K/day to ~285/day, X follower growth down to 1/20th (analysts) and <10% (L1 projects) of 2021 rates (UIv9IQ4uXEA)
-- 2018 analog sharpened to structural-level detail: 60k support in 2026 parallels 6k support in 2018, with matching February-low sweep timing, May lower highs, and late-March/early-April higher lows (UIv9IQ4uXEA)
-- 2019/2020 analog remains the closest macro precedent and the first cycle-end with zero altcoin rotation: matching three rate cuts and QT ending ~two months after BTC's cycle top in both 2019 and 2025/2026 (sigSZCnSa6M)
-- Advance-decline index of the top 100 cryptocurrencies in multi-year decline; many altcoins never made new all-time highs this cycle and now sit below their 2022 lows (UIv9IQ4uXEA)
-- Total 2 (minus USDT) / BTC ratio in relentless decline as rate-cut expectations evaporate; zero cuts priced through 2027, removing the macro catalyst alts require (Rf-gAQJk5-0)
+- BTC dominance ex-stablecoins is still rising and now near its late-2025 (late-last-year) highs; the apparent drop in dominance is solely a function of rising stablecoin dominance, signaling a "flight to blue chip" crypto preference over riskier assets amid macro uncertainty (Ju6Q-D9GZZU)
+- BTC dominance excluding stablecoins continues trending higher purely because there is little capital/participation left to rotate into altcoins — not organic BTC strength (prior)
+- Social interest index at ~0.25, exactly matching the 2018 cycle low and roughly half the prior bear-market reading (~0.5); YouTube views, subscriber growth, and X follower growth all down an order of magnitude from 2021 peaks (prior)
+- 2018 analog sharpened to structural-level detail: 60k support in 2026 parallels 6k support in 2018, with matching February-low sweep timing and swing highs/lows (prior)
+- 2019/2020 analog remains the closest macro precedent and the first cycle-end with zero altcoin rotation: matching three rate cuts and QT ending ~two months after BTC's cycle top in both 2019 and 2025/2026 (prior)
+- Total 2 (minus USDT) / BTC ratio in relentless decline as rate-cut expectations evaporate, removing the macro catalyst alts require (prior)
 
 ## Recent Updates
 
+- 2026-08-09 (Ju6Q-D9GZZU): BTC dominance ex-stablecoins is still rising and near late-2025 highs; the headline decline in dominance is purely a stablecoin-share effect, reflecting a flight to blue-chip crypto amid a weak labor-market print and a Fed unlikely to cut in September.
 - 2026-07-23 (UIv9IQ4uXEA): Social interest at 0.25 exactly matches the 2018 cycle level and market structure mirrors 2018 in granular detail (support levels, low-sweep timing, swing highs/lows); BTC dominance ex-stables keeps rising simply because there's little participation left to rotate into alts, and Cowen expects social interest to keep falling before a possible bottom in 6-12 months.
 - 2026-07-10 (sigSZCnSa6M): Cowen frames this cycle as the first with no altcoin rotation at cycle end, drawing a direct 2019/2020 parallel (matching rate cuts, matching QT timing) and citing continued social apathy and un-reset on-chain metrics as reasons the BTC-favoring regime persists into an expected Q4 capitulation.
 - 2026-06-22 (d71wYhwKpFY): The 2018 analog adds a near-term altcoin-specific risk — altcoins were "annihilated" in July 2018 while BTC moved sideways, and declining social interest makes a repeat plausible, reinforcing BTC-over-alts dominance through the current bottoming window.

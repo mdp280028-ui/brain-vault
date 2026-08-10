@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-08-05
-entry_count: 14
+last_updated: 2026-08-09
+entry_count: 15
 ---
 
 # Evidence log: Fed Policy & Rates
@@ -36,3 +36,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-04 (3yiYSG8sOFE): Cowen puts the September 16th FOMC decision at roughly a coin flip — "It's about a coin flip. You're looking at about a 57% chance of a rate hike, a 43% chance that they do absolutely nothing" [06:29] — and argues either outcome still pressures risk assets, since a hike risks reigniting hiking-cycle fear while a hold still leaves the 10-year (4.6%) and 30-year (back to October 2023 levels) grinding higher; he ties this to midterm-year seasonality where prior corrections (2014, 2018, 2022) didn't start until mid-August to late-September.
 
 - 2026-08-05 (cmgvWLCes0s): Cowen draws a direct historical parallel between the 2014 and 2018 midterm-year corrections, both of which began within two days of each other (September 19th and September 21st), and the September 16th FOMC this cycle, which he still prices at roughly a 57% hike / 43% hold coin flip. He restates the expectation that "history could repeat" with a correction starting around the time of that meeting, though this brief presents the point more briefly and with less supporting data than his prior video. Quote: [00:07] "is that the correction started on" [00:10] "September 19th and September 21st."
+
+- 2026-08-09 (Ju6Q-D9GZZU): Non-farm payroll badly missed (23,000 actual vs. ~80,000 expected), pulling market-implied September hike odds down to 43.9%, even as claims data ("initial claims a few weeks ago just printed the lowest level in a long time, like 189,000. The last time it was that low was probably 50 years ago" [09:14]) and low layoffs argue against recession. Cowen notes the 2-year yield remains above the Fed funds rate, a historical signal the Fed eventually "chases" down, and still expects a stock correction "by late September at the latest" tied to the September 16th FOMC, consistent with 2014/2018/2022 midterm-year precedent.

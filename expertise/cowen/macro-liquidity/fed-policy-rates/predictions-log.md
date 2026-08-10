@@ -1,8 +1,8 @@
 ---
 topic_slug: fed-policy-rates
 group: macro-liquidity
-last_updated: 2026-08-05
-entry_count: 16
+last_updated: 2026-08-09
+entry_count: 18
 ---
 
 # Predictions log: Fed Policy & Rates
@@ -35,3 +35,6 @@ Append-only. Newest entries at bottom.
 - 2026-08-04 (3yiYSG8sOFE): S&P correction unlikely to begin before mid-August at the earliest, with Cowen leaning toward a September start (potentially tied to the September 16th Fed meeting), possibly extending into October, and if it matches 2018, bottoming as late as December 2026.
 
 - 2026-08-05 (cmgvWLCes0s): Possible correction starting around the September 16th Fed meeting, based on the 2014/2018 (and implied 2022) midterm-year pattern.
+
+- 2026-08-09 (Ju6Q-D9GZZU): Fed: market pricing shows only 43.9% odds of a rate hike in September, with October/December seen as more likely alternatives.
+- 2026-08-09 (Ju6Q-D9GZZU): S&P 500 expected to continue near-term strength but correct starting by late September at the latest, in line with prior midterm years (2014, 2018, 2022), with the September 16th Fed meeting cited as a catalyst window.
