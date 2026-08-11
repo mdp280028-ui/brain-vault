@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-08-10T15:45:00Z",
+  "actor_id": "watchdog-digest",
+  "expected_actions": ["watchdog_digest_sent"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "06:00 watchdog daily digest",
+  "watchdog_state": "missing"
+}

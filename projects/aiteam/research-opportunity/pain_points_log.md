@@ -1,6 +1,34 @@
 # Research/Opportunity — Pain Points Log
 
 
+## #44 — diy-asbestos-removal-guide
+
+- **Source:** youtube · Saving £19,000 Doing It OURSELVES! DIY Asbestos Removal
+- **Score:** 0.65 · **Coverage:** partial
+- **Best match:** asbestos-floor-tile-removal
+- **Proposed kw:** diy asbestos removal
+- **Pain:** Can I do asbestos removal myself to save thousands instead of hiring a licensed abatement contractor?
+- **Source post:** https://www.youtube.com/watch?v=d-YO4ECt_RI&lc=UgyCFo7usIKQrq0UlMJ4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-10 11:26 PT
+- **Action:** `/approve_pain 44` · `/reject_pain 44`
+
+---
+
+
+## #43 — no slug (full coverage)
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.76 · **Coverage:** full
+- **Best match:** asbestos-popcorn-ceiling-removal-cost
+- **Proposed kw:** —
+- **Pain:** Why is professional asbestos popcorn ceiling removal so expensive, and what EPA procedures actually justify the cost?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgxTUcCKffhsHBroqiJ4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-10 11:26 PT
+- **Action:** `/approve_pain 43` · `/reject_pain 43`
+
+---
+
+
 ## #42 — does-asbestos-exposure-cause-cancer
 
 - **Source:** youtube · How Asbestos Abatement Works | This Old House

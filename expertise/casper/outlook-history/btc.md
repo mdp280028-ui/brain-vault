@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-08-05
-row_count: 130
+last_updated: 2026-08-10
+row_count: 136
 ---
 
 # BTC outlook history (Casper)
@@ -140,3 +140,9 @@ Append-only. Newest entries at bottom.
 | 2026-08-04 | months | ↑ | 3 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |
 | 2026-08-04 | weeks | → | 2 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |
 | 2026-08-04 | days | ↑ | 2 | Casper is now partially long spot Bitcoin (~30-40% of USDT allocated) on a possible cycle bottom while watching for a leveraged breakout either down to ~$60K (to long back to ~$67K) or up through t... | tkXbGn6Jd5Y | /Users/mmm2/brain/channels/casper/briefs/2026-08-04_tkXbGn6Jd5Y.md |
+| 2026-08-07 | months | ↓ | 2 | Casper remains bullish above $64K on high timeframe signals (weekly bullish divergence not seen since Nov 2022) targeting $67-68K then $74K, while flagging lower timeframe bearish divergences and a... | n-9KtAqEuIo | /Users/mmm2/brain/channels/casper/briefs/2026-08-07_n-9KtAqEuIo.md |
+| 2026-08-07 | weeks | ↑ | 2 | Casper remains bullish above $64K on high timeframe signals (weekly bullish divergence not seen since Nov 2022) targeting $67-68K then $74K, while flagging lower timeframe bearish divergences and a... | n-9KtAqEuIo | /Users/mmm2/brain/channels/casper/briefs/2026-08-07_n-9KtAqEuIo.md |
+| 2026-08-07 | days | ↑ | 2 | Casper remains bullish above $64K on high timeframe signals (weekly bullish divergence not seen since Nov 2022) targeting $67-68K then $74K, while flagging lower timeframe bearish divergences and a... | n-9KtAqEuIo | /Users/mmm2/brain/channels/casper/briefs/2026-08-07_n-9KtAqEuIo.md |
+| 2026-08-09 | months | ↑ | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
+| 2026-08-09 | weeks | ↑ | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
+| 2026-08-09 | days | → | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
