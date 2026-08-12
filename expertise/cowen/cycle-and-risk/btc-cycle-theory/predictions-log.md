@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-06
-entry_count: 111
+last_updated: 2026-08-10
+entry_count: 113
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -159,3 +159,6 @@ Append-only. Newest entries at bottom.
 - 2026-08-06 (CmGkfyot8qY): Bitcoin bear market bottom expected in the window of late September through mid-December 2026, with October flagged as a plausible specific month.
 - 2026-08-06 (CmGkfyot8qY): Bitcoin is on day 1,354 of a historical 1,430-1,440 day cycle-low pattern, implying the low is not yet in but is approaching within roughly 76-86 days from the time of recording.
 - 2026-08-06 (CmGkfyot8qY): Cowen expects the bear market to stay weak for "a few more months" from the point of recording.
+
+- 2026-08-10 (zsnxQO7tC9M): BTC low likely in by late November, with October the single most likely month (could be as early as late September or as late as December).
+- 2026-08-10 (zsnxQO7tC9M): Cowen leans toward a breakdown out of the 200-week MA / bear market resistance band range "near the end of midterm years," though not certain.

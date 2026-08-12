@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-06
-entry_count: 49
+last_updated: 2026-08-10
+entry_count: 50
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -106,3 +106,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-30 (7vNA0geUryY): Cowen ties this July's ~10.5% BTC gain to the 2022/2018 midterm-year relief-rally pattern and notes 2014 was a partial exception (cycle low held off until October despite a stronger June low); he flags the 10-year Treasury yield turning up while the Fed holds as a bearish echo of 2023, when the same divergence preceded BTC's July downturn, and stresses genuine uncertainty about whether price even reaches the bear market resistance band or 200-day MA this time — "The the true answer is that is that no one knows" [03:12] — before using the ROI-from-low chart to place the cycle bottom at or near November 2026.
 
 - 2026-08-06 (CmGkfyot8qY): Cowen presents five independent cycle-timing measurements (low-to-low day count, top-to-top day count, peak-to-bottom day count, halving-relative behavior, and moving-average breakdown sequence) that all converge on the same conclusion: the four-year cycle is intact and Bitcoin is in the back stretch of its bear market, on day 1,354 of a historical 1,430-1,440 day pattern. He states plainly, "The four-year cycle does not refer to the highs in the market. It refers to the lows," and pins the bottom window to "late September through mid December" with October as a live candidate, while noting "we are in the back 30% of the bare market."
+
+- 2026-08-10 (zsnxQO7tC9M): Cowen argues Bitcoin's summer low is already in and the market is now in the fade-then-crunch phase of the midterm-year pattern, with a late-year event historically waking the market back up; social interest at 0.2 matches August 2018 exactly ("in 2018, in August of 2018, the social risk was also 0.2. So, we've been here before." [02:12]), while the NVRVZ on-chain score has not yet dipped below zero, the threshold it normally hits at bottoms, leaving room for one more leg down.

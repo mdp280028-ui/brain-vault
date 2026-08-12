@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-06
-brief_count: 49
+last_updated: 2026-08-10
+brief_count: 50
 ---
 
 # BTC Cycle Theory
@@ -11,19 +11,20 @@ Cowen's framework that Bitcoin and broader risk assets follow an approximately f
 
 ## Current Thesis
 
-Cowen reaffirms the four-year cycle as intact and unbroken, stressing it governs the timing of lows, not highs — a distinction he now backs with day-count data showing this cycle's top (day ~1,050-1,059) landed almost exactly where the prior two cycles topped. He places Bitcoin in the "back 30%" of the bear market, on day 1,354 of a historical 1,430-1,440 day low-to-low pattern, pointing to a bottom window of late September through mid-December 2026 (October flagged as plausible) — consistent with, and now the most granular version of, his prior ROI-from-low estimate of around November. He continues to draw the 2019 macro analogy (topped ~2 months before QT ended, three Fed rate cuts, no altcoin rotation, apathy-driven top) but distinguishes this cycle as time-based rather than price-based capitulation, meaning the grind lower plays out over months rather than resolving in a sharp capitulation event. Notably, he disclosed he has personally resumed DCA-buying BTC below $60K, reinforcing his standing advice to dollar-cost-average through the bottom rather than time it exactly.
+Cowen reaffirms the four-year cycle as intact, framing the current stretch through his midterm-year seasonality lens: Bitcoin forms "a low" (not necessarily "the low") in summer, volatility and interest then dry up, and a late-year "crunch" event delivers the actual bottom before the next bull market begins. He leans toward one more breakdown out of the current 200-week MA / bear market resistance band range before that happens, consistent with how midterm years typically resolve. His bottom window remains late September through mid-December 2026, with October still his single most likely month, and he continues to flag that on-chain (NVRVZ) and social-interest readings have not yet given an "all-clear," implying price could still move lower even as he personally continues to DCA-buy.
 
 ## Key Evidence
 
-- Cycle day-count from the low: last two cycles bottomed around day 1,432-1,436; Bitcoin is currently on day 1,354 of a cycle that historically runs 1,430-1,440 days, implying a bottom is close but likely not yet in — the most precise dating yet of the November-ish call from prior briefs. (CmGkfyot8qY)
-- Topping day-count: this cycle topped on day ~1,050-1,059 from the low, nearly identical to the prior two cycles (day 1,069 and day 1,059), supporting the "cycle governs lows, not highs" framing and that Bitcoin "topped when it always tops." (CmGkfyot8qY)
-- From the all-time-high peak, this bear market is milder than the prior three (day 304 vs. an average bottom around day 406, ~two-thirds through), attributed to the absence of a euphoric top/retail rotation into alts. (CmGkfyot8qY)
-- 2019 macro analog: BTC topped ~2 months before QT ended in both 2019 and 2025, both years had three Fed rate cuts, no altcoin rotation, and an apathy-driven (not euphoric) top; key difference is this cycle looks like time-based rather than price-based capitulation, which historically takes about a year to resolve (~10 months in so far). (CmGkfyot8qY)
-- Moving-average structure has followed the same 50-week → 100-week → 200-week breakdown sequence as the last three bear markets, currently sitting around the 200-week MA. (CmGkfyot8qY)
-- ROI-from-low day-count framework (prior briefs) and social participation matching July 2018 (~0.25) both independently pointed to a similar bottom window, now corroborated by this brief's multi-method day-count analysis. (7vNA0geUryY, XQN1M-sIuGs, oj2n8nkTTTE, sy6AxBbgico, prior)
+- Cycle day-count from the low: last two cycles bottomed around day 1,432-1,436; Bitcoin is currently on day 1,354 of a cycle that historically runs 1,430-1,440 days, implying a bottom is close but likely not yet in. (CmGkfyot8qY)
+- Topping day-count: this cycle topped on day ~1,050-1,059 from the low, nearly identical to the prior two cycles (day 1,069 and day 1,059), supporting the "cycle governs lows, not highs" framing. (CmGkfyot8qY)
+- Midterm-year seasonality pattern: Bitcoin historically forms a summer low (2018, 2022, 2026 cited), then volatility/interest fade until a late-year "crunch" event — typically late August through October, sometimes stretching into November/December (2015 the outlier, bottoming in January) — resolves the cycle low. (zsnxQO7tC9M)
+- NVRVZ on-chain score has not yet gone below zero, the level it normally hits at Bitcoin bottoms, suggesting the low may not be in yet despite Cowen resuming personal buying. (zsnxQO7tC9M)
+- Social interest reading of 0.2 is less than half of the equivalent point 4 years ago (0.4-0.5, pre-FTX) but matches August 2018 levels (also 0.2), reinforcing the 2018 structural analog. (zsnxQO7tC9M)
+- 2019 macro analog and moving-average breakdown sequence (50-week → 100-week → 200-week, currently oscillating around the 200-week MA) both continue to support a time-based, grind-lower capitulation rather than a sharp price event. (CmGkfyot8qY, prior)
 
 ## Recent Updates
 
+- 2026-08-10 (zsnxQO7tC9M): Cowen frames Bitcoin's current stretch as a textbook midterm-year pattern — summer low already in, fading volatility/interest, then a late-year "crunch" event — leans toward one more breakdown from the 200-week MA/resistance band range, notes NVRVZ hasn't flashed a bottom signal yet, and keeps October as most likely low month (late September to December range); BTC year holds ↑2, months added at ↓3.
 - 2026-08-06 (CmGkfyot8qY): Cowen dedicates a full video to cycle-position analysis across five measurement methods (low-to-low, top-to-top, peak-to-bottom, halving-relative, moving averages), concludes the four-year cycle remains intact and BTC is in the bear market's final ~30%, sharpens the bottom window to late September-mid December 2026 (October favored), reiterates the 2019 macro analog with a time- vs. price-based capitulation distinction, and discloses he has resumed personal DCA-buying below $60K; BTC year flips to ↑3, months at ↓4, weeks at ↓2.
 - 2026-07-30 (7vNA0geUryY): Cowen reiterates July's rally as typical midterm-year relief (BTC +10.5% vs. 2022's +20%/2018's +38%), flags a rising 10-year yield as a bearish echo of 2023, expects the "window of weakness" within 2-3 weeks landing in Aug/Sept, and now dates the cycle bottom to around November via the ROI-from-low chart; BTC year added at ↑2, months deepened to ↓4, weeks added at ↓2.
 - 2026-07-28 (oDvuDHTv2zo): Cowen frames the recent BTC rally as typical July-of-midterm-years seasonality (BTC +10% vs. 2022's +20% and 2018's +40%), but flags that August/September turned red in all three closest analog years (2022, 2018, 2014); reiterates 2018 as the best structural analog though 2019 is better for liquidity/flows; BTC months outlook softened from ↓4 to ↓2.

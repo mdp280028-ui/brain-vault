@@ -1,8 +1,8 @@
 ---
 topic_slug: ITC-conference-announcement
 group: cross-asset
-last_updated: 2026-08-07
-brief_count: 2
+last_updated: 2026-08-10
+brief_count: 3
 ---
 
 # ITC Conference Announcement
@@ -10,13 +10,15 @@ brief_count: 2
 Auto-created topic. Seed description pending operator review. Slug-as-words: ITC conference announcement.
 
 ## Current Thesis
-Cowen confirms the first-ever Into The Cryptoverse (ITC) conference is set for November 20-22, 2026 in Miami, and tickets are now live for purchase. The timing was deliberately chosen in hopes it would fall after the Bitcoin market cycle bottom, but given his base-case bottom estimate of late September/early October (with a tail risk of December), the conference may land close to, rather than cleanly after, the low. This latest update is purely promotional (ticket availability), with no new market commentary attached.
+Cowen confirms the first-ever Into The Cryptoverse (ITC) conference is set for November 20-22, 2026 in Miami (main day November 21), with tickets now live and prices set to rise September 1st. The conference timing was deliberately chosen to follow the expected Bitcoin cycle low, but Cowen's evolving cycle-bottom estimate — now leaning toward October as most likely, with late September to December as the range — means the event still sits close to, rather than cleanly after, the anticipated bottom. The latest brief reiterates this timing logic as part of a broader midterm-cycle "crunch time" narrative rather than adding new promotional details.
 
 ## Key Evidence
-- ITC conference dates confirmed as November 20-22, 2026, Miami (prior).
-- Cowen says the conference timing was designed with the hope it would fall after the market cycle bottom, but acknowledges it might instead land close to the low rather than fully after it, given his base case of a late September/early October bottom (prior).
-- Tickets for the first ITC conference are now officially live and available for purchase (baL3c7JqrSk).
+- ITC conference dates confirmed as November 20-22, 2026 (main day November 21), Miami; ticket prices rise September 1st (zsnxQO7tC9M; prior).
+- Tickets for the first ITC conference are now officially live and available for purchase (prior).
+- Cowen says the conference was timed specifically to follow his expected "crunch time" low, with October his most likely month for the bottom (could be as early as late September or as late as December) (zsnxQO7tC9M).
+- Cowen previously acknowledged the conference might land close to the low rather than fully after it, given his base case of a late September/early October bottom (prior).
 
 ## Recent Updates
+- 2026-08-10 (zsnxQO7tC9M): Cowen reiterates the ITC conference (Nov 20-22, main day Nov 21) was timed to follow the expected cycle low, with ticket prices rising September 1st, amid his "crunch time" outlook pointing to an October bottom.
 - 2026-08-07 (baL3c7JqrSk): Short promotional clip confirming tickets for the first ITC conference are now live, event to be held in Miami.
 - 2026-07-14 (Wf7vUIoGQrE): Cowen reminded viewers ITC conference is November 20-22, 2026 in Miami, noting the timing was meant to fall after the market cycle bottom but may instead land close to it.

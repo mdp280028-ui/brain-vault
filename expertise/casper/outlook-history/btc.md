@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-08-10
-row_count: 136
+last_updated: 2026-08-11
+row_count: 137
 ---
 
 # BTC outlook history (Casper)
@@ -146,3 +146,4 @@ Append-only. Newest entries at bottom.
 | 2026-08-09 | months | ↑ | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
 | 2026-08-09 | weeks | ↑ | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
 | 2026-08-09 | days | → | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
+| 2026-08-10 | days | ↓ | 2 | Casper is scalp-trading a Bitcoin bounce off a naked weekly point of control, expecting a lower low toward $63-64K (and possibly $60-61K if that fails) before any resumption higher. | 3RcpAxbMpUI | /Users/mmm2/brain/channels/casper/briefs/2026-08-10_3RcpAxbMpUI.md |

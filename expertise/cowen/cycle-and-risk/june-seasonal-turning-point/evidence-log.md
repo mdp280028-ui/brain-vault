@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-07-31
-entry_count: 15
+last_updated: 2026-08-10
+entry_count: 16
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -38,3 +38,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-27 (lfYYC7qxDQ8): Cowen reiterates that 2026 is "repeating the structure" of 2018 every month this year — February low, higher low in spring, swept low in late June/early July, rally into the bear-market resistance band by late July/early August — and points to the historical pattern of red August/September months following July strength in 2018, 2022, and 2014 as reason to expect a pullback after rejection near resistance. He also notes durable breaks above the resistance band have historically taken until well into the post-halving year (e.g., "in the last cycle, we didn't get through it in any durable sense until January of the post-halving year" [06:35]), tempering how much upside to expect even if the rally persists.
 
 - 2026-07-31 (XiNkIzh1fmQ): Cowen checks off both halves of his prior June-seasonal call — the late June/early July low and the July countertrend rally — and extends the historical analogue set from just 2018 to include 2023, 2022, and 2014, all of which show Bitcoin turning red in August/September regardless of July's direction. He allows the rally could stretch a bit further into August but expects the downturn to hit later in August and "notably" September, tying this to a bond market that is "starting to revolt" and a Fed on hold: "So, it made sense to say that look, we were going to form a low by late June, early July. We did." [00:14]
+
+- 2026-08-10 (zsnxQO7tC9M): Cowen frames Bitcoin as repeating the midterm-year pattern of a summer "low" (citing 2018, 2022, and 2026 as examples) followed by drying volatility and a late-year "crunch" event that kicks off the next bull market. He notes social interest has fallen to 0.2, matching August 2018 exactly ("in 2018, in August of 2018, the social risk was also 0.2. So, we've been here before" [02:12]), while on-chain reset indicators still haven't flashed a bottom signal ("that's a really interesting indicator that shows you that Bitcoin normally bottoms out when the NVRVZ score goes below zero. Hasn't done that yet" [03:25]). He leans toward one more breakdown before the final low, expected by late November with October most likely.
