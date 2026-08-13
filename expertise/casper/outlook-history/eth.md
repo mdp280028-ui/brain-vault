@@ -1,7 +1,7 @@
 ---
 asset: eth
-last_updated: 2026-08-10
-row_count: 14
+last_updated: 2026-08-12
+row_count: 15
 ---
 
 # ETH outlook history (Casper)
@@ -24,3 +24,4 @@ Append-only. Newest entries at bottom.
 | 2026-07-08 | weeks | ↑ | 2 | Casper is in no-man's-land after a failed reclaim of $62,500, adding to a long into a rejection at VWAP that immediately got dumped, and now wants a back-test of $59-61K before getting bullish agai... | AWZGmLiwlSg | /Users/mmm2/brain/channels/casper/briefs/2026-07-08_AWZGmLiwlSg.md |
 | 2026-07-20 | months | ↑ | 3 | Casper says Bitcoin just printed a historic weekly bullish divergence far earlier in the cycle than expected, and while he still leans toward one more drop before the real bottom, he'd be DCAing in... | X9D5c-hzhKM | /Users/mmm2/brain/channels/casper/briefs/2026-07-20_X9D5c-hzhKM.md |
 | 2026-08-07 | months | ↑ | 2 | Casper remains bullish above $64K on high timeframe signals (weekly bullish divergence not seen since Nov 2022) targeting $67-68K then $74K, while flagging lower timeframe bearish divergences and a... | n-9KtAqEuIo | /Users/mmm2/brain/channels/casper/briefs/2026-08-07_n-9KtAqEuIo.md |
+| 2026-08-11 | days | ↓ | 2 | Casper is long Bitcoin from a golden-pocket bounce area but expects a continued move lower toward the $63K value area low (and possibly the $60K "bygone" zone) before any resumption higher. | lq5VPxKI4Gs | /Users/mmm2/brain/channels/casper/briefs/2026-08-11_lq5VPxKI4Gs.md |

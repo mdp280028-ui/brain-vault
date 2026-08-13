@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-10
-entry_count: 113
+last_updated: 2026-08-11
+entry_count: 114
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -162,3 +162,5 @@ Append-only. Newest entries at bottom.
 
 - 2026-08-10 (zsnxQO7tC9M): BTC low likely in by late November, with October the single most likely month (could be as early as late September or as late as December).
 - 2026-08-10 (zsnxQO7tC9M): Cowen leans toward a breakdown out of the 200-week MA / bear market resistance band range "near the end of midterm years," though not certain.
+
+- 2026-08-11 (96LmewBt0VM): BTC volatility expected to dry up through July–September before a later-year event reawakens market interest, consistent with the midterm-year summer-low-then-crunch cycle pattern (no specific price target given).

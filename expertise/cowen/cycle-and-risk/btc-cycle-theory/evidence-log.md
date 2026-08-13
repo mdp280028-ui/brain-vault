@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-10
-entry_count: 50
+last_updated: 2026-08-11
+entry_count: 51
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -108,3 +108,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-06 (CmGkfyot8qY): Cowen presents five independent cycle-timing measurements (low-to-low day count, top-to-top day count, peak-to-bottom day count, halving-relative behavior, and moving-average breakdown sequence) that all converge on the same conclusion: the four-year cycle is intact and Bitcoin is in the back stretch of its bear market, on day 1,354 of a historical 1,430-1,440 day pattern. He states plainly, "The four-year cycle does not refer to the highs in the market. It refers to the lows," and pins the bottom window to "late September through mid December" with October as a live candidate, while noting "we are in the back 30% of the bare market."
 
 - 2026-08-10 (zsnxQO7tC9M): Cowen argues Bitcoin's summer low is already in and the market is now in the fade-then-crunch phase of the midterm-year pattern, with a late-year event historically waking the market back up; social interest at 0.2 matches August 2018 exactly ("in 2018, in August of 2018, the social risk was also 0.2. So, we've been here before." [02:12]), while the NVRVZ on-chain score has not yet dipped below zero, the threshold it normally hits at bottoms, leaving room for one more leg down.
+
+- 2026-08-11 (96LmewBt0VM): In a short promo-style clip, Cowen reiterates that on-chain indicators like the NVRVZ score still haven't confirmed a Bitcoin bottom, noting "Bitcoin normally got bottoms out when the NVRVZ score goes below zero, hasn't done that yet" [00:11], and that "there's still a number of indicators that haven't really given the the all-clear" [00:29]. He restates his base case that a low forms in summer, volatility dries up through July-September, and then "something happens" later in the year that "wakes everyone back up" [00:39, 00:49]. He also caveats that price doesn't have to wait for indicators to confirm before moving.
