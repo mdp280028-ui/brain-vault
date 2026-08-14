@@ -1,6 +1,160 @@
 # Research/Opportunity — Pain Points Log
 
 
+## #55 — asbestos-popcorn-ceiling-diy-safety
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.55 · **Coverage:** partial
+- **Best match:** how-to-test-popcorn-ceiling-for-asbestos
+- **Proposed kw:** how to safely remove asbestos popcorn ceiling yourself
+- **Pain:** What's the correct safety procedure — clothing, masks, and cleanup rules — when scraping asbestos popcorn ceiling myself?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgyUGZXLtXNYXaJqzMZ4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:26 PT
+- **Action:** `/approve_pain 55` · `/reject_pain 55`
+
+---
+
+
+## #54 — asbestos-popcorn-ceiling-diy-removal-safety
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.60 · **Coverage:** partial
+- **Best match:** how-to-test-popcorn-ceiling-for-asbestos
+- **Proposed kw:** how to safely remove asbestos popcorn ceiling yourself
+- **Pain:** What's the correct DIY containment and PPE procedure for safely scraping asbestos popcorn ceiling without contaminating the house?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=Ugx2R6wdxcEyQyuUNx14AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:26 PT
+- **Action:** `/approve_pain 54` · `/reject_pain 54`
+
+---
+
+
+## #53 — diy-popcorn-ceiling-asbestos-removal
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.60 · **Coverage:** partial
+- **Best match:** asbestos-popcorn-ceiling-removal-cost
+- **Proposed kw:** how to remove asbestos popcorn ceiling yourself
+- **Pain:** What's the correct DIY procedure and gear for safely scraping asbestos popcorn ceiling myself?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgzJXnWwjzoWi6ddIll4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 53` · `/reject_pain 53`
+
+---
+
+
+## #52 — asbestos-popcorn-ceiling-diy-removal-risks
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.70 · **Coverage:** partial
+- **Best match:** asbestos-popcorn-ceiling-vs-non-asbestos
+- **Proposed kw:** is it safe to remove asbestos popcorn ceiling yourself
+- **Pain:** If I don't hire a pro to remove asbestos popcorn ceiling texture, will fibers stay airborne and contaminate everything in my house indefinitely?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgyeQCTacTu7xuXbk9N4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 52` · `/reject_pain 52`
+
+---
+
+
+## #51 — asbestos-fireproofing-spray-removal
+
+- **Source:** youtube · Abatement in progress, asbestos removal of fire proofing at our local fire department.
+- **Score:** 0.75 · **Coverage:** none
+- **Best match:** friable-vs-nonfriable-asbestos
+- **Proposed kw:** asbestos spray fireproofing removal
+- **Pain:** Is it dangerous that this abatement crew is scraping spray-coated (sprayed-on) asbestos fireproofing without wetting it down first?
+- **Source post:** https://www.youtube.com/watch?v=2EeBjwZuBWw&lc=UgwkAAU_1HjLZ36oodZ4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 51` · `/reject_pain 51`
+
+---
+
+
+## #50 — asbestos-fireproofing-removal-cost
+
+- **Source:** youtube · Abatement in progress, asbestos removal of fire proofing at our local fire department.
+- **Score:** 0.70 · **Coverage:** partial
+- **Best match:** asbestos-remediation-cost
+- **Proposed kw:** asbestos fireproofing removal cost
+- **Pain:** How much does professional asbestos abatement (like removing sprayed fireproofing) actually cost?
+- **Source post:** https://www.youtube.com/watch?v=2EeBjwZuBWw&lc=UgxVph9jawydzpkiteR4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 50` · `/reject_pain 50`
+
+---
+
+
+## #49 — asbestos-spray-fireproofing-removal
+
+- **Source:** youtube · Abatement in progress, asbestos removal of fire proofing at our local fire department.
+- **Score:** 0.75 · **Coverage:** none
+- **Best match:** friable-vs-nonfriable-asbestos
+- **Proposed kw:** asbestos spray fireproofing removal
+- **Pain:** Is this fireproofing spray-applied (limpet) asbestos, and shouldn't it be removed by injection/wetting rather than the dry scraping technique shown, which looks unsafe compared to UK practice?
+- **Source post:** https://www.youtube.com/watch?v=2EeBjwZuBWw&lc=UgyTUEiSeOAaSBnWjjN4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 49` · `/reject_pain 49`
+
+---
+
+
+## #48 — asbestos-fiber-contamination-clothing
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.75 · **Coverage:** partial
+- **Best match:** is-popcorn-ceiling-asbestos
+- **Proposed kw:** do asbestos fibers stay on clothes
+- **Pain:** Is it true that disturbed popcorn ceiling asbestos fibers can cling to clothing and belongings and later be inhaled, even after the initial work is done?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgwbW1GTpgOS-9Osgyx4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 48` · `/reject_pain 48`
+
+---
+
+
+## #47 — asbestos-percentage-in-popcorn-ceiling
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.80 · **Coverage:** partial
+- **Best match:** asbestos-popcorn-ceiling-removal-cost
+- **Proposed kw:** is 2 percent asbestos in popcorn ceiling dangerous
+- **Pain:** Is 2% chrysotile in my popcorn ceiling a low or high amount, and how do I get it removed without leftover dust in the house?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=Ugzrvrszgj2nPR4bJUl4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 47` · `/reject_pain 47`
+
+---
+
+
+## #46 — asbestos-abatement-osha-rules
+
+- **Source:** youtube · Abatement in progress, asbestos removal of fire proofing at our local fire department.
+- **Score:** 0.70 · **Coverage:** none
+- **Best match:** friable-vs-nonfriable-asbestos
+- **Proposed kw:** osha rules for asbestos abatement
+- **Pain:** Is this abatement crew doing it wrong (dry-scraping fireproofing, no PPE) and shouldn't OSHA be stopping them?
+- **Source post:** https://www.youtube.com/watch?v=2EeBjwZuBWw&lc=Ugw-ctScALc8hTBju-Z4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 46` · `/reject_pain 46`
+
+---
+
+
+## #45 — asbestos-popcorn-ceiling-encapsulation
+
+- **Source:** youtube · Here's Why Asbestos Popcorn Ceilings aren't That Scary.
+- **Score:** 0.90 · **Coverage:** partial
+- **Best match:** asbestos-popcorn-ceiling-vs-non-asbestos
+- **Proposed kw:** can you paint over asbestos popcorn ceiling instead of removing it
+- **Pain:** Is it actually safe to encapsulate or leave asbestos popcorn ceiling and tile in place instead of paying for full removal, or am I being reckless?
+- **Source post:** https://www.youtube.com/watch?v=VktnR32_bSg&lc=UgyLLBols3Jhpw0l-3h4AaABAg
+- **Status at proposal:** unreviewed · proposed 2026-08-13 11:25 PT
+- **Action:** `/approve_pain 45` · `/reject_pain 45`
+
+---
+
+
 ## #44 — diy-asbestos-removal-guide
 
 - **Source:** youtube · Saving £19,000 Doing It OURSELVES! DIY Asbestos Removal

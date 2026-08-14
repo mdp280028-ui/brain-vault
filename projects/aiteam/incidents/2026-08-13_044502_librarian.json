@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-08-13T11:45:00Z",
+  "actor_id": "librarian",
+  "expected_actions": ["sort_completed"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "02:00 nightly librarian sort",
+  "watchdog_state": "missing"
+}

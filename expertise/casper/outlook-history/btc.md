@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-08-12
-row_count: 138
+last_updated: 2026-08-13
+row_count: 139
 ---
 
 # BTC outlook history (Casper)
@@ -148,3 +148,4 @@ Append-only. Newest entries at bottom.
 | 2026-08-09 | days | → | 2 | Casper says Bitcoin is coiling for a big move at the $65.6K-$67K resistance zone, remaining bullish on high timeframe signals toward $68K then $74K, but warns a break of the local uptrend could sen... | SOtwqRLGsiY | /Users/mmm2/brain/channels/casper/briefs/2026-08-09_SOtwqRLGsiY.md |
 | 2026-08-10 | days | ↓ | 2 | Casper is scalp-trading a Bitcoin bounce off a naked weekly point of control, expecting a lower low toward $63-64K (and possibly $60-61K if that fails) before any resumption higher. | 3RcpAxbMpUI | /Users/mmm2/brain/channels/casper/briefs/2026-08-10_3RcpAxbMpUI.md |
 | 2026-08-11 | days | ↓ | 3 | Casper is long Bitcoin from a golden-pocket bounce area but expects a continued move lower toward the $63K value area low (and possibly the $60K "bygone" zone) before any resumption higher. | lq5VPxKI4Gs | /Users/mmm2/brain/channels/casper/briefs/2026-08-11_lq5VPxKI4Gs.md |
+| 2026-08-12 | days | ↑ | 2 | Casper says CPI was in-line and neither bullish nor bearish, and he's watching for a dip toward $63K (or a deeper "bygone" zone) as the next long entry before targeting $68K and possibly $74K. | aNP-RGicn1c | /Users/mmm2/brain/channels/casper/briefs/2026-08-12_aNP-RGicn1c.md |

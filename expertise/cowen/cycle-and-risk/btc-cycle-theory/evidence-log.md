@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
-last_updated: 2026-08-11
-entry_count: 51
+last_updated: 2026-08-13
+entry_count: 52
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -110,3 +110,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-10 (zsnxQO7tC9M): Cowen argues Bitcoin's summer low is already in and the market is now in the fade-then-crunch phase of the midterm-year pattern, with a late-year event historically waking the market back up; social interest at 0.2 matches August 2018 exactly ("in 2018, in August of 2018, the social risk was also 0.2. So, we've been here before." [02:12]), while the NVRVZ on-chain score has not yet dipped below zero, the threshold it normally hits at bottoms, leaving room for one more leg down.
 
 - 2026-08-11 (96LmewBt0VM): In a short promo-style clip, Cowen reiterates that on-chain indicators like the NVRVZ score still haven't confirmed a Bitcoin bottom, noting "Bitcoin normally got bottoms out when the NVRVZ score goes below zero, hasn't done that yet" [00:11], and that "there's still a number of indicators that haven't really given the the all-clear" [00:29]. He restates his base case that a low forms in summer, volatility dries up through July-September, and then "something happens" later in the year that "wakes everyone back up" [00:39, 00:49]. He also caveats that price doesn't have to wait for indicators to confirm before moving.
+
+- 2026-08-13 (6V6rlIV2Zek): Cowen builds a detailed 60-day case combining seasonality base rates (10-11% avg August drop, 8% avg September drop since 2010 in midterm years), a day-count model placing 60-days-out within a week or two of prior cycle lows, and a bear-market-duration comparison spanning a 52-54 week base case (~Oct 5-19 low) to a 59-week tail case (week of Nov 23). He notes the November tail scenario lands the same week as his ITC conference: "Guess when the conference is... November 21st." [17:40]
