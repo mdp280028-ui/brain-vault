@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-08-14T16:45:00Z",
+  "actor_id": "market-channel-audiking",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1786629608,
+  "last_seen_action": "sqlite_row",
+  "signal_type": "sqlite_row",
+  "description": "07:00 PT poll of @CryptoAudiKingg. TitanX-only filter means MOST DAYS QUEUE NOTHING — polled-and-all-filtered-out is healthy, not missing",
+  "watchdog_state": "missing"
+}

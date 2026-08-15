@@ -10,3 +10,7 @@ Agent stops re-surfacing them. Operator may move them in DEFERRED.md if still de
 - **D042**: `seed_taxonomy.sh` Casper preserve guard — auto-killed after 3 resurfacings, 2026-08-13
 - **D028**: Diary's `hive_mind` data source incomplete — auto-killed after 3 resurfacings, 2026-08-13
 - **D039**: outlook-history TL;DR repetition on rows 2+ from same video — auto-killed after 3 resurfacings, 2026-08-13
+- **D046**: `notify.sh` env-override bug — auto-killed after 3 resurfacings, 2026-08-14
+- **D047**: Pre-patch chrysotile draft rejected by new validator — auto-killed after 3 resurfacings, 2026-08-14
+- **D051**: `~/agents/` working-tree hygiene — auto-killed after 3 resurfacings, 2026-08-14
+- **D053**: assignment-drafter state files not gitignored — auto-killed after 3 resurfacings, 2026-08-14

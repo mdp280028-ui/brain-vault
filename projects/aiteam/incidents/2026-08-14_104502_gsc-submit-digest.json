@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-08-14T17:45:01Z",
+  "actor_id": "gsc-submit-digest",
+  "expected_actions": ["digest_sent","digest_skipped"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "08:00 GSC submission-queue digest (runs without credentials by design)",
+  "watchdog_state": "missing"
+}

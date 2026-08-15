@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-08-14T16:45:00Z",
+  "actor_id": "market-channel-trvon",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1786629607,
+  "last_seen_action": "sqlite_row",
+  "signal_type": "sqlite_row",
+  "description": "07:00 PT poll of @trvon (0.23 uploads/day — most days queue nothing, and a live stream skipped this cycle is healthy)",
+  "watchdog_state": "missing"
+}
