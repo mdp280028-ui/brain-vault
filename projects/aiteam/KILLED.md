@@ -28,3 +28,11 @@ Agent stops re-surfacing them. Operator may move them in DEFERRED.md if still de
 - **D078**: Sonnet cost in research-opportunity digest archive header — auto-killed after 3 resurfacings, 2026-08-15
 - **D079**: Haiku CLI overhead ($0.025/call) propagation to fleet cost projections — auto-killed after 3 resurfacings, 2026-08-15
 - **D080**: YouTube triage threshold tune-up (raise to 0.85 if false-positive volume becomes annoying) — auto-killed after 3 resurfacings, 2026-08-15
+- **D081**: `deploy_batch.log` 0-byte canary check after first SSG ship — auto-killed after 3 resurfacings, 2026-08-21
+- **D082**: `ship.sh` pushes commit to remote before detecting build failure — auto-killed after 3 resurfacings, 2026-08-21
+- **D084**: `keyword_research.md` top-30-by-SV cutoff misses high-CPC vendor-review opportunities — auto-killed after 3 resurfacings, 2026-08-21
+- **D085**: Cross-link backfill after first vendor-review batch ships — auto-killed after 3 resurfacings, 2026-08-21
+- **D086**: ssg-content git remote needs manual creation (gh CLI unavailable) — auto-killed after 3 resurfacings, 2026-08-21
+- **D087**: idea-agent v1 build follow-ups (umbrella) — auto-killed after 3 resurfacings, 2026-08-21
+- **D088**: `/model` slash-command grid follow-ups — auto-killed after 3 resurfacings, 2026-08-21
+- **D089**: notes-agent v1 build follow-ups (umbrella) — auto-killed after 3 resurfacings, 2026-08-21
