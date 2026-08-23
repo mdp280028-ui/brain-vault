@@ -36,3 +36,6 @@ Agent stops re-surfacing them. Operator may move them in DEFERRED.md if still de
 - **D087**: idea-agent v1 build follow-ups (umbrella) — auto-killed after 3 resurfacings, 2026-08-21
 - **D088**: `/model` slash-command grid follow-ups — auto-killed after 3 resurfacings, 2026-08-21
 - **D089**: notes-agent v1 build follow-ups (umbrella) — auto-killed after 3 resurfacings, 2026-08-21
+- **D083**: SSG-fy `propose_backlinks.sh` + `keyword-registry update_registry.py` — 🟡 PARTIAL — auto-killed after 3 resurfacings, 2026-08-22
+- **D090**: Investigate approved-index-asbestos.md drift on escalated slugs — auto-killed after 3 resurfacings, 2026-08-22
+- **D093**: Domain hunter v0.2: ExpiredDomains.net Pro membership — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-08-22
