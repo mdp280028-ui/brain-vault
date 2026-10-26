@@ -1240,7 +1240,9 @@ empty state renders, 26 guide cards on existing landings). Pipeline:
 run-batch enums + OUTPUT_FORMAT (`1d18012`), drafter prompt (`e0ffb56`).
 The 14 HELD master-list slugs are now queue-eligible once configs exist.
 
-### D098 — sitemap.xml is hand-maintained and stale — 🟡 OPEN
+### D098 — sitemap.xml is hand-maintained and stale — ✅ CLOSED 2026-10-26
+
+**Closed 2026-10-26 (FLEET-AUDIT-55):** outdated. Both sitemaps are now generated from the approved list (`smartsourceguide/app/sitemap.ts`, `asbestoshq-site/src/app/sitemap.ts`). The overnight live check (OVERNIGHT-AUDIT-1 §1K) found SSG 39 URLs and asbestos 48, all 200, canonicals ok.
 
 **Logged:** 2026-06-11 (helpdesk-support category build).
 
@@ -1705,7 +1707,9 @@ breaker is needed today.
 
 **Trigger:** the moment anyone proposes removing the CONFIRM step.
 
-### D114 — agent_issues has re-accumulated to ~2,900 open rows — 🟡 OPEN
+### D114 — agent_issues has re-accumulated to ~2,900 open rows — 🟡 PARTLY ADDRESSED 2026-10-26
+
+**Update 2026-10-26 (FLEET-AUDIT-55):** the count reached 5,231. Resolved, not deleted, after `.backup`: 2,196 rows from the 2026-08-13 → 09-03 CLI + network blackout (Recovery Recon §2.0; backup `~/store/aiteam.db.bak-d7-1793037456`), and 23 success rows mis-captured by the key-name match (fixed in capture.sh `cc91ce1`; backup `.bak-d6-1793037284`). **3,012 remain open** (2026-05-30 → 08-12 backlog plus 34 new); open hard 120 → 57. The `*_skipped` exclusion below was not applied: 0 such rows are open now.
 
 **Logged:** 2026-07-31 (Jeff capability audit).
 
@@ -1726,7 +1730,9 @@ single biggest contributor and a skip is a routine outcome, not a fault.
 
 **Trigger:** before anyone treats the /issues count as a health signal.
 
-### D115 — `MAX(ts) < strftime(...)` silently always-true (SQLite affinity) — 🟡 OPEN
+### D115 — `MAX(ts) < strftime(...)` silently always-true (SQLite affinity) — ✅ CLOSED 2026-10-26
+
+**Closed 2026-10-26 (FLEET-AUDIT-55):** swept. A repo-wide grep for `(MAX|MIN)(ts) [<>] strftime` finds one instance, `majordomo/daily_brief.sh:54`, and it already has the `CAST` (OVERNIGHT-AUDIT-1 §1S S6).
 
 **Logged:** 2026-07-31 (found building Jeff's daily brief).
 
@@ -1761,7 +1767,9 @@ than observed.
 `grammy_restart_completed` in audit_log; its absence means the child died with
 its parent and the detachment needs `setsid` proper.
 
-### D117 — needs_review_queue.txt holds stale entries for already-approved slugs — 🟡 OPEN
+### D117 — needs_review_queue.txt holds stale entries for already-approved slugs — 🟡 OPEN (dormant: asbestos parked)
+
+**Update 2026-10-26:** the 4 stale entries are all asbestos slugs, and asbestos shipping is disabled (`c0946a6`), so they block nothing until unpark. Clear them as part of the park plan's U6 (`majordomo/playbooks/clear-review-slug.sh <slug>`).
 
 **Logged:** 2026-07-31 (found by Jeff during the production-playbook build).
 
@@ -1864,7 +1872,9 @@ amputation. Revisit if Bob ever performs a destructive action unasked again;
 the next step would be a mandatory confirmation wrapper on destructive verbs at
 the runner level rather than in the prompt.
 
-### D121 — `ship.sh --dry-run` is not dry: it fires both Sonnet gates and writes verdict rows — 🟡 OPEN
+### D121 — `ship.sh --dry-run` is not dry: it fires both Sonnet gates and writes verdict rows — 🟡 OPEN (dormant: asbestos parked)
+
+**Update 2026-10-26:** dormant. SSG skips both gates (D122), and asbestos is `enabled: false` in ship-to-site (`c0946a6`), so `process_site` returns before any gate. It comes back on unpark; fix before U6.
 
 **Logged:** 2026-08-09 (fix lane, found while tracing F09's call path).
 
@@ -1972,3 +1982,99 @@ Retuning is the real remedy; until someone does that work, turning the flags on
 would block SSG shipping outright for no gain.
 
 **Trigger:** SSG revenue, or a rubric retune. Not before.
+
+### D123 — Out-of-band alert path when `notify.sh` fails — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55, from OVERNIGHT-AUDIT-1 / recon P12).
+
+Telegram is the only alert channel. During the Aug-Sep blackout `notify.sh` failed ~17×/day for 21 days and nothing else could say so. Add a second channel (email via an app password, iMessage via `osascript`, or a push service) that fires when `notify_failed` outnumbers `notify_sent` over a window. Since `25aa5a4` a transport failure also saves `~/store/netdiag/*.txt`.
+
+**Trigger:** Mark picks the channel (MARK-ONLY M4). >2 h with tests.
+
+### D124 — Pipeline↔site fork: make the live site the source of truth — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+The pipeline's approved JSON and the site JSON have diverged (SSG 17/17, asbestos 24/41). Since `dd53056`, `apply_approval.sh` refuses to edit a forked guide. Still open: redesign the refresh path (`deploy_batch.sh` truncates the refresh queue before processing, and a refresh can never pass `slug_already_shipped`), and back-port site corrections into the pipelines (other lanes: overnight OL9/OL10).
+
+**Trigger:** before the next site-side correction pass or any unpark.
+
+### D125 — Stage run-batch drafts outside the `approved/` deploy glob — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+run-batch stages each unapproved draft in `content/<site>/approved/guides/` while it gates. Since `99e6528`, `ship.sh` holds a site while a live run-batch lock exists, but a run that starts mid-build isn't caught, and gating paths that don't take the lock aren't either. Root fix: stage in `content/<site>/staging/` and move into `approved/` only on PASS (ssg-content lane, overnight OL11).
+
+**Trigger:** SSG-CONTENT-1's next session.
+
+### D126 — Delivery honesty fleet-wide — 🟡 OPEN (2 of N done)
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+Every `*_sent` row should carry `notify_rc`, and the watchdog should key liveness on run rows and delivery on rc. Done in `ca19b80`: watchdog digest + preview ping. Remaining: ship-to-site digest, majordomo daily brief, research-opportunity digest, briefer, issues digest, domain-hunter.
+
+**Trigger:** >3 agents (R4).
+
+### D127 — busy_timeout for the direct `sqlite3` call sites — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+`lib/log_to_audit.sh` waits 5 s since `579e105`, and Python writers already default to 5 s. About 190 direct CLI `sqlite3` writes elsewhere still fail at once on SQLITE_BUSY (3 production hits recorded).
+
+**Trigger:** next "database is locked" in any log.
+
+### D128 — Doc-drift pass — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+The overnight J pass found 41 CLAUDE.md-vs-code drifts, 22 of them misleading-ops, with a one-line fix each (`~/aiteam-overnight-2026-10-26/evidence/J_doc_drift.md`), plus the agent.yaml twins and a bob-kit re-cut.
+
+**Trigger:** >3 agents (R4); a docs session.
+
+### D129 — Backup volume encryption and generation pruning — 🟡 OPEN (generations done)
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+Done in `ad816a1`: a dated DB generation each night in `<dest>/db-generations/`, outside every `--delete` mirror. Open, MARK: (1) `/Volumes/Backups` is unencrypted with ownership disabled and holds plaintext `.env`/session files (encrypt it, or exclude secrets from the rsync); (2) the pruning policy for generations (none now, ~30 MB/night, 9.1 TiB free).
+
+**Trigger:** Mark's decision (MARK-ONLY M3).
+
+### D130 — ai-think.sh hardening parity — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+`ai-think.sh` (Opus; 4 callers) has no cap-signature, parse-fail or claude_call_failed audit path. Port `ai-cheap.sh:56-100`. Seen today: under a failing CLI it writes no failure row at all.
+
+**Trigger:** 60+ min with tests.
+
+### D131 — Market chain truthfulness — 🟡 OPEN (blocked on M6)
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+
+`poll.sh` ignores the HTTP status (F03), the briefer briefs on zero input, and the curator writes `curator_run` when the LLM failed. The process_queue empty-array crash was fixed in `20f6bae`.
+
+**Trigger:** Mark says the market chain is still wanted (M6).
+
+### D132 — domain-hunter → domain-lab v2 cutover — 🟡 OPEN (waiting on the lab)
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55; Mark's ruling in amendment (2)).
+
+Once `~/projects/domain-hunter-lab/docs/lab2_s7_migration.md` has its load proof (it still says `LOAD_PROOF_PLACEHOLDER`) and `launchctl list` shows `com.aiteam.domain-lab`: comment out crontab line 71 (`30 6 * * * …/domain-hunter/scan.sh`) marked "REPLACED 2026-10-26 by domain-lab v2", with `lib/cron.txt` in the same commit; comment out the `domain-hunter` watchdog entry; add the lab's `sqlite_row` entry from the migration note §7. Don't repair the old agent (it has fetched 0 domains since 08-13).
+
+**Trigger:** DOMAIN-LAB-2 loads the plist.
+
+### D133 — Log rotation for unbounded logs — 🟡 OPEN
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55, overnight Q31).
+
+`tg-monitor/reader.log` is 31 MB and `majordomo/check.out.log` 1.3 MB, with no rotation anywhere. Add a size-capped `mv f f.1` in the job wrappers.
+
+**Trigger:** any log over 50 MB, or disk under 20%.
+
+### D134 — keyword-registry: drift alarm always on; SSG registry never rebuilt — 🟡 OPEN (blocked on M3)
+
+**Logged:** 2026-10-26 (FLEET-AUDIT-55, overnight F-13/Q36, Q37).
+
+Parked by C3 (`9022eed`). If Mark answers M3 "repoint to SSG": (1) `strip_volatile` must also blank the per-row Last-updated date (tested: tonight's whole "drift" was dates); (2) run `--site ssg` nightly; (3) refresh `internal_link_inventory` first (last indexed 2026-05-24).
+
+**Trigger:** Mark's M3 answer.
