@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-09-03T18:00:01Z",
+  "actor_id": "research-opportunity-discover",
+  "expected_actions": ["youtube_discovery_completed"],
+  "check_window_hours": 792,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "Monthly 1st 09:00 YouTube seed discovery",
+  "watchdog_state": "missing"
+}

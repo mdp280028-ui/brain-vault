@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "link-monitor",
+  "expected_actions": ["check_run"],
+  "check_window_hours": 176,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "Weekly Mon 06:00 dead-link sweep over authorityLinks",
+  "watchdog_state": "missing"
+}

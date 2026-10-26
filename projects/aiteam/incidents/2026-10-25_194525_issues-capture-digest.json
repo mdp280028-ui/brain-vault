@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "issues-capture-digest",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1788440713,
+  "last_seen_action": "mtime",
+  "signal_type": "logfile_mtime",
+  "description": "06:05 daily issues digest",
+  "watchdog_state": "missing"
+}

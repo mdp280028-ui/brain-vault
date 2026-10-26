@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "idea-agent",
+  "expected_actions": ["external_scan_complete"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "07:10 daily idea-agent self-improvement loop",
+  "watchdog_state": "missing"
+}

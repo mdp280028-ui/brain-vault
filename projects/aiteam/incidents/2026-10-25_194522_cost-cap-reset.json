@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "cost-cap-reset",
+  "expected_actions": ["caps_reset"],
+  "check_window_hours": 26,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "00:00 daily cost-cap reset (launchd com.aiteam.cost-cap-reset)",
+  "watchdog_state": "missing"
+}

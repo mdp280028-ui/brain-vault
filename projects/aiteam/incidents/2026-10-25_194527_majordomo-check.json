@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "majordomo-check",
+  "expected_actions": [],
+  "check_window_hours": 3,
+  "last_seen_ts": 1788487207,
+  "last_seen_action": "mtime",
+  "signal_type": "logfile_mtime",
+  "description": "Hourly majordomo check (launchd com.aiteam.majordomo-check)",
+  "watchdog_state": "missing"
+}

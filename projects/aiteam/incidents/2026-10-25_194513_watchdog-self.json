@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "watchdog-self",
+  "expected_actions": ["watchdog_check_complete"],
+  "check_window_hours": 2,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "Watchdog's own 15-min tick (partial-failure only — see comment)",
+  "watchdog_state": "missing"
+}

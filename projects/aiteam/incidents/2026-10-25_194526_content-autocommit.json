@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "content-autocommit",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1788417600,
+  "last_seen_action": "mtime",
+  "signal_type": "logfile_mtime",
+  "description": "23:35 + 23:40 nightly pipeline-repo auto-commits",
+  "watchdog_state": "missing"
+}

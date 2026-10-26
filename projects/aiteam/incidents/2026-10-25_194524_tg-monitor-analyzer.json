@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "tg-monitor-analyzer",
+  "expected_actions": [],
+  "check_window_hours": 26,
+  "last_seen_ts": 1788444014,
+  "last_seen_action": "mtime",
+  "signal_type": "logfile_mtime",
+  "description": "07:00 daily tg-monitor analyzer digest",
+  "watchdog_state": "missing"
+}

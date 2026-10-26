@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-10-26T02:45:02Z",
+  "actor_id": "backlink-prospector",
+  "expected_actions": ["blp_run_done"],
+  "check_window_hours": 176,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "audit_log",
+  "description": "Weekly Sun 08:00 backlink prospecting",
+  "watchdog_state": "missing"
+}
