@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-08-10
-entry_count: 16
+last_updated: 2026-08-13
+entry_count: 17
 ---
 
 # Evidence log: June Seasonal Turning Point
@@ -40,3 +40,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-31 (XiNkIzh1fmQ): Cowen checks off both halves of his prior June-seasonal call — the late June/early July low and the July countertrend rally — and extends the historical analogue set from just 2018 to include 2023, 2022, and 2014, all of which show Bitcoin turning red in August/September regardless of July's direction. He allows the rally could stretch a bit further into August but expects the downturn to hit later in August and "notably" September, tying this to a bond market that is "starting to revolt" and a Fed on hold: "So, it made sense to say that look, we were going to form a low by late June, early July. We did." [00:14]
 
 - 2026-08-10 (zsnxQO7tC9M): Cowen frames Bitcoin as repeating the midterm-year pattern of a summer "low" (citing 2018, 2022, and 2026 as examples) followed by drying volatility and a late-year "crunch" event that kicks off the next bull market. He notes social interest has fallen to 0.2, matching August 2018 exactly ("in 2018, in August of 2018, the social risk was also 0.2. So, we've been here before" [02:12]), while on-chain reset indicators still haven't flashed a bottom signal ("that's a really interesting indicator that shows you that Bitcoin normally bottoms out when the NVRVZ score goes below zero. Hasn't done that yet" [03:25]). He leans toward one more breakdown before the final low, expected by late November with October most likely.
+
+- 2026-08-13 (6V6rlIV2Zek): Cowen says the June/July low and July rally fit the 2018 and 2022 pattern (red May/June, green July), and that midterm-year Augusts average roughly -10-11% and Septembers about -8%, which from ~$63K would mean ~56K and then the low 50s. He adds that the ROI-from-low model (now day 1360, prior lows on days 1432 and 1436) and bear-market-length comparisons put a cycle low around October, with November possible. "I would say the odds of the low being in October are probably equivalent to the odds of the low being in every other month combined." [11:09]

@@ -2,7 +2,7 @@
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
 last_updated: 2026-08-13
-entry_count: 116
+entry_count: 118
 ---
 
 # Predictions log: BTC Cycle Theory
@@ -167,3 +167,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-08-13 (6V6rlIV2Zek): Seasonal drop of ~10-11% in August and ~8% in September (midterm-year historical average) would put BTC around 56K, then low 50s if both occur — framed as historical base rate, not a fixed-timeframe commitment.
 - 2026-08-13 (6V6rlIV2Zek): Cycle low most likely between late September and mid-December 2026, with October as leading candidate month (~50% odds vs. all other months combined); if bear market extends to 59 weeks, low pushes to the week of November 23.
+
+- 2026-08-13 (6V6rlIV2Zek): BTC: seasonal drop of ~10-11% in August and ~8% in September (midterm-year historical average) would put price around 56K, then low 50s if both occur; no fixed timeframe commitment, framed as historical base rate.
+- 2026-08-13 (6V6rlIV2Zek): BTC: cycle low most likely to occur between late September and mid-December 2026, with October as the leading candidate month (~50% odds vs. all other months combined); if the bear market extends to 59 weeks, the low pushes to the week of November 23rd.

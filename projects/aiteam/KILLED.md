@@ -39,3 +39,9 @@ Agent stops re-surfacing them. Operator may move them in DEFERRED.md if still de
 - **D083**: SSG-fy `propose_backlinks.sh` + `keyword-registry update_registry.py` — 🟡 PARTIAL — auto-killed after 3 resurfacings, 2026-08-22
 - **D090**: Investigate approved-index-asbestos.md drift on escalated slugs — auto-killed after 3 resurfacings, 2026-08-22
 - **D093**: Domain hunter v0.2: ExpiredDomains.net Pro membership — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-08-22
+- **D095**: audit_guide.py SAT1/SEO possessive normalization divergence — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26
+- **D096**: Zero-flip harness gates with bare slug configs, diverges from official gate — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26
+- **D098**: sitemap.xml is hand-maintained and stale — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26
+- **D099**: keyword_registry shows status=killed on live asbestos slugs — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26
+- **D100**: live-page secondary folds from 2026-06-11 expansion recon — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26
+- **D102**: Nightly agents-vault auto-commit sweeps unknown runtime files blindly — 🟡 OPEN — auto-killed after 3 resurfacings, 2026-10-26

@@ -1,8 +1,8 @@
 ---
 topic_slug: june-seasonal-turning-point
 group: cycle-and-risk
-last_updated: 2026-08-10
-entry_count: 30
+last_updated: 2026-08-13
+entry_count: 32
 ---
 
 # Predictions log: June Seasonal Turning Point
@@ -52,3 +52,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-08-10 (zsnxQO7tC9M): BTC low likely in by late November, with October the single most likely month (could be as early as late September or as late as December).
 - 2026-08-10 (zsnxQO7tC9M): BTC leans toward a breakdown out of the 200-week MA / bear market resistance band range "near the end of midterm years," though not certain.
+
+- 2026-08-13 (6V6rlIV2Zek): BTC seasonal drop of ~10-11% in August and ~8% in September (midterm-year historical average) would put price around 56K, then low 50s if both occur — no fixed timeframe commitment, framed as historical base rate.
+- 2026-08-13 (6V6rlIV2Zek): BTC cycle low most likely between late September and mid-December 2026, with October the leading candidate month (~50% odds vs. all other months combined); if the bear market extends to 59 weeks, the low pushes to the week of November 23rd.

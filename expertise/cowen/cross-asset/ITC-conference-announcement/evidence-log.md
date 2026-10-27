@@ -2,7 +2,7 @@
 topic_slug: ITC-conference-announcement
 group: cross-asset
 last_updated: 2026-08-13
-entry_count: 5
+entry_count: 6
 ---
 
 # Evidence log: ITC Conference Announcement
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-11 (96LmewBt0VM): Short promo-style clip titled "Come to the First ITC Conference Nov 20-22 in Miami," using the event as a hook while the substance of the video reiterates Cowen's on-chain thesis — the NVRVZ score hasn't given Bitcoin an "all-clear" bottom signal yet. No new conference logistics beyond the dates/location already established in prior briefs.
 
 - 2026-08-13 (6V6rlIV2Zek): While walking through bear-market-duration comparisons to time the cycle low, Cowen notes that the two most recent bear markets ran 52-54 weeks (pointing to a low around Oct 5-19), but an earlier bear market ran 59 weeks — which would push the low to late November, the same week as his own conference. He flags this directly: "That would actually put you in like late November... It would put you the week of November 23rd" [17:56], followed by "Guess when the conference is... November 21st" [17:40].
+
+- 2026-08-13 (6V6rlIV2Zek): While walking through bear-market-duration comparisons, Cowen observed that a 59-week bear market would push the cycle low to the week of November 23rd, which coincides with his ITC conference. He still leans toward October as the most likely low month, but treats late September to mid-December as the plausible window. He drew the link explicitly: "Guess when the conference is... November 21st." [17:40]

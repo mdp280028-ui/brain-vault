@@ -2,7 +2,7 @@
 topic_slug: btc-cycle-theory
 group: cycle-and-risk
 last_updated: 2026-08-13
-entry_count: 52
+entry_count: 53
 ---
 
 # Evidence log: BTC Cycle Theory
@@ -112,3 +112,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-11 (96LmewBt0VM): In a short promo-style clip, Cowen reiterates that on-chain indicators like the NVRVZ score still haven't confirmed a Bitcoin bottom, noting "Bitcoin normally got bottoms out when the NVRVZ score goes below zero, hasn't done that yet" [00:11], and that "there's still a number of indicators that haven't really given the the all-clear" [00:29]. He restates his base case that a low forms in summer, volatility dries up through July-September, and then "something happens" later in the year that "wakes everyone back up" [00:39, 00:49]. He also caveats that price doesn't have to wait for indicators to confirm before moving.
 
 - 2026-08-13 (6V6rlIV2Zek): Cowen builds a detailed 60-day case combining seasonality base rates (10-11% avg August drop, 8% avg September drop since 2010 in midterm years), a day-count model placing 60-days-out within a week or two of prior cycle lows, and a bear-market-duration comparison spanning a 52-54 week base case (~Oct 5-19 low) to a 59-week tail case (week of Nov 23). He notes the November tail scenario lands the same week as his ITC conference: "Guess when the conference is... November 21st." [17:40]
+
+- 2026-08-13 (6V6rlIV2Zek): Cowen argues the next 60 days are pivotal because the weak mid-August to mid-October seasonal stretch lines up with his ROI-from-low day-count (prior lows on day 1,432 and 1,436 vs. day 1,360 now) and with bear-market-duration comparisons (52-54 weeks points to Oct 5-19; 59 weeks points to the week of Nov 23, the same week as his ITC conference). He also leans on the 2018 structural analog and notes that on-chain indicators like MVRVZ haven't reset to bottom thresholds, while allowing for a sideways-chop path that delays the low toward November. As he puts it: "I would say the odds of the low being in October are probably equivalent to the odds of the low being in every other month combined." [11:09]
