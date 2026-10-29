@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-dominance
 group: market-structure
-last_updated: 2026-08-09
-entry_count: 12
+last_updated: 2026-10-27
+entry_count: 13
 ---
 
 # Evidence log: Bitcoin Dominance
@@ -32,3 +32,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-23 (UIv9IQ4uXEA): Cowen ties continued BTC dominance strength (ex-stables) directly to the collapse in social/retail participation rather than any organic BTC demand, noting engagement metrics (YouTube views/subs, X followers, advance-decline index) have fallen roughly an order of magnitude from 2021 and now sit at 2018-cycle levels. He states plainly: "when you exclude stables, dominance, you know, dominance has still been generally trending higher, and it's just because there's not a lot of people left in the space right now" [03:44].
 
 - 2026-08-09 (Ju6Q-D9GZZU): Cowen notes that if you exclude stablecoins, BTC dominance is still going up and is almost back to where it was in late last year — the apparent recent dip in headline dominance is entirely explained by stablecoin dominance rising, not by altcoins gaining share. He frames this as investors favoring "blue chip" crypto/risk assets over riskier plays amid macro uncertainty (weak payrolls, a Fed unlikely to cut in September). Quote [25:09]: "if you exclude stables, Bitcoin dominance is still going up. In fact, it's almost near where it was back late last year."
+
+- 2026-10-27 (A0Vf_g9BoRw): The brief does not discuss bitcoin dominance directly. Cowen describes a market exhausted by headline-driven trading, where news turns out false within hours and the market rolls back, and he says this has happened many times over the past year. Only indirect relevance: no durable catalyst for capital rotation into alts. "I think, it depletes the markets to some extent, because everyone is trying to trade on this news, and then it turns out that it's false." [00:32]
