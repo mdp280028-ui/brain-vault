@@ -24,6 +24,7 @@
 - [x] F6 `ssg-content c2741a3` adjudicator verdicts stored and reused for identical figure + sentence + passage (cause of the Bill.com $0 flip: sampled model, no temperature control).
 - [x] F7 `~/agents a497bca` one Telegram outcome line per drafter-fired run (`🧾 ssg <slug>: <state> — failing: <ids>`).
 - [x] F8 (this commit) drive names corrected in current docs; D132 closed; this HANDOFF.
+- [x] Independent verifier (fresh sub-agent, SHAs + claimed tests only): **F1–F8 CONFIRMED** (F8 on re-check, after a line in the report was reworded), **0 reverted**. Follow-up it raised: `ssg-content dafaacc` (F5 live test keeps the F6 adjudication store in its temp dir), also CONFIRMED.
 - Fix table with verifier verdicts and revert commands: report § Fix table.
 
 ## In progress / next session should
