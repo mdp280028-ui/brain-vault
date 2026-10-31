@@ -1,6 +1,6 @@
 # AITEAM Restore Procedure
 
-> Rewritten 2026-10-26 (FLEET-AUDIT-55). The May-14 version pointed at backup locations that no longer exist (`~/.claudeclaw-backups` holds one file from 2026-05-14; `/Volumes/AgentSSD` and `/Volumes/WDArchive` are not attached), and its restore step `cp`'d a file over the live WAL-mode DB.
+> Rewritten 2026-10-26 (FLEET-AUDIT-55). The May-14 version pointed at backup locations that no longer exist (`~/.claudeclaw-backups` holds one file from 2026-05-14; `AgentSSD` and `WDArchive` no longer exist; the real external drives are `ActiveSSD`, `Backups` and `TimeMachine`), and its restore step `cp`'d a file over the live WAL-mode DB.
 > **Tested:** steps 2-3 below were run on 2026-10-26 against the 23:30 nightly backup. All checks matched: SHA-256, `integrity_check` ok, schema identical, `audit_log` content md5 identical for 39,998 rows (OVERNIGHT-AUDIT-1 §1E). Step 4's `.restore` was tested on scratch copies only (a WAL-mode DB was fully replaced: integrity ok, identical `audit_log` md5). **Not tested:** step 4 against the real `~/store/aiteam.db`.
 
 ## When to restore
@@ -12,7 +12,7 @@
 
 | Source | What | How fresh |
 |---|---|---|
-| `/Volumes/Backups/mini-backup/` | nightly `scripts/backup-rsync.sh` (launchd `com.aiteam.backup`, 23:30): store, agents, brain, 4 site/pipeline repos, hobbit-village | last night. **Single generation** for files: each night's `rsync --delete` replaces the last |
+| `/Volumes/Backups/mini-backup/` | nightly `scripts/backup-rsync.sh` (launchd `com.aiteam.backup`, 23:30): store, agents, brain, 4 site/pipeline repos, hobbit-village, domain-hunter-lab (since 2026-10-31, `27760a9`). The drive is found by volume UUID, then name (`--resolve-only` checks it without backing up; since `e0e6e35`) | last night. **Single generation** for files: each night's `rsync --delete` replaces the last |
 | `/Volumes/Backups/mini-backup/store/aiteam-backup.db` | consistent `sqlite3 .backup` snapshot of `aiteam.db` | last night (overwritten nightly) |
 | `/Volumes/Backups/mini-backup/db-generations/aiteam-YYYY-MM-DD.db` | dated DB copy, one per night, never pruned (since 2026-10-26, `ad816a1`) | every night since 2026-10-26 |
 | Time Machine (`tmutil listbackups`) | whole disk incl. store/agents/brain; 54 snapshots on 2026-10-26 | hourly |

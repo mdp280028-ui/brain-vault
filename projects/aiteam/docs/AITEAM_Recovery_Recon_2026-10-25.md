@@ -95,7 +95,7 @@ Minutes are implementation only.
 |---|---|---|
 | M1 | **Refill the asbestos drafter queue** | Keyword and topic selection is a business judgement, not a lookup (fix #1) |
 | M2 | **Create Google Search Console credentials** | Requires a Google login (fix #2) |
-| M3 | **Decide what `/Volumes/ActiveSSD` is for** — and whether `AgentSSD`/`WDArchive` are drives that should be plugged in | Physical hardware + intent (fix #20) |
+| M3 | **Decide what `/Volumes/ActiveSSD` is for** — and whether `AgentSSD`/`WDArchive` are drives that should be plugged in *(drive names resolved 2026-10-31: `AgentSSD` and `WDArchive` no longer exist; the real drives are `ActiveSSD`, `Backups`, `TimeMachine`)* | Physical hardware + intent (fix #20) |
 | M4 | **Decide whether Wave 2 Lanes C and D ever existed** | No artifact on the machine names them; only recollection can settle it (§5.6) |
 | M5 | **Judge whether the SSG source gate is correct-but-strict or broken** | Needs an editorial call on whether the content really is unsourced (fix #4) |
 | M6 | **Confirm the market / domain-hunter / backlink agents are still wanted** | `domain-hunter` has sent 0 useful digests since 2026-05-24 but spends Haiku daily; the bot has had no conversation in 80 days. Audit U4, still unanswered |
@@ -211,7 +211,7 @@ now and the 23:00 deploy is ~3 h away.** See Section 2.
 | Volume named in brief | Present? | Evidence |
 |---|---|---|
 | **AgentSSD** | **NOT PRESENT under that name** | `diskutil list` has no `AgentSSD`. The 3.6 Ti external is named **ActiveSSD** (`disk7s1`). Likely the same physical disk under the name the operator misremembered. |
-| **WDArchive** | **NOT PRESENT** — UNKNOWN whether it should be | `diskutil list` shows no `WDArchive`. No script in `~/agents` references it (`grep -r WDArchive ~/agents` → no hits). Not referenced by the backup path, so nothing is currently broken by its absence. |
+| **WDArchive** | **NOT PRESENT** — UNKNOWN whether it should be *(resolved 2026-10-31: it no longer exists; correction to the evidence cell: `lib/backup_daily.sh` and `lib/backup_weekly.sh` do name `/Volumes/AgentSSD` / `/Volumes/WDArchive`, but neither is scheduled)* | `diskutil list` shows no `WDArchive`. No script in `~/agents` references it (`grep -r WDArchive ~/agents` → no hits). Not referenced by the backup path, so nothing is currently broken by its absence. |
 | **Backups** | **MOUNTED AND HEALTHY** | `/Volumes/Backups/mini-backup`, 298 MB, 8 source dirs. This is the one the nightly backup needs (`scripts/backup-rsync.sh:16` `BACKUP_VOL="${BACKUP_VOL:-/Volumes/Backups}"`). |
 | TimeMachine | Mounted, 70 GiB | Not referenced by any agent script. |
 

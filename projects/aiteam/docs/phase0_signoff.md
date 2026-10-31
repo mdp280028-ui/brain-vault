@@ -24,7 +24,7 @@ Authoritative verification record. Each step is ✅ only if the pass condition i
 - [ ] **10d** ⚠ Diary view deferred — first diary lands at step 15.
 - [ ] **10e** ⚠ Chat input / war room deferred — no agents to fan out to until Phase 1 step 14.
 - [ ] **10f** ⚠ `@mention` parser deferred — depends on 10e.
-- [x] **11** ✅ `backup_db.sh` produced snapshot; `PRAGMA integrity_check` → `ok`. `backup_daily.sh` + `backup_weekly.sh` fail gracefully when drives unmounted (intended). TODO: re-run after operator mounts AgentSSD + WDArchive.
+- [x] **11** ✅ `backup_db.sh` produced snapshot; `PRAGMA integrity_check` → `ok`. `backup_daily.sh` + `backup_weekly.sh` fail gracefully when drives unmounted (intended). TODO: re-run after operator mounts AgentSSD + WDArchive. *(Corrected 2026-10-31: `AgentSSD` and `WDArchive` no longer exist. The real external drives are `ActiveSSD`, `Backups` and `TimeMachine`. The nightly backup is `scripts/backup-rsync.sh` to `/Volumes/Backups`; `backup_daily.sh` / `backup_weekly.sh` are not scheduled.)*
 - [x] **12** ✅ `cron.txt` written with 5 schedule lines. Operator must paste via `crontab -e`. ⚠ Cron not yet active until operator pastes.
 - [x] **13** ✅ `~/brain/projects/aiteam/docs/restore.md` exists.
 
@@ -33,7 +33,7 @@ Authoritative verification record. Each step is ✅ only if the pass condition i
 - Paste `cron.txt` lines via `crontab -e` (step 12). macOS Sequoia may require granting `cron` Full Disk Access in System Settings → Privacy & Security if the cron job can't read `~/agents/config/.env`.
 - Open `~/brain/` in Obsidian and confirm vault loads (step 9).
 - Optional: drop a PDF + a `.docx` into `~/brain/raw_dropzone/` to smoke-test step 9b's full converter matrix.
-- Optional: mount `/Volumes/AgentSSD` + `/Volumes/WDArchive` and re-run `backup_daily.sh` / `backup_weekly.sh` for full step-11 verification.
+- ~~Optional: mount `/Volumes/AgentSSD` + `/Volumes/WDArchive` and re-run `backup_daily.sh` / `backup_weekly.sh` for full step-11 verification.~~ Superseded 2026-10-31: those drives no longer exist. The real drives are `ActiveSSD`, `Backups` (nightly `scripts/backup-rsync.sh`, restore tested 2026-10-26, `docs/restore.md`) and `TimeMachine`.
 
 ## What is NOT verified
 

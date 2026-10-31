@@ -2055,7 +2055,9 @@ Done in `ad816a1`: a dated DB generation each night in `<dest>/db-generations/`,
 
 **Trigger:** Mark says the market chain is still wanted (M6).
 
-### D132 — domain-hunter → domain-lab v2 cutover — 🟡 OPEN (waiting on the lab)
+### D132 — domain-hunter → domain-lab v2 cutover — ✅ CLOSED 2026-10-31
+
+**Status:** ✅ CLOSED 2026-10-31 (FIX-AND-AUDIT-1 F3, `~/agents` `051286b`). `com.aiteam.domain-lab` completed five live runs 10-27..10-31 (lab.db `digests` dry=0 rc=0, `[run] done` log lines, `notify_sent` http 200 at 08:01-08:05). The 06:30 `scan.sh` line is commented out in crontab + `lib/cron.txt` (marked REPLACED 2026-10-31), the old watchdog entry is commented out, and the lab's `sqlite_row` entry is live (watchdog `--dry-run`: domain-lab healthy). The migration note's `LOAD_PROOF_PLACEHOLDER` is in the lab's own repo and was left for the lab lane.
 
 **Logged:** 2026-10-26 (FLEET-AUDIT-55; Mark's ruling in amendment (2)).
 
