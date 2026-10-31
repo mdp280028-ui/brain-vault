@@ -1,8 +1,8 @@
 ---
 topic_slug: bull-market-support-band
 group: cycle-and-risk
-last_updated: 2026-08-05
-entry_count: 20
+last_updated: 2026-10-30
+entry_count: 22
 ---
 
 # Predictions log: Bull Market Support Band
@@ -40,3 +40,6 @@ Append-only. Newest entries at bottom.
 - 2026-08-03 (WRftdLFrepU): Bitcoin likely heads back down below 60k at some point, tied to on-chain indicators needing a further reset later this year (no exact week given).
 
 - 2026-08-05 (mo9PUWbEJ-4): Gold's main bottoming window for this midterm-year cycle is June through October 2026, potentially with one more leg of weakness (into mid-August per the 2022 overlay) before resuming its uptrend and using the bull market support band level as a springboard higher into 2027.
+
+- 2026-10-30 (g2MQiby7_qY): BTC final low comes right after the midterms (early November) if it bounces at the 73–77K bull market support band; a November or December low is possible.
+- 2026-10-30 (g2MQiby7_qY): BTC could bottom before the midterms if it breaks the band with no support (for example, another 10% drop).

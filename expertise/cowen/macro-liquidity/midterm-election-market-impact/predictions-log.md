@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-08-03
-entry_count: 32
+last_updated: 2026-10-30
+entry_count: 37
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -55,3 +55,9 @@ Append-only. Newest entries at bottom.
 - 2026-08-03 (WRftdLFrepU): A decisive break of either the bear market resistance band (~69k) or the 200-week moving average (~63.7k) will be forced within the next couple of months, and by year-end at the latest.
 - 2026-08-03 (WRftdLFrepU): Window of weakness expected to open by mid-to-late August 2026, following a July "window of strength," consistent with prior midterm-year seasonality (August has been negative in every prior midterm year: 2010, 2014, 2018, 2022).
 - 2026-08-03 (WRftdLFrepU): Cowen expects the market cycle bottom to be in, or very close to being in, by the end of November 2026.
+
+- 2026-10-30 (g2MQiby7_qY): BTC final low comes right after the midterms (early November) if it bounces at the 73–77K bull market support band, with a low in the November or December time frame possible.
+- 2026-10-30 (g2MQiby7_qY): BTC could bottom before the midterms if it breaks the band with no support (for example, another 10% drop).
+- 2026-10-30 (g2MQiby7_qY): Bitcoin eventually goes below the realized price in Q4 of this midterm year.
+- 2026-10-30 (g2MQiby7_qY): Drawdown this cycle will be smaller than the prior cycle's 77%.
+- 2026-10-30 (g2MQiby7_qY): Bitcoin rallies in 2027.

@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-08-03
-entry_count: 16
+last_updated: 2026-10-30
+entry_count: 17
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -40,3 +40,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-31 (XiNkIzh1fmQ): Cowen widens his midterm-year analog set to 2023, 2022, 2018, and 2014, noting that in 2022 and 2018 July was green with August/September red, while in 2014 even a red July was followed by red August/September — reinforcing the seasonal downturn as the expected outcome regardless of July's direction. He confirms both prior checkpoints of his call (late-June/early-July low, July countertrend rally) played out and allows the rally could extend a bit further into August before turning down. "Even in 2014 when July was red, August and September were still red." [00:55]
 
 - 2026-08-03 (WRftdLFrepU): Cowen extends the midterm-year August seasonality call with a fuller historical set — every prior midterm year has been negative in August (2022 −15%, 2018 −15%, 2014 −18%, 2010 −5%) while July has consistently been green (2022 +20%, 2018 +40%, 2026 +7%) — and ties this to a mechanical squeeze between the falling bear market resistance band (~69k) and rising 200-week MA (~63.7k) that he says will force a decisive break within a couple months. Quote: "this July, up 7%... a lot of times July's green for Bitcoin, and this time proved no different. The problem is every prior midterm year was red for August." [05:26]
+
+- 2026-10-30 (g2MQiby7_qY): Cowen says BTC's drop to the 21-week EMA (~76.6K) is the standard midterm-year Q4 dump, with the final low either before the midterms via a fast capitulation or right after them following a bounce at the 73–77K band. Unlike 2014, 2018 and 2022, BTC has fallen four straight weekly candles into the midterms, and cycle day 1439 sits just past the prior bottoms at days 1432 and 1436. As he put it: "this happens every midterm year right and and that's what I think people should like stay focused on" [00:43].
