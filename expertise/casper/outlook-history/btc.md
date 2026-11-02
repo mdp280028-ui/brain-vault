@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-08-13
-row_count: 139
+last_updated: 2026-11-01
+row_count: 141
 ---
 
 # BTC outlook history (Casper)
@@ -149,3 +149,5 @@ Append-only. Newest entries at bottom.
 | 2026-08-10 | days | ↓ | 2 | Casper is scalp-trading a Bitcoin bounce off a naked weekly point of control, expecting a lower low toward $63-64K (and possibly $60-61K if that fails) before any resumption higher. | 3RcpAxbMpUI | /Users/mmm2/brain/channels/casper/briefs/2026-08-10_3RcpAxbMpUI.md |
 | 2026-08-11 | days | ↓ | 3 | Casper is long Bitcoin from a golden-pocket bounce area but expects a continued move lower toward the $63K value area low (and possibly the $60K "bygone" zone) before any resumption higher. | lq5VPxKI4Gs | /Users/mmm2/brain/channels/casper/briefs/2026-08-11_lq5VPxKI4Gs.md |
 | 2026-08-12 | days | ↑ | 2 | Casper says CPI was in-line and neither bullish nor bearish, and he's watching for a dip toward $63K (or a deeper "bygone" zone) as the next long entry before targeting $68K and possibly $74K. | aNP-RGicn1c | /Users/mmm2/brain/channels/casper/briefs/2026-08-12_aNP-RGicn1c.md |
+| 2026-11-01 | weeks | → | 3 | Bitcoin is retesting a multi-year support at the bottom of its local range, and the analyst sees a bounce toward the mid-90s to $100K if it holds, or a drop to the mid-60s if it breaks. | vXC2raS41BA | /Users/mmm2/brain/channels/casper/briefs/2026-11-01_vXC2raS41BA.md |
+| 2026-11-01 | days | ↑ | 2 | Bitcoin is retesting a multi-year support at the bottom of its local range, and the analyst sees a bounce toward the mid-90s to $100K if it holds, or a drop to the mid-60s if it breaks. | vXC2raS41BA | /Users/mmm2/brain/channels/casper/briefs/2026-11-01_vXC2raS41BA.md |
