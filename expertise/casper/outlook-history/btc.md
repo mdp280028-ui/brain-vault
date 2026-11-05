@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-11-01
-row_count: 141
+last_updated: 2026-11-04
+row_count: 144
 ---
 
 # BTC outlook history (Casper)
@@ -151,3 +151,6 @@ Append-only. Newest entries at bottom.
 | 2026-08-12 | days | ↑ | 2 | Casper says CPI was in-line and neither bullish nor bearish, and he's watching for a dip toward $63K (or a deeper "bygone" zone) as the next long entry before targeting $68K and possibly $74K. | aNP-RGicn1c | /Users/mmm2/brain/channels/casper/briefs/2026-08-12_aNP-RGicn1c.md |
 | 2026-11-01 | weeks | → | 3 | Bitcoin is retesting a multi-year support at the bottom of its local range, and the analyst sees a bounce toward the mid-90s to $100K if it holds, or a drop to the mid-60s if it breaks. | vXC2raS41BA | /Users/mmm2/brain/channels/casper/briefs/2026-11-01_vXC2raS41BA.md |
 | 2026-11-01 | days | ↑ | 2 | Bitcoin is retesting a multi-year support at the bottom of its local range, and the analyst sees a bounce toward the mid-90s to $100K if it holds, or a drop to the mid-60s if it breaks. | vXC2raS41BA | /Users/mmm2/brain/channels/casper/briefs/2026-11-01_vXC2raS41BA.md |
+| 2026-11-03 | months | ↑ | 3 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |
+| 2026-11-03 | weeks | ↑ | 3 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |
+| 2026-11-03 | days | ↑ | 2 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |

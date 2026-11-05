@@ -16,7 +16,7 @@ Recommended answers come from FA1 section A7, word for word in substance. "No A7
 | Item | Recommended answer | Owner | Status | Date | Source |
 |---|---|---|---|---|---|
 | Pick a monetization path for SSG. No page can earn today; revenue is $0 against $200/mo break-even | No A7 answer. FA1 A8 #1: list vendors on live pages with partner programs (Ramp, Brex, Tidio, Gorgias…), then choose affiliate links with a disclosure change, or a "get quotes" form | MARK | open | 2026-10-31 | FA1 A8 #1 |
-| Second power and network risk: the Mac is on **Wi-Fi (en1), no UPS** | No A7 answer. Plug in Ethernet and connect a UPS. **The power cut on 2026-11-04 makes the UPS the priority** | MARK | open, still true 2026-11-04 | 2026-10-31 | FA1 top findings; FF2 fix 12 |
+| Power and network: the Mac is on **Wi-Fi (en1), no UPS** | No A7 answer. Plug in Ethernet and connect a UPS. **The power cut on 2026-11-04 makes the UPS the priority** | MARK | open, still true 2026-11-04 | 2026-10-31 | FA1 top findings; FF2 fix 12 |
 | **Auto-login is off.** After the 11-04 power cut the Mac restarted by itself but sat at the login window for 7 h 47 min, with the bot, dashboard, hourly check and other launchd agents down until someone logged in | No A7 answer. Turn on auto-login (FileVault is off, so it is allowed), accepting that anyone with physical access gets a logged-in Mac. Otherwise the agents stay down after every outage until someone logs in | MARK | open (D139) | 2026-11-04 | FF2 fix 12 |
 | Submit sitemaps to Search Console (GSC credentials) | **Skip API credentials. Submit both sitemaps once in the Search Console UI** (5 min). 38 SSG + 38 asbestos URLs have never been submitted | MARK | open | 2026-10-31 | FA1 A7 #7, A8 #2 |
 | Vercel apex and vercel.app redirects | **308 for both apex → www** (both measured 307 on 10-31; not rechecked) and a 308 from the production *.vercel.app host to www | MARK | open | 2026-10-25 | FA1 A7 #6; Resume SSG-SITE-AUDIT-1, FLEET-AUDIT-55 |
@@ -28,11 +28,10 @@ Recommended answers come from FA1 section A7, word for word in substance. "No A7
 | coupa-alternatives Vendr wording | **Keep the Vendr figures; attribute and date every instance** ("Vendr buyer data, Oct 2026"), including the 2 table rows; apply on the next source-fix | MARK | open | 2026-10-26 | FA1 A7 #8; Resume FLEET-AUDIT-55 |
 | voicenation-vs-patlive: VoiceNation now in Moneypenny's group | **Put it on the rewrite list:** confirm the ownership change on a primary source, add it, re-gate | MARK | open | 2026-10-31 | FA1 A7 #9 |
 | SSG "Needs rewrite" list | **Work it closest-first with `--source-fix-only`, one a day** after the drafter: helpscout (24 failing), ramp-vs-expensify (25), front (29), fsm-quickbooks (29) | MARK to approve, then CC lane | open | 2026-10-25 | FA1 A7 #10, A8 #8; Resume SSG-SITE-AUDIT-1 |
-| Do SAT1 and G1 earn their place on SSG? | **Keep both.** SAT1: stop the writer repeating citation phrases. G1: pass the config's `secondary_nouns` to the writer | MARK | open | 2026-10-31 | FA1 A7 #11 |
+| Do SAT1 and G1 earn their place on SSG? | **Keep both.** SAT1: stop the writer repeating citation phrases. G1: pass the config's `secondary_nouns` to the writer. The writer half landed tonight (ssg-content `4dbc3dd`); no check or threshold changed | MARK | open | 2026-10-31 | FA1 A7 #11 |
 | `DEPLOY_CAP_PER_SITE` | **Keep 2.** About 0.7 approvals a day; the cap bound once in 6 nights | MARK | open | 2026-10-31 | FA1 A7 #12 |
 | domain-lab strictness (H1 does not pass; report §9.0 options a/b/c) | **Stay strict; read the daily WATCH list.** Look at the `expireddomains` source (0 rows, `no_table`, every day) before touching any gate | MARK | open | 2026-10-26 | FA1 A7 #13; Resume DOMAIN-LAB-2 |
 | D-F5: are tropicapp.io / vertice.one marketplaces? | **Yes, keep them in MARKETPLACES and add a date** to vendr-alternatives' Tropic/Vertice sentences on the next refresh. The verifier calls this a possible false positive, so it is your call | MARK | open | 2026-10-31 | FA1 A7 #14 |
-| Add `syncrosecure.com` → syncro to `scripts/vendor_domains.json` | **Yes**, and tell source_fix never to re-point a link to a redirecting domain. It loosens the gate for one domain, so it needs your OK (R1) | MARK | open | 2026-10-31 | FA1 A7 #15 |
 | Park scope confirmation: research-opportunity, backlink-prospector and keyword-registry are 100% asbestos, so parking asbestos stopped all three | No A7 answer. Confirm; nothing is blocked on it | MARK | open | 2026-10-25 | Resume RECOVERY-RECON-2 §8 |
 | USPTO register not checked for domain dossiers | No A7 answer. Check it by hand before buying any domain | MARK | open | 2026-10-26 | Resume DOMAIN-LAB-2 |
 | omnitracs-reviews: quote-only vendor cannot meet CAP1 (finding D-1); needs a redraft decision | No A7 answer. Redraft only with a new sourced figure; do not loosen CAP1 (R1) | MARK | open | 2026-10-26 | Resume SSG-FINISH-1 |
@@ -66,9 +65,8 @@ Recommended answers come from FA1 section A7, word for word in substance. "No A7
 |---|---|---|---|---|
 | 17 of 23 live pipeline guides fail the current source gate (442 uncited, 130 wrong-tier, 219 unbacked figures, as of 10-31). coupa- and vendr-alternatives also fail after F5 | SSG lane | open | 2026-10-31 | FA1 top findings, A3 |
 | Harden the adjudicator: tools off, fixed cwd, ask again before storing a short ABSENT, expire stored fails. F6 makes the first verdict repeatable, not right | SSG lane | open | 2026-10-31 | FA1 A8 #6, verifier #2 |
-| Unstick needs-review drafts: fleetio-pricing (pricing guard) and syncro-vs-atera (blocked on A7 #15; SSG-OVERNIGHT-2 ran it tonight) | SSG lane | open; tonight's result not checked here | 2026-10-31 | FA1 A8 #9 |
+| Unstick fleetio-pricing (pricing guard). syncro-vs-atera went live tonight | SSG lane | open | 2026-10-31 | FA1 A8 #9 |
 | 32 SSG drafts in `needs-review/` at 22:34 (count moves while SSG-OVERNIGHT-2 runs; now shown daily) | SSG lane, Mark | open | 2026-11-04 | FF2 fix 2 |
-| C47-1: writer needs a varied citation phrase (SAT1). C47-2: config `required_entities` not passed to the writer brief. One writer-prompt change, then re-freeze and canary | SSG lane | open | 2026-10-26 | Resume SSG-CONTENT-1 |
 | C48-2: LLM auditor S1 range (1,600–2,000 words) conflicts with SSG_TEMPLATES (1,400–1,800) | SSG lane | open | 2026-10-26 | Resume SSG-CONTENT-1 |
 | C48-3: getjobber.com returns 403 to the gate's fetcher | SSG lane | open | 2026-10-26 | Resume SSG-CONTENT-1 |
 | G-1: item-10 nearest-vendor attribution credits the takeaway $59 to Service Fusion | SSG lane | open | 2026-10-26 | Resume SSG-CONTENT-1 |
@@ -105,3 +103,6 @@ Recommended answers come from FA1 section A7, word for word in substance. "No A7
 | F7 audit path not exercised live | 4 real `pipeline_outcome` rows, latest 11-04 09:10 |
 | A-1, V-1 (SSG-FINISH-1 findings) | FA1 F6, F5 |
 | 2-per-night deploy cap, 17 guide backport | FLEET-AUDIT-55; SSG-FINISH-1 `cb37e87` |
+| A7 #15 `syncrosecure.com` mapping (Mark's OK) and "never re-point to a redirecting domain" | SSG-OVERNIGHT-2, ssg-content `c8e6220`, `7b8d901` |
+| syncro-vs-atera stuck in needs-review | SSG-OVERNIGHT-2, live 2026-11-04 (site `3fa32bb`) |
+| C47-1, C47-2 writer brief changes | SSG-OVERNIGHT-2, ssg-content `4dbc3dd` |

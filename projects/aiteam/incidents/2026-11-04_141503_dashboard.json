@@ -1,0 +1,11 @@
+{
+  "detected_at": "2026-11-04T22:15:00Z",
+  "actor_id": "dashboard",
+  "expected_actions": [],
+  "check_window_hours": 1,
+  "last_seen_ts": null,
+  "last_seen_action": null,
+  "signal_type": "launchctl_label",
+  "description": "Dashboard server on :3141 (launchd com.aiteam.dashboard)",
+  "watchdog_state": "missing"
+}
