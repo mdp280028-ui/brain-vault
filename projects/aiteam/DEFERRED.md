@@ -2017,7 +2017,7 @@ Every `*_sent` row should carry `notify_rc`, and the watchdog should key livenes
 
 ### D127 — busy_timeout for the direct `sqlite3` call sites — 🟡 OPEN
 
-**Logged:** 2026-10-26 (FLEET-AUDIT-55).
+**Logged:** 2026-10-26 (FLEET-AUDIT-55). **Partly done 2026-11-04 (FLEET-FIX-2 fix 6):** every read in `watchdog/watchdog.sh` and `watchdog/digest.sh` has a 5 s timeout. The rest below is still open.
 
 `lib/log_to_audit.sh` waits 5 s since `579e105`, and Python writers already default to 5 s. About 190 direct CLI `sqlite3` writes elsewhere still fail at once on SQLITE_BUSY (3 production hits recorded).
 
@@ -2065,7 +2065,9 @@ Once `~/projects/domain-hunter-lab/docs/lab2_s7_migration.md` has its load proof
 
 **Trigger:** DOMAIN-LAB-2 loads the plist.
 
-### D133 — Log rotation for unbounded logs — 🟡 OPEN
+### D133 — Log rotation for unbounded logs — ✅ CLOSED 2026-11-04
+
+**Status:** ✅ CLOSED 2026-11-04 (FLEET-FIX-2 fix 9): `scripts/rotate-logs.sh` from the nightly `agents-autocommit.sh`, for reader.log, watchdog.log and pipeline_runs.log. `majordomo/check.out.log` (1.3 MB) was not in scope.
 
 **Logged:** 2026-10-26 (FLEET-AUDIT-55, overnight Q31).
 
@@ -2080,3 +2082,45 @@ Once `~/projects/domain-hunter-lab/docs/lab2_s7_migration.md` has its load proof
 Parked by C3 (`9022eed`). If Mark answers M3 "repoint to SSG": (1) `strip_volatile` must also blank the per-row Last-updated date (tested: tonight's whole "drift" was dates); (2) run `--site ssg` nightly; (3) refresh `internal_link_inventory` first (last indexed 2026-05-24).
 
 **Trigger:** Mark's M3 answer.
+
+### D135 — YouTube 429 on subtitles; yt-dlp upgrade not done — 🟡 OPEN
+
+**Logged:** 2026-11-04 (FLEET-FIX-2 fix 7).
+
+One real fetch of `JYTNMKnbr2E`, recorded `transcript_unavailable` that morning: `--list-subs` shows English auto-captions, and the download fails rc=1 `HTTP Error 429`. The same 429 came from yt-dlp 2026.10.26 + curl-cffi in a scratch venv, so **upgrading alone does not fix it**. Only 1 video was tested, so the 88 historical `no_auto_subs` rows are not all proven false. Since fix 7 these failures log `transcript_fetch_failed`, retry 3 times and show in the brief.
+
+**Why no fleet upgrade:** `pip install -U yt-dlp` in the formula's venv fails (`uninstall-no-record-file`). `brew upgrade yt-dlp` pulls 16 dependencies including python@3.15, which carries the `python3` alias and is not keg-only, so it can take over `/opt/homebrew/bin/python3` (3.14 today) for every fleet script. Not done on a live pipeline night (R4). Version before and after: 2026.03.17.
+
+**Trigger:** the 11-05 07:15 run's `transcript_fetch_failed` count. Then, with no pipeline running: `HOMEBREW_NO_INSTALL_CLEANUP=1 brew upgrade yt-dlp`, and check `/opt/homebrew/bin/python3 --version` and the venvs straight after. Look at 429 handling (cookies, pacing) separately.
+
+### D136 — drafter_outcome_test.sh depends on the real pipeline_runs.log — 🟡 OPEN
+
+**Logged:** 2026-11-04 (FLEET-FIX-2 fix 9).
+
+`scripts/tests/drafter_outcome_test.sh` reads four old runs from the live log. Rotation at 20 MB (12 MB today) will move them into `.gz`, and the test will then fail for the wrong reason. Give it a frozen fixture.
+
+**Trigger:** before `pipeline_runs.log` reaches 20 MB, or the first `pipeline_runs.log.1.gz`.
+
+### D137 — issues-capture files source-gate verdicts as issues — 🟡 OPEN
+
+**Logged:** 2026-11-04 (FLEET-FIX-2 fix 11).
+
+A `srcver_fail` row is the gate doing its job, not an agent fault, but its `"failed": N` makes it failure-shaped. One run tonight (`site-before-20261104`) filed 38. Fix 11 resolved the 100 from before the 10-31 policy change; the pile regrows with each gate run.
+
+**Trigger:** needs a ruling first (R1: this changes what monitoring captures).
+
+### D138 — needs_review_queue.txt still blocks ship.sh for parked slugs — 🟡 OPEN (parked)
+
+**Logged:** 2026-11-04 (FLEET-FIX-2 fix 2).
+
+Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (unchanged, R1), and 10 parked asbestos slugs sit in it, 7 of them flagged stale by pipeline_status. Harmless while asbestos is `enabled: false`.
+
+**Trigger:** asbestos unparks.
+
+### D139 — After a power cut the launchd agents stay down until someone logs in — 🟡 OPEN (MARK)
+
+**Logged:** 2026-11-04 (FLEET-FIX-2 fix 12).
+
+`pmset autorestart` is 1, so the Mac restarts, but auto-login is off and the `com.aiteam.*` jobs run in the user's GUI domain. On 11-04 the bot, dashboard, hourly check and other agents were down from 14:12 until the 21:59 console login (cron kept running). No UPS is seen either.
+
+**Trigger:** Mark turns on auto-login, or asks to move the jobs to LaunchDaemons.
