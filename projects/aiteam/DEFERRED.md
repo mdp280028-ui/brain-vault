@@ -2105,7 +2105,7 @@ One real fetch of `JYTNMKnbr2E`, recorded `transcript_unavailable` that morning:
 
 **Logged:** 2026-11-04 (FLEET-FIX-2 fix 11).
 
-A `srcver_fail` row is the gate doing its job, not an agent fault, but its `"failed": N` makes it failure-shaped. One run tonight (`site-before-20261104`) filed 38. Fix 11 resolved the 100 from before the 10-31 policy change; the pile regrows with each gate run.
+A `srcver_fail` row is the gate doing its job, not an agent fault, but its `"failed": N` makes it failure-shaped. Tonight's SSG-OVERNIGHT-2 runs filed about 245 in 2 hours (38 from `site-before-20261104` alone). Fix 11 resolved the 100 from before the 10-31 policy change; the pile regrows with each gate run.
 
 **Trigger:** needs a ruling first (R1: this changes what monitoring captures).
 
@@ -2113,7 +2113,7 @@ A `srcver_fail` row is the gate doing its job, not an agent fault, but its `"fai
 
 **Logged:** 2026-11-04 (FLEET-FIX-2 fix 2).
 
-Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (unchanged, R1), and 10 parked asbestos slugs sit in it, 7 of them flagged stale by pipeline_status. Harmless while asbestos is `enabled: false`.
+Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (unchanged, R1), and 10 parked asbestos slugs sit in it, 7 of them flagged stale by pipeline_status. Harmless while asbestos is `enabled: false`. `ship.sh` also appends any site's slug on a failed stage or build; approved SSG slugs in the file are shown as `ship_block[ssg]`.
 
 **Trigger:** asbestos unparks.
 
@@ -2124,3 +2124,11 @@ Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (u
 `pmset autorestart` is 1, so the Mac restarts, but auto-login is off and the `com.aiteam.*` jobs run in the user's GUI domain. On 11-04 the bot, dashboard, hourly check and other agents were down from 14:12 until the 21:59 console login (cron kept running). No UPS is seen either.
 
 **Trigger:** Mark turns on auto-login, or asks to move the jobs to LaunchDaemons.
+
+### D140 — auditor_verdicts is dead, so the 3-failure guard cannot fire — 🟡 OPEN
+
+**Logged:** 2026-11-04 (FLEET-FIX-2, raised by the verifier).
+
+`auditor_verdicts` has 378 rows, newest 2026-08-09 15:32, and none for any of the 32 current SSG drafts (fleetio-pricing really ran on 10-30). `majordomo/playbooks/fire-pipeline.sh:38` refuses a slug with 3+ failed verdicts from this table, so that refusal cannot trigger on any newer failure. `approve-slug.sh:45` and pipeline_status's "FAILED the gate 3+ times" section read it too; pipeline_status now prints the newest row's date. Not changed tonight: it is a gate, and what should feed it is a decision (R1). `pipeline_outcome` (since 10-31) is the likely source.
+
+**Trigger:** a ruling on what feeds the guard.
