@@ -2132,3 +2132,15 @@ Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (u
 `auditor_verdicts` has 378 rows, newest 2026-08-09 15:32, and none for any of the 32 current SSG drafts (fleetio-pricing really ran on 10-30). `majordomo/playbooks/fire-pipeline.sh:38` refuses a slug with 3+ failed verdicts from this table, so that refusal cannot trigger on any newer failure. `approve-slug.sh:45` and pipeline_status's "FAILED the gate 3+ times" section read it too; pipeline_status now prints the newest row's date. Not changed tonight: it is a gate, and what should feed it is a decision (R1). `pipeline_outcome` (since 10-31) is the likely source.
 
 **Trigger:** a ruling on what feeds the guard.
+
+### D141 — FLEET-FIX-2 hardening leftovers — 🟡 OPEN (minor)
+
+**Logged:** 2026-11-05 (FLEET-FIX-2, raised by the verifier). None is reachable in normal use today.
+
+- `lib/ssg_needs_review.sh`: process substitution hides a failing `awk`, which would read as `0 (none)`. Fix: read awk's output into a variable first and check its rc.
+- `ship-to-site/deploy_batch.sh`: the early stop depends on a reason after `[scan-skipped]`. Today's `ship.sh:52,65` always give one. Fix: match the marker alone.
+- `scripts/rotate-logs.sh`: a skip reaches only `logs/rotate-logs.log`, with no audit row, so a copy that stays open would leave that log uncapped with no alert.
+- `scripts/backup-rsync.sh`: `research-opportunity/pain_points.db-wal` and `-shm` are not excluded. The agent is frozen, so nothing makes them vanish.
+- `scripts/tests/ship_ci_skip_test.sh`: the real-repo checks skip silently if a repo directory is missing.
+
+**Trigger:** next edit to any of these files.
