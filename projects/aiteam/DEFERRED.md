@@ -2101,7 +2101,9 @@ One real fetch of `JYTNMKnbr2E`, recorded `transcript_unavailable` that morning:
 
 **Trigger:** before `pipeline_runs.log` reaches 20 MB, or the first `pipeline_runs.log.1.gz`.
 
-### D137 — issues-capture files source-gate verdicts as issues — 🟡 OPEN
+### D137 — issues-capture files source-gate verdicts as issues — ✅ CLOSED 2026-11-05
+
+**Status:** ✅ CLOSED 2026-11-05 on Mark's ruling. `~/agents` `711024c` stops filing srcver_fail, srcver_pass and srcver_escalated; hard failures and srcver_error stay. `1b0b4b8`: 260 existing rows resolved with the note "D137: gate verdict, not an agent fault (Mark 2026-11-05)". Backup `~/store/aiteam.db.bak-d137-2026-11-05`.
 
 **Logged:** 2026-11-04 (FLEET-FIX-2 fix 11).
 
@@ -2125,7 +2127,9 @@ Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (u
 
 **Trigger:** Mark turns on auto-login, or asks to move the jobs to LaunchDaemons.
 
-### D140 — auditor_verdicts is dead, so the 3-failure guard cannot fire — 🟡 OPEN
+### D140 — auditor_verdicts is dead, so the 3-failure guard cannot fire — ✅ CLOSED 2026-11-05
+
+**Status:** ✅ CLOSED 2026-11-05 on Mark's ruling. `~/agents` `6d55d44`, `b87839d`: the guard and pipeline_status count `pipeline_outcome` needs-review rows; a count it cannot read refuses. See D142 for how rarely it can be reached.
 
 **Logged:** 2026-11-04 (FLEET-FIX-2, raised by the verifier).
 
@@ -2142,5 +2146,19 @@ Fix 2 stopped displaying the file. `ship.sh` still honours it as a block list (u
 - `scripts/rotate-logs.sh`: a skip reaches only `logs/rotate-logs.log`, with no audit row, so a copy that stays open would leave that log uncapped with no alert.
 - `scripts/backup-rsync.sh`: `research-opportunity/pain_points.db-wal` and `-shm` are not excluded. The agent is frozen, so nothing makes them vanish.
 - `scripts/tests/ship_ci_skip_test.sh`: the real-repo checks skip silently if a repo directory is missing.
+- `scripts/tests/resolve_stale_issues_test.sh`: opens the backup with `immutable=1` and no `mode=ro`, so a missing backup would create an empty file that passes integrity_check. Its backup exists today.
 
 **Trigger:** next edit to any of these files.
+
+### D142 — D137/D140 limits found by the verifier — 🟡 OPEN
+
+**Logged:** 2026-11-05 (FLEET-FIX-2 amendment).
+
+- **The 3-failure guard is rarely reachable (needs a ruling).** `fire-pipeline` calls the drafter, and `drafter.sh:126-130` skips any slug whose brief already exists, without firing. All 4 real needs-review slugs have briefs, and `enqueue-slug.sh:63` refuses a slug already in the queue. So reaching 3 takes deleting a brief or editing the queue by hand. Real retries go through `run-batch.sh` directly, which writes no outcome row and never meets the guard. Today's highest count for any slug is 1.
+- **`fire-pipeline.sh:66` prints "OK: pipeline run finished" when nothing ran:** a skipped brief, or a disabled site (the 42 parked asbestos slugs now get this where they got REFUSED). No spend. Predates D140.
+- **A real exit-2 row is not filed, by either version.** `run-batch.sh:731` writes `{"round":N,"exit_code":2}`, which `capture.sh`'s SQL filter never selects. A "could not run" normally still surfaces through `srcver_error`, but if `verify_sources.py` dies before writing that row, nothing is filed. The test fixtures at `capture_gate_verdicts_test.sh:40-45` add a `failed` key that real rows do not have, so "exit 2 stays filed" holds only for that shape.
+- **`is_gate_verdict` ignores a singular `error` key and nested `errors`** (`capture.sh:140`). No real writer emits them.
+- **The "verdicts not filed" count in capture.log recounts the same rows** every 5 minutes until a new issue is filed.
+- **"3" now means 3 runs,** where the old table could log several failures from one run.
+
+**Trigger:** Mark's answer on where the limit should live; the rest on the next edit to those files.

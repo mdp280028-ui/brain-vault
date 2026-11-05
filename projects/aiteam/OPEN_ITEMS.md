@@ -1,6 +1,6 @@
 # AITEAM open items
 
-**Created:** 2026-11-04 by FLEET-FIX-2 (fix 14). **State as of:** 2026-11-05 00:30 PT.
+**Created:** 2026-11-04 by FLEET-FIX-2 (fix 14). **State as of:** 2026-11-05 09:45 PT.
 
 **Sources, as named in the table:**
 - **FA1:** `docs/AITEAM_Fix_And_Audit_2026-10-31.md` (FIX-AND-AUDIT-1).
@@ -37,8 +37,7 @@ Recommended answers are condensed from FA1 section A7. "No A7 answer" means A7 d
 | omnitracs-reviews: quote-only vendor cannot meet CAP1 (finding D-1); needs a redraft decision | No A7 answer. Redraft only with a new sourced figure; do not loosen CAP1 (R1) | MARK | open | 2026-10-26 | Resume SSG-FINISH-1 |
 | Site decisions: meta-refresh stubs, byline, policy pages | No A7 answer. Stubs: switch to 308 redirects (the audit found noindex plus refresh sends conflicting signals). Byline: keep "SmartSourceGuide Editorial" and show it on the page; naming a person is your call. Policy pages: decide alongside monetization, since a disclosure change touches them | MARK | open | 2026-10-25 | Resume SSG-SITE-AUDIT-1 |
 | Watch Search Console for the 4 title and meta-description changes | No A7 answer. Check after the sitemaps go in | MARK | open | 2026-10-25 | Resume SSG-SITE-AUDIT-1 |
-| D137: issues-capture files every source-gate verdict (`srcver_fail`) as an issue, so the pile regrows: SSG-OVERNIGHT-2's runs added about 245 rows tonight | No A7 answer. Stop filing `srcver_fail` as issues; a guide's state is already on disk and in `pipeline_outcome`. It changes what monitoring captures, so it needs your OK (R1) | MARK | open | 2026-11-04 | FF2 fix 11 |
-| D140: **`auditor_verdicts` has no row since 2026-08-09**, so `fire-pipeline.sh`'s refusal of slugs that failed 3+ times cannot trigger on any newer failure, and `approve-slug.sh` shows no verdict | No A7 answer. Feed the guard from `pipeline_outcome` (3+ needs-review outcomes). This restores a gate that silently stopped; it does not loosen one | MARK | open | 2026-11-04 | FF2 verifier |
+| D142: the 3-failure guard is rarely reachable. `fire-pipeline` skips any slug whose brief exists, and real retries use `run-batch.sh` directly, which writes no outcome row and never meets the guard | No A7 answer. If you want the limit to bite, put it in `run-batch.sh` and have direct runs write an outcome row. That is an SSG-lane change to a live pipeline, so do it between runs. Otherwise leave it as is | MARK | open | 2026-11-05 | FF2 amendment |
 | Doc drift in PRIME: it says no publishing without operator approval, but SSG guides auto-approve and deploy unless Mark halts. It says all retrieval goes through `retrieve_context()`, which has no callers (also D128) | No A7 answer. Change PRIME to match the machine, or tell CC to change the machine; the publishing line is the one that matters | MARK | open | 2026-10-31 | FA1 A6 |
 | The separate audit of FLEET-AUDIT-55's 30 commits: that window saw no sign it ran. FIX-AND-AUDIT-1 audited the fleet, not those commits one by one | No A7 answer. Low priority: FA1 audited the fleet they changed, though not commit by commit | MARK | open | 2026-10-26 | Resume FLEET-AUDIT-55 |
 | Orchestrator diary: no reader found, $0.32/wk | No A7 answer. FA1 A1 calls it an optional freeze. Freeze it unless you read it | MARK | open | 2026-10-31 | FA1 A1 |
@@ -47,15 +46,16 @@ Recommended answers are condensed from FA1 section A7. "No A7 answer" means A7 d
 
 | Item | Owner | Status | Date | Source |
 |---|---|---|---|---|
-| D135: YouTube answers **HTTP 429** on subtitle downloads, so transcripts fail. Confirmed on 1 video, with both yt-dlp 2026.03.17 and 2026.10.26 + curl-cffi. Fleet upgrade not done: see FF2 fix 7 | CC lane | open, check the 11-05 07:15 run | 2026-11-04 | FF2 fix 7 |
+| D135: YouTube answers **HTTP 429** on subtitle downloads. First real run 11-05 07:15: 6 videos, all `transcript_fetch_failed` 429, 0 fetched. Upgrading yt-dlp did not help in a scratch test on 1 video. See FF2 fix 7 | CC lane | open | 2026-11-04 | FF2 fix 7 |
 | D136: `scripts/tests/drafter_outcome_test.sh` reads old runs from the real `pipeline_runs.log`. That log will rotate at 20 MB (12 MB now), so the test needs a frozen fixture | CC lane | open | 2026-11-04 | FF2 fix 9 |
 | D138: `needs_review_queue.txt` still holds 10 parked asbestos slugs and still blocks `ship.sh`. Not displayed, except 7 in pipeline_status's labelled "STALE REVIEW ENTRIES" line. Approved SSG slugs in it are now shown as `ship_block[ssg]`. Clear the parked ones if asbestos unparks | CC lane | open, parked | 2026-11-04 | FF2 fix 2 |
-| Open soft issues outside the source gate: idea-agent 114, unknown actor 60, 24 rows in small classes. Cause not proven gone, so left open. See FF2 fix 11 for the count at close | CC lane | open | 2026-11-04 | FF2 fix 11 |
+| Open soft issues, 204 at 09:43 on 11-05: idea-agent 114, unknown actor 60, `transcript_fetch_failed` 6, others. Cause not proven gone, so left open | CC lane | open | 2026-11-04 | FF2 fix 11 |
 | 57 hard issues: assignment-drafter 41, `timeout_kill` 15, diary 1. Left open on instruction | CC lane | open | 2026-05 to 2026-08 | FF2 fix 11; FA1 A5 |
 | The 20:00 preview cap line on 10-26 was never seen directly: the sent text is not logged. Indirect only: 3 slugs against a cap of 2, `preview_ping_sent` notify_rc 0, code at `ship-to-site/preview_ping.sh:147-151` | CC lane | not checked directly | 2026-10-26 | Resume FLEET-AUDIT-55 |
 | Night line covers batch runs only: a slug shipped directly by `ship.sh` outside `deploy_batch.sh` (vanta-vs-drata, 23:22 tonight) has no `deployed` row or night line | CC lane | open, minor | 2026-11-04 | FF2 verifier |
 | D141: small hardening leftovers, none reachable in normal use today: a failing `awk` inside `--blocked`; a bare `[scan-skipped]` with no reason; a rotation skip has no alert; `research-opportunity/pain_points.db` sidecars are not excluded from the backup (agent frozen, no writer) | CC lane | open, minor | 2026-11-05 | FF2 verifier |
-| First real runs still to watch: fix 4 night line 11-05 23:00; fix 7 `transcript_fetch_failed` 11-05 07:15; fix 2 digest 07:00 and brief 07:30 | CC lane | to watch | 2026-11-04 | FF2 |
+| D142 rest: `fire-pipeline` prints OK when nothing ran; a real exit-2 `srcver_fail` row is not filed (predates D137); `is_gate_verdict` ignores a singular `error` key; the capture.log counter recounts | CC lane | open, minor | 2026-11-05 | FF2 amendment |
+| First real runs still to watch: fix 4 night line 11-05 23:00; rotation with `bfb7ee3` 11-05 23:50 | CC lane | to watch | 2026-11-04 | FF2 |
 | D127 rest: about 190 direct `sqlite3` writes elsewhere have no busy timeout (watchdog part done in fix 6) | CC lane | open | 2026-10-26 | FA1 A8 #10 |
 | D130: `ai-think.sh` has no failure audit path. **Do not edit during overnight runs** | CC lane | open | 2026-10-26 | FA1 A6 |
 | D131: market chain truthfulness. Mark ruled the chain stays, so the trigger is met. Briefer briefs on zero input; curator writes `curator_run` when the LLM failed. The `poll.sh` part is stale (fixed 08-09) | CC lane | open | 2026-10-26 | FA1 A6; FF2 fix 8 |
@@ -111,5 +111,7 @@ Recommended answers are condensed from FA1 section A7. "No A7 answer" means A7 d
 | A7 #15 `syncrosecure.com` mapping (Mark's OK) and "never re-point to a redirecting domain" | SSG-OVERNIGHT-2, ssg-content `c8e6220`, `7b8d901` |
 | syncro-vs-atera stuck in needs-review | SSG-OVERNIGHT-2, live 2026-11-04 (site `3fa32bb`) |
 | C47-1, C47-2 writer brief changes | SSG-OVERNIGHT-2, ssg-content `4dbc3dd` |
+| D137 source-gate verdicts filed as issues; 260 existing rows resolved | Mark's ruling; agents `711024c`, `1b0b4b8` |
+| D140 3-failure guard read a dead table | Mark's ruling; agents `6d55d44`, `b87839d` |
 | FLEET-AUDIT-55 night checks: the 23:00 `deploy_capped` row, `live_check` on each ship row, the first DB generation | Seen in the data: audit rows 40436, 40439, 40443; `aiteam-2026-10-26.db` on the backup drive |
 | The 5 uncommitted lab dossiers (Resume DOMAIN-LAB-2) | No longer uncommitted, checked 2026-11-05 |

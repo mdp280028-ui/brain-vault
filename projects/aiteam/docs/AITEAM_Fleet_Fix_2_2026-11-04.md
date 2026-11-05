@@ -1,15 +1,43 @@
 # AITEAM fleet fix 2, 2026-11-04 (FLEET-FIX-2)
 
-Claude Code on the Mac mini, 22:09 PT on 11-04 to about 00:35 PT on 11-05. **Real dollars spent: $0.** No fleet model calls; the three verifier sub-agents ran on this session.
+Claude Code on the Mac mini, 22:09 PT on 11-04 to about 00:35 PT on 11-05, plus the amendment at 04:12 to 09:45 PT on 11-05. **Real dollars spent: $0.** No fleet model calls; the three verifier sub-agents ran on this session.
 
 **14 applied, 14 verified, 0 reverted.** Fix 12 is report only. The verifiers found real defects in my work, including one hole I created (fix 2), so 8 follow-up commits were needed. The last two small edits were tested by me only. See "How verification went".
+
+## Amendment, 2026-11-05: Mark's rulings on D137 and D140
+
+**Both applied and verified, 0 reverted.** A fresh sub-agent confirmed all three commits from their SHAs. Only the small follow-up `b87839d` was tested by me alone.
+
+| Item | Result | Commit | Verifier verdict | Revert command |
+|---|---|---|---|---|
+| D137 stop filing gate verdicts | ✅ srcver_fail, srcver_pass, srcver_escalated no longer filed. Hard failures and srcver_error stay. 60 real verdict rows since 04:15: 0 filed | agents `711024c` | CONFIRMED; "exit code 2 stays filed" only partly true, below | `git -C ~/agents revert 711024c` |
+| D137 existing rows | ✅ 260 of 260 open soft srcver_fail rows resolved with Mark's note, 0 deleted. Backup `~/store/aiteam.db.bak-d137-2026-11-05`, verified before the update ran | agents `1b0b4b8` + data | CONFIRMED | `sqlite3 ~/store/aiteam.db "UPDATE agent_issues SET status='open', resolved_at=NULL, notes=NULL WHERE notes='D137: gate verdict, not an agent fault (Mark 2026-11-05)';"` and `git -C ~/agents revert 1b0b4b8` |
+| D140 3-failure guard | ✅ Counts `pipeline_outcome` needs-review rows for that slug and site. A count it cannot read refuses (the old guard let the run through). Applied 09:30:55, no lock live | agents `6d55d44`, `b87839d` | `6d55d44` CONFIRMED. **`b87839d` tested by me only** | `git -C ~/agents revert b87839d 6d55d44` |
+
+The `~/agents` revert commands were run on a temp clone: all clean.
+
+**Tests.** `capture_gate_verdicts_test.sh`: PASS, old FAIL (5). `resolve_d137_test.sh`: PASS, before the update FAIL (3). `fire_pipeline_guard_test.sh`: PASS, old FAIL (13). The replay over the real history dropped only srcver_fail rows, lost no hard row and filed nothing new.
+
+**What the verifier found:**
+- **The guard is correct but rarely reachable (D142, needs Mark).** `fire-pipeline` calls the drafter, and `drafter.sh:126-130` skips any slug whose brief exists, without firing. All 4 real needs-review slugs have briefs. Real retries use `run-batch.sh` directly, which writes no outcome row and never meets the guard. No slug is at 3+ today; the highest count is 1.
+- **"Exit code 2 stays filed" is only partly true.** A real exit-2 row has no `failed` key, so `capture.sh`'s SQL filter never selects it, before or after this change. My test fixture added that key. It is not a regression, and a "could not run" normally surfaces through `srcver_error`. Logged in D142.
+- **The 42 parked asbestos slugs** at 3+ in `auditor_verdicts` lose the old refusal, as ruled. `fire-pipeline` now prints `OK: pipeline run finished` for them, although the drafter exits on a disabled site and spends nothing.
+- **"3" now means 3 runs.** The old table could log several failures from a single run.
+- **Fixed in `b87839d`:** the status list capped at 10 with no note; `majordomo/CLAUDE.md` told Jeff to quote a best score nothing shows; a comment overstated what needs-review means.
+- **Verifier limits:** it copied the DB once without `query_only`, read-only in effect. Nothing else outside its limits.
+
+**My faults in this amendment, both caught before anything went live:** an edit script matched `R_RC=$?` inside `NR_RC=$?` and duplicated part of the staged `pipeline_status.sh`; and the first version of `resolve_d137_test.sh` created an empty backup file that passed its integrity check. I removed that file before the real backup.
+
+**Other results since the report:**
+- **Fix 7, first real run 07:15:** 6 videos, all `transcript_fetch_failed` HTTP 429, 0 fetched, as predicted (D135).
+- **Open issues at 09:43:** 57 hard, 204 soft. SSG needs-review drafts: 40, up from 33 as `SSG-OVERNIGHT-2` finished.
 
 ## What needs Mark
 
 1. **The Mac lost power on 11-04, about 14:08 to 14:10, then rebooted at 14:10 and 14:12.** It restarted by itself but sat at the login window until 21:59, so the Telegram bot, dashboard and other launchd agents were down for 7 h 47 min. There is no UPS, and auto-login is off (D139). This is not a software fault.
-2. **The 3-failure guard has silently stopped (D140).** `auditor_verdicts` has no row since 2026-08-09, so `fire-pipeline.sh`'s refusal of slugs that failed 3+ times cannot trigger on any newer failure. Not changed tonight; it needs a ruling on what feeds it.
+2. **The 3-failure guard had silently stopped (D140).** Done: see the amendment. What remains is D142, where the limit should live.
 3. **Transcripts are failing, and some "no captions" labels are false (D135).** On the one video tested, English captions exist and the download gets HTTP 429. Upgrading yt-dlp did not help in a scratch test, so I did not upgrade. From 07:15 today these log as `transcript_fetch_failed`, retry up to 3 times, then show in the brief.
-4. **The issue pile regrows (D137).** 2,776 stale rows are resolved, but `srcver_fail` rows went from 45 left after the cleanup to 251 tonight, because every failed source-gate verdict is filed as an issue. Open soft is 449. It needs a ruling.
+4. **The issue pile regrew (D137).** Done: see the amendment.
 
 All decisions are in `OPEN_ITEMS.md`, with recommended answers.
 
@@ -172,4 +200,4 @@ Backup first: `~/store/aiteam.db.bak-fleetfix2-2026-11-04`.
 | 11-05 23:00 | First real batch with fix 4 | One night line on Telegram |
 | 11-05 23:50 | Rotation | First run with `bfb7ee3` |
 
-SAFE TO CLOSE: YES (all commits pushed, crontab == cron.txt, nothing from this window is still running; SSG-OVERNIGHT-2 runs in its own window and was not touched)
+SAFE TO CLOSE: YES (all commits pushed, crontab == cron.txt, no lock live and nothing from this window still running)
