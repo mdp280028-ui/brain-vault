@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-11-04
-row_count: 144
+last_updated: 2026-11-06
+row_count: 147
 ---
 
 # BTC outlook history (Casper)
@@ -154,3 +154,6 @@ Append-only. Newest entries at bottom.
 | 2026-11-03 | months | ↑ | 3 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |
 | 2026-11-03 | weeks | ↑ | 3 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |
 | 2026-11-03 | days | ↑ | 2 | Bitcoin is holding a key support zone with bullish divergences and squeezable shorts, so the analyst is long and expects a bounce toward historic resistance, but he also flags a possible fake-out l... | UdH-uHQlzsg | /Users/mmm2/brain/channels/casper/briefs/2026-11-03_UdH-uHQlzsg.md |
+| 2026-11-05 | months | ↑ | 2 | After a stock-market-led crash took Bitcoin below the November 3rd low, the analyst remains long at key support with bullish divergences but is not confident in the low, still expects a possible mo... | mAQbyjOfocI | /Users/mmm2/brain/channels/casper/briefs/2026-11-05_mAQbyjOfocI.md |
+| 2026-11-05 | weeks | ↓ | 2 | After a stock-market-led crash took Bitcoin below the November 3rd low, the analyst remains long at key support with bullish divergences but is not confident in the low, still expects a possible mo... | mAQbyjOfocI | /Users/mmm2/brain/channels/casper/briefs/2026-11-05_mAQbyjOfocI.md |
+| 2026-11-05 | days | ↑ | 2 | After a stock-market-led crash took Bitcoin below the November 3rd low, the analyst remains long at key support with bullish divergences but is not confident in the low, still expects a possible mo... | mAQbyjOfocI | /Users/mmm2/brain/channels/casper/briefs/2026-11-05_mAQbyjOfocI.md |
