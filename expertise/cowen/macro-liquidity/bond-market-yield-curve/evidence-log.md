@@ -1,8 +1,8 @@
 ---
 topic_slug: bond-market-yield-curve
 group: macro-liquidity
-last_updated: 2026-07-30
-entry_count: 3
+last_updated: 2026-11-10
+entry_count: 4
 ---
 
 # Evidence log: Bond Market Yield Curve
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-30 (q2QLLihl6cc): Ben highlights that the two-year yield now sits above the Fed funds rate — "the two-year yield is is actually above the Fed funds rate even though the Fed funds rate hasn't gone anywhere in a while" [09:47] — and points to the 30-year yield breaking to new highs with the 10-year nearing its October 2023 level, drawing a direct parallel to 2023 when a similar yield breakout (July-October) coincided with the S&P dropping "like a 10% drop" [10:58]. The panel expects this dynamic, combined with hawkish Fed signaling from Kevin Walsh, to produce a likely rate hike this year, with September floated as the candidate meeting.
 
 - 2026-07-30 (7vNA0geUryY): Cowen points to the 10-year Treasury yield turning back up as a bearish analog to 2023, when a rising long end of the curve coincided with Bitcoin turning down from a July high, and says the bond market is "starting to revolt" while the Fed isn't cutting rates. He ties this directly to his Bitcoin seasonality call, expecting the "window of weakness" to reemerge within 2-3 weeks: "The Fed's not raising rates, and if this plays out like either 2023 or 2022 or 2018 or 2014, then you'd be looking at a correction coming up in the latter part of Q3" [05:05].
+
+- 2026-11-10 (cpjk4LSO6dg): Cowen says the Fed is near the end of its hiking cycle (one more hike, maybe two) and the 10-year yield is near a top but will be higher in 10 years. He has bought TIPS and some TLT. He compares the setup to 2018, when a September hike, a skipped meeting and a December hike were followed by a Bitcoin bottom. He expects weakness at least into the December FOMC, and guest Mike McGlone says the Fed is priced for hikes. As Cowen put it, "if it doesn't happen in the next two months, then it probably won't happen for the next like nine or 10 months" [1:13:05].

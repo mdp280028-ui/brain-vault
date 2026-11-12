@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-risk-metric
 group: cycle-and-risk
-last_updated: 2026-06-21
-entry_count: 3
+last_updated: 2026-11-10
+entry_count: 4
 ---
 
 # Evidence log: Bitcoin Risk Metric
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-14 (hx_neha7BVQ): Cowen reveals the current summary risk reading is 0.296, just below his cycle-specific buy ceiling of 0.3, and explains it as a composite of price risk, on-chain risk (MVRV, MVRV-Z, Puell Multiple, terminal price, thermocap ratios, transaction fees), and social risk (Google Trends, Coinbase app ranking, YouTube/Twitter metrics). He notes that Bitcoin has spent only 14.73% of its history in the 0.2–0.3 band and a mere 2.34% below 0.1, making current levels historically rare: "the current risk is 0.296 that's where the current risk is" [07:39]. A simulation on his DCA tool demonstrates that deploying capital dynamically below 0.3 produces ~$2.1M versus ~$700K from equal-weight DCA on the same $18.3K invested since 2014, quantifying the practical value of the metric's accumulation signals.
 
 - 2026-06-21 (5feBKA1-w-Q): This brief provides no updated metric reading but supplies the macro rationale for why the risk metric has remained in accumulation territory: Cowen frames Bitcoin as sitting at "the furthest thing up the risk curve," meaning prolonged high rates and QT keep it suppressed and keep the metric low until a regime change occurs. The trigger he identifies — equity weakness in late Q3/early Q4 2026 forcing a Fed pivot — is the event that would eventually drive price recovery and push the metric toward the distribution zone. No tools or indicators were referenced in this video.
+
+- 2026-11-10 (cpjk4LSO6dg): The brief gives no new risk metric reading but covers adjacent on-chain evidence: realized price (~54K) and balance price (~38K) have not been breached this bear market, although every prior bear market breached them. Cowen sets out a higher-low scenario (low 60s, weaker 2027, later drop to realized price) against a 2018-style lower low that resets on-chain indicators. He says "If we drop and and form a lower low, I would actually be more bullish because then then all the onchain indicators reset." [5:19:31]

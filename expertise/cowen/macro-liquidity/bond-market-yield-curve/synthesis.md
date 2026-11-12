@@ -1,8 +1,8 @@
 ---
 topic_slug: bond-market-yield-curve
 group: macro-liquidity
-last_updated: 2026-07-30
-brief_count: 3
+last_updated: 2026-11-10
+brief_count: 4
 ---
 
 # Bond Market Yield Curve
@@ -10,17 +10,18 @@ brief_count: 3
 Auto-created topic. Seed description pending operator review. Slug-as-words: bond market yield curve.
 
 ## Current Thesis
-Cowen and fellow panelists argue the bond market, not the labor market, is the key macro risk: the 30-year yield is breaking to new highs and the 10-year is approaching its October 2023 level, echoing a 2023 setup where a July-October yield breakout coincided with a ~10% S&P drop. The two-year yield trading above the Fed funds rate signals policy is no longer restrictive enough, and new signals from Fed's Kevin Walsh (no forward guidance, a 3-of-12 dissent favoring an immediate hike, and a rigid 2% target) reinforce the case for a September rate hike. Cowen separately flags the 10-year yield turning back up as a bearish analog to 2023, when a rising long end coincided with Bitcoin turning down from July, describing the bond market as "starting to revolt" while the Fed holds rates steady. The group now expects this to drive a back-half-of-2026 stock correction alongside a Bitcoin cycle bottom, most likely in Q4, with Cowen's own timeline pointing to a Bitcoin downturn in August/September and a possible cycle low around November.
+Cowen's summer view was that the bond market was the key macro risk: long-end yields breaking out, the two-year above Fed funds, and a hawkish Fed pointing to a September hike and a Q4 stock and Bitcoin low, echoing 2023. By November he sees the Fed as near the end of its hiking cycle (one more hike, maybe two, with cuts possibly late 2027) and the 10-year yield as near a top, likely a lower high. He still expects the 10-year to be higher in 10 years, and he has bought TIPS and some TLT. Rates now matter mainly as one driver of Q4 weakness in Bitcoin and stocks, and a 2018-style hike-then-bottom path around the December FOMC is the analog he is watching.
 
 ## Key Evidence
-- Two-year yield sits above the Fed funds rate (held at 3.50-3.75%), implying policy is no longer sufficiently restrictive and could let labor market/wage inflation reheat (q2QLLihl6cc); this reaffirms the same restrictive-policy flip Cowen flagged previously (prior).
-- 30-year yield is breaking to new highs and the 10-year is approaching its October 2023 level; in 2023 a similar July-to-October yield breakout coincided with roughly a 10% S&P drop, which the panel sees as a repeatable setup (q2QLLihl6cc).
-- September 16, 2026 FOMC meeting is pricing roughly a 60/40 split toward a hike to 3.75-4.00%, with Fed's Kevin Walsh signaling no forward guidance, a 3-of-12 dissent favoring an immediate hike, and an unwavering 2% inflation target despite public adjustment to ~3% as a new normal (q2QLLihl6cc).
-- The 10-year Treasury yield turning back up is a bearish analog to 2023, when a rising long end of the curve coincided with Bitcoin turning down from July; Cowen says the bond market is "starting to revolt" while the Fed isn't cutting rates (7vNA0geUryY).
-- 10-year yield was previously expected to retest its October 2023 high, with the 30-year making higher lows against its 5.1-5.2% ceiling since 2023 (prior).
-- Prior labor-market data (initial claims at 187,000, unemployment at 4.2% and falling) had indicated the bond market's real concern was inflation rather than jobs (prior); new June PCE data (down 0.1% m/m, 3.7% y/y, core +0.1%) and jobless claims at 197,000 came in soft but did not shift the panel's rate-hike expectation (q2QLLihl6cc).
+- Two-year yield above the Fed funds rate (held at 3.50-3.75%) implied policy was no longer restrictive enough, and a September 2026 hike was priced roughly 60/40 with hawkish signals from Fed's Kevin Walsh (q2QLLihl6cc).
+- 30-year yield broke to new highs and the 10-year approached its October 2023 level; in 2023 a similar July-to-October breakout coincided with roughly a 10% S&P drop (q2QLLihl6cc).
+- Cowen called the 10-year turning back up a bearish 2023 analog, with the bond market "starting to revolt" while the Fed held (7vNA0geUryY).
+- Earlier data (initial claims at 187,000, unemployment at 4.2%) indicated the bond market's concern was inflation rather than jobs, and the 10-year was expected to retest its October 2023 high (prior).
+- By November, Cowen says the 10-year is near a top and the Fed is near the end of hiking, and he has bought TIPS and some TLT. This is a shift away from the earlier yield-breakout alarm (cpjk4LSO6dg).
+- Cowen compares the path to 2018, when a September hike, a skipped meeting and a December hike were followed by a Bitcoin bottom and the projected 2019 hikes never came. He expects weakness at least into the December FOMC (cpjk4LSO6dg).
 
 ## Recent Updates
+- 2026-11-10 (cpjk4LSO6dg): Cowen says the Fed is near the end of its hiking cycle (one more hike, maybe two) and the 10-year yield is near a top but higher in 10 years, and he has bought TIPS and some TLT.
 - 2026-07-30 (7vNA0geUryY): Cowen flags the 10-year yield turning back up as a bearish 2023 analog and says the bond market is "starting to revolt" while the Fed holds, tying it to his call for Bitcoin weakness starting in the next 2-3 weeks and a possible cycle low around November.
 - 2026-07-30 (q2QLLihl6cc): Panel (Cowen, Guy, Ben) ties a 30-year yield breakout and 10-year approaching its 2023 high, plus hawkish Fed signals from Kevin Walsh (no forward guidance, FOMC dissent, fixed 2% target), to a likely September rate hike, reinforcing the scenario of a back-half-2026 stock correction and a Q4 Bitcoin cycle bottom.
 - 2026-07-28 (TOKUXlPBhOs): Cowen ties rising long-end yields (10-year, 30-year) and a two-year yield above Fed funds to a bond-market-driven scenario chain: Fed holds in July, hikes in September, stocks correct 10-20%, and Bitcoin falls to its Q4 cycle bottom.

@@ -1,8 +1,8 @@
 ---
 topic_slug: bitcoin-risk-metric
 group: cycle-and-risk
-last_updated: 2026-06-14
-entry_count: 4
+last_updated: 2026-11-10
+entry_count: 6
 ---
 
 # Predictions log: Bitcoin Risk Metric
@@ -14,3 +14,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-06-14 (hx_neha7BVQ): Bitcoin cycle bottom most likely in October 2026, though Cowen would pivot immediately if the risk metric dropped to 0.1.
 - 2026-06-14 (hx_neha7BVQ): Even at 0.3 risk, Bitcoin prices today will likely look cheap in hindsight within a few years.
+
+- 2026-11-10 (cpjk4LSO6dg): BTC finds its Q4 low (higher or lower than the prior low) within about two months, by roughly mid-January 2027; if not by then, probably not for nine or ten months.
+- 2026-11-10 (cpjk4LSO6dg): Bitcoin likely hits the realized price (~54K) eventually, possibly not until a stock bear market in 2027–2028; a lower low in Q4 would reset on-chain indicators and be more bullish.

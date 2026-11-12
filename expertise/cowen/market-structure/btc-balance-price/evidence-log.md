@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-balance-price
 group: market-structure
-last_updated: 2026-08-02
-entry_count: 5
+last_updated: 2026-11-10
+entry_count: 6
 ---
 
 # Evidence log: Btc Balance Price
@@ -18,3 +18,5 @@ NONE
 - 2026-07-06 (sy6AxBbgico): This brief does not address the balance price. Cowen's bottom-timing argument instead rests on a four-year-cycle comparison to 2018, projecting Bitcoin will "form a low before December," with October as the leading candidate month: "the reason I think it could happen as early as October is because the top was in October. And normally the Bitcoin bear markets are about 1 year." [09:51/10:16] No on-chain or balance-price reset language appears anywhere in the transcript.
 
 - 2026-08-02 (2o0qSlwjkv8): This brief makes no reference to the balance price; Cowen's undervaluation case rests entirely on the fair value logarithmic regression trend line, which he says Bitcoin has stayed well below all year, with the percent gap "near the lowest ever recorded" outside of 2009-2010. He remains "not opposed to this thing going even lower" and expects weakness to persist "for at least a few more months" per the four-year cycle, continuing the pattern of prior briefs sidelining the balance price in favor of time-based/regression framing. Quote [02:43]: "So, you know, I'm not opposed to this thing going even lower."
+
+- 2026-11-10 (cpjk4LSO6dg): With Bitcoin near 73K, Cowen says the realized price (~54K) and balance price (~38K) have not been breached this bear market, though every prior bear market breached them. He lays out a higher-low scenario (low 60s, weaker 2027, later realized-price test) versus a 2018-style lower low that resets on-chain indicators. He says: "If we drop and and form a lower low, I would actually be more bullish because then then all the onchain indicators reset." [5:19:31]

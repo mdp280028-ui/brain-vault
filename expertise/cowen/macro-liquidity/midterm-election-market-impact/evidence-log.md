@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-10-30
-entry_count: 17
+last_updated: 2026-11-10
+entry_count: 18
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -42,3 +42,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-03 (WRftdLFrepU): Cowen extends the midterm-year August seasonality call with a fuller historical set — every prior midterm year has been negative in August (2022 −15%, 2018 −15%, 2014 −18%, 2010 −5%) while July has consistently been green (2022 +20%, 2018 +40%, 2026 +7%) — and ties this to a mechanical squeeze between the falling bear market resistance band (~69k) and rising 200-week MA (~63.7k) that he says will force a decisive break within a couple months. Quote: "this July, up 7%... a lot of times July's green for Bitcoin, and this time proved no different. The problem is every prior midterm year was red for August." [05:26]
 
 - 2026-10-30 (g2MQiby7_qY): Cowen says BTC's drop to the 21-week EMA (~76.6K) is the standard midterm-year Q4 dump, with the final low either before the midterms via a fast capitulation or right after them following a bounce at the 73–77K band. Unlike 2014, 2018 and 2022, BTC has fallen four straight weekly candles into the midterms, and cycle day 1439 sits just past the prior bottoms at days 1432 and 1436. As he put it: "this happens every midterm year right and and that's what I think people should like stay focused on" [00:43].
+
+- 2026-11-10 (cpjk4LSO6dg): Cowen says BTC is near 73K and that the midterm-year Q4 low depends on stocks. The Nasdaq is down about 15%, and in 2014, 2018 and 2022 every Q4 low came with a stock drop. Realized price (~54K) and balance price (~38K) are still unbreached, though every prior bear market breached them. He frames the 87K high as an apathetic-top fake-out: "from where I'm sitting it it sort of looks like the move to 87K was kind of just a fake out to get convince people that we had already started you know the bull market" [55:41].
