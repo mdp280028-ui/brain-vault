@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-11-10
-entry_count: 18
+last_updated: 2026-11-11
+entry_count: 19
 ---
 
 # Evidence log: Midterm Election Market Impact
@@ -44,3 +44,5 @@ Append-only. Newest entries at bottom.
 - 2026-10-30 (g2MQiby7_qY): Cowen says BTC's drop to the 21-week EMA (~76.6K) is the standard midterm-year Q4 dump, with the final low either before the midterms via a fast capitulation or right after them following a bounce at the 73–77K band. Unlike 2014, 2018 and 2022, BTC has fallen four straight weekly candles into the midterms, and cycle day 1439 sits just past the prior bottoms at days 1432 and 1436. As he put it: "this happens every midterm year right and and that's what I think people should like stay focused on" [00:43].
 
 - 2026-11-10 (cpjk4LSO6dg): Cowen says BTC is near 73K and that the midterm-year Q4 low depends on stocks. The Nasdaq is down about 15%, and in 2014, 2018 and 2022 every Q4 low came with a stock drop. Realized price (~54K) and balance price (~38K) are still unbreached, though every prior bear market breached them. He frames the 87K high as an apathetic-top fake-out: "from where I'm sitting it it sort of looks like the move to 87K was kind of just a fake out to get convince people that we had already started you know the bull market" [55:41].
+
+- 2026-11-11 (QQ_Cy-gwwQ0): Cowen repeats that a drop below the 57K low would have to come within about two months, with a decent chance the Q4 low is higher this time, and that he still expects BTC to reach its realized price (~54K) eventually. He describes a stair-stepping decline through 83K, 80K and the 21-week EMA to the 200-day, and says a 2018-style lower low that resets on-chain indicators would make him more bullish. He also notes the Fed could cancel its expected 2027 hikes if the Nasdaq keeps falling. "I think if it has to drop below 57, it needs to do so in the next two months." [07:25]

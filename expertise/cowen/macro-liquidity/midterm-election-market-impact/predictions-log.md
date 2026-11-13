@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-11-10
-entry_count: 41
+last_updated: 2026-11-11
+entry_count: 46
 ---
 
 # Predictions log: Midterm Election Market Impact
@@ -66,3 +66,9 @@ Append-only. Newest entries at bottom.
 - 2026-11-10 (cpjk4LSO6dg): BTC stays weak at least until the December FOMC, with a possible bottom around then.
 - 2026-11-10 (cpjk4LSO6dg): A BTC rally to 90–100K in early 2027 is possible, with a weak second half of 2027.
 - 2026-11-10 (cpjk4LSO6dg): Bitcoin likely hits the realized price (~54K) eventually, possibly not until a stock bear market in 2027–2028.
+
+- 2026-11-11 (QQ_Cy-gwwQ0): BTC breaks below 57K only if it happens within about two months; otherwise probably not for at least 10 months.
+- 2026-11-11 (QQ_Cy-gwwQ0): BTC likely to reach the realized price (~54K) eventually, with the timing unknown.
+- 2026-11-11 (QQ_Cy-gwwQ0): Bullish stretch lasting through the first half of 2027, with a target range of 90K–150K if BTC rallies.
+- 2026-11-11 (QQ_Cy-gwwQ0): Stock market crash likely over the next two years.
+- 2026-11-11 (QQ_Cy-gwwQ0): Two Fed rate hikes expected in 2027, possibly canceled if the Nasdaq keeps falling, which would be a bullish signal for Bitcoin.

@@ -1,8 +1,8 @@
 ---
 topic_slug: midterm-election-market-impact
 group: macro-liquidity
-last_updated: 2026-11-10
-brief_count: 18
+last_updated: 2026-11-11
+brief_count: 19
 ---
 
 # Midterm Election Market Impact
@@ -11,19 +11,20 @@ Auto-created topic. Seed description pending operator review. Slug-as-words: mid
 
 ## Current Thesis
 
-Cowen still treats the midterm-year Q4 as the reset window for Bitcoin, with BTC around 73K after the 87K high, which he now calls an apathetic-top fake-out rather than the start of a bull market. He expects the Q4 low (higher or lower than the prior low) within about two months, roughly to mid-January 2027, with weakness at least into the December FOMC and a possible bottom around it. If no new low comes by then, he expects none for nine or ten months. Stocks drive the risk: in 2014, 2018 and 2022 every Q4 low came with a stock drop, and the Nasdaq is down about 15% while the S&P is down only about 6%. He sees two paths. In one, a higher low in the low 60s leads to a weaker 2027 rally and a later drop to the realized price (~54K) once a stock bear market arrives. In the other, a 2018-style lower low resets the on-chain indicators, which he would find more bullish. His BTC outlook is year ↑3, months ↓3, weeks ↓4, with a 2027 rally to 90–100K possible but a weak second half.
+Cowen still treats the midterm-year Q4 as the reset window for Bitcoin. He now says any drop below the 57K low has to come within about two months, and there is a decent chance the Q4 low is higher than the prior low. If no new low comes by then, he expects none for at least 10 months. He still expects BTC to reach its realized price (~54K) eventually, with the timing unknown. He sees a stock-driven risk, since every prior midterm Q4 low came with a stock drop. He expects a rebound into 2027, probably through the first half, followed by a bigger stock bear market in 2027–2028. He would turn more bullish if a lower low reset on-chain indicators over 3–4 months, as in 2018. His BTC outlook is year ↑3, months ↓2, weeks ↓3.
 
 ## Key Evidence
 
-- The Nasdaq is down about 15% and the S&P about 6%. In 2014, 2018 and 2022 every Q4 low came with a stock drop, so BTC could fall further if stocks make new lows (cpjk4LSO6dg)
-- Realized price (~54K) and balance price (~38K) have not been breached this bear market, but every prior bear market breached them. A midterm-year Q4 price-based capitulation below the realized price has happened every time (cpjk4LSO6dg; g2MQiby7_qY)
-- The 2026 top was apathetic, with social interest matching 2019. Cowen says apathetic tops are prone to fake-outs, so the 87K high above the prior high does not prove a bull market (cpjk4LSO6dg)
-- Equities confirmed the Q4 dump in late October: Google about −12% on earnings, Amazon −8%, Intel −23% and Nasdaq about −9%. Historical bear-market lows came with a volume spike, and this bear market has had none (g2MQiby7_qY)
-- The midterm seasonal sequence of a summer low, a July rally and a red August and September played out as called. Every prior midterm-year August was red (−15% 2022, −15% 2018, −18% 2014, −5% 2010) (WRftdLFrepU; XiNkIzh1fmQ)
+- Stock weakness is the main risk. In 2014, 2018 and 2022 every Q4 low came with a stock drop, the Nasdaq is down about 15% and the S&P about 6%, and the late-October earnings selloff (Google −12%, Amazon −8%, Intel −23%) confirmed the Q4 dump (cpjk4LSO6dg; g2MQiby7_qY)
+- Realized price (~54K) and balance price (~38K) have not been breached this bear market, but every prior bear market breached them. Cowen still expects BTC to reach the realized price eventually (QQ_Cy-gwwQ0; cpjk4LSO6dg)
+- The price path is stair-stepping down (83K, 80K, the 21-week EMA, the 20-week, now the 200-day). If supports keep failing, a quick 20% drop into the low-to-upper 60Ks would decide between a higher macro low and a much bigger drop (QQ_Cy-gwwQ0)
+- The 2018 analog: the Fed was expected to hike twice more in 2019 and then did not, and BTC rallied. Two hikes are now expected in 2027, and a falling Nasdaq could cancel them, though a 2019-style rally could still be a macro lower high (QQ_Cy-gwwQ0)
+- The 2026 top was apathetic, with social interest matching 2019, so the 87K high is prone to being a fake-out. The summer-low, July-rally and red August and September sequence played out as called (cpjk4LSO6dg; WRftdLFrepU; XiNkIzh1fmQ)
 - BTC under Trump's second term tracks Biden's term closely (−41.1% vs −43.8% at day 524), which Cowen attributes to macro conditions rather than politics (OYcGIifaO4Q)
 
 ## Recent Updates
 
+- 2026-11-11 (QQ_Cy-gwwQ0): In a follow-up conference-preview stream, Cowen says any drop below the 57K low must come within about two months (otherwise probably not for at least 10 months), that the Q4 low may now be higher than the prior low, and that BTC should still reach its realized price eventually. His outlook is BTC year ↑3, months ↓2, weeks ↓3, with a rebound into 2027 and a bigger stock bear market in 2027–2028.
 - 2026-11-10 (cpjk4LSO6dg): At his conference preview, Cowen says the midterm-year Q4 low is probably not yet confirmed, with BTC near 73K. He expects a low within about two months and weakness into the December FOMC, calls the 87K high an apathetic-top fake-out, and sets BTC at year ↑3, months ↓3, weeks ↓4.
 - 2026-10-30 (g2MQiby7_qY): Cowen calls the current BTC drop to the 21-week EMA the typical midterm-year Q4 dump, sees a pre-midterm FTX-style capitulation and a bounce-then-post-midterm final low as equally likely, concedes he was wrong about the May high being taken out, and sets BTC outlook at year ↑2, months ↓4, weeks ↓3.
 - 2026-08-03 (WRftdLFrepU): Cowen frames BTC as squeezed between the falling bear market resistance band (~69k) and rising 200-week MA (~63.7k), forcing a decisive move within a couple months; reintroduces a specific August seasonality call (every prior midterm-year August negative: 2022 −15%, 2018 −15%, 2014 −18%, 2010 −5%) with BTC months back to ↓4 and a new →2 weeks chop call, and pegs his cycle-bottom expectation to late November.
@@ -33,4 +34,3 @@ Cowen still treats the midterm-year Q4 as the reset window for Bitcoin, with BTC
 - 2026-06-30 (Wef7vP6ffBM): Cowen confirms his predicted shallow June SPX correction played out (~5%), now expects a July-August drift-higher rally followed by a larger 10-20% correction in August-September (per 2014/2018/2022 analogs) that he expects to coincide with Bitcoin's cycle bottom and a possible gold bottom, with historical midterm-year lows typically landing late September/early October.
 - 2026-06-28 (OYcGIifaO4Q): Cowen shows BTC returns under Biden and Trump's second term are nearly identical at day 524 (−43.8% vs −41.1%), attributes the shared weakness to macro conditions rather than politics, and uses the Biden-cycle analog to reinforce the June low → late-July counter-trend rally → Q4 final bottom sequence, with BTC expected to bottom later in 2026 and begin the next bull market into 2027 if the analog holds.
 - 2026-06-22 (d71wYhwKpFY): Cowen reiterates the midterm-year bear market pattern as the governing framework for BTC's current structure — BTC trapped between the bear market resistance band and 200-week MA, the June low and late-July countertrend rally sequence drawn from 2018 and 2022 midterm analogs, and an unmet realized-price condition making a further leg lower likely later in 2026.
-- 2026-06-16 (gFiKyyPXMFo): Cowen extends the midterm-year H2 correction framework to individual equities, citing 2022, 2018, and 2014 precedents to forecast a meaningful pullback in SpaceX stock in H2 2026 and framing any such drawdown as a multi-year buying opportunity — no shift to the broader midterm thesis, but notable application to a newly public equity.
