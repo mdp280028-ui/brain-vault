@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-balance-price
 group: market-structure
-last_updated: 2026-11-11
-entry_count: 4
+last_updated: 2026-11-12
+entry_count: 6
 ---
 
 # Predictions log: Btc Balance Price
@@ -14,3 +14,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-11-11 (QQ_Cy-gwwQ0): BTC breaks below 57K only if it happens within about two months; otherwise probably not for at least 10 months.
 - 2026-11-11 (QQ_Cy-gwwQ0): BTC likely to reach the realized price (~$54K) eventually, timing unknown; the balance price (~$38K) could be reached in a future recession.
+
+- 2026-11-12 (QcJlPjcOZjw): A lower low, much lower, that resets on-chain indicators leads to a really good bull market in 2027.
+- 2026-11-12 (QcJlPjcOZjw): A higher low would be a bullish signal for roughly three to six months, but BTC eventually reaches the realized price (~54K) later in the cycle, probably with a recession.

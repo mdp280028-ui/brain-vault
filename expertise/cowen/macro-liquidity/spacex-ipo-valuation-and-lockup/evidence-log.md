@@ -1,8 +1,8 @@
 ---
 topic_slug: spacex-ipo-valuation-and-lockup
 group: macro-liquidity
-last_updated: 2026-11-10
-entry_count: 3
+last_updated: 2026-11-12
+entry_count: 4
 ---
 
 # Evidence log: Spacex Ipo Valuation And Lockup
@@ -14,3 +14,5 @@ Append-only. Newest entries at bottom.
 - 2026-10-30 (g2MQiby7_qY): The video barely touches this topic. While laying out his "bounce at the band, then a final drop after the midterms" scenario for Bitcoin, Cowen likens that bounce to the pre-SpaceX-IPO price action and says it is now being compared with the upcoming Anthropic IPO. He says nothing about SpaceX's valuation, the lockup, or post-IPO performance, so this adds no evidence on the thesis itself.
 
 - 2026-11-10 (cpjk4LSO6dg): SpaceX appears only as a comparison for Anthropic. Cowen shows Bitcoin 30-day overlays against the SpaceX and Anthropic IPOs and says Bitcoin fell ahead of both, which suggests liquidity is being pulled away. He adds that his own IPO approach is to ignore the first month or two and buy after the surge fades, and that Anthropic cut its target valuation from 2T to 1.5T to 1T. The brief has no SpaceX valuation or lockup detail.
+
+- 2026-11-12 (QcJlPjcOZjw): Only a passing mention of SpaceX. Cowen says a higher low in Bitcoin would be the more bearish long-term outcome, since his worry is repeated up-and-down chop with IPOs such as SpaceX, Anthropic and possibly OpenAI draining Bitcoin as people sell it to buy the stock. He compares this to silver's multi-leg range before it broke out. The brief has no new SpaceX valuation or lockup content.

@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-balance-price
 group: market-structure
-last_updated: 2026-11-11
-entry_count: 7
+last_updated: 2026-11-12
+entry_count: 8
 ---
 
 # Evidence log: Btc Balance Price
@@ -22,3 +22,5 @@ NONE
 - 2026-11-10 (cpjk4LSO6dg): With Bitcoin near 73K, Cowen says the realized price (~54K) and balance price (~38K) have not been breached this bear market, though every prior bear market breached them. He lays out a higher-low scenario (low 60s, weaker 2027, later realized-price test) versus a 2018-style lower low that resets on-chain indicators. He says: "If we drop and and form a lower low, I would actually be more bullish because then then all the onchain indicators reset." [5:19:31]
 
 - 2026-11-11 (QQ_Cy-gwwQ0): Cowen says he still expects Bitcoin to fall to its realized price (~54K) eventually, with the balance price (~38K) possibly reached in a future recession, timing unknown. He says a lower low would make him more bullish if it resets on-chain indicators over 3–4 months, as in 2018 and early 2019, but that this year's low could instead be higher. "if we went down and "reset" some of these on-chain indicators, like rebooting everything, and spent 3-4 months on it, like in 2018 or early 2019, then I would be pretty optimistic." [21:36]
+
+- 2026-11-12 (QcJlPjcOZjw): Cowen argues that Bitcoin lows have historically been below the realized price (~54K), in 2014, 2018, 2020 and 2022, and asks why this time would differ. He says a much lower low would reset on-chain indicators and set up a strong 2027 bull market, while a higher low would be bullish for only three to six months before a later realized-price test. The balance price appears only in his list of indicators, with no new level or discussion. He says: "Historically, Bitcoin lows have been lower than the realized price." [09:58]
