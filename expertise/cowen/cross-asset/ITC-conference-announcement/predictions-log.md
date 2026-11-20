@@ -1,8 +1,8 @@
 ---
 topic_slug: ITC-conference-announcement
 group: cross-asset
-last_updated: 2026-11-16
-entry_count: 3
+last_updated: 2026-11-19
+entry_count: 5
 ---
 
 # Predictions log: ITC Conference Announcement
@@ -13,3 +13,6 @@ Append-only. Newest entries at bottom.
 
 - 2026-11-16 (HcruM-mYz5E): The final bear-market low likely comes around mid-December, near the FOMC meeting (Dec 9), as in 2018, which would place it after the ITC conference (Nov 20-22).
 - 2026-11-16 (HcruM-mYz5E): The next month or two is a window in which a new low is possible; if none by about mid-January, a lower low becomes less likely in the short term.
+
+- 2026-11-19 (ixMSi_KX89s): If BTC bounces, it tops near November 21 (the ITC main day), following the pattern of 21st-of-the-month local highs since July.
+- 2026-11-19 (ixMSi_KX89s): BTC makes a local low around the December 9 FOMC meeting (about 18-20 days out), after which markets cool and bounce into 2027 if the SpaceX pattern repeats.

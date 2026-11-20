@@ -1,8 +1,8 @@
 ---
 topic_slug: ITC-conference-announcement
 group: cross-asset
-last_updated: 2026-11-16
-entry_count: 7
+last_updated: 2026-11-19
+entry_count: 8
 ---
 
 # Evidence log: ITC Conference Announcement
@@ -22,3 +22,5 @@ Append-only. Newest entries at bottom.
 - 2026-08-13 (6V6rlIV2Zek): While walking through bear-market-duration comparisons, Cowen observed that a 59-week bear market would push the cycle low to the week of November 23rd, which coincides with his ITC conference. He still leans toward October as the most likely low month, but treats late September to mid-December as the plausible window. He drew the link explicitly: "Guess when the conference is... November 21st." [17:40]
 
 - 2026-11-16 (HcruM-mYz5E): The brief does not mention the ITC conference directly, but its timing call bears on it. Cowen says BTC (~$65K) is in a window of weakness and that the next month or two is when a new low is possible, with the final low likely around mid-December near the FOMC meeting. That places the Nov 20-22 conference ahead of the expected bottom rather than after it. "I think we are pretty close in time." [03:01]
+
+- 2026-11-19 (ixMSi_KX89s): The brief does not mention the conference itself, but its timing calls bear on it. Cowen says BTC (~64K) made a new local low into the Anthropic IPO, as it did before SpaceX, and that a bounce would likely top around November 21, the conference's main day. He expects the next local low near the December 9 FOMC meeting, about 18-20 days out, which would put ITC before the low. As he put it: "I'd be sort of looking for that and and you know maybe looking for a local low in Bitcoin sometime around the next December FOMC," (09:34).

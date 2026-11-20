@@ -1,8 +1,8 @@
 ---
 topic_slug: spacex-ipo-post-ipo-pattern
 group: _misc
-last_updated: 2026-06-23
-entry_count: 6
+last_updated: 2026-11-19
+entry_count: 7
 ---
 
 # Predictions log: Spacex Ipo Post Ipo Pattern
@@ -16,3 +16,5 @@ Append-only. Newest entries at bottom.
 - 2026-06-23 (xK6bqL-QNE4): SpaceX prices likely stay suppressed through the rest of 2026.
 - 2026-06-23 (xK6bqL-QNE4): If the S&P takes out its March 2026 low or drops ~20%, that would likely mark a durable long-term low for SpaceX.
 - 2026-06-23 (xK6bqL-QNE4): Tesla did not durably break above its IPO launch-day spike high until 2.5 years after IPO; SpaceX could follow a similar multi-year timeline before making its durable long-term move.
+
+- 2026-11-19 (ixMSi_KX89s): If the Anthropic IPO plays out like SpaceX, it surges on launch and pulls back within a couple of weeks. BTC makes a local low around the December 9 FOMC (about 18–20 days out), and markets cool around the December FOMC before bouncing into 2027.
