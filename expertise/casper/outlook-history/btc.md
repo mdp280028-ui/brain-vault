@@ -1,7 +1,7 @@
 ---
 asset: btc
-last_updated: 2026-11-08
-row_count: 150
+last_updated: 2026-11-20
+row_count: 153
 ---
 
 # BTC outlook history (Casper)
@@ -160,3 +160,6 @@ Append-only. Newest entries at bottom.
 | 2026-11-08 | months | ↑ | 2 | Bitcoin is testing major support around 72–75K where the analyst is long for a possible short squeeze toward 82–85K, but he still expects an eventual ~20% drop to the high 60s. | _oAY1O68YSM | /Users/mmm2/brain/channels/casper/briefs/2026-11-08__oAY1O68YSM.md |
 | 2026-11-08 | weeks | ↓ | 3 | Bitcoin is testing major support around 72–75K where the analyst is long for a possible short squeeze toward 82–85K, but he still expects an eventual ~20% drop to the high 60s. | _oAY1O68YSM | /Users/mmm2/brain/channels/casper/briefs/2026-11-08__oAY1O68YSM.md |
 | 2026-11-08 | days | ↑ | 2 | Bitcoin is testing major support around 72–75K where the analyst is long for a possible short squeeze toward 82–85K, but he still expects an eventual ~20% drop to the high 60s. | _oAY1O68YSM | /Users/mmm2/brain/channels/casper/briefs/2026-11-08__oAY1O68YSM.md |
+| 2026-11-19 | months | ↑ | 2 | Bitcoin is chopping near 62K with the analyst expecting a sweep of Saturday's low (~61.9K) and possibly a drop toward 54K, while he stays a long-term spot buyer on new macro lows (targets below 40K... | FdmdW1Ack_g | /Users/mmm2/brain/channels/casper/briefs/2026-11-19_FdmdW1Ack_g.md |
+| 2026-11-19 | weeks | ↓ | 3 | Bitcoin is chopping near 62K with the analyst expecting a sweep of Saturday's low (~61.9K) and possibly a drop toward 54K, while he stays a long-term spot buyer on new macro lows (targets below 40K... | FdmdW1Ack_g | /Users/mmm2/brain/channels/casper/briefs/2026-11-19_FdmdW1Ack_g.md |
+| 2026-11-19 | days | ↓ | 3 | Bitcoin is chopping near 62K with the analyst expecting a sweep of Saturday's low (~61.9K) and possibly a drop toward 54K, while he stays a long-term spot buyer on new macro lows (targets below 40K... | FdmdW1Ack_g | /Users/mmm2/brain/channels/casper/briefs/2026-11-19_FdmdW1Ack_g.md |
