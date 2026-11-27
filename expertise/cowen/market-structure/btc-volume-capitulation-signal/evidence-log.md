@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-volume-capitulation-signal
 group: market-structure
-last_updated: 2026-10-30
-entry_count: 5
+last_updated: 2026-11-24
+entry_count: 6
 ---
 
 # Evidence log: Btc Volume Capitulation Signal
@@ -18,3 +18,5 @@ Append-only. Newest entries at bottom.
 - 2026-07-01 (8TmOvGK235I): Cowen restates the time-based vs. price-based capitulation framework and says the market has not shown pandemic-style price-based capitulation signs, keeping time-based capitulation as his working assumption even as he flags the July 1st $57.7K low as confirming his 2018 analog. He hedges that he'd pivot if price decisively capitulates or if Bitcoin remains range-bound near $60K by October: "I would be willing to pivot if price were to capitulate sooner" [15:25].
 
 - 2026-10-30 (g2MQiby7_qY): Cowen says historical bear-market lows came with a massive volume spike and this one has had none, while noting a price-based capitulation below the realized price has happened in every midterm-year Q4. He guesses Bitcoin eventually drops toward the realized price or the rainbow chart, and calls a fast FTX-style capitulation before the midterms and a post-midterm final low equally likely. "this bare market, there hasn't been any spikes in volume, right? It's just been trending down." [1:03:25]
+
+- 2026-11-24 (L62dFZxfjEk): The brief does not discuss weekly volume spikes directly, but it treats the Q4 midterm-year lower low as normal and argues against calling a bottom, since Bitcoin historically falls below the realized price (~$53K), bottoms after metals, and shows no whale accumulation (index about 0.1 now vs. 0.7–0.9 at past lows). Cowen says "the realized price is what Bitcoin has historically fallen below" [09:14], and that the window of weakness may stay open, with a bottom more plausible in 2027.

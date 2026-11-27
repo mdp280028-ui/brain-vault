@@ -1,8 +1,8 @@
 ---
 topic_slug: btc-volume-capitulation-signal
 group: market-structure
-last_updated: 2026-10-30
-entry_count: 6
+last_updated: 2026-11-24
+entry_count: 8
 ---
 
 # Predictions log: Btc Volume Capitulation Signal
@@ -18,3 +18,6 @@ Append-only. Newest entries at bottom.
 - 2026-10-30 (g2MQiby7_qY): Bitcoin will eventually go below the realized price in Q4 of this midterm year (price-based capitulation).
 - 2026-10-30 (g2MQiby7_qY): BTC could bottom before the midterms in a fast FTX-style capitulation if it breaks the 73–77K band with no support (for example, another 10% drop).
 - 2026-10-30 (g2MQiby7_qY): If BTC bounces at the 73–77K band, the final low comes right after the midterms (early November), with a low in the November or December time frame possible.
+
+- 2026-11-24 (L62dFZxfjEk): The window of weakness for BTC may stay open for a while longer; a confirmed low is more plausible only if no new low is made by 2027.
+- 2026-11-24 (L62dFZxfjEk): Bitcoin's bottom likely comes after metals bottom, per historical precedent.
